@@ -600,5 +600,40 @@ th.sticky-col { z-index: 4; background: var(--surface-2); }
   setAllHandlers();updateNavCounts();renderPage('overview');
 })();
 </script>
+
+<style>
+#realBoard{padding:22px 28px;color:var(--text)}
+.real-panel{background:var(--surface);border:1px solid var(--border);border-radius:13px;padding:20px;margin:14px 0}
+.real-controls{display:flex;gap:9px;flex-wrap:wrap;margin:14px 0}
+.real-controls select,.real-controls input{background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:9px}
+.real-table{width:100%;border-collapse:collapse;font-size:12px}
+.real-table th,.real-table td{padding:12px 10px;text-align:left;border-bottom:1px solid var(--border)}
+.real-table img{width:43px;height:43px;border-radius:10px}
+.real-table th{color:var(--muted)}
+</style>
+<script>
+(function(){
+let data=null, region='tw',kind='free',term='';
+function safe(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+const nav=document.querySelector('.nav-menu');
+if(!nav)return;
+const b=document.createElement('button');
+b.className='nav-item';b.innerHTML='<span class="nav-icon">◉</span>真實 App Store 榜單';
+nav.appendChild(b);
+const view=document.getElementById('view');
+function draw(){
+if(!data){view.innerHTML='<div id="realBoard"><h2>真實 App Store 榜單</h2><p>正在載入已採集的公開榜單...</p></div>';return;}
+const d=data.countries?.[region]||{}, rows=(d[kind]||[]).filter(x=>String(x.title).toLowerCase().includes(term.toLowerCase())||String(x.publisher).toLowerCase().includes(term.toLowerCase()));
+view.innerHTML='<div id="realBoard"><h1>台港澳 App Store 真實榜單</h1><p>Apple 公開 RSS 榜單快照 · 擷取時間：'+safe(data.fetched_at)+' · 各地區與榜單獨立統計</p><div class="real-panel"><strong>公開資料 · 真實榜單</strong><p>此頁為 iOS 免費遊戲榜與暢銷遊戲榜快照。榜單名次不代表下載量或營收；Google Play、下載量與營收目前未接入，原有「數據總覽」仍為示範資料。</p><div class="real-controls"><select id="realRegion"><option value="tw">台灣</option><option value="hk">香港</option><option value="mo">澳門</option></select><select id="realKind"><option value="free">免費遊戲榜</option><option value="grossing">暢銷遊戲榜</option></select><input id="realSearch" placeholder="搜尋遊戲或發行商" value="'+safe(term)+'"></div><p>本榜收錄 '+rows.length+' 款遊戲；資料狀態：'+safe(d[kind+'_status'])+'</p><div style="overflow:auto"><table class="real-table"><thead><tr><th>名次</th><th>Icon</th><th>遊戲名稱</th><th>發行商</th><th>App Store</th></tr></thead><tbody>'+rows.map(x=>'<tr><td><strong>#'+Number(x.rank)+'</strong></td><td><img loading="lazy" src="'+safe(x.icon)+'" alt=""></td><td>'+safe(x.title)+'</td><td>'+safe(x.publisher)+'</td><td><a href="'+safe(x.url)+'" target="_blank" rel="noopener noreferrer">查看商店 ↗</a></td></tr>').join('')+'</tbody></table></div></div></div>';
+document.getElementById('realRegion').value=region;document.getElementById('realKind').value=kind;
+document.getElementById('realRegion').onchange=e=>{region=e.target.value;draw()};
+document.getElementById('realKind').onchange=e=>{kind=e.target.value;draw()};
+document.getElementById('realSearch').oninput=e=>{term=e.target.value;const start=e.target.selectionStart;draw();const input=document.getElementById('realSearch');input.focus();input.setSelectionRange(start,start)};
+}
+b.onclick=()=>{document.querySelectorAll('.nav-item').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById('breadcrumbCurrent').textContent='真實 App Store 榜單';draw()};
+document.querySelectorAll('.nav-item[data-page]').forEach(x=>x.addEventListener('click',()=>b.classList.remove('active')));
+fetch('/data/appstore.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(j=>{data=j;if(b.classList.contains('active'))draw()}).catch(e=>{data={countries:{},fetched_at:'讀取失敗：'+e.message};if(b.classList.contains('active'))draw()});
+})();
+</script>
 </body>
 </html>
