@@ -2,7 +2,7 @@ name: Sync App Store TW HK MO
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 2 * * 1'
+    - cron: '15 2 * * *'
 permissions:
   contents: write
 jobs:
@@ -18,5 +18,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/appstore.json
+          git add data/appstore.json assets/icons
           git diff --cached --quiet || (git commit -m "Refresh App Store public chart data" && git push)
