@@ -41,6 +41,7 @@ def cache_icon(item):
     except Exception as e:
         print('Icon unavailable',app_id,str(e)[:80])
 
+pathlib.Path('assets/icons').mkdir(parents=True,exist_ok=True)
 now=datetime.datetime.now(datetime.timezone.utc).isoformat()
 result={'source':'Apple iTunes public RSS','fetched_at':now,'data_type':'public_chart_snapshot','countries':{}}
 for c in COUNTRIES:
