@@ -987,7 +987,7 @@
           "rank_date": "2026-10-13"
         }
       ],
-      "free_status": "snapshot_2026-10-13",
+      "free_status": "stale",
       "grossing": [],
       "grossing_status": "unavailable"
     },
@@ -1003,5 +1003,9 @@
       "free_status": "unavailable",
       "grossing_status": "unavailable"
     }
-  }
+  },
+  "last_attempt_at": "2026-10-14T02:52:04.271481+00:00",
+  "refresh_status": "failed",
+  "refresh_source": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
+  "refresh_error": "Could not verify 10+ Google Play package links in chart HTML; site may be JS-rendered or blocked"
 }
