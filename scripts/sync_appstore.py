@@ -1,4 +1,4 @@
-import json, urllib.request, datetime, pathlib, time, concurrent.futures
+import json, urllib.request, datetime, pathlib, time, concurrent.futures, xml.etree.ElementTree as ET, email.utils
 COUNTRIES = ['tw','hk','mo']
 BASE = 'https://itunes.apple.com'
 def get(url):
@@ -53,6 +53,25 @@ for c in COUNTRIES:
         result['countries'][c][key]=rows or []
         result['countries'][c][key+'_status']='ok' if rows is not None else 'unavailable'
         time.sleep(.3)
+def fetch_news():
+    feeds=[('巴哈姆特 GNN','https://gnn.gamer.com.tw/rss.xml')]
+    articles=[]
+    for name,url in feeds:
+        try:
+            req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 IslandRadar/1.0'})
+            with urllib.request.urlopen(req,timeout=20) as response:
+                root=ET.fromstring(response.read(1500000))
+            for item in root.findall('.//item')[:60]:
+                title=(item.findtext('title') or '').strip()
+                link=(item.findtext('link') or '').strip()
+                date=(item.findtext('pubDate') or '').strip()
+                if title and link and link.startswith('https://'):
+                    articles.append({'title':title,'url':link,'published_at':date,'source':name})
+        except Exception as ex:
+            print('News feed unavailable',name,str(ex)[:120])
+    return articles
+
+result['news']=fetch_news()
 path=pathlib.Path('data/appstore.json')
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
