@@ -56,6 +56,13 @@ def enrich(country, rows):
             item['positioning']=m.group(1).strip('「」『』" ')
             item['positioning_status']='store_description_explicit'
             item['positioning_source']=item['url']
+        # Store description extracts are labelled as summaries, never invented official slogans.
+        paragraphs=[re.sub(r'^[#*•\\s【】]+','',p).strip() for p in desc.splitlines()]
+        paragraphs=[p for p in paragraphs if 12<=len(p)<=110 and not re.search(r'隱私|客服|Facebook|https?://|條款|儲值',p,re.I)]
+        if not item['positioning'] and paragraphs:
+            item['positioning']=paragraphs[0][:95]
+            item['positioning_status']='store_description_excerpt'
+            item['positioning_source']=item['url']
         item['release_date']=d.get('releaseDate','')
         item['version']=d.get('version','')
         item['rating']=d.get('averageUserRating')
