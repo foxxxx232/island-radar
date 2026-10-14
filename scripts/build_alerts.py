@@ -56,12 +56,14 @@ for platform,file in (("ios","appstore.json"),("gp","googleplay.json")):
      recent=0<=days<=14
     except (ValueError,TypeError):pass
     new_entry=had_baseline and key in old.get("ids",{}) and ident not in previous
+    top_entry=new_entry and isinstance(x.get("rank"),int) and x["rank"]<=10
     if not (brand or recent or new_entry):continue
     tags=[]
     if brand:tags.append("重點廠商："+brand)
     if recent:tags.append("近期上架（商店日期）")
     if new_entry:tags.append("新進榜（不等於新上線）")
-    level="high" if (brand and (recent or new_entry)) else "watch"
+    if top_entry:tags.append("TOP10 重點關注")
+    level="high" if ((brand and (recent or new_entry)) or top_entry) else "watch"
     alerts.append({"id":key+":"+ident,"platform":platform,"region":region,"kind":kind,
       "title":x.get("title",""),"publisher":x.get("publisher",""),"rank":x.get("rank"),
       "game_id":ident,"url":x.get("url",""),"brand":brand,"matched_publisher":matched,
