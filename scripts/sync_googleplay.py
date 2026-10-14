@@ -28,7 +28,7 @@ def parse(html):
     for a in soup.select('a[href*="play.google.com/store/apps/details"]'):
         href=urllib.parse.urljoin(SOURCE,a.get("href",""))
         appid=urllib.parse.parse_qs(urllib.parse.urlsplit(href).query).get("id",[""])[0]
-        if not re.fullmatch(r"[a-zA-Z0-9_]+(?:\\.[a-zA-Z0-9_]+)+",appid) or appid in seen:continue
+        if not re.fullmatch(r"[a-zA-Z0-9_]+(?:\.[a-zA-Z0-9_]+)+",appid) or appid in seen:continue
         text=a.get_text(" ",strip=True)
         if not text:
             img=a.find("img")
