@@ -36,6 +36,15 @@ def enrich(country, rows):
         item['ipad_screenshots']=d.get('ipadScreenshotUrls',[])[:10]
         item['description']=d.get('description','')
         item['genre']=d.get('primaryGenreName','')
+        item['genres']=d.get('genres',[])
+        item['genre_ids']=d.get('genreIds',[])
+        item['developer']=d.get('artistName','')
+        item['seller']=d.get('sellerName','')
+        item['publisher']=item['publisher'] or d.get('artistName','')
+        item['positioning']=None
+        item['slogan']=None
+        item['positioning_status']='unverified'
+        item['slogan_status']='unverified'
         item['release_date']=d.get('releaseDate','')
         item['version']=d.get('version','')
         item['rating']=d.get('averageUserRating')
