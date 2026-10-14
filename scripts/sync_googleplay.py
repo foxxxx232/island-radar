@@ -71,6 +71,16 @@ def fill_metadata(row):
            "release_date":meta.get("released",""),
            "metadata_source":"Google Play store details",
            "positioning":None,"slogan":None})
+        desc=meta.get("description","")
+        lines=[p.strip("「」『』【】#*• ") for p in desc.splitlines()]
+        lines=[p for p in lines if 10<=len(p)<=100 and not re.search(r"隱私|客服|Facebook|https?://|條款|更新|下載|email",p,re.I)]
+        if lines:
+            row["positioning"]=lines[0][:95]
+            row["positioning_status"]="store_description_excerpt"
+            slogans=[p for p in lines if len(p)<=48]
+            if slogans:
+                row["slogan"]=slogans[0]
+                row["slogan_status"]="store_copy_excerpt_not_official"
     except Exception as e:
         print("GP metadata unavailable",row.get("title"),str(e)[:80])
     return row
