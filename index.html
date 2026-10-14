@@ -661,7 +661,7 @@ function marketing(){
 function bookings(){
  const games=state.intel?.preorders||[];
  return header('近期預約 / 待上架遊戲','官方公告、台港澳遊戲媒體與第三方預約線索 · 日期依證據分級')
- +'<div class="live-card"><p class="live-muted">正式上市日期只在來源明示時填入；第三方預測會標記「推估」，沒有足夠依據的維持「未公布」。預約開啟日不等於正式上市日。</p><div class="radar-campaign-grid">'+games.map(g=>'<div class="radar-booking"><div class="radar-campaign-type">'+escapeHtml(g.status)+'</div><h3>'+escapeHtml(g.game)+'</h3><p>'+escapeHtml(g.genre||'')+' · '+escapeHtml(g.publisher||'')+'</p><p><strong>預約開啟：</strong>'+escapeHtml(g.registration_date||'待確認')+'</p><p><strong>預計上市：</strong>'+escapeHtml(g.expected_date||g.estimate||'尚未公布')+'</p><p class="live-muted">'+escapeHtml(g.evidence||'')+'</p><a href="'+url(g.url)+'" target="_blank" rel="noopener">來源：'+escapeHtml(g.source)+' ↗</a></div>').join('')+'</div></div>'
+ +'<div class="live-card"><p class="live-muted">正式上市日期只在來源明示時填入；第三方預測會標記「推估」，沒有足夠依據的維持「未公布」。預約開啟日不等於正式上市日。</p><div class="radar-campaign-grid">'+games.map(g=>'<div class="radar-booking"><div class="radar-campaign-type">'+escapeHtml(g.status)+'</div><h3>'+escapeHtml(g.game)+'</h3><p>'+escapeHtml(g.genre||'')+' · '+escapeHtml(g.publisher||'')+'</p><p><strong>預約開啟：</strong>'+escapeHtml(g.registration_date||'待確認')+'</p><p><strong>預計上市：</strong>'+escapeHtml(g.expected_date||g.estimate||'尚未公布')+'</p>'+(g.estimated_window?'<p><strong>推估觀察窗：</strong>'+escapeHtml(g.estimated_window)+'<br><small class="live-muted">'+escapeHtml(g.estimated_method||'低信心，非官方')+'</small></p>':'')+'<p class="live-muted">'+escapeHtml(g.evidence||'')+'</p><a href="'+url(g.url)+'" target="_blank" rel="noopener">來源：'+escapeHtml(g.source)+' ↗</a></div>').join('')+'</div></div>'
 }
 function news(){
  const intel=state.intel?.news||[],old=state.data?.news||[];
