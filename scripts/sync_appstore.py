@@ -1,4 +1,4 @@
-import json, urllib.request, datetime, pathlib, time, concurrent.futures, xml.etree.ElementTree as ET, email.utils
+import json, urllib.request, datetime, pathlib, time, concurrent.futures, xml.etree.ElementTree as ET, email.utils, re
 COUNTRIES = ['tw','hk','mo']
 BASE = 'https://itunes.apple.com'
 def get(url):
@@ -45,6 +45,17 @@ def enrich(country, rows):
         item['slogan']=None
         item['positioning_status']='unverified'
         item['slogan_status']='unverified'
+        desc=item['description']
+        m=re.search(r'(?:官方(?:宣傳)?(?:口號|標語)|遊戲(?:宣傳)?(?:口號|標語)|Slogan)\\s*[：:]\\s*([^\\n\\r。！!]{4,55})',desc,re.I)
+        if m:
+            item['slogan']=m.group(1).strip('「」『』" ')
+            item['slogan_status']='store_description_explicit'
+            item['slogan_source']=item['url']
+        m=re.search(r'(?:遊戲定位|產品定位|主打特色)\\s*[：:]\\s*([^\\n\\r。！!]{4,90})',desc,re.I)
+        if m:
+            item['positioning']=m.group(1).strip('「」『』" ')
+            item['positioning_status']='store_description_explicit'
+            item['positioning_source']=item['url']
         item['release_date']=d.get('releaseDate','')
         item['version']=d.get('version','')
         item['rating']=d.get('averageUserRating')
