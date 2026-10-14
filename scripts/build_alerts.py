@@ -4,6 +4,8 @@ import json, pathlib, datetime, re
 ROOT=pathlib.Path("data")
 STATE=ROOT/"watch_state.json"
 OUT=ROOT/"alerts.json"
+SCHEDULE=ROOT/"launch_schedule.json"
+schedule=json.loads(SCHEDULE.read_text(encoding="utf-8")) if SCHEDULE.exists() else {"games":{}}
 WATCH={
  "露珠":["露珠","luzhu"],
  "天游":["天游","tianyou"],
@@ -64,10 +66,17 @@ for platform,file in (("ios","appstore.json"),("gp","googleplay.json")):
     if new_entry:tags.append("新進榜（不等於新上線）")
     if top_entry:tags.append("TOP10 重點關注")
     level="high" if ((brand and (recent or new_entry)) or top_entry) else "watch"
+    planned=schedule.get("games",{}).get(platform+":"+ident,{})
+    planned_date=planned.get("expected_date") if planned.get("source_url") else None
+    planned_precision=planned.get("precision","day") if planned_date else None
+    time_label=("預計上架："+planned_date if planned_date else ("已上架："+release if release and recent else ("商店上架日期："+release if release else "上架時間待公布")))
     alerts.append({"id":key+":"+ident,"platform":platform,"region":region,"kind":kind,
       "title":x.get("title",""),"publisher":x.get("publisher",""),"rank":x.get("rank"),
       "game_id":ident,"url":x.get("url",""),"brand":brand,"matched_publisher":matched,
       "keywords":tags,"level":level,"release_date":release or None,
+      "expected_release_date":planned_date,"expected_date_precision":planned_precision,
+      "expected_release_source":planned.get("source_url") if planned_date else None,
+      "launch_time_label":time_label,
       "evidence":"商店上架日期" if recent else ("本期新進榜" if new_entry else "發行商名稱符合關注名單"),
       "is_confirmed_launch":recent,
       "observed_at":now.isoformat()})
