@@ -601,41 +601,45 @@ th.sticky-col { z-index: 4; background: var(--surface-2); }
 })();
 </script>
 
+
 <style>
-#realBoard{padding:22px 28px;color:var(--text)}
-.real-panel{background:var(--surface);border:1px solid var(--border);border-radius:13px;padding:20px;margin:14px 0}
-.real-controls{display:flex;gap:9px;flex-wrap:wrap;margin:14px 0}
-.real-controls select,.real-controls input{background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:9px}
-.real-table{width:100%;border-collapse:collapse;font-size:12px}
-.real-table th,.real-table td{padding:12px 10px;text-align:left;border-bottom:1px solid var(--border)}
-.real-table img{width:43px;height:43px;border-radius:10px}
-.real-table th{color:var(--muted)}
+.live-wrap{padding:25px 30px 42px;max-width:1600px;margin:auto}.live-wrap h1{font-size:24px;margin:0 0 8px}.live-muted{color:var(--muted);font-size:12px;line-height:1.7}.live-controls{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}.live-controls select,.live-controls input{padding:10px;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:9px}.live-card{border:1px solid var(--border);background:var(--surface);border-radius:13px;padding:19px;margin:16px 0}.live-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.live-stats strong{display:block;font-size:23px;margin-top:7px}.live-scroll{overflow:auto}.live-table{border-collapse:collapse;width:100%;font-size:12px}.live-table th,.live-table td{text-align:left;padding:12px;border-bottom:1px solid var(--border);vertical-align:middle}.live-table th{color:var(--muted);white-space:nowrap}.live-table img{width:46px;height:46px;border-radius:10px;object-fit:cover}.live-game{display:flex;align-items:center;gap:12px;min-width:210px}.live-game small{display:block;color:var(--muted);margin-top:5px}.live-empty{padding:28px;text-align:center;color:var(--muted)}.live-link{color:var(--brand);cursor:pointer}.live-tags{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.live-tags span{border:1px solid var(--border);border-radius:6px;padding:5px 8px;color:var(--muted);font-size:11px}.live-news{padding:16px 0;border-bottom:1px solid var(--border)}.live-news a{font-size:14px;font-weight:700}.live-news p{color:var(--muted);font-size:11px;margin:7px 0 0}.live-modal{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.86);overflow:auto;padding:30px}.live-modal-inner{max-width:1100px;margin:auto;background:var(--surface);padding:25px;border-radius:15px}.live-shots{display:flex;gap:12px;overflow:auto;padding:15px 0}.live-shots img{height:410px;border-radius:10px}.live-modal-close{float:right}@media(max-width:800px){.live-stats{grid-template-columns:1fr}.live-wrap{padding:15px}.live-table{min-width:850px}}
 </style>
 <script>
 (function(){
-let data=null, region='tw',kind='free',term='';
-function safe(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-const nav=document.querySelector('.nav-menu');
-if(!nav)return;
-const b=document.createElement('button');
-b.className='nav-item';b.innerHTML='<span class="nav-icon">◉</span>真實 App Store 榜單';
-nav.appendChild(b);
+'use strict';
 const view=document.getElementById('view');
-function showShots(id){const rows=data?.countries?.[region]?.[kind]||[];const x=rows.find(v=>v.id===id);if(!x)return;const shots=x.screenshots||[];const modal=document.createElement('div');modal.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.84);z-index:9999;overflow:auto;padding:32px';modal.innerHTML='<button style="position:sticky;top:0;float:right;padding:12px;z-index:2" id="closeShots">關閉 ✕</button><h2 style="color:white">'+safe(x.title)+' · 官方商店截圖</h2><p style="color:#bbb">'+safe(x.publisher)+' · '+safe(x.genre||'')+' · '+safe(x.release_date||'')+'</p><div style="display:flex;gap:12px;overflow:auto;padding:20px 0">'+(shots.length?shots.map(u=>'<img loading="lazy" src="'+safe(u)+'" style="height:440px;border-radius:12px" alt="官方商店截圖">').join(''):'<p style="color:white">此地區目前沒有取得商店截圖</p>')+'</div><p style="color:#ddd;max-width:900px;white-space:pre-wrap">'+safe((x.description||'').slice(0,1800))+'</p>';document.body.appendChild(modal);modal.querySelector('#closeShots').onclick=()=>modal.remove();modal.onclick=e=>{if(e.target===modal)modal.remove()}}
-function draw(){
-if(!data){view.innerHTML='<div id="realBoard"><h2>真實 App Store 榜單</h2><p>正在載入已採集的公開榜單...</p></div>';return;}
-const d=data.countries?.[region]||{}, rows=(d[kind]||[]).filter(x=>String(x.title).toLowerCase().includes(term.toLowerCase())||String(x.publisher).toLowerCase().includes(term.toLowerCase()));
-view.innerHTML='<div id="realBoard"><h1>台港澳 App Store 真實榜單</h1><p>來源：Apple iTunes 公開遊戲分類榜單（非點點數據） · 擷取時間：'+safe(data.fetched_at)+' · 各地區與榜單獨立統計</p><div class="real-panel"><strong>公開資料 · 真實榜單</strong><p>此頁為 iOS 遊戲分類免費榜與暢銷榜快照，非 App Store 全類別總榜。榜單名次不代表下載量或營收；Google Play、下載量與營收目前未接入，原有「數據總覽」仍為示範資料。</p><div class="real-controls"><select id="realRegion"><option value="tw">台灣</option><option value="hk">香港</option><option value="mo">澳門</option></select><select id="realKind"><option value="free">免費遊戲榜</option><option value="grossing">暢銷遊戲榜</option></select><input id="realSearch" placeholder="搜尋遊戲或發行商" value="'+safe(term)+'"></div><p>本榜收錄 '+rows.length+' 款遊戲；資料狀態：'+safe(d[kind+'_status'])+'</p><div style="overflow:auto"><table class="real-table"><thead><tr><th>名次</th><th>Icon</th><th>遊戲名稱</th><th>發行商</th><th>商店截圖</th><th>App Store</th></tr></thead><tbody>'+rows.map(x=>'<tr><td><strong>#'+Number(x.rank)+'</strong></td><td><img loading="lazy" src="'+safe(x.icon)+'" alt="遊戲圖示" onerror="this.onerror=null;this.style.display=\'none\'"></td><td>'+safe(x.title)+'</td><td>'+safe(x.publisher)+'</td><td><button class="btn" data-shots="'+safe(x.id)+'">查看商店圖 ('+(x.screenshots||[]).length+')</button></td><td><a href="'+safe(x.url)+'" target="_blank" rel="noopener noreferrer">查看商店 ↗</a></td></tr>').join('')+'</tbody></table></div></div></div>';
-view.querySelectorAll('[data-shots]').forEach(el=>el.onclick=()=>showShots(el.dataset.shots));
-document.getElementById('realRegion').value=region;document.getElementById('realKind').value=kind;
-document.getElementById('realRegion').onchange=e=>{region=e.target.value;draw()};
-document.getElementById('realKind').onchange=e=>{kind=e.target.value;draw()};
-document.getElementById('realSearch').oninput=e=>{term=e.target.value;const start=e.target.selectionStart;draw();const input=document.getElementById('realSearch');input.focus();input.setSelectionRange(start,start)};
+const nav=document.querySelector('.nav-menu');
+const oldReal=Array.from(nav.querySelectorAll('.nav-item')).find(x=>x.textContent.includes('真實 App Store 榜單'));
+if(oldReal)oldReal.remove();
+const state={data:null,page:'overview',region:'tw',kind:'free',search:'',loading:true,error:''};
+const labels={overview:'數據總覽',marketing:'行銷追蹤',bookings:'預訂遊戲',news:'熱點資訊'};
+const escapeHtml=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const url=x=>/^https:\/\//i.test(x||'')?escapeHtml(x):'#';
+const countries={tw:'台灣',hk:'香港',mo:'澳門'};
+const all=()=>state.data?.countries?.[state.region]?.[state.kind]||[];
+const list=()=>all().filter(x=>(x.title+' '+x.publisher).toLowerCase().includes(state.search.toLowerCase()));
+const date=()=>{const v=state.data?.fetched_at;return v?new Date(v).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false}):'尚未同步'};
+function header(title,subtitle){return '<h1>'+title+'</h1><p class="live-muted">'+subtitle+'</p>'}
+function controls(){return '<div class="live-controls"><select id="liveRegion">'+Object.entries(countries).map(([k,v])=>'<option value="'+k+'" '+(state.region===k?'selected':'')+'>'+v+'</option>').join('')+'</select><select id="liveKind"><option value="free" '+(state.kind==='free'?'selected':'')+'>iOS 免費遊戲榜</option><option value="grossing" '+(state.kind==='grossing'?'selected':'')+'>iOS 暢銷遊戲榜</option></select><input id="liveSearch" placeholder="搜尋遊戲或發行商" value="'+escapeHtml(state.search)+'"></div>'}
+function gameCell(x){return '<div class="live-game"><img loading="lazy" src="'+url(x.icon)+'" alt="" onerror="this.style.visibility=\'hidden\'"><div><strong>'+escapeHtml(x.title)+'</strong><small>'+escapeHtml(x.publisher)+'</small></div></div>'}
+function overview(){
+const rows=list(), d=state.data.countries?.[state.region]||{};
+return header('台港澳遊戲市場總覽','Apple 官方公開遊戲分類榜單 · 最近採集：'+date()+' · 所有排名均有商店來源')
++controls()+'<div class="live-stats"><div class="live-card">本區榜單遊戲<strong>'+rows.length+'</strong></div><div class="live-card">榜單資料狀態<strong>'+escapeHtml(d[state.kind+'_status']||'未取得')+'</strong></div><div class="live-card">有商店截圖的遊戲<strong>'+rows.filter(x=>x.screenshots?.length).length+'</strong></div></div>'
++'<div class="live-card"><div class="live-tags"><span>真實 iOS 遊戲分類榜</span><span>免費榜／暢銷榜</span><span>Icon／商店包裝圖</span><span>下載量與營收：尚無可靠資料源</span><span>Google Play：待接入</span></div><div class="live-scroll"><table class="live-table"><thead><tr><th>排名</th><th>遊戲 / 發行商</th><th>類型</th><th>上架日期</th><th>評分</th><th>商店包裝</th><th>官方來源</th></tr></thead><tbody>'+rows.map(x=>'<tr><td><strong>#'+Number(x.rank)+'</strong></td><td>'+gameCell(x)+'</td><td>'+escapeHtml(x.genre||'未提供')+'</td><td>'+escapeHtml((x.release_date||'').slice(0,10)||'未提供')+'</td><td>'+escapeHtml(x.rating??'—')+'</td><td><button class="btn" data-detail="'+escapeHtml(x.id)+'">查看 '+(x.screenshots?.length||0)+' 張圖</button></td><td><a href="'+url(x.url)+'" target="_blank" rel="noopener noreferrer">App Store ↗</a></td></tr>').join('')+'</tbody></table></div></div>'
 }
-b.onclick=()=>{document.querySelectorAll('.nav-item').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById('breadcrumbCurrent').textContent='真實 App Store 榜單';draw()};
-document.querySelectorAll('.nav-item[data-page]').forEach(x=>x.addEventListener('click',()=>b.classList.remove('active')));
-fetch('/data/appstore.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(j=>{data=j;if(b.classList.contains('active'))draw()}).catch(e=>{data={countries:{},fetched_at:'讀取失敗：'+e.message};if(b.classList.contains('active'))draw()});
+function marketing(){const rows=list();return header('行銷追蹤','以台港澳真實在榜產品建立監測清單 · 資料更新：'+date())+controls()+'<div class="live-card"><p class="live-muted">代言人、主題曲、KOL、實況主、線上廣告、線下廣告、IP 聯動與異業合作需要可核驗的活動來源。尚未採集到證據的欄位不填入推測內容。</p><div class="live-scroll"><table class="live-table"><thead><tr><th>排名</th><th>遊戲</th><th>代言人</th><th>主題曲</th><th>KOL</th><th>實況主</th><th>線上廣告</th><th>線下廣告</th><th>IP 聯動</th><th>異業合作</th><th>商店</th></tr></thead><tbody>'+rows.map(x=>'<tr><td>#'+Number(x.rank)+'</td><td>'+gameCell(x)+'</td>'+Array(8).fill('<td class="live-muted">待查證</td>').join('')+'<td><a href="'+url(x.url)+'" target="_blank" rel="noopener">官方 ↗</a></td></tr>').join('')+'</tbody></table></div></div>'}
+function bookings(){return header('預訂遊戲','台港澳預訂監測 · 僅收錄有可驗證官方預訂連結的產品')+'<div class="live-card"><h3>目前尚無已驗證的預訂資料</h3><p class="live-muted">Apple 已上架遊戲排行榜無法判斷哪些產品正在事前預約，因此不會把榜單遊戲直接填入預訂清單。預訂開啟日期、預約獎勵、商店預訂狀態及預約人數需要獨立官方資料源。</p></div>'}
+function news(){const items=(state.data.news||[]).filter(x=>x.title&&/^https:\/\//.test(x.url));return header('遊戲熱點資訊','有來源連結的遊戲產業新聞 · 同步時間：'+date())+'<div class="live-card"><div class="live-tags"><span>來源：巴哈姆特 GNN RSS</span><span>新聞為公開資訊，不代表已確認台港澳發行</span></div>'+(items.length?items.map(x=>'<div class="live-news"><a href="'+url(x.url)+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(x.title)+' ↗</a><p>'+escapeHtml(x.source)+' · '+escapeHtml(x.published_at||'日期未提供')+'</p></div>').join(''):'<div class="live-empty">本次尚未取得可驗證的新聞來源，暫不顯示示範新聞。</div>')+'</div>'}
+function details(id){const x=all().find(y=>y.id===id);if(!x)return;const modal=document.createElement('div');modal.className='live-modal';modal.innerHTML='<div class="live-modal-inner"><button class="btn live-modal-close">關閉 ✕</button><h2>'+escapeHtml(x.title)+'</h2><p class="live-muted">'+escapeHtml(x.publisher)+' · '+escapeHtml(x.genre||'')+' · '+escapeHtml(x.release_date||'')+'</p><div class="live-shots">'+(x.screenshots?.length?x.screenshots.map(u=>'<img loading="lazy" src="'+url(u)+'" alt="App Store 官方截圖">').join(''):'<p class="live-muted">Apple 暫未提供此地區截圖</p>')+'</div><p style="white-space:pre-wrap;line-height:1.7">'+escapeHtml((x.description||'').slice(0,3000))+'</p><a href="'+url(x.url)+'" target="_blank" rel="noopener noreferrer">前往官方 App Store ↗</a></div>';document.body.appendChild(modal);modal.querySelector('button').onclick=()=>modal.remove();modal.onclick=e=>{if(e.target===modal)modal.remove()}}
+function render(){document.querySelectorAll('.nav-item[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===state.page));document.getElementById('breadcrumbCurrent').textContent=labels[state.page];if(state.loading){view.innerHTML='<div class="live-wrap">正在載入官方資料…</div>';return}if(!state.data){view.innerHTML='<div class="live-wrap">'+header('資料載入失敗',escapeHtml(state.error))+'</div>';return}view.innerHTML='<div class="live-wrap">'+({overview,marketing,bookings,news}[state.page])()+'</div>';view.querySelectorAll('[data-detail]').forEach(b=>b.onclick=()=>details(b.dataset.detail));const reg=view.querySelector('#liveRegion'),kind=view.querySelector('#liveKind'),search=view.querySelector('#liveSearch');if(reg)reg.onchange=e=>{state.region=e.target.value;render()};if(kind)kind.onchange=e=>{state.kind=e.target.value;render()};if(search)search.onchange=e=>{state.search=e.target.value;render()}}
+document.querySelectorAll('.nav-item[data-page]').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();e.stopImmediatePropagation();state.page=b.dataset.page;state.search='';render()},true));
+const searchBox=document.querySelector('.global-search input');if(searchBox)searchBox.addEventListener('keydown',e=>{if(e.key==='Enter'){state.search=e.target.value;state.page='overview';render()}},true);
+fetch('/data/appstore.json?v='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{state.data=d;state.loading=false;render()}).catch(e=>{state.loading=false;state.error=e.message;render()});
+render();
 })();
 </script>
+
 </body>
 </html>
