@@ -640,7 +640,7 @@ const scoreGame=x=>{
 const pickRows=()=>list().filter(x=>!state.onlyAlerts||alertsFor(x).length).sort((a,b)=>scoreGame(b)-scoreGame(a)||Number(a.rank)-Number(b.rank)).slice(0,state.search?60:20);
 function screenshotStrip(x){const shots=(x.screenshots||[]).slice(0,3);return shots.length?'<div class="radar-shotstrip">'+shots.map(u=>'<img loading="lazy" src="'+url(u)+'" alt="官方商店截圖">').join('')+'</div>':'<span class="live-muted">商店圖待同步</span>'}
 function evidencePosition(x){return '<div>'+escapeHtml(x.positioning||'尚未取得')+'</div><small class="live-muted">'+(x.positioning_status==='store_description_explicit'?'商店明示定位':x.positioning_status==='store_description_excerpt'?'商店描述摘錄（非官方定位）':'待驗證定位')+'</small>'}
-function evidenceSlogan(x){return '<div>'+escapeHtml(x.slogan||'尚未取得官方標語')+'</div><small class="live-muted">'+(x.slogan_status==='store_description_explicit'?'商店明示標語':'未驗證，不自行編寫')+'</small>'}
+function evidenceSlogan(x){return '<div>'+escapeHtml(x.slogan||'尚未取得官方標語')+'</div><small class="live-muted">'+(x.slogan_status==='store_description_explicit'?'商店明示標語':x.slogan_status==='store_copy_excerpt_not_official'?'商店宣傳文案摘錄（非官方 Slogan）':'未驗證，不自行編寫')+'</small>'}
 function overview(){
  const rows=pickRows(),doc=state.platform==='gp'?state.gpData:state.data,d=doc?.countries?.[state.region]||{};
  return header('台港澳重點手遊雷達',state.platform==='gp'?'Google Play · 榜單有效日期 '+escapeHtml(state.gpData?.snapshot_date||'未知')+' · '+escapeHtml(state.gpData?.refresh_status==='ok'?'同步成功':'榜單待更新 / 歷史快照'):'App Store · 最近同步 '+date())
