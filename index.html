@@ -607,6 +607,37 @@ th.sticky-col { z-index: 4; background: var(--surface-2); }
 .radar-alert-row{background:rgba(217,57,70,.10);box-shadow:inset 3px 0 #db4550}.radar-alert-tag{display:inline-block;background:rgba(220,60,70,.15);border:1px solid rgba(220,60,70,.45);color:#f07780;padding:3px 6px;border-radius:5px;font-size:10px;font-weight:750;margin:3px 3px 0 0}.radar-alert-panel{border-color:rgba(220,60,70,.4)}.radar-alert-list{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px}.radar-alert-list a{color:#f07780;font-size:12px}
 .radar-focus-table td{vertical-align:top}.radar-shotstrip{display:flex;gap:5px;margin-bottom:8px}.radar-shotstrip img{height:100px;max-width:70px;object-fit:cover;border-radius:6px;border:1px solid var(--border)}.radar-score{font-size:10px;color:#c86b46;margin-top:5px}.radar-evidence{margin-top:7px;display:grid;gap:5px;font-size:11px}.radar-campaign-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px;margin:14px 0}.radar-campaign,.radar-booking{padding:18px;border:1px solid var(--border);border-radius:12px;background:var(--surface)}.radar-campaign h3,.radar-booking h3{font-size:16px;margin:8px 0}.radar-campaign p,.radar-booking p{font-size:13px;line-height:1.7}.radar-campaign-type{color:#e87979;font-weight:700;font-size:12px}.radar-campaign a,.radar-booking a{font-size:12px}.radar-campaign .live-tags span{font-size:10px}
 .radar-products{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;margin-top:14px;min-width:0}.radar-product{min-width:0;max-width:100%;padding:20px 22px;background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden}.radar-product-alert{border-color:rgba(220,60,70,.65);box-shadow:inset 4px 0 #db4550}.radar-product-top{display:flex;gap:15px;align-items:flex-start;min-width:0}.radar-product-rank{min-width:55px;display:flex;flex-direction:column;gap:3px}.radar-product-rank strong{font-size:22px}.radar-product-rank span{font-size:11px;color:var(--muted)}.radar-product-title{flex:1;min-width:0}.radar-product-title .live-game{min-width:0}.radar-product-title .live-game strong{white-space:normal;overflow-wrap:anywhere}.radar-product-title .live-game small{white-space:normal;overflow-wrap:anywhere}.radar-product-link{font-size:12px;white-space:nowrap}.radar-product-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}.radar-product-chips span{font-size:11px;border:1px solid var(--border);padding:3px 8px;border-radius:5px}.radar-product-alerts{margin:12px 0}.radar-product-main{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:24px;margin-top:16px;min-width:0}.radar-product-copy,.radar-product-visual{min-width:0}.radar-copy-section{padding:0 0 13px;margin-bottom:13px;border-bottom:1px solid var(--border)}.radar-copy-label{font-size:12px;color:var(--muted);font-weight:700;margin-bottom:8px}.radar-copy-section p,.radar-product-campaign p{white-space:normal;overflow-wrap:anywhere;word-break:break-word;line-height:1.75;margin:0 0 5px;font-size:14px}.radar-copy-section small,.radar-product-visual small{font-size:11px;color:var(--muted)}.radar-product-meta{display:grid;grid-template-columns:1fr 1fr;gap:12px}.radar-product-meta div{min-width:0;display:flex;flex-direction:column;gap:5px}.radar-product-meta span{font-size:11px;color:var(--muted)}.radar-product-meta strong{font-size:13px;overflow-wrap:anywhere}.radar-product-shots{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;min-width:0}.radar-product-shots img{width:100%;max-width:100%;height:180px;object-fit:cover;object-position:top;border:1px solid var(--border);border-radius:7px}.radar-product-visual .btn{margin-top:10px;white-space:normal}.radar-no-shots{padding:35px 10px;background:var(--surface-2);border-radius:8px;text-align:center;font-size:12px;color:var(--muted)}.radar-product-campaign{margin-top:15px;padding:12px;border:1px solid var(--border);border-radius:8px}.radar-product-campaign strong{display:block;margin-bottom:6px}.radar-product-campaign a{font-size:12px}.radar-explain{line-height:1.7;white-space:normal}.live-wrap,.live-card,.live-controls{min-width:0;max-width:100%;box-sizing:border-box}.live-controls{display:flex;flex-wrap:wrap}.live-controls input{min-width:130px;max-width:100%}.radar-campaign-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr))}.radar-campaign,.radar-booking,.live-news{min-width:0;overflow-wrap:anywhere;white-space:normal}.radar-alert-tag{white-space:normal;overflow-wrap:anywhere}@media(max-width:1050px){.radar-product-main{grid-template-columns:minmax(0,1fr)}.radar-product-shots img{height:170px}}@media(max-width:600px){.radar-product{padding:14px}.radar-product-top{gap:8px;flex-wrap:wrap}.radar-product-rank{min-width:45px}.radar-product-link{margin-left:auto}.radar-product-meta{grid-template-columns:1fr}.radar-product-shots{grid-template-columns:repeat(3,minmax(0,1fr))}.radar-product-shots img{height:145px}}
+
+/* Compact product intelligence layout: icon is an identifier, not a hero image. */
+.radar-products{gap:12px}
+.radar-product{padding:16px 20px;border-radius:12px}
+.radar-product-top{align-items:center;gap:12px}
+.radar-product-rank{min-width:42px;gap:1px}
+.radar-product-rank strong{font-size:17px;line-height:1.2}
+.radar-product-rank span{font-size:10px}
+.radar-product-title{display:flex;flex-direction:column;gap:3px}
+.radar-product-title .live-game{display:flex;align-items:center;gap:11px;min-width:0;max-width:100%}
+.radar-product-title .live-game img{display:block!important;width:48px!important;height:48px!important;min-width:48px!important;min-height:48px!important;max-width:48px!important;max-height:48px!important;flex:0 0 48px!important;object-fit:cover!important;border-radius:11px!important}
+.radar-product-title .live-game>span{width:48px!important;height:48px!important;min-width:48px!important;flex:0 0 48px!important;font-size:11px}
+.radar-product-title .live-game>div{flex:1;min-width:0}
+.radar-product-title .live-game strong{font-size:15px;line-height:1.35;font-weight:700;display:block}
+.radar-product-title .live-game small{font-size:11px;line-height:1.3;margin-top:3px}
+.radar-product-chips{margin-top:4px;margin-left:59px;gap:5px}
+.radar-product-chips span{font-size:10px;padding:2px 6px}
+.radar-product-main{margin-top:12px;gap:20px;grid-template-columns:minmax(0,1.45fr) minmax(0,.85fr)}
+.radar-copy-section{margin-bottom:10px;padding-bottom:10px}
+.radar-copy-section p,.radar-product-campaign p{font-size:13px;line-height:1.65}
+.radar-copy-label{font-size:11px;margin-bottom:5px}
+.radar-product-shots{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.radar-product-shots img{height:140px;object-fit:contain;background:var(--surface-2)}
+.radar-product-meta{gap:8px}
+.radar-product-meta strong{font-size:12px}
+.radar-product-visual .btn{font-size:11px}
+.radar-product-alerts{margin:8px 0}
+.radar-explain{font-size:12px}
+@media(max-width:1050px){.radar-product-main{grid-template-columns:minmax(0,1fr)}.radar-product-shots img{height:150px}}
+@media(max-width:600px){.radar-product{padding:13px}.radar-product-title .live-game img{width:42px!important;height:42px!important;min-width:42px!important;min-height:42px!important;max-width:42px!important;max-height:42px!important;flex-basis:42px!important}.radar-product-title .live-game>span{width:42px!important;height:42px!important;min-width:42px!important}.radar-product-chips{margin-left:53px}.radar-product-shots img{height:130px}.radar-product-rank{min-width:35px}}
+
 </style>
 <script>
 (function(){
