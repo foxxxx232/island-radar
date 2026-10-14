@@ -2,7 +2,8 @@
 """Refresh publicly visible Google Play charts; never relabel stale rankings as current."""
 import json, re, os, datetime, pathlib, urllib.request, urllib.parse
 from bs4 import BeautifulSoup
-from google_play_scraper import app as gp_app
+from google_play_scraper import app as gp_app, search as gp_search
+import difflib, concurrent.futures
 
 OUT=pathlib.Path("data/googleplay.json")
 SOURCE="https://gamerscroll.com/zh-tw/rankings/free/tw/"
@@ -37,6 +38,38 @@ def parse(html):
         seen.add(appid)
         results.append({"id":appid,"title":text,"url":"https://play.google.com/store/apps/details?id="+appid})
     return results
+
+def fill_metadata(row):
+    """Enrich existing ranked titles without changing their rank when chart retrieval fails."""
+    if row.get("icon") and row.get("screenshots") and row.get("id","").count(".")>=1:
+        return row
+    try:
+        appid=row.get("id","")
+        if not re.fullmatch(r"[A-Za-z0-9_]+(?:\.[A-Za-z0-9_]+)+",appid):
+            candidates=gp_search(row["title"],lang="zh_TW",country="tw",n_hits=7)
+            def sim(c):
+                a=re.sub(r"[^\w]","",row["title"].casefold())
+                b=re.sub(r"[^\w]","",c.get("title","").casefold())
+                return difflib.SequenceMatcher(None,a,b).ratio()
+            candidates=sorted(candidates,key=sim,reverse=True)
+            if not candidates or sim(candidates[0])<.84:
+                return row
+            appid=candidates[0]["appId"]
+        meta=gp_app(appid,lang="zh_TW",country="tw")
+        row.update({"id":appid,"title":meta.get("title") or row["title"],
+           "publisher":meta.get("developer") or row.get("publisher",""),
+           "developer":meta.get("developer",""),"icon":meta.get("icon",""),
+           "url":"https://play.google.com/store/apps/details?id="+appid,
+           "genre":meta.get("genre",""),"genres":[meta.get("genre","")],
+           "description":meta.get("description",""),
+           "screenshots":meta.get("screenshots",[])[:8],
+           "rating":meta.get("score"),"rating_count":meta.get("ratings"),
+           "release_date":meta.get("released",""),
+           "metadata_source":"Google Play store details",
+           "positioning":None,"slogan":None})
+    except Exception as e:
+        print("GP metadata unavailable",row.get("title"),str(e)[:80])
+    return row
 
 try:
     html=get_html(SOURCE)
@@ -75,6 +108,12 @@ except Exception as e:
     existing["refresh_status"]="failed"
     existing["refresh_error"]=str(e)[:250]
     existing["countries"]["tw"]["free_status"]="stale"
-    print("Google Play refresh failed; previous snapshot preserved:",e)
+    print("Google Play rank refresh failed; enriching last verified snapshot:",e)
+    oldrows=existing["countries"]["tw"].get("free",[])
+    if oldrows:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+            existing["countries"]["tw"]["free"]=list(pool.map(fill_metadata,oldrows[:70]))
+        existing["metadata_refreshed_at"]=now
+        print("GP metadata filled:",sum(bool(x.get("icon")) for x in existing["countries"]["tw"]["free"]))
 OUT.parent.mkdir(parents=True,exist_ok=True)
 OUT.write_text(json.dumps(existing,ensure_ascii=False,indent=2),encoding="utf-8")
