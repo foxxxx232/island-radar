@@ -2,7 +2,11 @@
 """Refresh publicly visible Google Play charts; never relabel stale rankings as current."""
 import json, re, os, datetime, pathlib, urllib.request, urllib.parse
 from bs4 import BeautifulSoup
-from google_play_scraper import app as gp_app, search as gp_search, collection as gp_collection, collections as gp_collections, categories as gp_categories
+from google_play_scraper import app as gp_app, search as gp_search
+try:
+    from google_play_scraper import collection as gp_collection, collections as gp_collections, categories as gp_categories
+except ImportError:
+    gp_collection=gp_collections=gp_categories=None
 import difflib, concurrent.futures
 
 OUT=pathlib.Path("data/googleplay.json")
@@ -77,6 +81,7 @@ try:
     if len(rows)<10:
         print("GamerScroll HTML does not expose package links; trying Google Play public collection")
         try:
+            if gp_collection is None:raise RuntimeError("Google Play chart collection API unavailable")
             raw=gp_collection(collection=gp_collections.TOP_FREE,category=gp_categories.GAME,results=100,lang="zh_TW",country="tw")
             rows=[{"id":x["appId"],"title":x["title"],
                    "url":"https://play.google.com/store/apps/details?id="+x["appId"]}
