@@ -18,5 +18,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/appstore.json assets/icons
+          git add data/appstore.json
           git diff --cached --quiet || (git commit -m "Refresh App Store public chart data" && git push)
