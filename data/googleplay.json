@@ -1004,7 +1004,7 @@
       "grossing_status": "unavailable"
     }
   },
-  "last_attempt_at": "2026-10-14T02:52:04.271481+00:00",
+  "last_attempt_at": "2026-10-14T03:00:20.917468+00:00",
   "refresh_status": "failed",
   "refresh_source": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
   "refresh_error": "Could not verify 10+ Google Play package links in chart HTML; site may be JS-rendered or blocked"
