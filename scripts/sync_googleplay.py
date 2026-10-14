@@ -106,7 +106,7 @@ try:
                 "rating":meta.get("score"),"rating_count":meta.get("ratings"),
                 "release_date":meta.get("released",""),"positioning":None,"slogan":None,
                 "positioning_status":"unverified","slogan_status":"unverified",
-                "source_url":SOURCE,"rank_source":"GamerScroll public chart"})
+                "source_url":existing.get("source_url") or SOURCE,"rank_source":existing.get("refresh_source") or SOURCE})
         except Exception as e:
             print("Metadata unavailable:",item["id"],str(e)[:100])
             verified.append({**item,"rank":len(verified)+1,"publisher":"","developer":"",
