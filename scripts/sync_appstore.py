@@ -46,18 +46,18 @@ def enrich(country, rows):
         item['positioning_status']='unverified'
         item['slogan_status']='unverified'
         desc=item['description']
-        m=re.search(r'(?:官方(?:宣傳)?(?:口號|標語)|遊戲(?:宣傳)?(?:口號|標語)|Slogan)\\s*[：:]\\s*([^\\n\\r。！!]{4,55})',desc,re.I)
+        m=re.search(r'(?:官方(?:宣傳)?(?:口號|標語)|遊戲(?:宣傳)?(?:口號|標語)|Slogan)\s*[：:]\s*([^\n\r。！!]{4,55})',desc,re.I)
         if m:
             item['slogan']=m.group(1).strip('「」『』" ')
             item['slogan_status']='store_description_explicit'
             item['slogan_source']=item['url']
-        m=re.search(r'(?:遊戲定位|產品定位|主打特色)\\s*[：:]\\s*([^\\n\\r。！!]{4,90})',desc,re.I)
+        m=re.search(r'(?:遊戲定位|產品定位|主打特色)\s*[：:]\s*([^\n\r。！!]{4,90})',desc,re.I)
         if m:
             item['positioning']=m.group(1).strip('「」『』" ')
             item['positioning_status']='store_description_explicit'
             item['positioning_source']=item['url']
         # Store description extracts are labelled as summaries, never invented official slogans.
-        paragraphs=[re.sub(r'^[#*•\\s【】]+','',p).strip() for p in desc.splitlines()]
+        paragraphs=[re.sub(r'^[#*•\s【】]+','',p).strip() for p in desc.splitlines()]
         paragraphs=[p for p in paragraphs if 12<=len(p)<=110 and not re.search(r'隱私|客服|Facebook|https?://|條款|儲值',p,re.I)]
         if not item['positioning'] and paragraphs:
             item['positioning']=paragraphs[0][:95]
