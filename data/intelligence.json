@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T03:21:55.917695+00:00",
+  "updated_at": "2026-10-14T07:34:14.706666+00:00",
   "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
   "campaigns": [
     {
@@ -172,6 +172,21 @@
       "estimated_method": "僅依預約開啟日推算 30–90 天觀察窗，低信心、非官方預測"
     },
     {
+      "game": "無職轉生～到了異世界就拿出真本事～迴響編年史",
+      "publisher": "待核實",
+      "status": "媒體預約線索（待複核）",
+      "registration_date": null,
+      "expected_date": null,
+      "estimate": "上市時間未公布",
+      "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
+      "source": "GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00MmZPM1hqWUJ3SzBKejZHdi1TN2ZEQ0FUWHBNN2UxYnJGYUtaeDNDTkNrS1JCWU5ISkQtSm1sMWlHVG1VV0ZOeWk0MjVoRjdZRkktQXZaV1I?oc=5",
+      "genre": "待確認",
+      "signals": [
+        "媒體預約線索"
+      ]
+    },
+    {
       "game": "hololive 麻將",
       "publisher": "待核實",
       "status": "媒體預約線索（待複核）",
@@ -250,6 +265,118 @@
       "published_at": "2026-10-14",
       "tags": [
         "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "Beats Pill 寶可夢聯名款 10/15 開賣！售價 150 美元，皮卡丘、謎擬 Q 上身，還附精靈球吊飾 - 蘋果仁",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBhU2ctX1BVanlhRlgycjg5a2JRMllfWXR4RkRyOEJPak1ydHBhQ3o4aVZfN3RJbzNLR2FPQWRyNTRpcmdFNGJydlNmX18?oc=5",
+      "source": "蘋果仁",
+      "published_at": "2026-10-14",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "玩遊戲就能抽蠟筆小新聯名金飾！正版授權手遊《蠟筆小新：GO！》正式開服 - Paradaily",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQOVk1MjZseWhReVNIT3NjbDZhUmZnME5jYjQyS3lrTkdtV2FwdllKNVJBbHRaRGhJQ1ZJOVJPa0trWHdUc2NnMXlRMmNXckdwQXJmQlRQT3hZeU4wR0NpOHVsa2tQdmhnWl9F?oc=5",
+      "source": "Paradaily",
+      "published_at": "2026-10-14",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "玩遊戲就能抽蠟筆小新聯名金飾！正版授權手遊《蠟筆小新：GO！》正式開服 - 蕃新聞",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JYWdDcDJtSmF5bGFOSW41SFhLXzFZWTVtbU5xLVZ2Q2pmajNsbW1uZXE3ZnlCRDVtc0N4WEhnTXBYTlVpV19ibzZaU1VrbWZGT3c?oc=5",
+      "source": "蕃新聞",
+      "published_at": "2026-10-14",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "鋼彈遊戲40週年紀念直播10/28登場 將公開《異軌征途》、《G世代永恆》新情報 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSzRQNWVHQmtsd0lKcXRxR1JLY3UtSjhlSnZCRTdBVlc0QXZ2MkotRnJDM2FrdnMyc1RMRjFsNjVtcWlrUUhBMU1oLWJtN2pOLTZTZVpHNExEdU9fakNFdVFLMkU0SHZyRkM0STMwSjFGbVNJZzltNEozbFplUkhoSU1LNnhuV0ZDR3lBenhWRXdnSnNpbmFF?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-10-14",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《蓋瑞模組》精神續作《s&box》年底轉免費！移除Citizen模型 創作者分潤改制 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOVdYczVTY0t4YVNkN3lpeVN1clMxcHBSNHF6VnNpMGs4NUw0ZGgtRUozMWJObTBZcC14YThub3FXa1VpZzhFMk85eXd3NDRPMmxsSHRKQUwzQXAwc3FzTzFpYjg4dDZiYUtyemdhOFF6MTBqQ1JNMXBNTkxOU3o2WFhoQ1c5a0NMR2VuTjFlMUJVWEx1TVpuZnRKMDZGSTdVdm1ibDNPV3JPUQ?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-10-14",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "擦邊喜劇《怪怪外星好朋友》動畫化確定 導演：動畫每一集都會有奇酷比🥵 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qOFBOQ19vTldSbURrLTI4aFJjSFZpamh5bHNLSEdPbzBjSVFEWlk1S1ktdGRMOENQV1RFV1ZMTXplOEtGVFBmME1tRVNuSGRKVFhzaVBjdG1iUFpNWUJHOXVMY0xlUWt0VGktMVNMV3hHSlBmQWNHVw?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-10-14",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "放置盲盒手遊《蠟筆小新：GO！》正式開服，玩遊戲就能抽蠟筆小新聯名金飾！ - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sdWlFcjlYaDVNU0ZqejF1aHV6emw0RFcyQWJrN0tFazlCVDRqUGxIUWxLVmJHU2QwVEpVYks3TE9fY2hVYzJFSnJfZDJIZmVnTmo5a0hzMmZFMjNiY1E?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-14",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《蔚藍檔案》全新活動劇情「嵐過天晴」上線，5週年線下快閃活動同步預告 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13SjVaQ0FoR1Q2SmdZZnlTdGFmcENGV3dvOTJGVV9CemdDaXJFRmY2aWR0aF9hdnJ5cVowLVJocWZYRk8takhrUFFnTHZXUFhSaHV3aWlaaEhaRjh0WWc?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-14",
+      "tags": [
+        "行銷動態",
+        "上線"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《無職轉生～到了異世界就拿出真本事～迴響編年史》台港澳版事前登錄正式啟動 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00MmZPM1hqWUJ3SzBKejZHdi1TN2ZEQ0FUWHBNN2UxYnJGYUtaeDNDTkNrS1JCWU5ISkQtSm1sMWlHVG1VV0ZOeWk0MjVoRjdZRkktQXZaV1I?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-14",
+      "tags": [
+        "事前預約"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "「鋼彈遊戲 40 週年紀念直播」將於 10 月 28 日開播 預告帶來最新鋼彈遊戲資訊 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sWGxPblBWUHpITmdveWc0dm5mamRwT2R2Q2ktaWg4eFpTdXhJUWdtVE9wSl9yejRiQTgtRkUtSVVMODNxWWRBVW01dWIxTnYyelgyMnItMkE?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-14",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "放置盲盒新作《蠟筆小新：GO！》正式推出 同步推出多項開服限定活動 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtSm15SWkxc3EtQWNlWnVJM2tQSjJraE9ySVM1bDcwZXc3Xy1iWWEtc1ZONnhZRVFNMlVkSkN1UGpMaWFKSzZrM0NOdHY4NWpNRnMza0RRVVc?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-14",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《蔚藍檔案》全新活動劇情「嵐過天晴」上線 5 週年線下快閃活動同步預告《Blue Archive》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE82QkZjUUNUZ0laUEN1UVdCUTZPN0t3cXJpREE1VTNxY3diYVA0UWpScTJtYk95d3Z0dndvY3QzTGlDQnBVQVhWWlZGdjA0OFdIMEVTdHNlSVA?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-14",
+      "tags": [
+        "行銷動態",
+        "上線"
       ],
       "source_type": "media_report"
     },
@@ -712,6 +839,14 @@
       "source_type": "media_report"
     },
     {
+      "title": "任天堂高層表明目前並無放棄實體版遊戲的計畫 將保持中立並順應消費者的偏好 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQaTFudFJSaDFybDFEVzFZQTgzNmxucTBtRjAtSTdPTEZ4ckJnT2tITFk3S0xhLVRVT1llRnB0Z0prTVZkV2FLQ1IzWTV4MnhYMzNhM1NvSkI?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-13",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
       "title": "皮克敏手遊5週年活動！投稿官方「回憶故事」　社群週11月將登場 - NOWnews今日新聞",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2VzBmZWJMR2h6YXMtRUwxT1g1aTVfYm5lVndoUjVqN1dMM1I3NG80VmxUNGhUalV0M1pJT3R2YnBLMGVUTHItYzR3OTlTVVZ2NHfSAVJBVV95cUxQdlcwZmViTEdoemFzLUVMMU9YNWk1X2JuZVZ3aFI1ajdXTDNSNzRvNFZsVDRoVGpVdDNaSU90dmJwSzBlVExyLWM0dzk5U1VWdjR3?oc=5",
       "source": "NOWnews今日新聞",
@@ -1064,6 +1199,14 @@
     {
       "title": "《貓咪大戰爭》舉辦期間限定活動「俏喵音樂祭」 限定關卡登場《The Battle Cats》 - GNN 新聞網",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1aVDJhYWdqMHNEcG8zMFJmOWd0M1BLVDFYVkhwalk4X2RsLXRuTzJkdzdLT21jOVpTTzcySTNoajRzU2dwT2otN0MzUnRKVTljNTU0MjkxbTM?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-12",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "烏克蘭獨立開發者打造《哥布林卡牌 RPG：Tower Trials》新增支援繁體中文 預告推出大型更新 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1vanZqUWdTSTFoUkdQUURxaTM1QTU5R2tFZlpvVW9OM1MtcmxqUFFGdHBpVlE3aTBCQXdqSGZuUGhvOXJ5eDdaWG51bXBzY01TeDJJSzgxS2Y?oc=5",
       "source": "GNN 新聞網",
       "published_at": "2026-10-12",
       "tags": [],
@@ -1481,128 +1624,6 @@
       "source": "https://www.webook.com.tw/",
       "published_at": "2026-10-07",
       "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "【風雲際會】動漫巨頭攜手熱門手遊《科學小飛俠》重磅降臨 - https://www.webook.com.tw/",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9lNU05OU15dV9PMHhfaU04VUJyVUxlZEhSX2h6RlBhTHdiZHppakJIZi1aQzB1RlNzNG8tLXFtbFZpTTZEOV9RV3U2YldpTHd5RjV1NVpVUmJPUlF4b0d2YkFlVWtxRzFMNWpQUWlSdw?oc=5",
-      "source": "https://www.webook.com.tw/",
-      "published_at": "2026-10-07",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "Netflix發行《魔物獵人崛起》手機版登陸雙平台 提供觸控操作介面與新增功能 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMzJGeF9ESVB2dlhiSlhla1A3RzdyYWxYYXhNY2JMVW8tUlBfOGNiNWZTV250UTBXU2Fhd0MtVkNPZk1hOExaRzRfMllLQmFzUDhFR3pndnhqTUlGb0hPY0xRTTA2N2tKM1NJbFF3amZIQkMxUll0c21HWGlTMnZaOUh4VF84UQ?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-07",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "手機電力搶奪遊戲《Power Struggle》 手速慢就會等著電池被榨乾 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fb3BvM25RMVhVQ19OUE9rNmNmSDc3QmZDZ0pldTNiT1dfd2lMVHZzM1JxRjJhcmlTb2pBamVEYXA1aTRuTUVZUGFZY2xrZ3NHY2dHcUNMLVQ3dFNUVkVmNXpBMjB0VjNORlNhVzV2d1V0dw?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-07",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "Steam硬派日本刀鍛造模擬《Japanese Swordsmith》 試玩版10/9開放幕末匠人打鐵 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMkpvU0pwaVplblc4Yms3N1JwLUxXdWR6Um1raGx5cy04NXdRYXNpdTdiTi1vbllhRkpqWldLekNHbGNFRi1PVkJfbGRnVTdCaTBmZm1aZ29EeWtwSlUtQ01qV0QyWWw2d2FkX2xNck9CdFd3VnluNWx6TWF2STZTV2k2NUl5NVJONHN2eHcxcTd0aVV0dWhMajhNWVdLdlE?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-07",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《明日方舟：終末地》10/15 Steam上線 推全新版本「丹青渡」與新幹員祀、明河 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYkRCMkh2dGlrdnRidElRYkxnTjd0M2l4c0ZqbTNocFdaT3FLdVJLazI1V2FYRzVlOVZYT0JVWnVrX1E5VDR2QXQ1Mk9JeG5waGYwWVBNNVpfR1QxM21pVVBJYlZEOGJGN2Utd2xQODZjVDQzRkI3bDlCNFZ3Q0JDSHlPbFVGcGhuVGZKdm1R?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-07",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《教妹妹開車》測試版玩家暴增20倍 開發團隊透露Gemini AI每日燒掉近千美元得申請貸款維持 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQ0N4OE43OElSWFVjQU5uQW9jLVhhQ0g2ajhrSlBaY2t1UGROb1VtbUFnZWxOa1BLdG0wY0xmeUxFWmctbjBNLXdEVl9rNTVNU18zaTF4QU9idXduTkJ0VFdTUzlkN2U1b0dJTXpocHE3OE5McENEUEwtSHJNNVNadQ?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-07",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "Steam限免：AI輔助開發六角卡牌Roguelike《Hex Reverse》上市30天內免費領取 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNazdYZW9jMDFTczBQalhLV2J1NUIyVkdkNnYzZWFHOGlpZThIbDl3dUw2YXpkT1NlMkVwX1BPNGNwNk1pVlV3bjdWWXBIS1ZEdWFKeXY4UjdFcWFTLUgtWWIxTC1aSjNlQkRtR3p2R1ZFNmpPU0ZfN1EwRGpZQ0QwSHFweXItSnJvd0dDX0QzQ0YzTEZ5S3hr?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-07",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《銀松鎮》Metacritic 媒體均分 85！類銀河戰士惡魔城融合生存恐怖獲海外好評 - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GMTI2dXI3UnF3N2RyZEVabE5JbEs1TVRSR0cxSmtGSEdRVFA3aWcwS3pJX0RpWnRqYnRydmNOc0RvdjFERE5CdEJpNlc1VmlzdXJkY2RtYm9qS1VhZWc?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-07",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "免費恐怖推理遊戲《這個家裡只有 4 個人》公開！觀察一家人 5 天生活找出屋內異常 - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KLTVaMGRrbmVKUXV3MEEtUDNOWHlrLWUyLTFHNUgyQnI3NVJmWktfYzctblRDczhmd3NySnJac19abDNLcENkWlhNeWFxVlJnamRiZ09EYnEyVjJBb1E?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-07",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "花店經營模擬《Panda Flora》公開！親手培育 45 種花卉自由設計專屬花束 - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BZ1RPWnJDWHZ5U2poUy1WZFBPVi1jb0VnY25kdFFnakVDNm83T291dE1RMWk3cHBpdERrYTB2cXFKTFliZ2V5ZU9mUl8tamwzRHJPV3ZDVGpibUdDeXc?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-07",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《魔道祖師》動畫快閃首度登台，「雲深不知處」快閃店10/8落腳誠品生活西門 - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBhdUY0TkNOa3ltT0djQ3hvaFl0eENvYktBUG1vZ1lpV0xJZ2pQMnBTSzFKV2QyVnppYUxCMk5taDMzU0tVSjFJWVd2dnZvczVKZWZrZDgxMTI1UmRrdEE?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-07",
-      "tags": [
-        "行銷動態"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "營運 3 年劃下句點！《Final Fantasy VII Ever Crisis》今日公開最終影片、感謝玩家一路相伴 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45VFAtMnNIZE8ydlJ4a0lLMVRza2daZU1FUDMtVV9oQUFOeV9LaVpYd0ZmLUhILWs1STBMbzhMZTYzc1YwcHpMZFpiSjZRS3N0Nkx3OUNqbE4?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-10-07",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "小島秀夫：《OD》直到上市都不揭底牌 捨棄《死亡擱淺》時期的線索式行銷 - Ludens Media",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1IY0kyeldadHFuZGpjRGh2MGtpYkhwX0pSeEZNM0lhcHJKZ3YyUWJfZEprN09JZngwazlQdGc2SkE0bGxxTG5JUU1KUVJXMlpiRnpLUTZmQkV1MllHVDk2Yi1UcXVkTlhTRHhXNWk2UQ?oc=5",
-      "source": "Ludens Media",
-      "published_at": "2026-10-06",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "Kotobukiya 揭曉 M.S.G《Core Wing Blade》配件 支援三型態變換 2027 年上市 - Gachapolitan",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdDBrT29Mc1E3aVl6M254RGpUb25QbEJGSkJNc2FlZEpMZEw5eFlUeXg3dVY3TXoyOW9aSlh2eWZxSVBnMGZWN1pVbjZocXJqdHJKYURkNzRxdjZSdzBfYm1KbmpwZzJVVEJEUnpGaHNCRHdERm5TNlJmNE80UkNveWdKUkNVOW8?oc=5",
-      "source": "Gachapolitan",
-      "published_at": "2026-10-06",
-      "tags": [
-        "上線"
-      ],
       "source_type": "media_report"
     }
   ],

@@ -1011,31 +1011,36 @@
           "rank_date": "2026-10-13"
         },
         {
-          "id": "gp-tw-39",
+          "id": "com.mahjong.blastk",
           "rank": 39,
           "title": "Mahjong Blast",
-          "publisher": "Nebula Studio",
-          "developer": "",
+          "publisher": "OTODAY",
+          "developer": "OTODAY",
           "seller": "",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/44/d2/b344d265-1d52-1e45-108a-49dc50580e76/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
-          "url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
-          "genre": "",
-          "genres": [],
-          "description": "",
-          "screenshots": [
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/8b/a4/218ba46e-df8c-8d4b-e66f-d05d2517dfa8/1.png/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/11/22/39112284-b759-f7f3-3c32-f2c79daa2068/2.png/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/b8/dc/72b8dc85-9930-769f-7f6d-af4e8e99c398/3.png/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/dc/a5/72dca502-dc42-4845-b6fb-087508ecb7c6/4.png/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/7a/35/0b7a35e9-4963-1618-6834-b36b2d220857/5.png/320x480bb.jpg"
+          "icon": "https://play-lh.googleusercontent.com/xxXXwaKtGhWPHSjcdVzqtiEGABq5M5uJTRF4Sty6e2lATahz2FlcOSXC1Ot1CLIunoOq7-51hfGh6WxBEFLky5k",
+          "url": "https://play.google.com/store/apps/details?id=com.mahjong.blastk",
+          "genre": "桌遊",
+          "genres": [
+            "桌遊"
           ],
-          "positioning": null,
+          "description": "麻將爆破 (Mahjong Blast) 是一款輕鬆休閒的遊戲，深受麻將接龍、經典麻將牌配對遊戲和休閒棋盤遊戲愛好者的喜愛。這款舒緩的桌遊融合了經典的配對益智機制和輕鬆的遊戲體驗：搭配相同的麻將牌，逐步清除牌面，享受流暢無壓力、無時間限制的樂趣。\r\n\r\n遊戲以傳統的麻將接龍為基礎，每個牌面都遵循熟悉的配對規則：找到兩張相同的牌，消除它們，清除牌面。簡潔的牌面和清晰易讀的牌面使這款麻將棋盤遊戲易於上手，並自然而然地演變成令人滿足的益智遊戲，獎勵的是巧妙的策略而非快速的反應。\r\n\r\n暢玩數百個棋盤謎題關卡，從 5 分鐘的快速休息到更長的遊戲，應有盡有。每日麻將練習和挑戰帶來靈感源自美式麻將風格的全新牌面，幫助您識別規律並按照自己的步調構建策略。\r\n\r\n麻將爆破 (Mahjong Blast) 是一款功能齊全的離線棋盤遊戲，無廣告。即使沒有 Wi-Fi 或行動數據，每個關卡也能流暢運行，讓您隨時隨地享受不間斷、輕鬆愉悅的解謎體驗。\r\n\r\n大尺寸的方塊、清晰的佈局和直觀的操作，使這款棋盤遊戲舒適易上手，尤其適合老年人和尋求輕鬆解謎樂趣的成年人。",
+          "screenshots": [
+            "https://play-lh.googleusercontent.com/4o0wDFQwQmGCEQJm6xCllytaQa4aETm6vjPeGG9dQ3Rem1fFU_9Hzo_JwZxlPVIiqWgGoi6lMjnFJ3rR_b-h3w",
+            "https://play-lh.googleusercontent.com/RvMKA571-rB0JD9SsMSbYxB1cARURt9dqV__ztSJ0hnik6Bi7V0yfrhf2bhwFpN87Z_Uy_sS7n8oS85RigezBA",
+            "https://play-lh.googleusercontent.com/Rh11F2TIoFxR51egcjuHYb3OmdAH2Q_c1W4O7OgSemULYuaMRFyJ9ybU4lKHcaOIer7UKLgAEgUeKymgMMdp2kY",
+            "https://play-lh.googleusercontent.com/i3e8njgjSVx6evK_FPjiGtXjxIJ83rUCnBiq58bsKOg9JdSAJ7iPUTPmrav9eA1t55pTVWfXBUiM5PbGGCOGSow"
+          ],
+          "positioning": "暢玩數百個棋盤謎題關卡，從 5 分鐘的快速休息到更長的遊戲，應有盡有。每日麻將練習和挑戰帶來靈感源自美式麻將風格的全新牌面，幫助您識別規律並按照自己的步調構建策略。",
           "slogan": null,
-          "positioning_status": "unverified",
+          "positioning_status": "store_description_excerpt",
           "slogan_status": "unverified",
           "source_url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
           "rank_date": "2026-10-13",
-          "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)"
+          "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)",
+          "rating": null,
+          "rating_count": null,
+          "release_date": "2026年9月5日",
+          "metadata_source": "Google Play store details"
         },
         {
           "id": "gp-tw-40",
@@ -1334,9 +1339,9 @@
       "grossing_status": "unavailable"
     }
   },
-  "last_attempt_at": "2026-10-14T03:21:49.776798+00:00",
+  "last_attempt_at": "2026-10-14T07:34:10.110304+00:00",
   "refresh_status": "failed",
   "refresh_source": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
   "refresh_error": "No verifiable public Google Play ranking source returned 10+ records",
-  "metadata_refreshed_at": "2026-10-14T03:21:49.776798+00:00"
+  "metadata_refreshed_at": "2026-10-14T07:34:10.110304+00:00"
 }
