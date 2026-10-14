@@ -46,6 +46,31 @@ for label,query in queries:
         print("News feed unavailable",label,str(e)[:140])
 def key(x):return str(x.get("published_at",""))[:10]
 data["news"]=sorted(articles.values(),key=key,reverse=True)[:160]
+# Candidate preregistrations from media headlines, distinctly separated from confirmed official dates.
+existing={re.sub(r"\s+","",g.get("game","")) for g in data.get("preorders",[])}
+candidates=[]
+for article in data["news"]:
+    if not pre_terms.search(article.get("title","")):continue
+    m=re.search(r"《([^》]{2,45})》",article["title"])
+    if not m:continue
+    game=m.group(1).strip()
+    if re.sub(r"\s+","",game) in existing:continue
+    existing.add(re.sub(r"\s+","",game))
+    candidates.append({"game":game,"publisher":"待核實","status":"媒體預約線索（待複核）",
+        "registration_date":None,"expected_date":None,"estimate":"上市時間未公布",
+        "evidence":"新聞標題提及預約，未確認官方預約頁或上市日期",
+        "source":article["source"],"url":article["url"],"genre":"待確認","signals":["媒體預約線索"]})
+data["preorders"]=[g for g in data.get("preorders",[]) if g.get("status")!="媒體預約線索（待複核）"]+candidates[:30]
+# Optional low-confidence planning window: a rough 30–90 day period after
+# announced preregistration, never treated as an official release date.
+for g in data["preorders"]:
+    if g.get("expected_date") or not g.get("registration_date"):continue
+    try:
+        start=datetime.date.fromisoformat(g["registration_date"])
+        if 0 <= (now.date()-start).days <= 90:
+            g["estimated_window"]=(start+datetime.timedelta(days=30)).isoformat()+" ～ "+(start+datetime.timedelta(days=90)).isoformat()
+            g["estimated_method"]="僅依預約開啟日推算 30–90 天觀察窗，低信心、非官方預測"
+    except ValueError:pass
 # News is an evidence feed, not verified ad spend or a reliable forecast of launch dates.
 data["updated_at"]=now.isoformat()
 data["news_count"]=len(data["news"])
