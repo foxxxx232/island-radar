@@ -2,7 +2,7 @@
 """Refresh publicly visible Google Play charts; never relabel stale rankings as current."""
 import json, re, os, datetime, pathlib, urllib.request, urllib.parse
 from bs4 import BeautifulSoup
-from google_play_scraper import app as gp_app, search as gp_search
+from google_play_scraper import app as gp_app, search as gp_search, collection as gp_collection, collections as gp_collections, categories as gp_categories
 import difflib, concurrent.futures
 
 OUT=pathlib.Path("data/googleplay.json")
@@ -75,7 +75,19 @@ try:
     html=get_html(SOURCE)
     rows=parse(html)
     if len(rows)<10:
-        raise ValueError("Could not verify 10+ Google Play package links in chart HTML; site may be JS-rendered or blocked")
+        print("GamerScroll HTML does not expose package links; trying Google Play public collection")
+        try:
+            raw=gp_collection(collection=gp_collections.TOP_FREE,category=gp_categories.GAME,results=100,lang="zh_TW",country="tw")
+            rows=[{"id":x["appId"],"title":x["title"],
+                   "url":"https://play.google.com/store/apps/details?id="+x["appId"]}
+                  for x in raw if x.get("appId") and x.get("title")]
+            if len(rows)>=10:
+                existing["refresh_source"]="Google Play public chart via google-play-scraper"
+                print("GP collection:",len(rows))
+        except Exception as colerr:
+            print("Google Play collection unavailable",str(colerr)[:180])
+    if len(rows)<10:
+        raise ValueError("No verifiable public Google Play ranking source returned 10+ records")
     verified=[]
     for item in rows[:100]:
         try:
@@ -100,8 +112,8 @@ try:
     existing["countries"]["tw"]["free_status"]="ok"
     existing["snapshot_date"]=datetime.datetime.now(datetime.timezone.utc).date().isoformat()
     existing["fetched_at"]=now
-    existing["source"]="GamerScroll public Google Play chart"
-    existing["source_url"]=SOURCE
+    existing["source"]=existing.get("refresh_source",SOURCE)
+    existing["source_url"]=SOURCE if "GamerScroll" in existing["source"] else "https://play.google.com/store/games?hl=zh_TW&gl=TW"
     existing["refresh_status"]="ok"
     print("Verified Google Play chart:",len(verified))
 except Exception as e:
