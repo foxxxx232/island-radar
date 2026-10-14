@@ -16,9 +16,10 @@ jobs:
       - run: python -m pip install --disable-pip-version-check beautifulsoup4 google-play-scraper
       - run: python scripts/sync_appstore.py
       - run: python scripts/sync_googleplay.py
+      - run: python scripts/build_alerts.py
       - name: Commit verified source records
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/appstore.json data/googleplay.json
+          git add data/appstore.json data/googleplay.json data/alerts.json data/watch_state.json
           git diff --cached --quiet || (git commit -m "Refresh iOS and Google Play public chart data" && git push)
