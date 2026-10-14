@@ -47,7 +47,7 @@ for label,query in queries:
 def key(x):return str(x.get("published_at",""))[:10]
 data["news"]=sorted(articles.values(),key=key,reverse=True)[:160]
 # Candidate preregistrations from media headlines, distinctly separated from confirmed official dates.
-existing={re.sub(r"\s+","",g.get("game","")) for g in data.get("preorders",[])}
+existing={re.sub(r"\s+","",g.get("game","")) for g in data.get("preorders",[]) if g.get("status")!="媒體預約線索（待複核）"}
 candidates=[]
 for article in data["news"]:
     if not pre_terms.search(article.get("title","")):continue
