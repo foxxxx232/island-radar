@@ -116,4 +116,27 @@ except Exception as e:
         existing["metadata_refreshed_at"]=now
         print("GP metadata filled:",sum(bool(x.get("icon")) for x in existing["countries"]["tw"]["free"]))
 OUT.parent.mkdir(parents=True,exist_ok=True)
+# Cross-platform visual fallback only when Google Play details are unavailable.
+# Clearly label the Apple artwork source; never misrepresent it as Google Play screenshots.
+try:
+    apple=json.loads(pathlib.Path("data/appstore.json").read_text(encoding="utf-8"))
+    lookup={}
+    def title_key(t):return re.sub(r"[\W_]+","",str(t or "").casefold())
+    for country in ("tw","hk","mo"):
+        for kind in ("free","grossing"):
+            for item in apple.get("countries",{}).get(country,{}).get(kind,[]):
+                if item.get("icon"):
+                    lookup.setdefault(title_key(item.get("title")),item)
+    for country in ("tw","hk","mo"):
+        for kind in ("free","grossing"):
+            for row in existing["countries"].get(country,{}).get(kind,[]):
+                if row.get("icon"):continue
+                match=lookup.get(title_key(row.get("title")))
+                if match:
+                    row["icon"]=match["icon"]
+                    row["screenshots"]=match.get("screenshots",[])[:5]
+                    row["visual_source"]="Apple App Store cross-platform visual reference (Google Play visual not yet verified)"
+                    print("Apple cross-platform visual reference:",row.get("title"))
+except Exception as e:
+    print("Cross-platform visual fallback unavailable",str(e)[:100])
 OUT.write_text(json.dumps(existing,ensure_ascii=False,indent=2),encoding="utf-8")
