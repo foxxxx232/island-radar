@@ -63,6 +63,13 @@ def enrich(country, rows):
             item['positioning']=paragraphs[0][:95]
             item['positioning_status']='store_description_excerpt'
             item['positioning_source']=item['url']
+        if not item['slogan']:
+            candidates=[p.strip('「」『』【】#*• ') for p in desc.splitlines()]
+            candidates=[p for p in candidates if 8<=len(p)<=48 and not re.search(r'隱私|客服|Facebook|https?://|條款|更新|下載|評分|儲值|版本|聯絡|email',p,re.I)]
+            if candidates:
+                item['slogan']=candidates[0]
+                item['slogan_status']='store_copy_excerpt_not_official'
+                item['slogan_source']=item['url']
         item['release_date']=d.get('releaseDate','')
         item['version']=d.get('version','')
         item['rating']=d.get('averageUserRating')
