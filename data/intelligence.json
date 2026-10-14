@@ -1,0 +1,230 @@
+{
+  "updated_at": "2026-10-14",
+  "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
+  "campaigns": [
+    {
+      "game": "青丘世界：緣起",
+      "publisher": "喬葳數位行銷",
+      "type": "代言人",
+      "detail": "安心亞擔任代言人，扮演青丘女帝",
+      "source": "遊戲基地",
+      "url": "https://news.gamebase.com.tw/news/detail/99440257",
+      "published_at": "2026-05-05",
+      "signals": [
+        "藝人代言",
+        "仙俠MMO",
+        "角色扮裝"
+      ]
+    },
+    {
+      "game": "鬥破蒼穹M：少年崛起",
+      "publisher": "喬薇數位",
+      "type": "代言人 / IP聯動",
+      "detail": "曾莞婷代言並扮演美杜莎女王；正版《鬥破蒼穹》動畫 IP 授權",
+      "source": "遊戲基地",
+      "url": "https://news.gamebase.com.tw/news/detail/99441033",
+      "published_at": "2026-08-28",
+      "signals": [
+        "藝人代言",
+        "正版動畫IP",
+        "事前預約"
+      ]
+    },
+    {
+      "game": "癲狂三國：少年無雙",
+      "publisher": "喬葳數位行銷",
+      "type": "IP聯動 / KOL",
+      "detail": "《風雲》正版 IP 聯動，十大美女 KOL 參與「三國美人計」",
+      "source": "遊戲基地",
+      "url": "https://news.gamebase.com.tw/news/detail/99441480",
+      "published_at": "2026-09-18",
+      "signals": [
+        "正版IP",
+        "KOL矩陣",
+        "預約50萬（官方宣稱）"
+      ]
+    },
+    {
+      "game": "締造者：放逐之境",
+      "publisher": "DRIMAGE",
+      "type": "KOL / 實況主",
+      "detail": "丁特、小許、丁丁、米餅、棺月、若帆、大力三、危機、NYE、霖霖參與亞洲伺服器宣傳",
+      "source": "4Gamers",
+      "url": "https://www.4gamers.com.tw/news/detail/81476/architect-land-of-exiles-global--reserve",
+      "published_at": "2026-09-19",
+      "signals": [
+        "10位KOL",
+        "港台預約",
+        "區域限定獎勵"
+      ]
+    },
+    {
+      "game": "閃耀吧！嚕咪",
+      "publisher": "荷馬娛樂",
+      "type": "代言人",
+      "detail": "YELLOW 黃宣擔任首席嚕咪訓練家，配合抓寵 RPG 上線宣傳",
+      "source": "4Gamers",
+      "url": "https://www.4gamers.com.tw/news/detail/81694/shining-lumi-pre-registration-3-million-yellow-huang",
+      "published_at": "2026-08-27",
+      "signals": [
+        "藝人代言",
+        "抓寵RPG",
+        "預約300萬（官方宣稱）"
+      ]
+    },
+    {
+      "game": "Garena 傳說對決",
+      "publisher": "Garena",
+      "type": "線下活動 / 音樂合作",
+      "detail": "10/31 臺北大巨蛋演唱會及 GCS 總決賽；玖壹壹主題曲《逆風》；臺北捷運快閃及 101 光雕",
+      "source": "4Gamers",
+      "url": "https://www.4gamers.com.tw/news/detail/81832/garena-aov-10th-anniversary-concert-announcement",
+      "published_at": "2026-09-01",
+      "signals": [
+        "大型線下",
+        "音樂合作",
+        "戶外曝光",
+        "品牌活動"
+      ]
+    },
+    {
+      "game": "鳴潮",
+      "publisher": "KURO GAMES",
+      "type": "異業合作",
+      "detail": "與海底撈台灣推出限定聯名套餐",
+      "source": "遊戲基地",
+      "url": "https://news.gamebase.com.tw/news/newslist?page=1&type=mobile",
+      "published_at": "2026-10-05",
+      "signals": [
+        "餐飲跨界",
+        "線下聯名"
+      ]
+    },
+    {
+      "game": "瑪奇 Mobile",
+      "publisher": "NEXON",
+      "type": "線上活動 / 社群",
+      "detail": "預約送劍士學校制服及喝珍奶動作；官方 YouTube、Discord 與心理測驗活動",
+      "source": "4Gamers",
+      "url": "https://www.4gamers.com.tw/news/detail/80232/mabinogi-mobile-taiwan-release-date-pre-registration-rewards",
+      "published_at": "2026-06-24",
+      "signals": [
+        "在地化",
+        "社群互動",
+        "預約"
+      ]
+    }
+  ],
+  "preorders": [
+    {
+      "game": "裝備仔：OVERGEARED",
+      "publisher": "NEXON",
+      "status": "事前預約中",
+      "registration_date": "2026-10-01",
+      "expected_date": null,
+      "expected_precision": null,
+      "estimate": "尚未公布上市日期",
+      "evidence": "官方宣布 10/1 開放預約，尚未公布上市日",
+      "source": "遊戲基地",
+      "url": "https://news.gamebase.com.tw/news/detail/99441470",
+      "genre": "MMORPG",
+      "signals": [
+        "競爭型MMO",
+        "裝備養成",
+        "影片/PODCAST宣傳"
+      ]
+    },
+    {
+      "game": "締造者：放逐之境",
+      "publisher": "DRIMAGE",
+      "status": "事前預約中（待複核）",
+      "registration_date": "2026-09-19",
+      "expected_date": null,
+      "estimate": "未查到官方確定上市日",
+      "evidence": "港台及亞洲八地預約公告；狀態需持續複核",
+      "source": "4Gamers",
+      "url": "https://www.4gamers.com.tw/news/detail/81476/architect-land-of-exiles-global--reserve",
+      "genre": "MMORPG",
+      "signals": [
+        "10位KOL",
+        "港台限定獎勵"
+      ]
+    },
+    {
+      "game": "RO仙境傳說：口袋戰記",
+      "publisher": "待核實",
+      "status": "預約公告",
+      "registration_date": "2026-09-16",
+      "expected_date": null,
+      "estimate": "未查到官方確定上市日",
+      "evidence": "第三方媒體預約報導，尚未確認雙平台狀態",
+      "source": "GameApps.hk",
+      "url": "https://www.gameapps.hk/list/id/9/sc/4",
+      "genre": "RPG",
+      "signals": [
+        "RO IP"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "《裝備仔：OVERGEARED》開放事前預約，主打裝備成長 MMORPG",
+      "url": "https://news.gamebase.com.tw/news/detail/99441470",
+      "source": "遊戲基地",
+      "published_at": "2026-10-01",
+      "tags": [
+        "預約",
+        "MMO"
+      ]
+    },
+    {
+      "title": "《癲狂三國：少年無雙》與《風雲》IP聯動，十大 KOL 參與",
+      "url": "https://news.gamebase.com.tw/news/detail/99441480",
+      "source": "遊戲基地",
+      "published_at": "2026-09-18",
+      "tags": [
+        "IP聯動",
+        "KOL"
+      ]
+    },
+    {
+      "title": "《締造者：放逐之境》台港澳預約，丁特領軍 KOL 宣傳",
+      "url": "https://www.4gamers.com.tw/news/detail/81476/architect-land-of-exiles-global--reserve",
+      "source": "4Gamers",
+      "published_at": "2026-09-19",
+      "tags": [
+        "預約",
+        "KOL"
+      ]
+    },
+    {
+      "title": "《Garena 傳說對決》十週年演唱會、電競及線下活動",
+      "url": "https://www.4gamers.com.tw/news/detail/81832/garena-aov-10th-anniversary-concert-announcement",
+      "source": "4Gamers",
+      "published_at": "2026-09-01",
+      "tags": [
+        "大型行銷",
+        "線下"
+      ]
+    },
+    {
+      "title": "香港手遊事前登錄情報：多款新作開放預約",
+      "url": "https://www.gameapps.hk/list/id/9/sc/4",
+      "source": "GameApps.hk",
+      "published_at": "2026-10-03",
+      "tags": [
+        "香港",
+        "預約"
+      ]
+    },
+    {
+      "title": "《青丘世界：緣起》安心亞代言，青丘女帝形象公開",
+      "url": "https://news.gamebase.com.tw/news/detail/99440257",
+      "source": "遊戲基地",
+      "published_at": "2026-05-05",
+      "tags": [
+        "代言"
+      ]
+    }
+  ]
+}
