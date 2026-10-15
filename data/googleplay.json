@@ -225,58 +225,76 @@
           "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)"
         },
         {
-          "id": "gp-tw-9",
+          "id": "com.puzzlegames.puzzlebrickslegend",
           "rank": 9,
           "title": "Color Block: Combo Blast",
           "publisher": "Ivy",
-          "developer": "",
+          "developer": "Ivy",
           "seller": "",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/bb/3c/29bb3ce0-13a5-468f-70e6-6c7dd7ba6bca/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
-          "genre": "",
-          "genres": [],
-          "description": "",
-          "screenshots": [
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/80/43/2b8043db-687a-2cb3-fcb7-64853398f7d8/1.png/392x696bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/36/b7/7536b7c5-2ab5-f77b-2049-559e21ca886d/2.png/392x696bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/33/a4/e533a4bf-01d0-e9c0-184a-0b5702f8cdfc/3.png/392x696bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/0d/99/6b0d9995-c2b5-1cf7-95fe-92653c1de93b/4.png/392x696bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/77/ef/6977efcd-2b67-02f3-2c86-803f5a548fc7/5.png/392x696bb.png"
+          "icon": "https://play-lh.googleusercontent.com/yYQ4QldM1Dclw1mK0sW1gJlwT6XJ05qPf6IGu9GtXc3kKfNj92PqdmkD8OFtRId75a5fuKkJ5X38b2qCl3QYeA",
+          "url": "https://play.google.com/store/apps/details?id=com.puzzlegames.puzzlebrickslegend",
+          "genre": "益智",
+          "genres": [
+            "益智"
           ],
-          "positioning": null,
-          "slogan": null,
-          "positioning_status": "unverified",
-          "slogan_status": "unverified",
+          "description": "為你熟悉且喜愛的經典方塊拼圖遊戲帶來全新玩法。放鬆心情、訓練大腦，隨時隨地享受數小時令人上癮的遊戲體驗。不論你只有 2 分鐘還是 2 小時，Color Block: Combo Blast 都是你的完美夥伴。\r\n\r\n如何遊玩？\r\n\r\n將方塊拖曳至棋盤中。\r\n橫向或縱向填滿整行即可消除。\r\n保持棋盤整潔以獲得更高分數。\r\n方塊無法旋轉——請仔細思考！\r\n無時間限制，依照自己的節奏遊玩。\r\n\r\n為什麼選擇 Color Block: Combo Blast？\r\n\r\n簡單卻令人上癮的玩法——容易上手，難以放下。\r\n精美主題設計——清新、放鬆且現代感十足。\r\n隨時隨地暢玩——無需 WiFi 或網路連線。\r\n適合所有人——從休閒玩家到拼圖高手都能享受。\r\n完全免費——無限樂趣，無需花費。\r\n\r\n你會愛上的特色！\r\n\r\n✔ 流暢操作與優雅動畫\r\n✔ 無盡拼圖挑戰\r\n✔ 放鬆的背景音樂\r\n✔ 支援離線遊玩\r\n✔ 輕量設計，省電耐用\r\n✔ 定期更新，全新活動與挑戰不斷推出\r\n\r\n為什麼它適合你？\r\n\r\nColor Block: Combo Blast 不只是遊戲——更是你每日的腦力鍛鍊。放置方塊、消除整行，在享受樂趣的同時保持頭腦靈活。無論是短暫休息、長途通勤，或睡前放鬆，都非常適合。\r\n\r\n準備好挑戰你的大腦了嗎？\r\n立即下載 Color Block: Combo Blast，看看為什麼數百萬玩家都熱愛方塊拼圖遊戲！",
+          "screenshots": [
+            "https://play-lh.googleusercontent.com/oDzAU9MgnyafIy87XVH1vw6mkvO2Ks1XH5_ulmiHAbwE-cwAzu0Gpr3FLk3GW-wAbGVJF8I743Ptx4fbbb5SSUc",
+            "https://play-lh.googleusercontent.com/hPC8ngDCddvC7mRa7T8P6q1uqOH-pb0ajobJOx2Yr8h_0SLJhgI9xQ5qF0ImItKJONSPp7_0JGUE_0JUjvZVwQ",
+            "https://play-lh.googleusercontent.com/EeDmXMRQnBJKZIDJ_5V0aInCivzmYLL2RfxYEHuof8sK65nz3gE1Lpa5yT3ry07repqO8l8_209FczimJXSF",
+            "https://play-lh.googleusercontent.com/h7RkH3DsSAin7hFiedLazSjOOC9XGr5myZ2nVQPrf4YNcR8MSrqVHSV2P8uMlXzFYlz4EtI2jagaR5WkX7_n2g",
+            "https://play-lh.googleusercontent.com/Dxh7wMjNhnzsCUAgUXwXDd4uvZhIpJIwiMCywneiomDxdaSdj1pOk2Deoi_a6Bx6fIlLF7E4yEbXjqEUJ8kvLF8",
+            "https://play-lh.googleusercontent.com/QcG0vtivJu9ZA2OOlyOQXY-dwuzGT-x_1STJxQRZYX0G-LnxIwgRJDbPMsV-e1SAqqIX95zmeUXrW3lo82wt",
+            "https://play-lh.googleusercontent.com/oDzAU9MgnyafIy87XVH1vw6mkvO2Ks1XH5_ulmiHAbwE-cwAzu0Gpr3FLk3GW-wAbGVJF8I743Ptx4fbbb5SSUc",
+            "https://play-lh.googleusercontent.com/hPC8ngDCddvC7mRa7T8P6q1uqOH-pb0ajobJOx2Yr8h_0SLJhgI9xQ5qF0ImItKJONSPp7_0JGUE_0JUjvZVwQ"
+          ],
+          "positioning": "將方塊拖曳至棋盤中。",
+          "slogan": "將方塊拖曳至棋盤中。",
+          "positioning_status": "store_description_excerpt",
+          "slogan_status": "store_copy_excerpt_not_official",
           "source_url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
           "rank_date": "2026-10-13",
-          "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)"
+          "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)",
+          "rating": 4.3465347,
+          "rating_count": 76863,
+          "release_date": "2019年4月17日",
+          "metadata_source": "Google Play store details"
         },
         {
-          "id": "gp-tw-10",
+          "id": "com.farlightgames.pgame.gp",
           "rank": 10,
           "title": "塔塔冒險隊",
           "publisher": "FARLIGHT",
-          "developer": "",
+          "developer": "FARLIGHT",
           "seller": "",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/73/6a/a2736ac2-fe62-9bc3-0419-c35945a9fc05/AppIcon-Global-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
-          "url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
-          "genre": "",
-          "genres": [],
-          "description": "",
-          "screenshots": [
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/d6/21/69d621ae-03e3-52ea-b207-8a50dfda85e3/1242x2688__U5929_U7c60_U9f20KV.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/61/7b/c2617b30-e560-0bc4-208e-f622b3b68b0a/1.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/da/c1/e4/dac1e482-4796-b4b2-6880-599a334a662a/2.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/11/2c/84112c9f-e847-79ba-03b2-646c6abd4c45/3.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/79/d4/7b79d491-a7f1-80fa-47e4-d72b92a9848e/4.jpg/320x480bb.jpg"
+          "icon": "https://play-lh.googleusercontent.com/nIjO9pFz1R7G_wct00QMBKVqAmLHs2TqiaCmSUJfnKPw7yG_VzSmp26TRGCmm98v-Mye0MtsW_xz8CHNdIFD1A",
+          "url": "https://play.google.com/store/apps/details?id=com.farlightgames.pgame.gp",
+          "genre": "休閒",
+          "genres": [
+            "休閒"
           ],
-          "positioning": null,
-          "slogan": null,
-          "positioning_status": "unverified",
-          "slogan_status": "unverified",
+          "description": "【收集進化！猛寵全圖鑑輕鬆拿下！】\r\n眼神中充滿『智慧』的靈果蛙、分開就哭得不行的不分梨、看似嚴肅的企呼呼與淡定的卡騎巴拉……超多塔塔輕鬆好收集，還能隨機解鎖閃光異色形態，每個夥伴都是獨一無二的存在。\r\n【彈射！一發入魂，豪禮彈到手軟！】\r\n瞄準、發射、連鎖反擊——糖果獎勵彈不停！進化、升等材料快速入手；還能偷襲好友營地賺糖果，盡情體驗彈珠宇宙的快感！\r\n【一磚一瓦，布置塔塔專屬小窩！】\r\n隨心佈置你的夢幻營地！享受和淘氣又可愛的塔塔們一起陪伴生活的日子，每個角落都藏著不同的小驚喜。\r\n【對戰！塔塔聯手，碾壓臭臭大軍】\r\n屬性相剋、陣型部署、技能聯動——打造你專屬的塔塔戰鬥陣容，從普通社畜臭臭壓到雙頭巨型慣老闆臭臭！嘗試不同組合戰術，沒有塔塔解決不了的敵人！\r\n【大批臭潮襲來，叫上好友一起組隊戰鬥！】\r\n不想單打獨鬥？拉上好友組隊！共同對抗臭潮、佔領地盤，偶爾調皮突襲對方營地來點「友善」的交流吧！\r\n\r\n【追蹤我們，獲得更多最新資訊與消息】\r\nFacebook: https://www.facebook.com/profile.php?id=61589180597568\r\n官方網址:https://cc-zh-tw.farlightgames.com/ \r\n香港商旺拓有限公司台灣分公司為 《塔塔冒險隊》在台灣地區的代理商。\r\n客服信箱:ClashofCritters@nijigengames.com\r\n\r\n※本軟體因涉及暴力情節，依遊戲軟體分級管理辦法分類為保護級。\r\n※本遊戲為免費使用，遊戲內另提供購買虛擬貨幣、物品等付費服務。\r\n※請注意遊戲時間，避免沉迷。",
+          "screenshots": [
+            "https://play-lh.googleusercontent.com/5eBRvvK4mbJkF8xU-w6htc2SJmwCQcwd85CoOQig8w8QlO_kVlx8uA7hauB7TKH32L_VtRGRhas5eyihrnLZ7A",
+            "https://play-lh.googleusercontent.com/uO612BuSNxjDIuYAKh7gyZxGlW5FxhnixrHmVu1TuwgmfrTTSTUcNBLbRbf9zvfE-ToEZdixELxJcVqNuKYu",
+            "https://play-lh.googleusercontent.com/Sa5zOMD4OGqM-5xZW-t5540H5hiCZ6sgofiArtw_wrmZNCsgbFBvE1OWgWfqMUNGBAuOGQCLYNXPKnuBeQw9Lw",
+            "https://play-lh.googleusercontent.com/yAMdHsV73njb_H1S2wCy3z1LZdWJwtk_KfNDAv9ucr6C1oH2Afx5BHhaySETxZuz8Ph93JbneVzE9OBgvcC9bg",
+            "https://play-lh.googleusercontent.com/3nE9oGc7lYhUFCwvWwwcRu-I5FLCA8T4cWUeh2ouTozjEg3qUZ8VYTXpAW6lOhtVH5yH5WnTm3m6vnADZGTgr2E",
+            "https://play-lh.googleusercontent.com/QeCfjMT2QkPLanb9nDF6_GRMBynnL35S7HvDBZ7da25pTSy63tzz6XYClbwnOD775Nf2-YlUTKM2oyyxt2EZAw",
+            "https://play-lh.googleusercontent.com/6eyxfAPDnY2H3hYj7EL9-4nBlzeggz4AhZngUZOr26sitM5d1H-rdsqYF6hSUU0Gd-qMU3YH7PSPhZ9NnkNvOOw",
+            "https://play-lh.googleusercontent.com/zttKCqNI2aRFWFfpsY64zU73MOJjL08sB7ss3h_mN7clgwR5yFQjWjQd6z6-De9DGb_kLoLbgBPJmdX_fkkG_Q"
+          ],
+          "positioning": "收集進化！猛寵全圖鑑輕鬆拿下！",
+          "slogan": "收集進化！猛寵全圖鑑輕鬆拿下！",
+          "positioning_status": "store_description_excerpt",
+          "slogan_status": "store_copy_excerpt_not_official",
           "source_url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
           "rank_date": "2026-10-13",
-          "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)"
+          "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)",
+          "rating": 4.252427,
+          "rating_count": 63920,
+          "release_date": "2026年8月25日",
+          "metadata_source": "Google Play store details"
         },
         {
           "id": "gp-tw-11",
@@ -1043,24 +1061,37 @@
           "metadata_source": "Google Play store details"
         },
         {
-          "id": "gp-tw-40",
+          "id": "com.aidiangames.garden.gp",
           "rank": 40,
           "title": "解憂夢幻島：種菜煮飯養小雞，經營療癒小海島",
           "publisher": "Aidian Network",
-          "developer": "",
+          "developer": "Aidian Network",
           "seller": "",
-          "icon": "",
-          "url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
-          "genre": "",
-          "genres": [],
-          "description": "",
-          "screenshots": [],
-          "positioning": null,
-          "slogan": null,
-          "positioning_status": "unverified",
-          "slogan_status": "unverified",
+          "icon": "https://play-lh.googleusercontent.com/OCY7_hg9tT5aKeodURwmFoBc48EVEkqnqcapWCcXz1AU92SK0qyZDKj0x5dbXd2nRmzcmz7mwT7w4UnoKcGY",
+          "url": "https://play.google.com/store/apps/details?id=com.aidiangames.garden.gp",
+          "genre": "休閒",
+          "genres": [
+            "休閒"
+          ],
+          "description": "《解憂夢幻島》是一款以療癒體驗為核心設計的類比經營類手遊，融合輕度社交與田園生活元素，為玩家打造低壓力、高自由度的數位棲息地。從播下第一顆種子，到端上一桌熱騰騰的盛宴－－這裡沒有催促，沒有輸贏，只有食材慢慢成長的踏實感，以及一日三餐所蘊含的溫度。\r\n\r\n🌱 從種子到餐桌，全程親手打造  \r\n種植、養殖、捕撈一手包辦，收穫的食材下鍋烹調、裝盤擺飾，普通料理也能升級成豪華盛宴。看著它一點一滴成長，是這座島嶼最療癒的時刻。\r\n\r\n🍳 經營你的島嶼餐廳  \r\n接取客人訂單、擴張島嶼、解鎖新食材與新食譜，將小攤位一步步打造成遠近馳名的夢幻食堂。\r\n\r\n【遊戲特色】  \r\n1. 沉浸式海島生活  \r\n種田、養殖、釣魚、趕海，享受慢步調的悠閒時光。\r\n\r\n2. 經典美食還原  \r\n美食還原內容包含解鎖食譜、食材種類、食材比例、容器選擇、擺盤等元素。\r\n\r\n3. 串門借菜，好友互助  \r\n拜訪好友的小島，順手借走你缺少的食材。你補齊需求，好友資源不減，每次串門都是互相幫助。\r\n\r\n4. DIY島嶼整體風格  \r\n自由規劃小島布局，個人化打造餐廳、農場等場景的配置與風格。\r\n\r\n5. 女性成長物語  \r\n見證主角從迷惘的上班族，成長為能獨當一面的女店主。\r\n\r\n※本遊戲依遊戲軟體分級管理辦法分類為：0+\r\n※本遊戲為免費使用，遊戲內另提供購買虛擬貨幣、物品等付費服務。\r\n※請注意遊戲時間，避免沉迷。\r\n※宏胤數位娛樂有限公司為《解憂夢幻島》在臺港澳地區的授權代理商。\r\n※會員服務條款：https://sites.google.com/view/dreamscapeisland-service\r\n※隱私權條款：https://sites.google.com/view/dreamscapeisland-privacy",
+          "screenshots": [
+            "https://play-lh.googleusercontent.com/dkaqsQnHeZiqklinxraUOMV-f3ZB2oGUCxRwBDeOg_HvZoRlp84hUDXiR0vZuguWjzPT7kRIMEMvzTmm735DHA",
+            "https://play-lh.googleusercontent.com/NzhVHflVR8LaCeZwaRSvxc9hAsHMHbfVc0srCR-VSWGfj4Z2YsJ4y8x0WK_1N0BAH4INqEvHbzTyIxp2v5dXnb4",
+            "https://play-lh.googleusercontent.com/xxlt1fJNsC-wUPS5p00KKx1fS8Eq6RxBXxG7SSPRCT-Vy-04K5mFVRHZNJHfU88UqsfS8rPvQedK7ZxkB4fcMQ",
+            "https://play-lh.googleusercontent.com/XGVrjNilX55qNsLj2l7b_9kL2NxR4oK4cjQlfQqffTUDL8a-aA4FMrgPDtZ3yZfiAC-v3ie4avkK8GdzKSuoTw",
+            "https://play-lh.googleusercontent.com/scPOV7RZqM5C9sMH-zEKYSE7LNLbc2QSeSoqYMWqWOe-mVB5-d7t3M5fgBFpAiLGP0BKAtgXv6l1CCVsMuta3A",
+            "https://play-lh.googleusercontent.com/ucKWnkLB7o8EW8JrOaBhoRrzslAJpH0EYUIBS5C_zB1m5OvyhWAKFevtO27tbRf0e6eSTqd18z9vTqqv-MozKCM"
+          ],
+          "positioning": "🌱 從種子到餐桌，全程親手打造",
+          "slogan": "🌱 從種子到餐桌，全程親手打造",
+          "positioning_status": "store_description_excerpt",
+          "slogan_status": "store_copy_excerpt_not_official",
           "source_url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
-          "rank_date": "2026-10-13"
+          "rank_date": "2026-10-13",
+          "rating": 4.7836256,
+          "rating_count": 2268,
+          "release_date": "2026年8月21日",
+          "metadata_source": "Google Play store details"
         },
         {
           "id": "gp-tw-41",
@@ -1260,31 +1291,40 @@
           "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)"
         },
         {
-          "id": "gp-tw-48",
+          "id": "com.oakever.arrows",
           "rank": 48,
           "title": "Amaze GO! - 箭頭解謎",
           "publisher": "Oakever Games",
-          "developer": "",
+          "developer": "Oakever Games",
           "seller": "",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/84/6a/70846ab8-ec61-7c2b-c3e8-8f93a86005e3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
-          "genre": "",
-          "genres": [],
-          "description": "",
-          "screenshots": [
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/f5/02/6ef50272-05af-4fa1-2b9a-e359cbfd8cba/P1-zh-TW.png/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/63/bd/7f63bdaa-cf87-fd08-019d-c4b0221f8870/P2-zh-TW.png/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/b8/3a/32b83a88-3b73-a19f-68a8-0999dd35b61d/P3-zh-TW.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ae/9c/7f/ae9c7f2d-034c-b4f9-8fcc-255ea3cc391b/P4-zh-TW.png/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/4d/ad/694dadd7-1c42-02f5-5fad-e7c814ff4e4f/P5-zh-TW.png/320x480bb.jpg"
+          "icon": "https://play-lh.googleusercontent.com/cUEBnEgf_l_idsNVA0hLsKsNzDuDQ1YDfS1swQ9XxJocO-G5-5s1yU9vs9BurO7qrJCxLpEcNIZHvmxcI4aQrQ",
+          "url": "https://play.google.com/store/apps/details?id=com.oakever.arrows",
+          "genre": "益智",
+          "genres": [
+            "益智"
           ],
-          "positioning": null,
-          "slogan": null,
-          "positioning_status": "unverified",
-          "slogan_status": "unverified",
+          "description": "歡迎來到 Amaze GO! - 箭頭解謎。這是一款簡潔的箭頭益智遊戲，旨在平靜忙碌的思緒。每個箭頭都指向一個方向——你需要做的就是選擇正確的順序。設計簡化了視覺干擾，減少了混亂，讓你在遊戲中理清思路。拿起一個箭頭，找到它的軌道，重複操作直到網格屬於你。隨時隨地離線享受這份寧靜的流動感。\r\n\r\nAmaze GO! - 箭頭解謎 的亮點\r\n1. 精簡的箭頭益智遊戲，清理螢幕和思緒\r\n2. 離線運行，簡潔介面讓注意力集中在棋盤上\r\n3. 平靜的遊戲循環適合聰明的大腦：清晰思考，用策略移動每個箭頭\r\n4. 流暢的點擊操作、清晰的路徑反饋，以及像 ASMR 一樣令人滿足的釋放時刻\r\n\r\n玩法說明\r\n- 找到一個有自由路徑通向邊緣的箭頭\r\n- 點擊滑動該箭頭離開網格，為下一步打開通道\r\n- 規劃順序以確保安全路線和乾淨的棋盤\r\n- 長按使用指導功能，當路徑不清晰時高亮方向\r\n- 錯誤點擊會消耗關卡的一顆心\r\n- 清空棋盤完成關卡，爭取完美通關\r\n- 提示功能在網格顯得緊張時幫助集中注意力\r\n\r\n為什麼喜歡這個箭頭益智遊戲\r\n· 簡單規則，深刻策略，冥想般的箭頭益智體驗\r\n· 短暫休息緩解壓力，提升專注力\r\n· 最後一個箭頭離開棋盤時帶來令人滿足的心理重置\r\n· 通過排序和腦力挑戰進行認知鍛煉\r\n· 安靜的視覺效果，加上每個箭頭飛離網格時的令人舒適的「嗖」聲——一種舒緩而非煩人的反饋\r\n\r\n為間隙時刻而生\r\n- 開會前的十分鐘\r\n- 太短而無法聽播客的地鐵旅程\r\n- 信號中斷的飛行時刻\r\n- 喧鬧工作日後的放鬆時光\r\n\r\nAmaze GO! - 箭頭解謎 是為敏銳思維和寧靜時刻打造的安靜箭頭益智遊戲。快速上手，然後掌握時機和順序。將每個箭頭送離棋盤，解開網格，讓混亂變成清晰。當一天過於喧囂時，Amaze GO! - 箭頭解謎 是你會選擇的箭頭益智遊戲——一步接著一步，然後是一個安靜的棋盤。立即下載，規劃聰明路徑，保護心數，隨時隨地享受純粹的專注力！",
+          "screenshots": [
+            "https://play-lh.googleusercontent.com/AEXagf2Ic4OzpYreK_Gr5L6MYGTUY_VY3Xrsh_yRW4M9dkgMQ77pTKLnWHetE1DPCYAY0pVh5SKxJx9yNuLiDgs",
+            "https://play-lh.googleusercontent.com/eh3D3QLDu99-KeRZC7uqHHSUXfFFcQzBmPNzZ1navP6M1WBbBYcABnFzIQnSn8LqDfd7bN8G7zyrni6hO2raVQ",
+            "https://play-lh.googleusercontent.com/kA6wZILfbdENQGf97kskYlkI2vYF0muftEJpAAXRr7jkUXwc0t1qGOguy2MduMOQCDAM651EAzwqDIGlgNENdA",
+            "https://play-lh.googleusercontent.com/CB0srSa8LBh4MX0jKlDfV1KhwDiwP_oH83z1fb2aHXFNX-dMadw6Cp-P4d1XraSr9rkPgmjbATMM5nyAccPbwg",
+            "https://play-lh.googleusercontent.com/6nzJ1IpMUKbgsJZ3Cf-p9pZwD9p1tIhvP6XX-j6jt_g16-8l31jD7SQv--wO9UD693K1QZ41q5_WZuj6PY9971k",
+            "https://play-lh.googleusercontent.com/QgnsxsvlnpRUggcX3Zw5qPieWo3v8Rc5mN5kslqJGjq22B_PgHIXlbEevWA61Z-eB23j1WwxfCFyJgmLeXuX",
+            "https://play-lh.googleusercontent.com/bGoH4OlS1p5h6So9u52XSlmAzglkDj0w3I__C_mJOu4JdVbbnnT8sGBapOAbnhWgKX32Lb2jvEmiX4430jiwEA",
+            "https://play-lh.googleusercontent.com/sJqTG4uhlCn00G6XoAK3GisPF-bHgF5dycdHcwdBmJktvHw9j7p4hgekhz2UxnPUYFmkNpWUXV4lxraA2Ka79bA"
+          ],
+          "positioning": "Amaze GO! - 箭頭解謎 的亮點",
+          "slogan": "Amaze GO! - 箭頭解謎 的亮點",
+          "positioning_status": "store_description_excerpt",
+          "slogan_status": "store_copy_excerpt_not_official",
           "source_url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
           "rank_date": "2026-10-13",
-          "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)"
+          "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)",
+          "rating": 4.8483415,
+          "rating_count": 395474,
+          "release_date": "2026年2月22日",
+          "metadata_source": "Google Play store details"
         },
         {
           "id": "com.nebula.splashbuster",
@@ -1339,9 +1379,9 @@
       "grossing_status": "unavailable"
     }
   },
-  "last_attempt_at": "2026-10-14T07:34:10.110304+00:00",
+  "last_attempt_at": "2026-10-15T07:23:40.934393+00:00",
   "refresh_status": "failed",
   "refresh_source": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
   "refresh_error": "No verifiable public Google Play ranking source returned 10+ records",
-  "metadata_refreshed_at": "2026-10-14T07:34:10.110304+00:00"
+  "metadata_refreshed_at": "2026-10-15T07:23:40.934393+00:00"
 }
