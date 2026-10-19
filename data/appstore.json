@@ -1,6 +1,6 @@
 {
   "source": "Apple iTunes public RSS",
-  "fetched_at": "2026-10-19T07:43:48.022429+00:00",
+  "fetched_at": "2026-10-19T09:50:36.692234+00:00",
   "data_type": "public_chart_snapshot",
   "countries": {
     "tw": {
@@ -10,7 +10,7 @@
           "rank": 1,
           "title": "Meowdoku!",
           "publisher": "Oakever Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/44/2d/7e442de1-280a-6e0b-298e-7e2ceb964277/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/5a/fe/875afe90-3d99-3e49-835d-0f035ff64c9c/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/tw/app/meowdoku/id6761760135?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/f6/a3/4cf6a32c-87bf-a0a4-676a-91b3cdc18bc5/1.jpg/320x480bb.jpg",
@@ -49,7 +49,7 @@
           "positioning_source": "https://apps.apple.com/tw/app/meowdoku/id6761760135?uo=2",
           "slogan_source": "https://apps.apple.com/tw/app/meowdoku/id6761760135?uo=2",
           "release_date": "2026-05-19T07:00:00Z",
-          "version": "1.20.0",
+          "version": "1.21.0",
           "rating": 4.78406,
           "rating_count": 46518
         },
@@ -721,7 +721,7 @@
           "rank": 16,
           "title": "九王 9 Kings",
           "publisher": "Playdigious",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/67/75/14677591-4fc6-fcb4-83f7-a09a3a0f6457/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/0b/b0/e60bb062-b122-32b0-cdb7-1f20594a9583/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/tw/app/%E4%B9%9D%E7%8E%8B-9-kings/id6757860952?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/fb/38/47fb3835-da6b-464d-54f3-80dfcdbe0d6e/9K-6.9-1-CH.png/320x480bb.jpg",
@@ -745,7 +745,7 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/8d/0e/048d0eef-6b50-6f4b-462e-7024f563277b/9K-13-8-CH.png/360x480bb.jpg",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/06/b2/b206b275-8040-1b13-2173-8948a0a929c3/9K-13-9-CH.png/360x480bb.jpg"
           ],
-          "description": "*免費試玩《9 Kings》，購買完整版遊戲即可解鎖所有國王、新任務、多人遊戲模式以及更多內容！*\n\n你將建立帝國、打造牌組、展開大型戰鬥，並用超狂配置制覇本遊戲——在這款步調緊湊的 Roguelike 王國建造遊戲成為「萬王之王」\n特色\n化身為九王之一，每個王都有獨特的玩法，包括：累積金幣來僱用傭兵、駕馭自然之力、操縱時間法則、施展黑魔法或召喚邪惡的惡魔大軍為你作戰\n發展你的堡壘，你將運用策略放置卡牌來拓展領土、升級建築與塔樓、招募全新軍隊，並搭配不同效果和法術來為他們強化\n謹慎打造你的牌組，掠奪敵方國王的獨特卡牌，並與自己的牌組結合，發揮強大的全新威力\n保護你的王國，對抗逐漸強大的敵人，並在持續不斷的戰爭、衝突與意外事件中生存，以發展出超狂配置來制覇遊戲\n這款 Roguelike 自走棋遊戲有無窮的重複遊玩性：每輪遊戲都不重複，若要掌握這款遊戲，就必須不斷實驗與嘗試，而 Quest Mode 中的獨特挑戰可讓你征服全新領域\n在非同步多人對戰中迎戰八名勁敵，一路晉升、打造專屬造型，證明自己才是真正的萬王之王。\n\n專為行動裝置重新精心設計\n改版介面——專屬行動版 UI，提供完整的觸控式操作\nGame Center 成就\n雲端儲存 - 可在不同 iOS 裝置之間共享你的遊戲進度\niPhone 17 最佳化（包含 Pro Max）",
+          "description": "*免費試玩《9 Kings》，購買完整版遊戲即可解鎖所有國王、新任務、多人遊戲模式以及更多內容！*\n\n你將建立帝國、打造牌組、展開大型戰鬥，並用超狂配置制覇本遊戲——在這款步調緊湊的 Roguelike 王國建造遊戲成為「萬王之王」\n特色\n化身為九王之一，每個王都有獨特的玩法，包括：累積金幣來僱用傭兵、駕馭自然之力、操縱時間法則、施展黑魔法或召喚邪惡的惡魔大軍為你作戰\n發展你的堡壘，你將運用策略放置卡牌來拓展領土、升級建築與塔樓、招募全新軍隊，並搭配不同效果和法術來為他們強化\n謹慎打造你的牌組，掠奪敵方國王的獨特卡牌，並與自己的牌組結合，發揮強大的全新威力\n保護你的王國，對抗逐漸強大的敵人，並在持續不斷的戰爭、衝突與意外事件中生存，以發展出超狂配置來制覇遊戲\n這款 Roguelike 自走棋遊戲有無窮的重複遊玩性：每輪遊戲都不重複，若要掌握這款遊戲，就必須不斷實驗與嘗試，而 Quest Mode 中的獨特挑戰可讓你征服全新領域\n在非同步多人對戰中迎戰八名勁敵，一路晉升、打造專屬造型，證明自己才是真正的萬王之王。\n\n專為行動裝置重新精心設計\n改版介面——專屬行動版 UI，提供完整的觸控式操作\nGame Center 成就\n雲端儲存 - 可在不同 iOS 裝置之間共享你的遊戲進度\niPhone Duo 最佳化",
           "genre": "Games",
           "genres": [
             "遊戲",
@@ -766,7 +766,7 @@
           "positioning_source": "https://apps.apple.com/tw/app/%E4%B9%9D%E7%8E%8B-9-kings/id6757860952?uo=2",
           "slogan_source": "https://apps.apple.com/tw/app/%E4%B9%9D%E7%8E%8B-9-kings/id6757860952?uo=2",
           "release_date": "2026-10-12T07:00:00Z",
-          "version": "1.0.3",
+          "version": "1.0.4",
           "rating": 4.48718,
           "rating_count": 39
         },
@@ -1323,7 +1323,7 @@
           "rank": 28,
           "title": "Royal Kingdom",
           "publisher": "Dream Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/ca/e0/fccae0ce-7543-a0e0-0651-7910437510bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/11/43/4e11436e-6eea-e5f0-8503-b2e0213d8e22/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/tw/app/royal-kingdom/id1606549505?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/61/a2/b161a2ef-022d-460b-89d3-b99e3adae464/01_ZH_Trad_6-5_STK_Match_Store_V1.png/320x480bb.jpg",
@@ -1360,7 +1360,7 @@
           "positioning_source": "https://apps.apple.com/tw/app/royal-kingdom/id1606549505?uo=2",
           "slogan_source": "https://apps.apple.com/tw/app/royal-kingdom/id1606549505?uo=2",
           "release_date": "2024-11-21T08:00:00Z",
-          "version": "33931",
+          "version": "34392",
           "rating": 4.74758,
           "rating_count": 42298
         },
@@ -2750,7 +2750,7 @@
           "rank": 57,
           "title": "Coin Master - Board Adventure",
           "publisher": "Moon Active",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/03/a2/ec03a247-427c-fcda-3d93-995005767161/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/ca/5e/b6ca5e71-f38d-9469-0681-67ed99b8a17a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/tw/app/coin-master-board-adventure/id6745761596?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/0d/8e/f80d8e8b-1a20-46eb-262e-58132144895a/01_CMB00211_BoardSet.CTA.Localizations_VER_v2_1242_2688_LNG_TW.png/320x480bb.jpg",
@@ -2797,7 +2797,7 @@
           "positioning_source": "https://apps.apple.com/tw/app/coin-master-board-adventure/id6745761596?uo=2",
           "slogan_source": "https://apps.apple.com/tw/app/coin-master-board-adventure/id6745761596?uo=2",
           "release_date": "2026-03-12T07:00:00Z",
-          "version": "3.5.2718",
+          "version": "3.5.2740",
           "rating": 4.84612,
           "rating_count": 4536
         },
@@ -2852,7 +2852,7 @@
           "rank": 59,
           "title": "Kingshot",
           "publisher": "Century Games Pte. Ltd.",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/37/32/073732fc-1aa2-007b-882f-3cdfae8e6f2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/0f/79/c70f7971-1dcd-473a-4441-b328dc9afb5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/tw/app/kingshot/id6739554056?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/5e/76/6d5e7645-432f-f9cf-bfcc-4d6b29bbf523/1_1242x2688_tw.jpg/320x480bb.jpg",
@@ -2889,7 +2889,7 @@
           "positioning_source": "https://apps.apple.com/tw/app/kingshot/id6739554056?uo=2",
           "slogan_source": "https://apps.apple.com/tw/app/kingshot/id6739554056?uo=2",
           "release_date": "2025-02-22T08:00:00Z",
-          "version": "1.12.10",
+          "version": "1.14.16",
           "rating": 4.74806,
           "rating_count": 44042
         },
@@ -5335,7 +5335,7 @@
           "rank": 9,
           "title": "Kingshot",
           "publisher": "Century Games Pte. Ltd.",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/37/32/073732fc-1aa2-007b-882f-3cdfae8e6f2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/0f/79/c70f7971-1dcd-473a-4441-b328dc9afb5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/tw/app/kingshot/id6739554056?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/5e/76/6d5e7645-432f-f9cf-bfcc-4d6b29bbf523/1_1242x2688_tw.jpg/320x480bb.jpg",
@@ -5372,7 +5372,7 @@
           "positioning_source": "https://apps.apple.com/tw/app/kingshot/id6739554056?uo=2",
           "slogan_source": "https://apps.apple.com/tw/app/kingshot/id6739554056?uo=2",
           "release_date": "2025-02-22T08:00:00Z",
-          "version": "1.12.10",
+          "version": "1.14.16",
           "rating": 4.74806,
           "rating_count": 44042
         },
@@ -7093,7 +7093,7 @@
           "rank": 44,
           "title": "Royal Kingdom",
           "publisher": "Dream Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/ca/e0/fccae0ce-7543-a0e0-0651-7910437510bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/11/43/4e11436e-6eea-e5f0-8503-b2e0213d8e22/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/tw/app/royal-kingdom/id1606549505?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/61/a2/b161a2ef-022d-460b-89d3-b99e3adae464/01_ZH_Trad_6-5_STK_Match_Store_V1.png/320x480bb.jpg",
@@ -7130,7 +7130,7 @@
           "positioning_source": "https://apps.apple.com/tw/app/royal-kingdom/id1606549505?uo=2",
           "slogan_source": "https://apps.apple.com/tw/app/royal-kingdom/id1606549505?uo=2",
           "release_date": "2024-11-21T08:00:00Z",
-          "version": "33931",
+          "version": "34392",
           "rating": 4.74758,
           "rating_count": 42298
         },
@@ -8655,7 +8655,7 @@
           "rank": 76,
           "title": "Wizardry Variants Daphne",
           "publisher": "Drecom Co., Ltd.",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/88/93/cb889333-65fa-647e-5a71-1d1c14ea2238/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/7f/0b/027f0bf0-e5ca-9a3e-8226-d9dfa0f7b2ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/tw/app/wizardry-variants-daphne/id1663423521?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/cc/0c/9ecc0cdf-62ed-6806-952d-e1f0e430b351/iPhone_5.5inch_1_eng.png/392x696bb.png",
@@ -8698,7 +8698,7 @@
           "positioning_source": "https://apps.apple.com/tw/app/wizardry-variants-daphne/id1663423521?uo=2",
           "slogan_source": "https://apps.apple.com/tw/app/wizardry-variants-daphne/id1663423521?uo=2",
           "release_date": "2024-10-15T07:00:00Z",
-          "version": "2.0.0",
+          "version": "2.0.5",
           "rating": 4.74423,
           "rating_count": 8336
         },
@@ -9199,7 +9199,7 @@
           "rank": 87,
           "title": "Coin Master - Board Adventure",
           "publisher": "Moon Active",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/03/a2/ec03a247-427c-fcda-3d93-995005767161/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/ca/5e/b6ca5e71-f38d-9469-0681-67ed99b8a17a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/tw/app/coin-master-board-adventure/id6745761596?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/0d/8e/f80d8e8b-1a20-46eb-262e-58132144895a/01_CMB00211_BoardSet.CTA.Localizations_VER_v2_1242_2688_LNG_TW.png/320x480bb.jpg",
@@ -9246,7 +9246,7 @@
           "positioning_source": "https://apps.apple.com/tw/app/coin-master-board-adventure/id6745761596?uo=2",
           "slogan_source": "https://apps.apple.com/tw/app/coin-master-board-adventure/id6745761596?uo=2",
           "release_date": "2026-03-12T07:00:00Z",
-          "version": "3.5.2718",
+          "version": "3.5.2740",
           "rating": 4.84612,
           "rating_count": 4536
         },
@@ -9941,7 +9941,7 @@
           "rank": 2,
           "title": "Meowdoku!",
           "publisher": "Oakever Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/44/2d/7e442de1-280a-6e0b-298e-7e2ceb964277/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/5a/fe/875afe90-3d99-3e49-835d-0f035ff64c9c/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/hk/app/meowdoku/id6761760135?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/f6/a3/4cf6a32c-87bf-a0a4-676a-91b3cdc18bc5/1.jpg/320x480bb.jpg",
@@ -9980,7 +9980,7 @@
           "positioning_source": "https://apps.apple.com/hk/app/meowdoku/id6761760135?uo=2",
           "slogan_source": "https://apps.apple.com/hk/app/meowdoku/id6761760135?uo=2",
           "release_date": "2026-05-19T07:00:00Z",
-          "version": "1.20.0",
+          "version": "1.21.0",
           "rating": 4.72227,
           "rating_count": 3849
         },
@@ -11446,7 +11446,7 @@
           "rank": 33,
           "title": "Kingshot",
           "publisher": "Century Games Pte. Ltd.",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/37/32/073732fc-1aa2-007b-882f-3cdfae8e6f2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/0f/79/c70f7971-1dcd-473a-4441-b328dc9afb5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/hk/app/kingshot/id6739554056?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/5e/76/6d5e7645-432f-f9cf-bfcc-4d6b29bbf523/1_1242x2688_tw.jpg/320x480bb.jpg",
@@ -11483,7 +11483,7 @@
           "positioning_source": "https://apps.apple.com/hk/app/kingshot/id6739554056?uo=2",
           "slogan_source": "https://apps.apple.com/hk/app/kingshot/id6739554056?uo=2",
           "release_date": "2025-02-22T08:00:00Z",
-          "version": "1.12.10",
+          "version": "1.14.16",
           "rating": 4.64912,
           "rating_count": 9234
         },
@@ -11492,7 +11492,7 @@
           "rank": 34,
           "title": "Coin Master - Board Adventure",
           "publisher": "Moon Active",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/03/a2/ec03a247-427c-fcda-3d93-995005767161/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/ca/5e/b6ca5e71-f38d-9469-0681-67ed99b8a17a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/hk/app/coin-master-board-adventure/id6745761596?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/0d/8e/f80d8e8b-1a20-46eb-262e-58132144895a/01_CMB00211_BoardSet.CTA.Localizations_VER_v2_1242_2688_LNG_TW.png/320x480bb.jpg",
@@ -11539,7 +11539,7 @@
           "positioning_source": "https://apps.apple.com/hk/app/coin-master-board-adventure/id6745761596?uo=2",
           "slogan_source": "https://apps.apple.com/hk/app/coin-master-board-adventure/id6745761596?uo=2",
           "release_date": "2026-03-12T07:00:00Z",
-          "version": "3.5.2718",
+          "version": "3.5.2740",
           "rating": 4.76999,
           "rating_count": 1300
         },
@@ -12704,7 +12704,7 @@
           "rank": 58,
           "title": "九王 9 Kings",
           "publisher": "Playdigious",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/67/75/14677591-4fc6-fcb4-83f7-a09a3a0f6457/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/0b/b0/e60bb062-b122-32b0-cdb7-1f20594a9583/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/hk/app/%E4%B9%9D%E7%8E%8B-9-kings/id6757860952?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/fb/38/47fb3835-da6b-464d-54f3-80dfcdbe0d6e/9K-6.9-1-CH.png/320x480bb.jpg",
@@ -12728,7 +12728,7 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/8d/0e/048d0eef-6b50-6f4b-462e-7024f563277b/9K-13-8-CH.png/360x480bb.jpg",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/06/b2/b206b275-8040-1b13-2173-8948a0a929c3/9K-13-9-CH.png/360x480bb.jpg"
           ],
-          "description": "*免費試玩《9 Kings》，購買完整版遊戲即可解鎖所有國王、新任務、多人遊戲模式以及更多內容！*\n\n你將建立帝國、打造牌組、展開大型戰鬥，並用超狂配置制覇本遊戲——在這款步調緊湊的 Roguelike 王國建造遊戲成為「萬王之王」\n特色\n化身為九王之一，每個王都有獨特的玩法，包括：累積金幣來僱用傭兵、駕馭自然之力、操縱時間法則、施展黑魔法或召喚邪惡的惡魔大軍為你作戰\n發展你的堡壘，你將運用策略放置卡牌來拓展領土、升級建築與塔樓、招募全新軍隊，並搭配不同效果和法術來為他們強化\n謹慎打造你的牌組，掠奪敵方國王的獨特卡牌，並與自己的牌組結合，發揮強大的全新威力\n保護你的王國，對抗逐漸強大的敵人，並在持續不斷的戰爭、衝突與意外事件中生存，以發展出超狂配置來制覇遊戲\n這款 Roguelike 自走棋遊戲有無窮的重複遊玩性：每輪遊戲都不重複，若要掌握這款遊戲，就必須不斷實驗與嘗試，而 Quest Mode 中的獨特挑戰可讓你征服全新領域\n在非同步多人對戰中迎戰八名勁敵，一路晉升、打造專屬造型，證明自己才是真正的萬王之王。\n\n專為行動裝置重新精心設計\n改版介面——專屬行動版 UI，提供完整的觸控式操作\nGame Center 成就\n雲端儲存 - 可在不同 iOS 裝置之間共享你的遊戲進度\niPhone 17 最佳化（包含 Pro Max）",
+          "description": "*免費試玩《9 Kings》，購買完整版遊戲即可解鎖所有國王、新任務、多人遊戲模式以及更多內容！*\n\n你將建立帝國、打造牌組、展開大型戰鬥，並用超狂配置制覇本遊戲——在這款步調緊湊的 Roguelike 王國建造遊戲成為「萬王之王」\n特色\n化身為九王之一，每個王都有獨特的玩法，包括：累積金幣來僱用傭兵、駕馭自然之力、操縱時間法則、施展黑魔法或召喚邪惡的惡魔大軍為你作戰\n發展你的堡壘，你將運用策略放置卡牌來拓展領土、升級建築與塔樓、招募全新軍隊，並搭配不同效果和法術來為他們強化\n謹慎打造你的牌組，掠奪敵方國王的獨特卡牌，並與自己的牌組結合，發揮強大的全新威力\n保護你的王國，對抗逐漸強大的敵人，並在持續不斷的戰爭、衝突與意外事件中生存，以發展出超狂配置來制覇遊戲\n這款 Roguelike 自走棋遊戲有無窮的重複遊玩性：每輪遊戲都不重複，若要掌握這款遊戲，就必須不斷實驗與嘗試，而 Quest Mode 中的獨特挑戰可讓你征服全新領域\n在非同步多人對戰中迎戰八名勁敵，一路晉升、打造專屬造型，證明自己才是真正的萬王之王。\n\n專為行動裝置重新精心設計\n改版介面——專屬行動版 UI，提供完整的觸控式操作\nGame Center 成就\n雲端儲存 - 可在不同 iOS 裝置之間共享你的遊戲進度\niPhone Duo 最佳化",
           "genre": "Games",
           "genres": [
             "遊戲",
@@ -12749,7 +12749,7 @@
           "positioning_source": "https://apps.apple.com/hk/app/%E4%B9%9D%E7%8E%8B-9-kings/id6757860952?uo=2",
           "slogan_source": "https://apps.apple.com/hk/app/%E4%B9%9D%E7%8E%8B-9-kings/id6757860952?uo=2",
           "release_date": "2026-10-12T07:00:00Z",
-          "version": "1.0.3",
+          "version": "1.0.4",
           "rating": 4.64286,
           "rating_count": 14
         },
@@ -13450,7 +13450,7 @@
           "rank": 73,
           "title": "Royal Kingdom",
           "publisher": "Dream Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/ca/e0/fccae0ce-7543-a0e0-0651-7910437510bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/11/43/4e11436e-6eea-e5f0-8503-b2e0213d8e22/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/hk/app/royal-kingdom/id1606549505?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/61/a2/b161a2ef-022d-460b-89d3-b99e3adae464/01_ZH_Trad_6-5_STK_Match_Store_V1.png/320x480bb.jpg",
@@ -13487,7 +13487,7 @@
           "positioning_source": "https://apps.apple.com/hk/app/royal-kingdom/id1606549505?uo=2",
           "slogan_source": "https://apps.apple.com/hk/app/royal-kingdom/id1606549505?uo=2",
           "release_date": "2024-11-21T08:00:00Z",
-          "version": "33931",
+          "version": "34392",
           "rating": 4.61348,
           "rating_count": 10869
         },
@@ -13740,7 +13740,7 @@
           "rank": 79,
           "title": "突襲：暗影傳說",
           "publisher": "Plarium Global Ltd",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/66/60/31666084-ec00-cf57-1f00-90ae4168959b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/95/3a/fc953ad9-09e5-d62c-275e-b0bfa4295c9f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
           "url": "https://apps.apple.com/hk/app/%E7%AA%81%E8%A5%B2-%E6%9A%97%E5%BD%B1%E5%82%B3%E8%AA%AA/id1371565796?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/90/6c/cf906c01-dde9-e997-3828-9ed958d39a23/0x0ss__U00281_U0029.png/320x480bb.jpg",
@@ -13781,7 +13781,7 @@
           "positioning_source": "https://apps.apple.com/hk/app/%E7%AA%81%E8%A5%B2-%E6%9A%97%E5%BD%B1%E5%82%B3%E8%AA%AA/id1371565796?uo=2",
           "slogan_source": "https://apps.apple.com/hk/app/%E7%AA%81%E8%A5%B2-%E6%9A%97%E5%BD%B1%E5%82%B3%E8%AA%AA/id1371565796?uo=2",
           "release_date": "2019-03-01T16:53:43Z",
-          "version": "11.80.0",
+          "version": "11.85.0",
           "rating": 4.69624,
           "rating_count": 4069
         },
@@ -14961,7 +14961,7 @@
           "rank": 4,
           "title": "Kingshot",
           "publisher": "Century Games Pte. Ltd.",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/37/32/073732fc-1aa2-007b-882f-3cdfae8e6f2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/0f/79/c70f7971-1dcd-473a-4441-b328dc9afb5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/hk/app/kingshot/id6739554056?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/5e/76/6d5e7645-432f-f9cf-bfcc-4d6b29bbf523/1_1242x2688_tw.jpg/320x480bb.jpg",
@@ -14998,7 +14998,7 @@
           "positioning_source": "https://apps.apple.com/hk/app/kingshot/id6739554056?uo=2",
           "slogan_source": "https://apps.apple.com/hk/app/kingshot/id6739554056?uo=2",
           "release_date": "2025-02-22T08:00:00Z",
-          "version": "1.12.10",
+          "version": "1.14.16",
           "rating": 4.64912,
           "rating_count": 9234
         },
@@ -16195,7 +16195,7 @@
           "rank": 29,
           "title": "Wizardry Variants Daphne",
           "publisher": "Drecom Co., Ltd.",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/88/93/cb889333-65fa-647e-5a71-1d1c14ea2238/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/7f/0b/027f0bf0-e5ca-9a3e-8226-d9dfa0f7b2ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/hk/app/wizardry-variants-daphne/id1663423521?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/cc/0c/9ecc0cdf-62ed-6806-952d-e1f0e430b351/iPhone_5.5inch_1_eng.png/392x696bb.png",
@@ -16238,7 +16238,7 @@
           "positioning_source": "https://apps.apple.com/hk/app/wizardry-variants-daphne/id1663423521?uo=2",
           "slogan_source": "https://apps.apple.com/hk/app/wizardry-variants-daphne/id1663423521?uo=2",
           "release_date": "2024-10-15T07:00:00Z",
-          "version": "2.0.0",
+          "version": "2.0.5",
           "rating": 4.7247,
           "rating_count": 2401
         },
@@ -16601,7 +16601,7 @@
           "rank": 37,
           "title": "Royal Kingdom",
           "publisher": "Dream Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/ca/e0/fccae0ce-7543-a0e0-0651-7910437510bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/11/43/4e11436e-6eea-e5f0-8503-b2e0213d8e22/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/hk/app/royal-kingdom/id1606549505?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/61/a2/b161a2ef-022d-460b-89d3-b99e3adae464/01_ZH_Trad_6-5_STK_Match_Store_V1.png/320x480bb.jpg",
@@ -16638,7 +16638,7 @@
           "positioning_source": "https://apps.apple.com/hk/app/royal-kingdom/id1606549505?uo=2",
           "slogan_source": "https://apps.apple.com/hk/app/royal-kingdom/id1606549505?uo=2",
           "release_date": "2024-11-21T08:00:00Z",
-          "version": "33931",
+          "version": "34392",
           "rating": 4.61348,
           "rating_count": 10869
         },
@@ -16940,7 +16940,7 @@
           "rank": 44,
           "title": "Coin Master - Board Adventure",
           "publisher": "Moon Active",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/03/a2/ec03a247-427c-fcda-3d93-995005767161/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/ca/5e/b6ca5e71-f38d-9469-0681-67ed99b8a17a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/hk/app/coin-master-board-adventure/id6745761596?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/0d/8e/f80d8e8b-1a20-46eb-262e-58132144895a/01_CMB00211_BoardSet.CTA.Localizations_VER_v2_1242_2688_LNG_TW.png/320x480bb.jpg",
@@ -16987,7 +16987,7 @@
           "positioning_source": "https://apps.apple.com/hk/app/coin-master-board-adventure/id6745761596?uo=2",
           "slogan_source": "https://apps.apple.com/hk/app/coin-master-board-adventure/id6745761596?uo=2",
           "release_date": "2026-03-12T07:00:00Z",
-          "version": "3.5.2718",
+          "version": "3.5.2740",
           "rating": 4.76999,
           "rating_count": 1300
         },
@@ -18820,7 +18820,7 @@
           "rank": 82,
           "title": "勇士爭霸：武士聯盟 放置角色 RPG遊戲",
           "publisher": "Nexters Global LTD",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/b1/28/edb1283e-6bd5-57fa-666e-99fbed4c1c37/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/cf/62/2dcf62e2-7625-c92c-873c-ae0e61769d65/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/hk/app/%E5%8B%87%E5%A3%AB%E7%88%AD%E9%9C%B8-%E6%AD%A6%E5%A3%AB%E8%81%AF%E7%9B%9F-%E6%94%BE%E7%BD%AE%E8%A7%92%E8%89%B2-rpg%E9%81%8A%E6%88%B2/id1158967485?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/30/ad/2b30adf6-2a02-6b3d-16db-57eba3950dae/hw_ios3a_1_1242x2688.jpg/320x480bb.jpg",
@@ -18867,7 +18867,7 @@
           "positioning_source": "https://apps.apple.com/hk/app/%E5%8B%87%E5%A3%AB%E7%88%AD%E9%9C%B8-%E6%AD%A6%E5%A3%AB%E8%81%AF%E7%9B%9F-%E6%94%BE%E7%BD%AE%E8%A7%92%E8%89%B2-rpg%E9%81%8A%E6%88%B2/id1158967485?uo=2",
           "slogan_source": "https://apps.apple.com/hk/app/%E5%8B%87%E5%A3%AB%E7%88%AD%E9%9C%B8-%E6%AD%A6%E5%A3%AB%E8%81%AF%E7%9B%9F-%E6%94%BE%E7%BD%AE%E8%A7%92%E8%89%B2-rpg%E9%81%8A%E6%88%B2/id1158967485?uo=2",
           "release_date": "2017-03-31T08:11:28Z",
-          "version": "1.291.401",
+          "version": "1.292.000",
           "rating": 4.49992,
           "rating_count": 6441
         },
@@ -19180,20 +19180,20 @@
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/ce/a3/52cea390-c3aa-189b-e237-5e31eb77cb3a/AppIcon-0-0-1x_U007emarketing-0-8-0-GLES2_U002c0-512MB-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/hk/app/slotomania-slots-vegas-casino/id447553564?uo=4",
           "screenshots": [
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/e0/76/bce076fe-1bab-6334-47a7-ea21a4bfcd55/943f6e02-937e-4231-9654-a0145c0c2e0a_SM_CrazyTrain_2208x1242.jpg/406x228bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/ac/3e/15ac3ecd-a885-9fa7-0a4a-a2c195f73d45/581e1166-7a5c-4ff9-a436-8218b5b9ed80_SM_GoneMining_2208x1242.jpg/406x228bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/c2/d4/3fc2d447-d93f-38a6-9b0a-b1e76de08e61/ca09943f-9307-426d-b4fe-df81e8c76c54_SM_StageshowSlotoways_2208x1242.jpg/406x228bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/89/17/d2891794-085c-87c5-d385-a8054229959d/35b99821-ef58-499b-bab0-d154bb1a3ddf_SM_MightySilver_deluxe_2208x1242.jpg/406x228bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/92/d3/7d92d3cb-a7da-c154-5722-e160f6287d3f/77c7c8b8-6c20-4650-bf3d-678e455e3952_SM_OMG_U0021I_U0027mRich_2208x1242.jpg/406x228bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/31/01/e8310136-a742-7f04-8f53-fb2ca88fe48c/9a1cd7d8-bb88-4a58-bb3a-c3e211ed1fd3_SM_BackyardBuddies_2208x1242.jpg/406x228bb.jpg"
+            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/c5/66/61c566ec-e920-1e1d-cc90-44727e42b6a7/943f6e02-937e-4231-9654-a0145c0c2e0a_SM_CrazyTrain_2208x1242.jpg/406x228bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/24/60/2a246072-fc29-32ad-fc97-49c43ed77063/581e1166-7a5c-4ff9-a436-8218b5b9ed80_SM_GoneMining_2208x1242.jpg/406x228bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/e9/fc/59e9fcc8-13df-439b-46df-b7b869b6df59/ca09943f-9307-426d-b4fe-df81e8c76c54_SM_StageshowSlotoways_2208x1242.jpg/406x228bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/21/b9/b021b95b-e229-130b-f567-bbc0ec2e4f63/35b99821-ef58-499b-bab0-d154bb1a3ddf_SM_MightySilver_deluxe_2208x1242.jpg/406x228bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/9d/de/2b9ddedd-feba-4b0d-07a8-fb0198e61dcb/77c7c8b8-6c20-4650-bf3d-678e455e3952_SM_OMG_U0021I_U0027mRich_2208x1242.jpg/406x228bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/60/d4/2c60d4c5-9dfd-a2e7-e9df-2a9fc1655c10/9a1cd7d8-bb88-4a58-bb3a-c3e211ed1fd3_SM_BackyardBuddies_2208x1242.jpg/406x228bb.jpg"
           ],
           "ipad_screenshots": [
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/0e/1b/c30e1b2b-aba8-a2ea-df0c-613990d0ffb5/6051a3c9-57c1-4d68-9662-05f3043953be_SM_CrazyTrain_2732x2048.jpg/552x414bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/12/cb/f612cb45-123a-f4fb-293c-6bc2dcb145be/fddcd651-327d-4f15-8560-e30ac6c5e92d_SM_GoneMining_2732x2048.jpg/552x414bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/b3/7f/12b37f63-3849-6631-174e-9a26d931e10e/05dedfb5-800d-4e14-ac13-8f9adf44cf15_SM_StageshowSlotoways_2732x2048.jpg/552x414bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/48/c7/bb48c767-4810-efd1-70de-c45ade6475cf/2d886623-ce5d-4920-b02c-abc5a6b3b093_SM_MightySilver_deluxe_2732x2048.jpg/552x414bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/68/1b/35681bb4-ad4e-dc91-2b45-d0ad1cde4d84/c9b6b742-02fb-4d07-adc9-69a5c86cd903_SM_OMG_U0021I_U0027mRich_2732x2048.jpg/552x414bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/a8/d9/55a8d96a-bc8b-cc57-4986-89d9b2ec3b4a/db1b614f-4f98-40d6-912d-f7ca082a520d_SM_BackyardBuddies_2732x2048.jpg/552x414bb.jpg"
+            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/38/03/e0380352-e509-5838-5b20-6d320f68edf2/6051a3c9-57c1-4d68-9662-05f3043953be_SM_CrazyTrain_2732x2048.jpg/552x414bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/2e/c6/b92ec697-6e66-b38a-b93d-d675efe02362/fddcd651-327d-4f15-8560-e30ac6c5e92d_SM_GoneMining_2732x2048.jpg/552x414bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/49/ae/0749ae25-7867-4f63-85d5-88b149dc399c/05dedfb5-800d-4e14-ac13-8f9adf44cf15_SM_StageshowSlotoways_2732x2048.jpg/552x414bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/6f/b9/5d6fb94f-de2b-309e-9723-377dcdae3891/2d886623-ce5d-4920-b02c-abc5a6b3b093_SM_MightySilver_deluxe_2732x2048.jpg/552x414bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/66/3a/1e663a2b-3b16-1fb3-dc71-2e78c7dcaa05/c9b6b742-02fb-4d07-adc9-69a5c86cd903_SM_OMG_U0021I_U0027mRich_2732x2048.jpg/552x414bb.jpg",
+            "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/21/f3/6621f3f9-8144-a46f-cb12-f21ae8e282ed/db1b614f-4f98-40d6-912d-f7ca082a520d_SM_BackyardBuddies_2732x2048.jpg/552x414bb.jpg"
           ],
           "description": "欢迎来到Slotomania，这里是老虎机游戏爱好者的终极目的地！ \n您可以在这里体验世界排名第一的免费老虎机游戏，完美融合了拉斯维加斯永不停歇的刺激体验、巨额奖金和精彩绝伦的赌场游戏！ \n是的——老虎机、巨额奖金和乐趣，尽在掌握。\n \n加入超过1亿玩家的行列，畅玩200多款优质老虎机游戏，每月都有全新老虎机游戏上线。从炫酷的迷你游戏到令人惊叹的设计，Slotomania将让您体验到只有顶级老虎机赌场才能提供的最高奖金。无论是在手机还是电脑上，您都能体验到真正的拉斯维加斯赌场氛围。\n \n在您第一次开始游玩老虎机游戏之前，请先领取您的100万金币迎新奖励，开启您的老虎机冒险之旅。Slotomania的每一台老虎机都经过精心设计，旨在为您带来真正的赌场刺激体验，从经典的拉斯维加斯老虎机到全新的主题老虎机游戏，应有尽有。旋转转轴就能获得乐趣，赢取巨额奖金，体验终极老虎机刺激！\n \n但乐趣并不止于老虎机。每周畅玩迷你游戏，收集Slotocard完成Sloto收集册，解锁丰厚奖励，一步步赢得巨额奖金。想和他人交流吗？加入赌场战队，组队游玩老虎机游戏，赢取专属奖品。\n \n这里有超过200款老虎机游戏和无穷无尽的主题，绝对不会让您感到无聊。试试您最喜欢的老虎机，探索新的老虎机，追逐惊人的巨额奖金。每一次旋转都有机会赢得巨额奖金，而且有大量老虎机可供选择，每天都会带来新的刺激。\n \nSlotomania由Playtika出品，Playtika是顶级免费游戏开发商。在Slotomania游玩时，您还可以获得Playtika奖励，这些奖励能够在其他赌场游戏中使用（例如Bingo Blitz、House of Fun和Caesars Slots等游戏）。这意味着您的老虎机之旅不会止步于一款游戏——您可以畅玩很多款老虎机游戏，尽享赌场乐趣！\n记得关注社交媒体！立即加入Facebook上1400万老虎机粉丝和Instagram上5万多名粉丝的社区，就能与玩家们聊天，并有机会赢取额外好礼。体验最热门的老虎机游戏，畅玩最新老虎机游戏，看看为什么大家都在谈论Slotomania！从迷你游戏到巨额奖金，每一款老虎机游戏都充满了乐趣、刺激和奖励。\n \n别再犹豫了——立即开始游玩最好的老虎机游戏，赢取巨额奖金，体验顶级老虎机赌场氛围！这里有数不胜数的老虎机、精彩刺激的赌场游戏，以及终极免费老虎机游戏，现在正是玩游戏的最佳时机。启动您最喜欢的老虎机，赢取奖励，畅玩有史以来最刺激的老虎机游戏。Slotomania——排名第一的免费老虎机游戏，诚邀您游玩体验。每一款老虎机游戏、每一次旋转、每一笔巨额奖金……这里应有尽有，而且全部免费！\n \nSlotomania旨在面向21周岁及以上的人，仅供娱乐用途，不提供“真钱”赌博或基于游戏玩法赢取真钱或真实奖品的机会。玩这个游戏或在这个游戏中取得成功并不意味着未来在“真钱”赌博中取得成功。\n \nSlotomania下载和玩游戏都无须付费，而且还允许您在游戏内使用真钱购买虚拟物品。您可以在设备的设置中禁用应用内购买。Slotomania还可能包含广告。您可能需要联网才能使用Slotomania并访问其社交功能。您还可以在上面的描述和附加的应用商店信息中，找到Slotomania有关功能、兼容性和互操作性的更多信息。\n \n下载此游戏，即表示您同意未来在您的应用商店或社交网络上发布本游戏更新。您可以选择更新本游戏，但如果您不更新，您的游戏体验和功能可能会降低。\n \n服务条款：https://www.playtika.com/terms-service/\n隐私声明：https://www.playtika.com/privacy-notice/",
           "genre": "Games",
@@ -20614,7 +20614,7 @@
           "rank": 18,
           "title": "Meowdoku!",
           "publisher": "Oakever Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/44/2d/7e442de1-280a-6e0b-298e-7e2ceb964277/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/5a/fe/875afe90-3d99-3e49-835d-0f035ff64c9c/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/mo/app/meowdoku/id6761760135?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/f6/a3/4cf6a32c-87bf-a0a4-676a-91b3cdc18bc5/1.jpg/320x480bb.jpg",
@@ -20653,7 +20653,7 @@
           "positioning_source": "https://apps.apple.com/mo/app/meowdoku/id6761760135?uo=2",
           "slogan_source": "https://apps.apple.com/mo/app/meowdoku/id6761760135?uo=2",
           "release_date": "2026-05-19T07:00:00Z",
-          "version": "1.20.0",
+          "version": "1.21.0",
           "rating": 4.72727,
           "rating_count": 88
         },
@@ -20750,7 +20750,7 @@
           "rank": 21,
           "title": "Kingshot",
           "publisher": "Century Games Pte. Ltd.",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/37/32/073732fc-1aa2-007b-882f-3cdfae8e6f2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/0f/79/c70f7971-1dcd-473a-4441-b328dc9afb5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/mo/app/kingshot/id6739554056?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/5e/76/6d5e7645-432f-f9cf-bfcc-4d6b29bbf523/1_1242x2688_tw.jpg/320x480bb.jpg",
@@ -20787,7 +20787,7 @@
           "positioning_source": "https://apps.apple.com/mo/app/kingshot/id6739554056?uo=2",
           "slogan_source": "https://apps.apple.com/mo/app/kingshot/id6739554056?uo=2",
           "release_date": "2025-02-22T08:00:00Z",
-          "version": "1.12.10",
+          "version": "1.14.16",
           "rating": 4.67586,
           "rating_count": 725
         },
@@ -24469,7 +24469,7 @@
           "rank": 96,
           "title": "Phigros",
           "publisher": "Xiamen Pigeon Games Network Co., Ltd.",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/bf/12/eebf123e-f676-da25-6800-44c6f2d74629/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/aa/88/25aa88a2-a004-09bc-a2bb-5933ed485c60/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/mo/app/phigros/id1454809109?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/3e/e4/1e/3ee41e9d-35b7-e878-2a4a-aebf2f294dca/f13b96f1-a922-483e-b3f3-5db28839ba00_Phigros_202312121438278528.png/406x228bb.png",
@@ -24506,7 +24506,7 @@
           "positioning_source": "https://apps.apple.com/mo/app/phigros/id1454809109?uo=2",
           "slogan_source": "https://apps.apple.com/mo/app/phigros/id1454809109?uo=2",
           "release_date": "2019-09-03T07:00:00Z",
-          "version": "4.0.1",
+          "version": "4.0.1.1",
           "rating": 4.7016,
           "rating_count": 248
         },
@@ -24970,7 +24970,7 @@
           "rank": 6,
           "title": "Kingshot",
           "publisher": "Century Games Pte. Ltd.",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/37/32/073732fc-1aa2-007b-882f-3cdfae8e6f2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/0f/79/c70f7971-1dcd-473a-4441-b328dc9afb5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/mo/app/kingshot/id6739554056?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/5e/76/6d5e7645-432f-f9cf-bfcc-4d6b29bbf523/1_1242x2688_tw.jpg/320x480bb.jpg",
@@ -25007,7 +25007,7 @@
           "positioning_source": "https://apps.apple.com/mo/app/kingshot/id6739554056?uo=2",
           "slogan_source": "https://apps.apple.com/mo/app/kingshot/id6739554056?uo=2",
           "release_date": "2025-02-22T08:00:00Z",
-          "version": "1.12.10",
+          "version": "1.14.16",
           "rating": 4.67586,
           "rating_count": 725
         },
@@ -25118,7 +25118,7 @@
           "rank": 9,
           "title": "Royal Kingdom",
           "publisher": "Dream Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/ca/e0/fccae0ce-7543-a0e0-0651-7910437510bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/11/43/4e11436e-6eea-e5f0-8503-b2e0213d8e22/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/mo/app/royal-kingdom/id1606549505?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/61/a2/b161a2ef-022d-460b-89d3-b99e3adae464/01_ZH_Trad_6-5_STK_Match_Store_V1.png/320x480bb.jpg",
@@ -25155,7 +25155,7 @@
           "positioning_source": "https://apps.apple.com/mo/app/royal-kingdom/id1606549505?uo=2",
           "slogan_source": "https://apps.apple.com/mo/app/royal-kingdom/id1606549505?uo=2",
           "release_date": "2024-11-21T08:00:00Z",
-          "version": "33931",
+          "version": "34392",
           "rating": 4.62967,
           "rating_count": 775
         },
@@ -28934,7 +28934,7 @@
           "rank": 86,
           "title": "Wizardry Variants Daphne",
           "publisher": "Drecom Co., Ltd.",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/88/93/cb889333-65fa-647e-5a71-1d1c14ea2238/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/7f/0b/027f0bf0-e5ca-9a3e-8226-d9dfa0f7b2ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/mo/app/wizardry-variants-daphne/id1663423521?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/cc/0c/9ecc0cdf-62ed-6806-952d-e1f0e430b351/iPhone_5.5inch_1_eng.png/392x696bb.png",
@@ -28977,7 +28977,7 @@
           "positioning_source": "https://apps.apple.com/mo/app/wizardry-variants-daphne/id1663423521?uo=2",
           "slogan_source": "https://apps.apple.com/mo/app/wizardry-variants-daphne/id1663423521?uo=2",
           "release_date": "2024-10-15T07:00:00Z",
-          "version": "2.0.0",
+          "version": "2.0.5",
           "rating": 4.73148,
           "rating_count": 108
         },
@@ -29685,6 +29685,102 @@
   },
   "news": [
     {
+      "title": "整理模擬遊戲《清理遊戲山積 THE BACKLOG》新推出試玩版　在二手遊戲店整理滿坑滿谷遊戲",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313654",
+      "published_at": "Mon, 19 Oct 2026 17:47:26 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "音樂節奏遊戲《Estella》趁 Steam 新品節推試玩版大更新　最新 PV 首度公開主角配音與主題曲",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313653",
+      "published_at": "Mon, 19 Oct 2026 17:39:02 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "猛狼撿樹枝！桌面放置冒險遊戲《與狼同星》試玩版登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313650",
+      "published_at": "Mon, 19 Oct 2026 17:26:19 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "《絕地求生》推出合作 PvE 模式新內容《SLB：Rondo 破曉者》",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313647",
+      "published_at": "Mon, 19 Oct 2026 17:19:22 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "點擊 X 自動戰鬥戰術遊戲《點擊戰術：記憶的斷章》試玩版登場　用超長連攜名稱與點擊狂掃敵人",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313646",
+      "published_at": "Mon, 19 Oct 2026 17:11:42 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "【試片】退隊流加上異世界金融《用【循環利息】強制收回借出的魔力》魔力複利貸遍地是韭菜",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313640",
+      "published_at": "Mon, 19 Oct 2026 17:00:01 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "Logitech 羅技將於 10 月 26 日起舉辦雙 11 促銷活動",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313639",
+      "published_at": "Mon, 19 Oct 2026 16:47:35 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "《星之翼》3.3 版本上線 推出三位全新角色、人氣造型與摩托主題活動同步登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313638",
+      "published_at": "Mon, 19 Oct 2026 16:47:06 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "像素冒險遊戲《人類消失的世界》宣布參加 Steam 新品節　確認遊戲將支援繁體中文",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313636",
+      "published_at": "Mon, 19 Oct 2026 16:43:42 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "心理懸疑冒險遊戲《Rain98》試玩版在 Steam 登場　與自稱恐怖大王的神秘少女展開同居生活",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313632",
+      "published_at": "Mon, 19 Oct 2026 16:32:06 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "Q 版喪屍三消益智遊戲《喪屍狂想曲》正式登陸 App Store",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313631",
+      "published_at": "Mon, 19 Oct 2026 16:29:56 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "《巔峰極速》三週年慶典正式開跑 登入免費領「SVJ 先驅迴響」",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313629",
+      "published_at": "Mon, 19 Oct 2026 16:25:18 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "《崩壞 3rd》攜手萌番 More Fun 推出休伯利安啟航聯動主題餐廳　10 月 23 日正式開張",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313628",
+      "published_at": "Mon, 19 Oct 2026 16:22:37 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "敖幼祥《烏龍院》商標遭廢止 智慧局聲明指出不對著作權有所影響",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313626",
+      "published_at": "Mon, 19 Oct 2026 16:17:44 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "《hololive Dreams》「光彩四射的海濱時尚秀」活動開跑 「常闇永遠」等 4 位成員以泳裝姿態登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313625",
+      "published_at": "Mon, 19 Oct 2026 16:16:00 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "恐怖解謎遊戲《除靈館》參加 Steam 新品節、免費試玩版上線",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313624",
+      "published_at": "Mon, 19 Oct 2026 16:01:01 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
       "title": "《神力科莎出賽準備：進化》12 月 9 日將推出全新自由探索功能 讓玩家依照自己步調自由駕駛",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=313621",
       "published_at": "Mon, 19 Oct 2026 15:41:02 +0800",
@@ -29697,7 +29793,7 @@
       "source": "巴哈姆特 GNN"
     },
     {
-      "title": "《緋染天空 Heaven Burns Red》宣布旗下創作者麻枝准罹患咽喉癌 將專心投入創作至最後一刻",
+      "title": "《緋染天空 Heaven Burns Red》宣布創作者麻枝准罹患咽喉癌 將專心投入創作至最後一刻",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=313616",
       "published_at": "Mon, 19 Oct 2026 15:25:21 +0800",
       "source": "巴哈姆特 GNN"
@@ -29766,102 +29862,6 @@
       "title": "發表不到兩週火速喊卡！《RuneScape》重啟版《RuneScape Reignited》官方宣布取消企劃",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=313604",
       "published_at": "Mon, 19 Oct 2026 13:00:03 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "益智遊戲《Cube Clasher 方塊超對決》於雙平台推出 在棋盤塞滿之前贏過對手",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313602",
-      "published_at": "Mon, 19 Oct 2026 12:33:50 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "《超異域公主連結☆Re:Dive》日版預告《賽馬娘 Pretty Derby》合作活動將於 10/31 登場",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313601",
-      "published_at": "Mon, 19 Oct 2026 12:20:18 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "傑仕登自研 ARPG《定海》參加 10 月 Steam 新品節 第二部宣傳影片搶先看",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313600",
-      "published_at": "Mon, 19 Oct 2026 12:12:15 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "【試片】《一覺醒來就有了最強裝備跟太空船》與眾多美少女一同展開自由自在的宇宙傭兵生活",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313599",
-      "published_at": "Mon, 19 Oct 2026 12:00:01 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "桌上也能「大吉大利，今晚吃雞」！《PUBG》實體卡牌遊戲《絕地求生：決賽圈》即將展開募資",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313598",
-      "published_at": "Mon, 19 Oct 2026 11:54:46 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "「我就是引火者」《英雄聯盟》曝光虛擬女團 K/DA 全新單曲〈FIRESTARTER〉",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313597",
-      "published_at": "Mon, 19 Oct 2026 11:26:57 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "《英雄聯盟》世界大賽瑞士制對戰抽籤結果 CFO、TSW 將對上 LCS 隊伍　MVK 止步入圍賽",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313596",
-      "published_at": "Mon, 19 Oct 2026 11:13:57 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "《戀與深空》×《銀翼殺手 2049》聯動活動今日上線 聯動特別獎勵還原電影經典畫面",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313595",
-      "published_at": "Mon, 19 Oct 2026 11:11:43 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "水墨風劍術格擋獨立遊戲《水墨劍客》於雙平台推出 完美擋下從四面八方飛來的攻擊",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313594",
-      "published_at": "Mon, 19 Oct 2026 11:04:34 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "因零件價格上漲 日本任天堂宣布調高 Switch 2 與 Switch 主機維修費用",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313593",
-      "published_at": "Sun, 18 Oct 2026 17:13:39 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "巴黎示威、電競戰隊遭波及！小蜜蜂 Vitality 總部慘遭洗劫　《CS2》新奪冠軍獎盃與電腦設備被搬光",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313592",
-      "published_at": "Sun, 18 Oct 2026 11:06:14 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "《英雄聯盟》世界大賽 LCP 戰隊 MVK 雙殺巴西　明晨對決歐洲 KC 搶奪晉級瑞士制唯一門票",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313591",
-      "published_at": "Sun, 18 Oct 2026 10:22:43 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "【電玩瘋】手機週報《師父》、《Minecraft Blast》與《吸血鬼爬行者》等遊戲",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313590",
-      "published_at": "Sat, 17 Oct 2026 20:00:01 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "《英雄聯盟》世界大賽北美 C9 不敵巴西成為首支遭淘汰隊伍　歐洲 KC 直落三擊敗 LCP 代表隊 MVK",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313589",
-      "published_at": "Sat, 17 Oct 2026 13:01:06 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "【巴哈ACG26】動畫組銀賞《海上計程車》獻給想放棄的人們的一段小旅程",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313588",
-      "published_at": "Sat, 17 Oct 2026 12:00:01 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "NVIDIA 副總裁為 RTX Spark 筆電上市站台並澄清：RTX 5090 沒有停產、仍持續出貨",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313587",
-      "published_at": "Sat, 17 Oct 2026 00:16:12 +0800",
       "source": "巴哈姆特 GNN"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T07:44:03.965157+00:00",
+  "generated_at": "2026-10-19T09:50:46.455319+00:00",
   "has_baseline": true,
   "watchlist": [
     "露珠",
@@ -34,7 +34,7 @@
       "launch_time_label": "已上架：2026-10-07",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:mo:free:6821576483",
@@ -59,7 +59,7 @@
       "launch_time_label": "已上架：2026-10-15",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:mo:free:6761524901",
@@ -84,7 +84,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:tw:free:6761524901",
@@ -109,7 +109,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:hk:free:6821576483",
@@ -134,7 +134,7 @@
       "launch_time_label": "已上架：2026-10-15",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:hk:free:6761524901",
@@ -159,7 +159,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:tw:free:6821576483",
@@ -184,7 +184,7 @@
       "launch_time_label": "已上架：2026-10-15",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:mo:free:6760796215",
@@ -209,7 +209,7 @@
       "launch_time_label": "已上架：2026-10-12",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:mo:free:6797752936",
@@ -234,7 +234,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:hk:free:6760796215",
@@ -259,7 +259,7 @@
       "launch_time_label": "已上架：2026-10-12",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:mo:free:6811795826",
@@ -284,7 +284,7 @@
       "launch_time_label": "已上架：2026-10-07",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:tw:free:6757860952",
@@ -309,32 +309,7 @@
       "launch_time_label": "已上架：2026-10-12",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
-    },
-    {
-      "id": "ios:tw:free:1583719180",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "free",
-      "title": "Battle Cats Quest",
-      "publisher": "ponos corporation",
-      "rank": 17,
-      "game_id": "1583719180",
-      "url": "https://apps.apple.com/tw/app/battle-cats-quest/id1583719180?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2021-11-23",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2021-11-23",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:tw:free:6810494758",
@@ -359,7 +334,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:tw:grossing:6761524901",
@@ -384,7 +359,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:tw:free:6797752936",
@@ -409,7 +384,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:mo:free:6811006356",
@@ -434,7 +409,7 @@
       "launch_time_label": "已上架：2026-10-05",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:hk:grossing:6761524901",
@@ -459,7 +434,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:hk:free:6811006356",
@@ -484,7 +459,7 @@
       "launch_time_label": "已上架：2026-10-05",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:tw:free:6811006356",
@@ -509,7 +484,7 @@
       "launch_time_label": "已上架：2026-10-05",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:mo:grossing:6761524901",
@@ -534,7 +509,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:hk:free:6797752936",
@@ -559,7 +534,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:hk:free:6757860952",
@@ -584,7 +559,7 @@
       "launch_time_label": "已上架：2026-10-12",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:tw:grossing:6810494758",
@@ -609,7 +584,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:hk:free:6810494758",
@@ -634,7 +609,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:hk:free:6821401529",
@@ -659,32 +634,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
-    },
-    {
-      "id": "ios:tw:free:6790912531",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "free",
-      "title": "Auto Drill: Galaxy",
-      "publisher": "Lava Labs Oyun Yazılım ve Pazarlama Anonim Şirketi",
-      "rank": 80,
-      "game_id": "6790912531",
-      "url": "https://apps.apple.com/tw/app/auto-drill-galaxy/id6790912531?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-08-26",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-08-26",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:hk:grossing:6810494758",
@@ -709,7 +659,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:hk:free:6757506278",
@@ -734,32 +684,7 @@
       "launch_time_label": "已上架：2026-10-07",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
-    },
-    {
-      "id": "ios:tw:free:1593430099",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "free",
-      "title": "Bloody Bastards",
-      "publisher": "Tibith",
-      "rank": 90,
-      "game_id": "1593430099",
-      "url": "https://apps.apple.com/tw/app/bloody-bastards/id1593430099?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2021-12-07",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2021-12-07",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     },
     {
       "id": "ios:mo:grossing:6480157820",
@@ -784,57 +709,7 @@
       "launch_time_label": "商店上架日期：2024-10-10",
       "evidence": "發行商名稱符合關注名單",
       "is_confirmed_launch": false,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
-    },
-    {
-      "id": "ios:tw:free:6760294279",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "free",
-      "title": "懶人三國",
-      "publisher": "Shenzhen Qudong Digital Entertainment Co., Ltd",
-      "rank": 96,
-      "game_id": "6760294279",
-      "url": "https://apps.apple.com/tw/app/%E6%87%B6%E4%BA%BA%E4%B8%89%E5%9C%8B/id6760294279?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-09-23",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-09-23",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
-    },
-    {
-      "id": "ios:tw:free:6780891673",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "free",
-      "title": "Royal Smash! - Physics Puzzle",
-      "publisher": "Cypher Games",
-      "rank": 98,
-      "game_id": "6780891673",
-      "url": "https://apps.apple.com/tw/app/royal-smash-physics-puzzle/id6780891673?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-06-30",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-06-30",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-19T07:44:03.965157+00:00"
+      "observed_at": "2026-10-19T09:50:46.455319+00:00"
     }
   ]
 }
