@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T07:15:37.257375+00:00",
+  "updated_at": "2026-10-19T07:44:01.608257+00:00",
   "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
   "campaigns": [
     {
@@ -288,6 +288,30 @@
       "title": "益智遊戲《Cube Clasher 方塊超對決》於雙平台推出 在棋盤塞滿之前贏過對手 - GNN 新聞網",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xMmJ4N1p0bWw4QXJrUS1QMkRIMm0ySVNOalN3T2FxQjZKWDhQbGdiSERXb3JhSWFyZzk5N0JvVkM5VVRoM1lEZzhRYnBZalJOMVZoXzl5cDg?oc=5",
       "source": "GNN 新聞網",
+      "published_at": "2026-10-19",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "台灣大擴大遊戲事業布局，攜手 Riot Games 打造《特戰英豪》歷年最大觀賽派對 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mTk9mRnA4T1hwU1BOLWxUQUhkOUhlQTNaNHFXdmR3cjZHeEV3bVNnVlBJREdjSGQtYmZ1MzVfaVV6cktlc29nN0cyN0lNN2t2a3ZqWUhUSUl4QWd2alE?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-19",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《巔峰極速》三週年慶典10月19 日正式開跑！登入免費領「SVJ 先驅迴響」 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBXSnNBVnR3VUpnSmNHenlSQXNmOG1QaDdkeVNzcEx6cGpZTDVQeTVKSnBaZzFRZ3VqOF94QjNmeDlVR3dkdDl3TktkMlIyNU9fdXBPb20taDhJY2pmaHc?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-19",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《FF14》官方示警 SE 帳號遭不正登入，呼籲玩家立即更改密碼並啟用 OTP 功能 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5SZjJZVUpWNGlGMEZ1VGtCX3d3cHRwQ1d3V05CZm94TlRVeTJQWWdIWkk1SXo5MHJtVTB5SHNoMmdMdk93U3JGM2hkWDZZcmpud0s0dXJJTHhxUXRpZ3c?oc=5",
+      "source": "遊戲基地Gamebase",
       "published_at": "2026-10-19",
       "tags": [],
       "source_type": "media_report"
@@ -1601,6 +1625,22 @@
       "source_type": "media_report"
     },
     {
+      "title": "《火炬之光：無限》SS14【塔羅斯的困獸】賽季情報公開！全新玩法與追隨者系統登場 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uQ2xnVGluR2hlM1dZVHFEdUxCX0tkWUN4UEJyWURfYzV4Z2Q0cVAyNmUyR1VoNTU0SWl6VGc1aHVNc2RLcVFoY0pIR3k2eG9fVXZMMHpoX1ZPNTRJN0E?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-13",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "MintLip+ 首款作品《PROJECT SIGN：Astraea》公開！犯罪搜查乙女遊戲 10 月 19 日揭曉 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PVTR0ZmoxRml4ZG41VjFWbERxZ0lhdWxoclN3RUlxaThueXRycFJUR2s3WHBmd0VfajRKVG5RUVhmU2NQeVV4MUUydTdtaWc1cUJCbGlzM2hrWTc3Y2c?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-13",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
       "title": "《無人深空》推出iOS版不到5GB 完整收錄十年更新、可免費試玩序章 - 4Gamers",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRmtfM0Y0NWNtMkFSVVdfQWVJUGh5aXFwQWJkYVRBT0FyY3lRTTctS2NMam9HbDFEejRDc3h6M281SDdDOENIRFZWS1pYUnRxNUdvb0dhUzM5UVE3eGh4SWFuV1NaYlZxeDMxS2lobXF6V1ZfckFPbDVqOXVaSVAybW11ODZwODhRTTlVRjFNX1BxMGF3?oc=5",
       "source": "4Gamers",
@@ -1630,50 +1670,6 @@
       "title": "《桃源深處有人家》x《線條小狗》聯動確認 二周年慶將推出全新主題活動玩法 - GNN 新聞網",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0zS05ac1dDTGx3emJPb2xYYTZFdmUyZlZWOE1QQ0tjZkVOSkZRNkZmcEZGWG9CMG10bFhhblF3RlhpTkI2MXdtRVFJV2VxckxHQWpSSWdoaWs?oc=5",
       "source": "GNN 新聞網",
-      "published_at": "2026-10-12",
-      "tags": [
-        "行銷動態"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《虹彩六號M》宣布即將停運 壽命不到一年 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZFZfT2FoUE5PQkdUWWU5TEFqdmpBd2VvcWF0dm1OOTdWeF9Ub242UlV5VUVlbjVobThHcWJwX0k3amw5ZlZhTUZsZnJieDA4ZlBTeTZyLU9xalo0SXNuZ3dOTkxkRmN5MjNPbGZXLUd3c19paWxCYVN5M093TDB1VEJRQmpnX0hXdlVTbTJ4UUJ1NmRwT2hPdA?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-12",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "營運10年《火影忍者MOBILE》確定推出國際服，集結歷代忍者組隊對戰 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSGZDbDZkYkdXamdBNWlZZWNfS19QbjVOdFFfRkR4VDVhc1cwVjU0NXJTTDI1VkFmQjQ2QllUc0ROWkI4anFlZjRuWjJ5UkhrUERVLVBEZURFX056TW1LTVh0ajdaUUVaTFNvME03MEFZdlVRcjdPRGpfcVcxMDA5Qlh2Z0RWclQ0eVNpUnRtZw?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-12",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "任天堂宣稱無意放棄實體遊戲！拉美高層：我們能理解玩家對實體收藏的喜愛 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeUFGU1I5dThocXg2ZWlpeXp0d05DRkVHczFkMlpzMklyWXFPMEk4Sk5yRElfTk9ZY2VMeWcxcEowVnRyVE42X2RIVVlkajVOU1BvZEFNX1d2WGRtczRJSTdENzJVRGZQbHVWMnRqcllwV0UzdUxId3hBNlQzcXVfQnUzVGVIbFlDY2pRYkZERDVDOGUtcnlYZ1lYUQ?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-12",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "殿下久等了！美少女放置RPG《少女迷境》今日正式上市 - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50TVpqYlBPejEya1lPaXFmWFNjM2FOVEtlV29EQ0dpblA3Nl9EV0doTi16WW5QT01MNzBkOVpDMFJvOWNzei02c1M1MVN6NFZ3Zk9aVWdGLUFTVFN0Nmc?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-12",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《桃源深處有人家》x《線條小狗》聯動確認，二週年慶驚喜聯動、相伴慶生！ - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tRGg1cTV0S0F0WGNBUmhLS19xRWprS3pqU3lJa3ZycVF1VzU4UERfS3dkSGx1QkFTTHFOVTA5Qm1TWUc3V2ZjNl9jTjRDUWpOeEcyWkRYbFZOa2R4QlE?oc=5",
-      "source": "遊戲基地Gamebase",
       "published_at": "2026-10-12",
       "tags": [
         "行銷動態"
