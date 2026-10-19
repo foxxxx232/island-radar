@@ -70,10 +70,10 @@ data["preorders"]=[g for g in data.get("preorders",[]) if g.get("status")!="媒�
 # Optional low-confidence planning window: a rough 30–90 day period after
 # announced preregistration, never treated as an official release date.
 for g in data["preorders"]:
-    if g.get("expected_date") or not g.get("registration_date"):continue
+    if g.get("expected_date") or g.get("expected_precision") or not g.get("registration_date"):continue
     try:
         start=datetime.date.fromisoformat(g["registration_date"])
-        if 0 <= (now.date()-start).days <= 90:
+        if 0 <= (now.date()-start).days <= 90 and not g.get("rewards"):
             g["estimated_window"]=(start+datetime.timedelta(days=30)).isoformat()+" ～ "+(start+datetime.timedelta(days=90)).isoformat()
             g["estimated_method"]="僅依預約開啟日推算 30–90 天觀察窗，低信心、非官方預測"
     except ValueError:pass
