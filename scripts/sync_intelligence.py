@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Aggregate Taiwan mobile game news from multiple media search feeds; preserve curated evidence."""
-import json, pathlib, urllib.request, urllib.parse, xml.etree.ElementTree as ET, datetime, email.utils, re
+import json, pathlib, urllib.request, urllib.parse, xml.etree.ElementTree as ET, datetime, email.utils, re, difflib, time
 PATH=pathlib.Path("data/intelligence.json")
 data=json.loads(PATH.read_text(encoding="utf-8"))
 now=datetime.datetime.now(datetime.timezone.utc)
@@ -13,7 +13,12 @@ queries=[
 ("巴哈姆特",'site:gnn.gamer.com.tw 手機遊戲 when:14d'),
 ("GameApps 香港",'site:gameapps.hk 手遊 預約 when:30d'),
 ]
-articles={x["url"]:x for x in data.get("news",[]) if x.get("url")}
+def relevant(title):
+    mobile=re.search(r"手遊|手機遊戲|行動遊戲|移動遊戲|事前預約|事前登錄|預先註冊|預註冊|App Store|Google Play|Android|iOS|MMORPG",title,re.I)
+    game=re.search(r"《[^》]+》|遊戲|電玩|RPG|SLG|三國|寶可夢|Pokémon|Garena|NEXON|騰訊|網易|遊戲業",title,re.I)
+    noise=re.search(r"滑鼠|鍵盤|顯示卡|筆電|主機維修|Steam原版|車色|汽車售價|房地產|桌機|機殼|處理器|顯示器",title,re.I)
+    return bool((mobile or game) and not noise and (mobile or not re.search(r"Steam|PS5|Switch|PC版|主機",title,re.I)))
+articles={x["url"]:x for x in data.get("news",[]) if x.get("url") and relevant(x.get("title",""))}
 marketing_terms=re.compile(r"代言|KOL|網紅|實況|聯名|聯動|合作|主題曲|演唱會|戶外|快閃|地鐵|捷運|廣告|宣傳",re.I)
 pre_terms=re.compile(r"事前預約|事前登錄|預先註冊|預註冊|開放預約")
 for label,query in queries:
@@ -29,7 +34,7 @@ for label,query in queries:
             published=(node.findtext("pubDate") or "").strip()
             source_node=node.find("source")
             source=(source_node.text or label).strip() if source_node is not None else label
-            if not title or not link.startswith("https://"):continue
+            if not title or not link.startswith("https://") or not relevant(title):continue
             try:
                 stamp=email.utils.parsedate_to_datetime(published)
                 if (now-stamp.astimezone(datetime.timezone.utc)).days>35:continue
@@ -51,6 +56,7 @@ existing={re.sub(r"\s+","",g.get("game","")) for g in data.get("preorders",[]) i
 candidates=[]
 for article in data["news"]:
     if not pre_terms.search(article.get("title","")):continue
+    if re.search(r"突破|達成|破\d+萬|破十萬|破百萬",article.get("title","")) and not re.search(r"開放|開始|啟動",article.get("title","")):continue
     m=re.search(r"《([^》]{2,45})》",article["title"])
     if not m:continue
     game=m.group(1).strip()
@@ -71,6 +77,35 @@ for g in data["preorders"]:
             g["estimated_window"]=(start+datetime.timedelta(days=30)).isoformat()+" ～ "+(start+datetime.timedelta(days=90)).isoformat()
             g["estimated_method"]="僅依預約開啟日推算 30–90 天觀察窗，低信心、非官方預測"
     except ValueError:pass
+# Resolve visual and metadata only for strict title matches in the public Apple store.
+# A released iOS store listing is not evidence that a preregistration is still active.
+def normal(t):return re.sub(r"[\W_]+","",str(t or "").casefold())
+for g in data["preorders"][:25]:
+    if g.get("icon") and g.get("screenshots"):continue
+    try:
+        term=g.get("game","").strip()
+        if len(term)<3:continue
+        q=urllib.parse.urlencode({"term":term,"country":"tw","media":"software","entity":"software","limit":12})
+        req=urllib.request.Request("https://itunes.apple.com/search?"+q,headers={"User-Agent":"IslandRadar/1.0"})
+        with urllib.request.urlopen(req,timeout=8) as response:
+            hits=json.loads(response.read(1500000)).get("results",[])
+        matches=sorted(hits,key=lambda x:difflib.SequenceMatcher(None,normal(term),normal(x.get("trackName",""))).ratio(),reverse=True)
+        if not matches:continue
+        best=matches[0]
+        score=difflib.SequenceMatcher(None,normal(term),normal(best.get("trackName",""))).ratio()
+        if score<0.94:continue
+        g["icon"]=best.get("artworkUrl512") or best.get("artworkUrl100") or ""
+        g["screenshots"]=best.get("screenshotUrls",[])[:5]
+        g["ios_url"]=best.get("trackViewUrl","")
+        g["store_visual_source"]="Apple iTunes Search, exact-title verified"
+        if g.get("publisher") in ("待核實",""):
+            g["publisher"]=best.get("artistName","待核實")
+        if g.get("genre") in ("待確認",""):
+            g["genre"]=best.get("primaryGenreName","待確認")
+        print("Preorder visual match:",term)
+    except Exception as e:
+        print("Preorder metadata lookup unavailable:",g.get("game"),str(e)[:100])
+
 # News is an evidence feed, not verified ad spend or a reliable forecast of launch dates.
 data["updated_at"]=now.isoformat()
 data["news_count"]=len(data["news"])
