@@ -121,20 +121,18 @@
       "publisher": "NEXON",
       "status": "事前預約中",
       "registration_date": "2026-10-01",
-      "expected_date": null,
-      "expected_precision": null,
+      "expected_date": "2026年內（官方目標，未定日）",
+      "expected_precision": "year",
       "estimate": "尚未公布上市日期",
       "evidence": "官方宣布 10/1 開放預約，尚未公布上市日",
       "source": "遊戲基地",
-      "url": "https://news.gamebase.com.tw/news/detail/99441470",
+      "url": "https://news.gamebase.com.tw/news/detail/99441603",
       "genre": "MMORPG",
       "signals": [
         "競爭型MMO",
         "裝備養成",
         "影片/PODCAST宣傳"
       ],
-      "estimated_window": "2026-10-31 ～ 2026-12-30",
-      "estimated_method": "僅依預約開啟日推算 30–90 天觀察窗，低信心、非官方預測",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/f5/00/43f50058-6ab6-b3d6-99ce-cda249b9a48d/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/59/04/25590459-bdf0-1d17-9a93-f68ba2887ba5/TP__Ub9c8_Ucf13_Uc5b4_Uc14b2_2208x1242_TW.png/406x228bb.png",
@@ -144,13 +142,22 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/54/31/1f543196-0540-9f09-6912-74f9ed0f4418/TP__Ub9c8_Ucf13_Uc5b4_Uc14b6_2208x1242_TW.png/406x228bb.png"
       ],
       "ios_url": "https://apps.apple.com/tw/app/%E8%A3%9D%E5%82%99%E4%BB%94-overgeared/id6673894896?uo=4",
-      "store_visual_source": "Apple iTunes Search, exact-title verified"
+      "store_visual_source": "Apple iTunes Search, exact-title verified",
+      "rewards": "事前預約：花瓣兔（同行寵物）；「通往未知之路」：神之手裝備；「挑戰！傳說的鐵匠」：稱號",
+      "reward_source": "https://news.gamebase.com.tw/news/detail/99441603",
+      "positioning": "以裝備成長、武器改造與大規模競技為核心的跨平台 MMORPG",
+      "slogan": "以「裝備」為核心的 MMORPG（官方宣傳主軸，非 KV 原文）",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ]
     },
     {
       "game": "締造者：放逐之境",
       "publisher": "DRIMAGE",
       "status": "事前預約中（待複核）",
-      "registration_date": "2026-09-19",
+      "registration_date": "2026-08-19",
       "expected_date": null,
       "estimate": "未查到官方確定上市日",
       "evidence": "港台及亞洲八地預約公告；狀態需持續複核",
@@ -161,8 +168,6 @@
         "10位KOL",
         "港台限定獎勵"
       ],
-      "estimated_window": "2026-10-19 ～ 2026-12-18",
-      "estimated_method": "僅依預約開啟日推算 30–90 天觀察窗，低信心、非官方預測",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/f0/44/07f04456-b2e6-feb1-6e96-b1650f133ac0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/b4/17/0eb41748-68c2-db36-d73b-b3fb7dcbb7a2/01_2736x1260_ZH-TW.jpg/320x480bb.jpg",
@@ -172,7 +177,16 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/46/58/fc46581e-aadd-d894-44dd-e06084f6f1f3/05_2736x1260_ZH-TW.jpg/320x480bb.jpg"
       ],
       "ios_url": "https://apps.apple.com/tw/app/%E7%B7%A0%E9%80%A0%E8%80%85-%E6%94%BE%E9%80%90%E4%B9%8B%E5%A2%83/id6698862298?uo=4",
-      "store_visual_source": "Apple iTunes Search, exact-title verified"
+      "store_visual_source": "Apple iTunes Search, exact-title verified",
+      "rewards": "台灣限定 4 星坐騎「新月之夜流浪者」、3 星時裝「中級執行者」、繼承者的特權（3日）、一千萬金幣；官網預約另送「特別啦啦隊時裝」；商店預約另有額外獎勵",
+      "reward_source": "https://www.4gamers.com.tw/news/detail/81476/architect-land-of-exiles-global--reserve",
+      "positioning": "Unreal Engine 5 無縫世界、24 小時智慧掛機與大規模戰鬥 MMORPG",
+      "slogan": "24 小時智慧系統，主打低負擔冒險（媒體整理，非 KV 原文）",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ]
     },
     {
       "game": "RO仙境傳說：口袋戰記",
@@ -1677,5 +1691,79 @@
       "source_type": "media_report"
     }
   ],
-  "news_count": 160
+  "news_count": 160,
+  "editorial_news": [
+    {
+      "title": "《怪物彈珠》×《Re:從零開始的異世界生活》第2彈合作",
+      "source": "怪物彈珠官方",
+      "published_at": "2026-10-01",
+      "url": "https://www.monster-strike.com.tw/news/20260926_rz.html",
+      "category": "IP 聯動",
+      "importance": "high",
+      "insight": "可研究既有動畫 IP 的二次聯動、角色回歸與限定轉蛋節奏。"
+    },
+    {
+      "title": "《怪物彈珠》×《黃泉使者》10/16 合作啟動",
+      "source": "怪物彈珠官方",
+      "published_at": "2026-10-15",
+      "url": "https://www.monster-strike.com.tw/news/collab/",
+      "category": "IP 聯動",
+      "importance": "high",
+      "insight": "台灣在地動畫 IP 與手遊聯動，適合觀察跨媒體宣傳素材及受眾共振。"
+    },
+    {
+      "title": "《名偵探柯南》第30號殺人事件 11/6 台港澳同步上映",
+      "source": "中華動漫出版同業協進會",
+      "published_at": "2026-09-22",
+      "url": "https://ccpa.org.tw/ccpa/data_more.php?id=8",
+      "category": "影視 / 動畫",
+      "importance": "high",
+      "insight": "台港澳同步檔期，可提前規劃推理、懸疑題材的話題素材；聯名須另取得授權。"
+    },
+    {
+      "title": "《BanG Dream! Ave Mujica prima aurora》10/16 台日同步上映",
+      "source": "中華動漫出版同業協進會",
+      "published_at": "2026-10-14",
+      "url": "https://ccpa.org.tw/ccpa/data_more.php?id=8",
+      "category": "影視 / 動畫",
+      "importance": "medium",
+      "insight": "音樂番與劇場版檔期，適合觀察聲優、樂團與社群應援玩法。"
+    },
+    {
+      "title": "《膽大黨》×早安美芝城聯名套餐",
+      "source": "中華動漫出版同業協進會",
+      "published_at": "2026-10-07",
+      "url": "https://ccpa.org.tw/ccpa/data_more.php?id=8",
+      "category": "跨界合作",
+      "importance": "high",
+      "insight": "餐飲異業合作搭配盲卡與角色周邊，適合研究線下導流和集換誘因。"
+    },
+    {
+      "title": "《攻殼機動隊》4K 修復版於台中國際動畫影展放映",
+      "source": "台北市電影委員會",
+      "published_at": "2026-09-21",
+      "url": "https://www.filmcommission.taipei/newsCT.aspx?id=11495",
+      "category": "影視 / 動畫",
+      "importance": "medium",
+      "insight": "經典科幻 IP 回歸與特典操作，可借鏡懷舊話題、賽博風格及限定贈品節奏。"
+    },
+    {
+      "title": "《Kingshot》攜手新北國王，成為 2026–27 賽季合作夥伴",
+      "source": "遊戲基地",
+      "published_at": "2026-10-05",
+      "url": "https://news.gamebase.com.tw/news/newslist?page=1&type=mobile",
+      "category": "跨界合作",
+      "importance": "high",
+      "insight": "觀察 SLG 與職業運動聯名，包含賽事曝光、粉絲社群與線下轉化。"
+    },
+    {
+      "title": "海底撈台灣 ×《鳴潮》推出限定聯名套餐",
+      "source": "遊戲基地",
+      "published_at": "2026-10-05",
+      "url": "https://news.gamebase.com.tw/news/newslist?page=1&type=mobile",
+      "category": "跨界合作",
+      "importance": "high",
+      "insight": "餐飲門店聯名可追蹤套餐、周邊、玩家打卡及社群二創。"
+    }
+  ]
 }
