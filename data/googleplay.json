@@ -391,31 +391,40 @@
           "rank_date": "2026-10-13"
         },
         {
-          "id": "gp-tw-15",
+          "id": "com.block.juggle",
           "rank": 15,
           "title": "Block Blast!",
           "publisher": "HungryStudio",
-          "developer": "",
+          "developer": "HungryStudio",
           "seller": "",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/69/48/c66948fc-8748-0572-9671-22bcf41887db/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/512x512bb.jpg",
-          "url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
-          "genre": "",
-          "genres": [],
-          "description": "",
-          "screenshots": [
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/52/3f/75523ffc-665b-77a5-d53b-f6636853a930/1.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/92/ae/be/92aebe06-b628-105c-7277-d46a0aafbff8/2.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bf/7e/4d/bf7e4dcb-c562-0547-78bb-51a2804793d1/3.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/bd/ed/03bded14-272b-9ebc-8339-7a2ff1dbd276/4.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/8c/2c/478c2cc0-4c58-c907-f151-8ef0c86011c9/5.jpg/320x480bb.jpg"
+          "icon": "https://play-lh.googleusercontent.com/5FLR-EBlfNvoV9ydZkOMDqRF10nV64XcKdZzW_oQzmz2e8Me9PS5Zncnvviki0J3XumjO2a_lg6_IdwOqwnV",
+          "url": "https://play.google.com/store/apps/details?id=com.block.juggle",
+          "genre": "益智",
+          "genres": [
+            "益智"
           ],
-          "positioning": null,
-          "slogan": null,
-          "positioning_status": "unverified",
-          "slogan_status": "unverified",
+          "description": "進入 Block Blast 的世界，每一步都在動腦筋，還能看著魔術方塊炸開，超有成就感！不管你是想輕鬆一下，還是想讓腦袋動起來，這款益智遊戲絕對是好選擇，簡單好上手，玩著玩著就停不下來。\r\n\r\n🌟 為什麼你會愛上 Block Blast\r\n🔸 超好玩的拼圖挑戰：把彩色的魔術方塊擺在 8x8 的格子上，排好一整行或一整列，馬上就會看到方塊爆炸的特效，爽感滿滿！\r\n🔹 有點燒腦但不會太難：連續消除多行還能觸發連擊，得高分沒問題～\r\n🔸 想放空也 OK：可以慢慢玩，想策略一點衝高分也行，完全看你心情。\r\n🔹 沒網路也能玩：通勤、排隊、等人時，開起來馬上就能玩，離線狀態也能享受無網路小遊戲帶來的快樂！\r\n\r\n💥 這款魔術方塊遊戲有什麼特色？\r\n● 超讚連擊系統：連續消除越多，分數飆越高，超有挑戰性～\r\n● 冒險模式：一關比一關有挑戰，場景也會變，很有新鮮感！\r\n● 每日挑戰拿獎勵：每天都能玩新的益智拼圖任務，還能拿成就，讓人想天天打開看看。\r\n● 手機平板都順：優化超好，不佔空間，滑順不卡頓，怎麼玩都舒服。\r\n\r\n🎮 怎麼玩超簡單\r\n● 拖著放就對了：把魔術方塊拖到棋盤上擺好。\r\n● 一排排消掉它們：整行或整列都擺滿就會爆掉，還能拿分數。\r\n● 預判一波：規劃好連擊，分數會大爆發！\r\n● 小心不要塞滿：格子滿了就 GG，要動動腦，讓空間一直保留著。\r\n\r\n✨ 給高手的幾個小建議\r\n● 預先想好：留空間給大顆魔術方塊，不要亂放。\r\n● 爆多一點：一次清多行，combo 分數飆超快。\r\n● 連續不斷：一直清就會有連線加成，玩起來更爽！\r\n\r\n🔥 現在就來玩 Block Blast 吧！\r\n準備好來一場又放鬆又益智的方塊遊戲體驗了嗎？不論你是新手還是高手，這款魔術方塊小遊戲都會讓你愛不釋手～快下載 Block Blast，從現在開始變身魔術方塊高手吧！",
+          "screenshots": [
+            "https://play-lh.googleusercontent.com/zKRejEFkxIL3T6SP43J9q1sjxPlVGQhiCcUTV-KTTGaGPj6sCNZ3AMlnESUVcyVntyoFJEWhFTB_3zA0JthXYSQ",
+            "https://play-lh.googleusercontent.com/pnpUBIoyUEZK-00WJfIgv8UR2dnOPnBaME6bQLe7gWD2M_B5eWqWTEPRzZ-6rLVcRzuY1ilMTqt3uS1Dpkt6tF4",
+            "https://play-lh.googleusercontent.com/rHRw2uf-NEmmWQg6naCyyZ_0CXSfHESrwaRJ8XKtQXiGkSggYBdkk7h0__psyoNSwY3l4cSnM2qSlgWQTIR7",
+            "https://play-lh.googleusercontent.com/5eD50BlAB86MkfqZli2F9xTzxPurlav9h9feOSBEG9NqrX9th6_zrep6vpUrf5UE8_psYrryaZqusaOx3wZR",
+            "https://play-lh.googleusercontent.com/h0uDxqFiYEv4qkb8ON1Nj8Nmy2_AhnaQafql04IdcwqX4gjCluvhB8EX8LocWxnLnL7VY-mOiUhTmGkd8eKliQ",
+            "https://play-lh.googleusercontent.com/zKRejEFkxIL3T6SP43J9q1sjxPlVGQhiCcUTV-KTTGaGPj6sCNZ3AMlnESUVcyVntyoFJEWhFTB_3zA0JthXYSQ",
+            "https://play-lh.googleusercontent.com/pnpUBIoyUEZK-00WJfIgv8UR2dnOPnBaME6bQLe7gWD2M_B5eWqWTEPRzZ-6rLVcRzuY1ilMTqt3uS1Dpkt6tF4",
+            "https://play-lh.googleusercontent.com/rHRw2uf-NEmmWQg6naCyyZ_0CXSfHESrwaRJ8XKtQXiGkSggYBdkk7h0__psyoNSwY3l4cSnM2qSlgWQTIR7"
+          ],
+          "positioning": "進入 Block Blast 的世界，每一步都在動腦筋，還能看著魔術方塊炸開，超有成就感！不管你是想輕鬆一下，還是想讓腦袋動起來，這款益智遊戲絕對是好選擇，簡單好上手，玩著玩著就停不下來。",
+          "slogan": "🌟 為什麼你會愛上 Block Blast",
+          "positioning_status": "store_description_excerpt",
+          "slogan_status": "store_copy_excerpt_not_official",
           "source_url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
           "rank_date": "2026-10-13",
-          "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)"
+          "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)",
+          "rating": 4.7244735,
+          "rating_count": 5712378,
+          "release_date": "2022年9月23日",
+          "metadata_source": "Google Play store details"
         },
         {
           "id": "gp-tw-16",
@@ -1171,31 +1180,40 @@
           "metadata_source": "Google Play store details"
         },
         {
-          "id": "gp-tw-43",
+          "id": "com.gamespark.topking.gp",
           "rank": 43,
           "title": "最強領主",
           "publisher": "GAME SPARK",
-          "developer": "",
+          "developer": "GAME SPARK",
           "seller": "",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/29/0a/10290a6d-2cc2-7e76-ec58-fe6ec7318e76/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
-          "genre": "",
-          "genres": [],
-          "description": "",
-          "screenshots": [
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/10/19/2b10198f-ce4b-6400-b636-5f9008a298b5/1284x2778-1-_U7e41_U4e2d.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/58/84/3c/58843c1c-97cd-6686-1b84-e915a3d2c5ad/1284x2778-2-_U7e41_U4e2d.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/7e/ab/947eab24-23ce-c9f1-ab60-13b7cee56c4b/1284x2778-3-_U7e41_U4e2d.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/19/dd/a719dded-0b8c-1aa4-0575-791d1afeac43/1284x2778-4-_U7e41_U4e2d.jpg/320x480bb.jpg",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/50/d3/5650d347-9b23-48f9-f9ef-d4a5203d0dfa/1284x2778.jpg/320x480bb.jpg"
+          "icon": "https://play-lh.googleusercontent.com/F9Nk01jBia2OZFGndBuTP-rJ-ThbicTHpxJj3iZIk-M1-V8qFhVuVQWYAG_zCuggkiRXHrfqyU5XwZPhAJyAfA",
+          "url": "https://play.google.com/store/apps/details?id=com.gamespark.topking.gp",
+          "genre": "策略",
+          "genres": [
+            "策略"
           ],
-          "positioning": null,
-          "slogan": null,
-          "positioning_status": "unverified",
-          "slogan_status": "unverified",
+          "description": "手指點一點，輕輕鬆鬆當國王！\r\n下載免費，點開即玩！\r\n\r\n窶凶極惡的鐵獠帝國正在蹂躪這片土地和它的人民！\r\n您將化身一名年輕領主，痛擊敵人，解救人民，收回疆土，\r\n從零建立只屬於自己的強大王國！\r\n\r\n▼左右滑動，輕鬆解壓！\r\n左右滑動選擇正確路線，利用機關增加人數，組建無敵大軍，瞬間消滅來犯的敵人！\r\n\r\n▼單手可玩，隨玩隨停！\r\n所有操作只需輕輕一點，而每個選擇都很重要。收集資源、拓展領土，一步步登上國王的寶座吧！\r\n\r\n▼領地分封，治理王國！\r\n分封城主、冊封騎士，將王權延伸至每一寸領土！徵稅聚財、賜賞功臣，讓萬民為你效忠。你任命的城主更可代發政令，助你鎮守一方！\r\n\r\n▼招募英雄，並肩作戰！\r\n收集來自世界各地的英雄，讓他們效忠於您！每個英雄都有著獨特的定位與技能。將不同的英雄組合起來，組建獨一無二的傳說隊伍！\r\n\r\n▼養育獅鷲，書寫傳奇！\r\n神秘的獅鷲將為您效勞！在這片神秘的土地上，收集地契、提升爵位、擴大城鎮，從落魄領主成長為真正的王國統治者。\r\n\r\n快來最強領主，打造只屬於你的強大王國吧！",
+          "screenshots": [
+            "https://play-lh.googleusercontent.com/6sjSwQnD538-xkAqzyegaJP3Rl5o_6h94KJoCtY4C8_vdIEXgcAaAlkS8t03ScjjYREugUF31GzR-1u5HchRCkk",
+            "https://play-lh.googleusercontent.com/fcEcDw4LJr6KC102qkmj1yScGCP67swjkbp7gNQq1z35KjkuDDlt4yqkTnRcoKgdS7g8C0S_OQ1Qd76QlsDs",
+            "https://play-lh.googleusercontent.com/5W_3hKL7Fg7WLj9on5GqGGi_G05Z2j1SYcKijIIOUha4qhoeMPK4OvrC_ieMHOKL3LKW4NFwLrSjrXOOypBU",
+            "https://play-lh.googleusercontent.com/KGVKnjn3dpySoeiUk9l5Ern-BfRFNo-ErhqlyxFZWpTxoHvU4vC9cJLYPDHqNa3Y5OHnLk1sw2awwA9w2MXpM7w",
+            "https://play-lh.googleusercontent.com/GXTv31SoiaPm15_hw5yd-xR-mJWGFtob9JUf6BcjMNXN9C65ya5FUdb08AMp-8oqbzWE75-EiLbH8adZoa4pig",
+            "https://play-lh.googleusercontent.com/BdDY0wtIwr1Xz5Uxxn4yNKl8BFOw0a6wqlJxSAnV5_Qb03KPPQX0I_OgUMI9hliQnVM8usAuUEYCK5Z6cBjs",
+            "https://play-lh.googleusercontent.com/02mAltSfdCilSG5anTJ86ptxmWZoNXYwHff3ImHcA_7POdJGqVMSQCGqLy3uuPZ4cSxgW5R2bxt9riyxK45c",
+            "https://play-lh.googleusercontent.com/Rm_dEwUoW_FLt96u9JacmcEWJQtqBBMtt8hkJgeARCpJa8orJqvaezGDR1PgCZ3qItVQqGKXWIzJ2Qlcb1gF5A"
+          ],
+          "positioning": "手指點一點，輕輕鬆鬆當國王！",
+          "slogan": "手指點一點，輕輕鬆鬆當國王！",
+          "positioning_status": "store_description_excerpt",
+          "slogan_status": "store_copy_excerpt_not_official",
           "source_url": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
           "rank_date": "2026-10-13",
-          "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)"
+          "visual_source": "Apple App Store cross-platform visual reference (Google Play visual not yet verified)",
+          "rating": 4.852761,
+          "rating_count": 61719,
+          "release_date": "2026年6月25日",
+          "metadata_source": "Google Play store details"
         },
         {
           "id": "gp-tw-44",
@@ -1394,9 +1412,9 @@
       "grossing_status": "unavailable"
     }
   },
-  "last_attempt_at": "2026-10-19T09:50:39.940643+00:00",
+  "last_attempt_at": "2026-10-20T07:29:47.161283+00:00",
   "refresh_status": "failed",
   "refresh_source": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
   "refresh_error": "No verifiable public Google Play ranking source returned 10+ records",
-  "metadata_refreshed_at": "2026-10-19T09:50:39.940643+00:00"
+  "metadata_refreshed_at": "2026-10-20T07:29:47.161283+00:00"
 }
