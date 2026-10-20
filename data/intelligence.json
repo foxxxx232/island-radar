@@ -121,7 +121,7 @@
       "publisher": "NEXON",
       "status": "事前預約中",
       "registration_date": "2026-10-01",
-      "expected_date": "2026年內（官方目標，未定日）",
+      "expected_date": null,
       "expected_precision": "year",
       "estimate": "尚未公布上市日期",
       "evidence": "官方宣布 10/1 開放預約，尚未公布上市日",
@@ -146,17 +146,22 @@
       "rewards": "事前預約：花瓣兔（同行寵物）；「通往未知之路」：神之手裝備；「挑戰！傳說的鐵匠」：稱號",
       "reward_source": "https://news.gamebase.com.tw/news/detail/99441603",
       "positioning": "以裝備成長、武器改造與大規模競技為核心的跨平台 MMORPG",
-      "slogan": "以「裝備」為核心的 MMORPG（官方宣傳主軸，非 KV 原文）",
+      "slogan": "MMORPG到頭來，還是靠裝備",
       "regions": [
         "tw",
         "hk",
         "mo"
-      ]
+      ],
+      "preorder_url": "https://tw.nexon.com/overgeared/zh/pre-register",
+      "teaser_url": "https://tw.nexon.com/overgeared/zh/teaser",
+      "slogan_source": "https://tw.nexon.com/overgeared/zh/pre-register",
+      "expected_year": "2026",
+      "expected_note": "官方預告 2026 年內，未公布確切日期"
     },
     {
       "game": "締造者：放逐之境",
       "publisher": "DRIMAGE",
-      "status": "事前預約中（待複核）",
+      "status": "已正式上線",
       "registration_date": "2026-08-19",
       "expected_date": null,
       "estimate": "未查到官方確定上市日",
@@ -186,14 +191,18 @@
         "tw",
         "hk",
         "mo"
-      ]
+      ],
+      "launch_date": "2026-09-16",
+      "launch_date_source": "https://architectgb.drimage.com/zh-tw/news/notice/6294",
+      "fb_url": "https://www.facebook.com/ARCHITECT.TAIWAN/",
+      "official_url": "https://architectgb.drimage.com/zh-tw"
     },
     {
       "game": "RO仙境傳說：口袋戰記",
       "publisher": "Nuverse Games",
       "status": "預約公告",
       "registration_date": "2026-09-16",
-      "expected_date": null,
+      "expected_date": "2026-11-15",
       "estimate": "未查到官方確定上市日",
       "evidence": "第三方媒體預約報導，尚未確認雙平台狀態",
       "source": "GameApps.hk",
@@ -212,8 +221,20 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/54/b2/2054b282-90c2-511f-92f2-86d50291ecc1/_U5356_U70b93-_U7e41_U4e2d-2778X1284.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/60/a8/6660a8ef-ec2a-4d41-b0e8-ee2cd7230684/_U5356_U70b94-_U7e41_U4e2d-2778X1284.jpg/320x480bb.jpg"
       ],
-      "ios_url": "https://apps.apple.com/tw/app/ro%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AA-%E5%8F%A3%E8%A2%8B%E6%88%B0%E8%A8%98/id6762712984?uo=4",
-      "store_visual_source": "Apple iTunes Search, exact-title verified"
+      "ios_url": "https://apps.apple.com/tw/app/id6762712984",
+      "store_visual_source": "Apple iTunes Search, exact-title verified",
+      "fb_url": "https://www.facebook.com/ROSenki.TW/",
+      "preorder_url": "https://rosenki.gnjoy.com.tw/reservation",
+      "official_url": "https://rosenki.gnjoy.com.tw",
+      "gp_url": "https://play.google.com/store/apps/details?id=com.rojourney.and",
+      "expected_precision": "day",
+      "expected_source": "https://apps.apple.com/tw/app/id6762712984",
+      "expected_note": "App Store 顯示的預計推出日期，可能變動",
+      "positioning": "Q萌手繪拼貼風無負擔多元策略RO MMORPG",
+      "slogan": "把RO裝進口袋！",
+      "slogan_source": "https://apps.apple.com/tw/app/id6762712984",
+      "rewards": "完成官網事前預約，可於正式上線時獲得限定稱號、頭飾及冒險資源",
+      "reward_source": "https://www.nova.com.tw/article/mg/content/6aa1229d685d9"
     },
     {
       "game": "灰色集結的百果",
