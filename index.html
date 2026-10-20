@@ -652,7 +652,7 @@ const view=document.getElementById('view');
 const nav=document.querySelector('.nav-menu');
 const oldReal=Array.from(nav.querySelectorAll('.nav-item')).find(x=>x.textContent.includes('真實 App Store 榜單'));
 if(oldReal)oldReal.remove();
-const state={data:null,page:'overview',region:'tw',kind:'free',platform:'ios',gpData:null,alertsData:null,intel:null,onlyAlerts:false,bookingRegion:'all',bookingType:'all',bookingStatus:'all',bookingSearch:'',bookingMonth:'2026-10',bookingSelected:null,newsCategory:'all',newsSource:'all',newsSearch:'',newsLimit:24,category:'all',search:'',loading:true,error:''};
+const state={data:null,page:'overview',region:'tw',kind:'free',platform:'ios',gpData:null,alertsData:null,intel:null,onlyAlerts:false,bookingRegion:'all',bookingType:'all',bookingStatus:'all',bookingSearch:'',bookingMonth:new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Taipei'}).slice(0,7),bookingSelected:null,newsCategory:'all',newsSource:'all',newsSearch:'',newsLimit:24,category:'all',search:'',loading:true,error:''};
 const labels={overview:'數據總覽',marketing:'行銷追蹤',bookings:'預訂遊戲',news:'熱點資訊'};
 const escapeHtml=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const url=x=>/^https:\/\//i.test(x||'')?escapeHtml(x):'#';
