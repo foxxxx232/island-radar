@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T02:11:06.354052+00:00",
+  "updated_at": "2026-10-21T02:41:12.631293+00:00",
   "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
   "campaigns": [
     {
@@ -345,6 +345,222 @@
       "slogan": "全新一代三國卡牌 ProMax（官方定位，非 KV 原文）"
     },
     {
+      "game": "JJK：重兵裝型女高中生 Wordless Record",
+      "publisher": "NextNinja",
+      "status": "日本市場事前預約（非台港澳）",
+      "registration_date": "2026-10-14",
+      "detected_at": "2026-10-15",
+      "expected_date": null,
+      "estimate": "上市時間未公布",
+      "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
+      "source": "巴哈姆特 GNN／4Gamers",
+      "url": "https://news.pchome.com.tw/game/gamer/20261015/index-79203648249535203104.html",
+      "genre": "放置 RPG",
+      "signals": [
+        "媒體預約線索"
+      ],
+      "regions": [
+        "jp"
+      ],
+      "official_url": "https://www.juheiso-game.jp",
+      "estimated_window": "2026-11-13 ～ 2027-01-12",
+      "estimated_method": "僅依預約開啟日推算 30–90 天觀察窗，低信心、非官方預測"
+    },
+    {
+      "game": "無職轉生 ～到了異世界就拿出真本事～ 迴響編年史",
+      "publisher": "紅心辣椒／Cayenne",
+      "status": "事前預約中",
+      "registration_date": "2026-10-14",
+      "detected_at": "2026-10-15",
+      "expected_date": "2026-12-08",
+      "estimate": "上市時間未公布",
+      "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
+      "source": "遊戲基地／App Store",
+      "url": "https://news.gamebase.com.tw/news/detail/99441696",
+      "genre": "3D 戰鬥 RPG",
+      "signals": [
+        "媒體預約線索"
+      ],
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/49/cc/2d49cc1a-90b6-c485-ccb3-020d843b38f3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/23/f7/a123f70f-2a82-702b-8a98-0c43b95879fa/2778x1284_U5e0c_U9732_U83f2_U8449_U7279.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/6a/1f/286a1f65-f020-20b1-9bcc-ea9b5d472d7a/2778x1284_U6d1b_U742a_U5e0c.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/95/c8/8595c8e5-7475-5dde-def8-c566541e5d04/2778x1284_U827e_U8389_U7d72.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/c2/ac/30c2ac2c-1d43-39c4-1845-6a23376a37e9/2778x1284_U8c6a_U83ef_U8072_U512a_U9663_U5bb9.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/28/e7/4728e74c-8143-fba4-0c06-491e879324fb/2778x1284_U9b6f_U8fea_U70cf_U65af.jpg/320x480bb.jpg"
+      ],
+      "ios_url": "https://apps.apple.com/hk/app/id6791902676",
+      "store_visual_source": "Apple iTunes Search, exact-title verified",
+      "registration_date_source": "https://news.gamebase.com.tw/news/detail/99441696",
+      "expected_precision": "day",
+      "expected_source": "https://apps.apple.com/hk/app/id6791902676",
+      "expected_note": "App Store 預計推出日期，非正式上線公告",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ],
+      "fb_url": "https://www.facebook.com/MushokuTenseiCOETW",
+      "official_url": "https://mtr.wasabii.com.tw/",
+      "slogan": "在這個世界，再次拿出真本事（App Store 文案）",
+      "slogan_source": "https://apps.apple.com/hk/app/id6791902676"
+    },
+    {
+      "game": "SSS冒險家",
+      "publisher": "露珠 SPGame（iOS 供應商 SPGame Co., Limited）",
+      "genre": "日系奇幻放置冒險 RPG",
+      "status": "商店已收錄（上市狀態待核實）",
+      "regions": [
+        "tw"
+      ],
+      "expected_date": "2026-10-09",
+      "expected_precision": "day",
+      "expected_note": "App Store 曾標示預計推出日；非已上線證明",
+      "ios_url": "https://apps.apple.com/tw/app/sss%E5%86%92%E9%9A%AA%E5%AE%B6/id6810494758?uo=4",
+      "gp_url": "https://play.google.com/store/apps/details?id=com.lmyx.gptw",
+      "fb_url": "https://www.facebook.com/profile.php?id=61591529416403",
+      "slogan": "冒險沒有上限，SSS只是起點！",
+      "rewards": "事前預約文案：異界美食家時裝、豬豬猛進坐騎",
+      "source": "App Store／Google Play",
+      "url": "https://apps.apple.com/tw/app/id6810494758",
+      "signals": [
+        "iOS SPGame Co., Limited",
+        "GP 套件 com.lmyx.gptw",
+        "跨主體觀察"
+      ],
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/8a/63/0a8a6376-ba47-68db-2609-c3f346275184/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/0a/64/dc0a64c2-f5cb-e9be-24c3-c4afe6532cef/_U4e3b_U56fe-1242x2688.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/4e/dc/4f4edcc0-829c-c2d5-f247-8714576218ff/_U526f_U56fe1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/76/ae/8176ae9c-ad41-edb4-a230-39fb29718ba0/_U526f_U56fe2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/29/13/e1291320-331d-0827-578c-03adf991ee35/_U526f_U56fe3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/ee/03/deee0354-ec55-b08e-9d86-e11726ae9ce5/_U526f_U56fe4.jpg/320x480bb.jpg"
+      ],
+      "store_visual_source": "Apple iTunes Search, exact-title verified"
+    },
+    {
+      "game": "BanG Dream! 交織的樂章",
+      "publisher": "BILIBILI HK LIMITED（iOS）／BILIBILI（GP）",
+      "genre": "音樂節奏 RPG",
+      "status": "已正式上線",
+      "launch_date": "2026-09-24",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ],
+      "ios_url": "https://apps.apple.com/tw/app/bang-dream-%E4%BA%A4%E7%B9%94%E7%9A%84%E6%A8%82%E7%AB%A0/id6757695187?uo=4",
+      "gp_url": "https://play.google.com/store/apps/details?id=com.bilibili.sirius",
+      "official_url": "https://bdon.biligames.com/?lang=zh-tw",
+      "positioning": "BanG Dream! 企劃五樂團全新激奏音遊，收錄 MyGO!!!!!、Ave Mujica",
+      "source": "App Store 台灣／Google Play",
+      "url": "https://apps.apple.com/tw/app/id6757695187",
+      "signals": [
+        "BILIBILI HK LIMITED",
+        "跨平台主體比對"
+      ],
+      "launch_date_source": "https://apps.apple.com/tw/app/id6757695187",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/2f/f8/bc2ff85a-de69-5c91-ff3b-a95a75f1682a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/3b/04/bb3b0468-d023-37e5-1f6f-0cf3d3a826c5/_U9996_U56fe-_U7e41.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/c9/12/5fc91274-858e-7df4-90fd-b1315afab6c6/_U56fe1-_U7e41.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/b8/47/c2b84719-d96b-d800-0193-71b46ebd8039/_U56fe2-_U7e41.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/95/5d/c9955d97-ba1e-9e03-c276-8cb387786801/_U56fe3-_U7e41.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/8b/85/b08b8535-4648-5a43-0b85-7e4bc9e31b38/_U56fe4-_U7e41.jpg/320x480bb.jpg"
+      ],
+      "store_visual_source": "Apple iTunes Search, exact-title verified"
+    },
+    {
+      "game": "三國群英傳：策定九州",
+      "publisher": "宇峻奧汀 Userjoy Technology（星輝參與研發）",
+      "genre": "即時戰略 SLG",
+      "status": "已正式上線",
+      "launch_date": "2026-08-13",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ],
+      "ios_url": "https://apps.apple.com/tw/app/%E4%B8%89%E5%9C%8B%E7%BE%A4%E8%8B%B1%E5%82%B3-%E7%AD%96%E5%AE%9A%E4%B9%9D%E5%B7%9E/id6742777315?uo=4",
+      "gp_url": "https://play.google.com/store/apps/details?id=com.userjoy.str",
+      "fb_url": "https://www.facebook.com/uj.str",
+      "rewards": "歷史預約獎勵：趙雲、511 抽及 14800 元寶",
+      "source": "星輝娛樂官方公告／雙平台商店",
+      "url": "https://www.rastar.com/",
+      "signals": [
+        "星輝研發",
+        "宇峻奧汀商店發行"
+      ],
+      "launch_date_source": "https://www.rastar.com/",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/79/16/0d791672-62ac-7c9c-76fd-3be9792ab4a0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/34/04/ee34045f-7fb1-551b-3904-3e2736510fff/2796x1290.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/2d/67/ea2d6767-2681-8fcf-d83a-5d4102e8d91a/03__U5373_U6642_U64cd_U63a7_2796x1290.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/dc/b9/d9dcb9dd-9962-0f4f-8923-f7bb9c9e27df/03_2796x1290.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/47/3c/66473cbf-fbcc-8b7d-29e6-40071042e7c3/01_2796x1290.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/4d/a3/774da3e5-43da-d24a-a0a0-520967702877/01_2796x1290.jpg/320x480bb.jpg"
+      ],
+      "store_visual_source": "Apple iTunes Search, exact-title verified"
+    },
+    {
+      "game": "RO仙境傳說：曙光",
+      "publisher": "Gravity Game Vision Limited（星輝官方產品名錄）",
+      "genre": "MMORPG",
+      "status": "已正式上線",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ],
+      "ios_url": "https://apps.apple.com/tw/app/ro%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AA-%E6%9B%99%E5%85%89/id6743156171?uo=4",
+      "gp_url": "https://play.google.com/store/apps/details?id=com.ggv.rogames.gat",
+      "positioning": "RO 英雄變身、放置爆裝 MMORPG",
+      "source": "星輝官網／App Store／Google Play",
+      "url": "https://www.rastar.com/html/gw-pc/business/games/",
+      "signals": [
+        "星輝產品",
+        "Gravity Game Vision 商店主體"
+      ],
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/2f/bd/632fbd20-6877-4b56-63e7-544c876fa889/AppIcon-0-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/73/29/90/732990b3-f11c-eae5-7f7e-99c1d4810578/image_ROTW_hw_mzq_2208x1242_hwyx_KV1.jpg/406x228bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/c0/4b/92c04b83-ba51-f2f0-47bd-4ee53dbf5f40/1.jpg/406x228bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/ab/18/52ab183c-ffd2-de7d-208d-d5e3c303fbc3/2.jpg/406x228bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/ab/cc/bcabcc53-4539-cd2b-0aaa-bf3f70e459f0/3.jpg/406x228bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/66/5e/67665e2d-897b-50d4-c5c1-f702559a8d5c/4.jpg/406x228bb.jpg"
+      ],
+      "store_visual_source": "Apple iTunes Search, exact-title verified"
+    },
+    {
+      "game": "瘋狂水世界",
+      "publisher": "Hong Kong Just Game Technology Limited（益世界 IYAGAMES 關聯）",
+      "genre": "海上生存模擬",
+      "status": "已正式上線",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ],
+      "ios_url": "https://apps.apple.com/tw/app/%E7%98%8B%E7%8B%82%E6%B0%B4%E4%B8%96%E7%95%8C/id6780387121?uo=4",
+      "gp_url": "https://play.google.com/store/apps/details?id=com.iyagames.flotshelter",
+      "positioning": "末日海上拾荒、木筏建造與生存經營",
+      "source": "App Store／Google Play",
+      "url": "https://apps.apple.com/tw/app/id6780387121",
+      "signals": [
+        "IYAGAMES",
+        "雙平台供應商核實"
+      ],
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/38/19/313819f2-862f-780f-363e-1e0d539647a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/46/a4/d346a4a4-0566-777f-958c-64feeb4ab7b4/_U7e41_U4f53-1242-2688.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/25/72/be257228-70a9-4640-b83a-fda58c3eedfc/1242x22688-1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/c6/49/0ac6498b-ca8b-4971-a46b-eaf8633ce559/_U7e41_U4e2d1242x22688-2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/44/70/344470c3-5a4e-f8e4-6166-88ad55ef9ff4/1242x22688-3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cb/b8/fe/cbb8fe96-6d82-d0a0-600a-aa9c78ff2ce7/1242x22688-4.jpg/320x480bb.jpg"
+      ],
+      "store_visual_source": "Apple iTunes Search, exact-title verified"
+    },
+    {
       "game": "星空精靈 2",
       "publisher": "待核實",
       "status": "媒體預約線索（待複核）",
@@ -403,172 +619,19 @@
       "store_visual_source": "Apple iTunes Search, exact-title verified"
     },
     {
-      "game": "JJK：重兵裝型女高中生 Wordless Record",
-      "publisher": "NextNinja",
-      "status": "日本市場事前預約（非台港澳）",
-      "registration_date": "2026-10-14",
+      "game": "重兵裝型女高中生",
+      "publisher": "待核實",
+      "status": "媒體預約線索（待複核）",
+      "registration_date": null,
       "detected_at": "2026-10-15",
       "expected_date": null,
       "estimate": "上市時間未公布",
       "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
-      "source": "巴哈姆特 GNN／4Gamers",
-      "url": "https://news.pchome.com.tw/game/gamer/20261015/index-79203648249535203104.html",
-      "genre": "放置 RPG",
+      "source": "GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RZ2FNZEp5eFRSNzhNenZ0TzZIN2hSX2F2SXlKTW9pQWZETjFZOGktV1ktTXR2WW1McEQxTlV4ejcwanY1bm5JTlRGOWRCS3lUSXVYUWs1Sy0?oc=5",
+      "genre": "待確認",
       "signals": [
         "媒體預約線索"
-      ],
-      "regions": [
-        "jp"
-      ],
-      "official_url": "https://www.juheiso-game.jp"
-    },
-    {
-      "game": "無職轉生 ～到了異世界就拿出真本事～ 迴響編年史",
-      "publisher": "紅心辣椒／Cayenne",
-      "status": "事前預約中",
-      "registration_date": "2026-10-14",
-      "detected_at": "2026-10-15",
-      "expected_date": "2026-12-08",
-      "estimate": "上市時間未公布",
-      "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
-      "source": "遊戲基地／App Store",
-      "url": "https://news.gamebase.com.tw/news/detail/99441696",
-      "genre": "3D 戰鬥 RPG",
-      "signals": [
-        "媒體預約線索"
-      ],
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/49/cc/2d49cc1a-90b6-c485-ccb3-020d843b38f3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "screenshots": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/23/f7/a123f70f-2a82-702b-8a98-0c43b95879fa/2778x1284_U5e0c_U9732_U83f2_U8449_U7279.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/6a/1f/286a1f65-f020-20b1-9bcc-ea9b5d472d7a/2778x1284_U6d1b_U742a_U5e0c.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/95/c8/8595c8e5-7475-5dde-def8-c566541e5d04/2778x1284_U827e_U8389_U7d72.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/c2/ac/30c2ac2c-1d43-39c4-1845-6a23376a37e9/2778x1284_U8c6a_U83ef_U8072_U512a_U9663_U5bb9.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/28/e7/4728e74c-8143-fba4-0c06-491e879324fb/2778x1284_U9b6f_U8fea_U70cf_U65af.jpg/320x480bb.jpg"
-      ],
-      "ios_url": "https://apps.apple.com/hk/app/id6791902676",
-      "store_visual_source": "Apple iTunes Search, exact-title verified",
-      "registration_date_source": "https://news.gamebase.com.tw/news/detail/99441696",
-      "expected_precision": "day",
-      "expected_source": "https://apps.apple.com/hk/app/id6791902676",
-      "expected_note": "App Store 預計推出日期，非正式上線公告",
-      "regions": [
-        "tw",
-        "hk",
-        "mo"
-      ],
-      "fb_url": "https://www.facebook.com/MushokuTenseiCOETW",
-      "official_url": "https://mtr.wasabii.com.tw/",
-      "slogan": "在這個世界，再次拿出真本事（App Store 文案）",
-      "slogan_source": "https://apps.apple.com/hk/app/id6791902676"
-    },
-    {
-      "game": "SSS冒險家",
-      "publisher": "露珠 SPGame（iOS 供應商 SPGame Co., Limited）",
-      "genre": "日系奇幻放置冒險 RPG",
-      "status": "商店已收錄（上市狀態待核實）",
-      "regions": [
-        "tw"
-      ],
-      "expected_date": "2026-10-09",
-      "expected_precision": "day",
-      "expected_note": "App Store 曾標示預計推出日；非已上線證明",
-      "ios_url": "https://apps.apple.com/tw/app/id6810494758",
-      "gp_url": "https://play.google.com/store/apps/details?id=com.lmyx.gptw",
-      "fb_url": "https://www.facebook.com/profile.php?id=61591529416403",
-      "slogan": "冒險沒有上限，SSS只是起點！",
-      "rewards": "事前預約文案：異界美食家時裝、豬豬猛進坐騎",
-      "source": "App Store／Google Play",
-      "url": "https://apps.apple.com/tw/app/id6810494758",
-      "signals": [
-        "iOS SPGame Co., Limited",
-        "GP 套件 com.lmyx.gptw",
-        "跨主體觀察"
-      ]
-    },
-    {
-      "game": "BanG Dream! 交織的樂章",
-      "publisher": "BILIBILI HK LIMITED（iOS）／BILIBILI（GP）",
-      "genre": "音樂節奏 RPG",
-      "status": "已正式上線",
-      "launch_date": "2026-09-24",
-      "regions": [
-        "tw",
-        "hk",
-        "mo"
-      ],
-      "ios_url": "https://apps.apple.com/tw/app/id6757695187",
-      "gp_url": "https://play.google.com/store/apps/details?id=com.bilibili.sirius",
-      "official_url": "https://bdon.biligames.com/?lang=zh-tw",
-      "positioning": "BanG Dream! 企劃五樂團全新激奏音遊，收錄 MyGO!!!!!、Ave Mujica",
-      "source": "App Store 台灣／Google Play",
-      "url": "https://apps.apple.com/tw/app/id6757695187",
-      "signals": [
-        "BILIBILI HK LIMITED",
-        "跨平台主體比對"
-      ],
-      "launch_date_source": "https://apps.apple.com/tw/app/id6757695187"
-    },
-    {
-      "game": "三國群英傳：策定九州",
-      "publisher": "宇峻奧汀 Userjoy Technology（星輝參與研發）",
-      "genre": "即時戰略 SLG",
-      "status": "已正式上線",
-      "launch_date": "2026-08-13",
-      "regions": [
-        "tw",
-        "hk",
-        "mo"
-      ],
-      "ios_url": "https://apps.apple.com/tw/app/id6742777315",
-      "gp_url": "https://play.google.com/store/apps/details?id=com.userjoy.str",
-      "fb_url": "https://www.facebook.com/uj.str",
-      "rewards": "歷史預約獎勵：趙雲、511 抽及 14800 元寶",
-      "source": "星輝娛樂官方公告／雙平台商店",
-      "url": "https://www.rastar.com/",
-      "signals": [
-        "星輝研發",
-        "宇峻奧汀商店發行"
-      ],
-      "launch_date_source": "https://www.rastar.com/"
-    },
-    {
-      "game": "RO仙境傳說：曙光",
-      "publisher": "Gravity Game Vision Limited（星輝官方產品名錄）",
-      "genre": "MMORPG",
-      "status": "已正式上線",
-      "regions": [
-        "tw",
-        "hk",
-        "mo"
-      ],
-      "ios_url": "https://apps.apple.com/tw/app/id6743156171",
-      "gp_url": "https://play.google.com/store/apps/details?id=com.ggv.rogames.gat",
-      "positioning": "RO 英雄變身、放置爆裝 MMORPG",
-      "source": "星輝官網／App Store／Google Play",
-      "url": "https://www.rastar.com/html/gw-pc/business/games/",
-      "signals": [
-        "星輝產品",
-        "Gravity Game Vision 商店主體"
-      ]
-    },
-    {
-      "game": "瘋狂水世界",
-      "publisher": "Hong Kong Just Game Technology Limited（益世界 IYAGAMES 關聯）",
-      "genre": "海上生存模擬",
-      "status": "已正式上線",
-      "regions": [
-        "tw",
-        "hk",
-        "mo"
-      ],
-      "ios_url": "https://apps.apple.com/tw/app/id6780387121",
-      "gp_url": "https://play.google.com/store/apps/details?id=com.iyagames.flotshelter",
-      "positioning": "末日海上拾荒、木筏建造與生存經營",
-      "source": "App Store／Google Play",
-      "url": "https://apps.apple.com/tw/app/id6780387121",
-      "signals": [
-        "IYAGAMES",
-        "雙平台供應商核實"
       ]
     }
   ],
@@ -577,6 +640,16 @@
       "title": "社畜系手遊《皺皺梅干：一年365天都想準時下班》！雙平台爆笑上市 - 科技島",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JQ05CeVp3QlBCdmQxdEx3NWVMU2NBNHpoQzhTYkdQMWhsSVg0T2VyZXRwaGwtTDZxQlB4TUljbk83R0piVUFtUmp6cDdzbTZ0WGRWQndDQzhuTkhEMmhSTg?oc=5",
       "source": "科技島",
+      "published_at": "2026-10-21",
+      "tags": [
+        "上線"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "社畜系手遊《皺皺梅干：一年365天都想準時下班》！雙平台爆笑上市- 遊戲新聞 - PChome Online 新聞",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVU9XSk1CTkJXdEFOREt3dzREZE1UUUlUNWp3V2tVdktsbWN4S09hLTlrLTFqS3dpaDJITkQ5aTlMZXJQMnNVZ1FiSVVBdXgzZWIyUlMydi1IUFptam5pQXNEOHBiaDJ6WC02SDB0WXZZZEFjVDJSbVdoUXhmcDZUZGo2ckU4UlNk?oc=5",
+      "source": "PChome Online 新聞",
       "published_at": "2026-10-21",
       "tags": [
         "上線"
@@ -773,6 +846,22 @@
     {
       "title": "《人中之龍》牛郎店長「一輝」聲優土田大因病過世 享年 54 歲 - GNN 新聞網",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnWkNXeDZXVFFaYUJFWXg2RTNHTkwzX0ctMVJqaDM3VDR4Uy1QRmdDbFdWTUdzUWU3S3d1Mkx1TkRGVWRzanZtdnMtY1JDR185SGQ5SXg1X1k?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-20",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "PlayStation 6售價可能突破1000美元！消息稱記憶體與SSD成本就逼近700美元 | 遊戲/電競/手遊 - udn科技玩家",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oSWtpSXh4azgzU0Z6YTM5QkJtWmVWX21qU3Ewd3pLbFFtWVhsZkc3Qml4NExlOW1SU09iaGk3TlNPYmtueXVwcy1jY0hid0VzcG8zUnZDSFZWZw?oc=5",
+      "source": "udn科技玩家",
+      "published_at": "2026-10-20",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《Final Fantasy Resonance》試玩報導 體驗由《FFBE》浴火重生之系列首款 HD-2D 作品 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SbTV0OGNzTUZiOUVVY2g4Z1FJcUZINWQtOThwTEVNTmFmZkRyRkxySmU4WC1JWVNpbUlrelVHZFczX1FpRGJISDd3NGQ0MXBEbjNzX1FuZ2c?oc=5",
       "source": "GNN 新聞網",
       "published_at": "2026-10-20",
       "tags": [],
@@ -1937,34 +2026,6 @@
       "published_at": "2026-10-15",
       "tags": [
         "行銷動態"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "EGS每周限免10/15~10/22：特務解謎《Agent A - 偽裝遊戲》與復古恐怖《Bad Cheese》限時免費 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNelU3Z3FFWlVnYm83bWN2czM0YS1hMF9oSWVwWDZjM3pJRE8yZzkxNDFZNEhwcmZMeFNQYnRGZXM4djNqT0FjeU9MQWNYQUpLeUdRbDdkX0g5Q3AtYTZrUmpDLXlzRFRIZ1YyRUw5ZUVOU3pzcGkzeTZobWt0Y3l2LTFXbld5N3B6ckFqMkgyZ1g?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "特企／《鋼彈》系列最新手遊 《鋼彈激戰指令》即將上市！ - NOWnews今日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9VWkdYYTdkamppRUd5MVUxUk5QbUwyZjNPTjQ3UGo5VUUyYTE0QUhKU3BqRlRRcmYybmNZMG8wU2ZJVFNzUnhLbXJZNEfSAVJBVV95cUxPU2JPYmk2aVlOWFRwTmplTVV0R2d0VHN0TFNOV2tsXzdVVE1PaUlOZXc4TnRoTjN1eVlTeVIzVFNvQWhDenlpdnE3Sm5XbnUza1BB?oc=5",
-      "source": "NOWnews今日新聞",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "跟著節奏指揮前進！《啦嗒噹》今日正式上市同步公開Version 1.0 更新內容《RATATAN》 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB5Z0sycVBFN3JlcEU3T25SeVJSQ21CZDAwVTNZeU1ZV3FGZ2J4YkpnWTZqbnBrRHpETHdVaUFMSXdtNVFOMEdFLTZrUmNPMWt3N1VaSzhLZ0Y?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
       ],
       "source_type": "media_report"
     }
