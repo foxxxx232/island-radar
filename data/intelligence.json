@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T02:41:12.631293+00:00",
+  "updated_at": "2026-10-21T02:48:12.975266+00:00",
   "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
   "campaigns": [
     {
@@ -869,6 +869,14 @@
       "title": "《Final Fantasy Resonance》試玩報導 體驗由《FFBE》浴火重生之系列首款 HD-2D 作品 - GNN 新聞網",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SbTV0OGNzTUZiOUVVY2g4Z1FJcUZINWQtOThwTEVNTmFmZkRyRkxySmU4WC1JWVNpbUlrelVHZFczX1FpRGJISDd3NGQ0MXBEbjNzX1FuZ2c?oc=5",
       "source": "GNN 新聞網",
+      "published_at": "2026-10-20",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《ONE PIECE~航海王~ 紀念書盒版》砂之國篇，預購10/23開跑！ - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNZWtJcnNwNG9pT2l5RzViT0MtRlUzcFp6UmlFN0x5TkI4amZuWUh6OGpEZ2ZkSGpEd0Vzc1ZuSUwxeUE2WjlXcVdSZkdpUVU1c1c5ZC1nVXdkOG00RFE?oc=5",
+      "source": "遊戲基地Gamebase",
       "published_at": "2026-10-20",
       "tags": [],
       "source_type": "media_report"
@@ -2022,16 +2030,6 @@
       "published_at": "2026-10-15",
       "tags": [
         "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "鋼彈系列最新手遊《鋼彈激戰指令》最新宣傳影片公開！即將舉辦網路測試！ - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1BOW5yS29DZkt3ZU9lTzBHYldNekRUZWV0eGdHelVLdkMwS3RYY293VGY4NTJkQlR1aEJCMTRYWlQ0bS03S2RzTHVTVFRaVXZjNU5sOGJCWjR0NE1G?oc=5",
-      "source": "YouTube",
-      "published_at": "2026-10-15",
-      "tags": [
-        "行銷動態"
       ],
       "source_type": "media_report"
     }
