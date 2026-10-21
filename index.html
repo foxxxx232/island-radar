@@ -743,7 +743,7 @@ function bookingEvents(g){
  if(/^\d{4}-\d{2}-\d{2}$/.test(reg))out.push({date:reg,type:'preorder',label:'開放預約'});
  const launch=String(g.launch_date||'');
  const expected=String(g.expected_date||'');
- if(/^\d{4}-\d{2}-\d{2}$/.test(launch))out.push({date:launch,type:'launch',label:'已上線'});
+ if(/^\d{4}-\d{2}-\d{2}$/.test(launch))out.push({date:launch,type:'launch',label:launch>new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Taipei'})?'即將上線':'已上線'});
  else if(g.expected_precision==='day'&&/^\d{4}-\d{2}-\d{2}$/.test(expected))out.push({date:expected,type:'expected',label:'預計上線'});
  return out;
 }
