@@ -504,7 +504,7 @@
     },
     {
       "game": "RO仙境傳說：曙光",
-      "publisher": "Gravity Game Vision Limited（星輝官方產品名錄）",
+      "publisher": "Gravity Game Vision Limited",
       "genre": "MMORPG",
       "status": "已正式上線",
       "regions": [
@@ -529,7 +529,13 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/ab/cc/bcabcc53-4539-cd2b-0aaa-bf3f70e459f0/3.jpg/406x228bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/66/5e/67665e2d-897b-50d4-c5c1-f702559a8d5c/4.jpg/406x228bb.jpg"
       ],
-      "store_visual_source": "Apple iTunes Search, exact-title verified"
+      "store_visual_source": "Apple iTunes Search, exact-title verified",
+      "launch_date": "2025-07-03",
+      "launch_date_source": "https://www.nasdaq.com/press-release/ragnarok-twilight-official-launching-taiwan-hong-kong-and-macau-july-3-2025-2025-07",
+      "official_url": "https://rotwilight.gnjoy.hk/",
+      "expected_date": null,
+      "expected_precision": null,
+      "estimate": null
     },
     {
       "game": "瘋狂水世界",
