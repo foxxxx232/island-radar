@@ -6,7 +6,13 @@ data=json.loads(PATH.read_text(encoding="utf-8"))
 now=datetime.datetime.now(datetime.timezone.utc)
 queries=[
 ("台灣手遊新遊戲",'"手遊" "上市" when:14d'),
-("港台預約",'"手遊" "事前預約" when:30d'),
+("港台預約",'("手遊" OR "手機遊戲") ("事前預約" OR "預先註冊" OR "預訂") when:45d'),
+("巴哈預約",'site:gnn.gamer.com.tw ("事前預約" OR "事前登錄" OR "預訂" OR "預約開跑") when:60d'),
+("巴哈上線",'site:gnn.gamer.com.tw ("正式上市" OR "正式上線" OR "開服") 手遊 when:45d'),
+("FB預約",'site:facebook.com ("事前預約" OR "事前登錄" OR "預約開啟") ("手遊" OR "遊戲") when:45d'),
+("FB預訂",'site:facebook.com ("商店預訂" OR "預先註冊" OR "雙平台預約") when:45d'),
+("遊戲基地預約",'site:news.gamebase.com.tw ("預約開啟" OR "事前預約") when:45d'),
+("4Gamers預約",'site:4gamers.com.tw ("事前預約" OR "預先註冊") when:45d'),
 ("遊戲行銷",'"手遊" "代言" OR "聯名" OR "KOL" when:30d'),
 ("4Gamers",'site:4gamers.com.tw/news/detail 手遊 when:14d'),
 ("遊戲基地",'site:news.gamebase.com.tw/news/detail 手遊 when:14d'),
@@ -20,7 +26,7 @@ def relevant(title):
     return bool((mobile or game) and not noise and (mobile or not re.search(r"Steam|PS5|Switch|PC版|主機",title,re.I)))
 articles={x["url"]:x for x in data.get("news",[]) if x.get("url") and relevant(x.get("title",""))}
 marketing_terms=re.compile(r"代言|KOL|網紅|實況|聯名|聯動|合作|主題曲|演唱會|戶外|快閃|地鐵|捷運|廣告|宣傳",re.I)
-pre_terms=re.compile(r"事前預約|事前登錄|預先註冊|預註冊|開放預約")
+pre_terms=re.compile(r"事前預約|事前登錄|預先註冊|預註冊|開放預約|預約開啟|預約開跑|商店預訂|預訂開啟|雙平台預約")
 for label,query in queries:
     url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":query,"hl":"zh-TW","gl":"TW","ceid":"TW:zh-Hant"})
     try:
@@ -56,6 +62,7 @@ existing={re.sub(r"\s+","",g.get("game","")) for g in data.get("preorders",[]) i
 candidates=[]
 for article in data["news"]:
     if not pre_terms.search(article.get("title","")):continue
+    if re.search(r"改版|週年|周年|活動|更新|伺服器|測試|復刻|DLC|擴充|新版本",article.get("title","")) and not re.search(r"新作|新遊戲|新手遊|上市",article.get("title","")):continue
     if re.search(r"突破|達成|破\d+萬|破十萬|破百萬",article.get("title","")) and not re.search(r"開放|開始|啟動",article.get("title","")):continue
     m=re.search(r"《([^》]{2,45})》",article["title"])
     if not m:continue
@@ -63,10 +70,10 @@ for article in data["news"]:
     if re.sub(r"\s+","",game) in existing:continue
     existing.add(re.sub(r"\s+","",game))
     candidates.append({"game":game,"publisher":"待核實","status":"媒體預約線索（待複核）",
-        "registration_date":None,"expected_date":None,"estimate":"上市時間未公布",
+        "registration_date":None,"detected_at":article.get("published_at"),"expected_date":None,"estimate":"上市時間未公布",
         "evidence":"新聞標題提及預約，未確認官方預約頁或上市日期",
         "source":article["source"],"url":article["url"],"genre":"待確認","signals":["媒體預約線索"]})
-data["preorders"]=[g for g in data.get("preorders",[]) if g.get("status")!="媒體預約線索（待複核）"]+candidates[:30]
+data["preorders"]=[g for g in data.get("preorders",[]) if g.get("status")!="媒體預約線索（待複核）"]+candidates[:60]
 # Optional low-confidence planning window: a rough 30–90 day period after
 # announced preregistration, never treated as an official release date.
 for g in data["preorders"]:
