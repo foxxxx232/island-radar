@@ -460,6 +460,30 @@
       "official_url": "https://mtr.wasabii.com.tw/",
       "slogan": "在這個世界，再次拿出真本事（App Store 文案）",
       "slogan_source": "https://apps.apple.com/hk/app/id6791902676"
+    },
+    {
+      "game": "SSS冒險家",
+      "publisher": "露珠 SPGame（iOS 供應商 SPGame Co., Limited）",
+      "genre": "日系奇幻放置冒險 RPG",
+      "status": "商店已收錄（上市狀態待核實）",
+      "regions": [
+        "tw"
+      ],
+      "expected_date": "2026-10-09",
+      "expected_precision": "day",
+      "expected_note": "App Store 曾標示預計推出日；非已上線證明",
+      "ios_url": "https://apps.apple.com/tw/app/id6810494758",
+      "gp_url": "https://play.google.com/store/apps/details?id=com.lmyx.gptw",
+      "fb_url": "https://www.facebook.com/profile.php?id=61591529416403",
+      "slogan": "冒險沒有上限，SSS只是起點！",
+      "rewards": "事前預約文案：異界美食家時裝、豬豬猛進坐騎",
+      "source": "App Store／Google Play",
+      "url": "https://apps.apple.com/tw/app/id6810494758",
+      "signals": [
+        "iOS SPGame Co., Limited",
+        "GP 套件 com.lmyx.gptw",
+        "跨主體觀察"
+      ]
     }
   ],
   "news": [
@@ -1932,6 +1956,116 @@
       "category": "跨界合作",
       "importance": "high",
       "insight": "餐飲門店聯名可追蹤套餐、周邊、玩家打卡及社群二創。"
+    }
+  ],
+  "publisher_watch": [
+    {
+      "brand": "天游",
+      "entities": [
+        {
+          "platform": "Google Play",
+          "name": "Sky Entertainment Network Limited",
+          "url": "https://play.google.com/store/apps/dev?id=7142918837293368535"
+        },
+        {
+          "platform": "App Store",
+          "name": "Sky Entertainment Network Limited",
+          "url": "https://apps.apple.com/tw/developer/sky-entertainment-network-limited/id1439530152"
+        }
+      ],
+      "products": [
+        "練氣3000層：墮落女帝逼我飛升",
+        "神諭：魅影冰姬",
+        "屍鬼三國"
+      ],
+      "status": "已核實"
+    },
+    {
+      "brand": "露珠 SPGame",
+      "entities": [
+        {
+          "platform": "Google Play",
+          "name": "SP-Game",
+          "url": "https://play.google.com/store/apps/dev?id=5377912203767081650"
+        },
+        {
+          "platform": "Google Play",
+          "name": "SPGAME",
+          "url": "https://play.google.com/store/apps/dev?id=7523714556490296414"
+        },
+        {
+          "platform": "App Store",
+          "name": "SPGame Co., Limited",
+          "url": "https://apps.apple.com/tw/app/id6810494758"
+        }
+      ],
+      "products": [
+        "極樂仙途",
+        "暮色雙城",
+        "SSS冒險家"
+      ],
+      "status": "跨主體追蹤",
+      "notes": "SSS冒險家 iOS 為 SPGame Co., Limited；GP 套件 com.lmyx.gptw 需再核實開發者法人與 SPGame 關係"
+    },
+    {
+      "brand": "星創",
+      "entities": [
+        {
+          "platform": "Google Play",
+          "name": "JOYSTAR GAME INFORMATION TECHNOLOGY CO.,LIMITED",
+          "url": "https://play.google.com/store/apps/dev?id=7627911442043575035"
+        },
+        {
+          "platform": "官方",
+          "name": "JoyStarGame",
+          "url": "https://www.joystargame.com/"
+        }
+      ],
+      "products": [
+        "鬥破蒼穹M：少年崛起",
+        "青丘世界：緣起",
+        "獵風傳說：石器大作戰"
+      ],
+      "status": "已核實"
+    },
+    {
+      "brand": "四三",
+      "entities": [
+        {
+          "platform": "Google Play",
+          "name": "ALICE GAME",
+          "url": "https://play.google.com/store/apps/dev?id=7315419339265800962"
+        }
+      ],
+      "products": [
+        "一劍傾心",
+        "大俠客"
+      ],
+      "status": "待擴充"
+    },
+    {
+      "brand": "三七",
+      "entities": [
+        {
+          "platform": "官方",
+          "name": "37GAMES",
+          "url": "https://www.37wan.net/brand.html"
+        }
+      ],
+      "products": [],
+      "status": "待核實商店主體"
+    },
+    {
+      "brand": "愷英",
+      "entities": [],
+      "products": [],
+      "status": "待核實商店主體"
+    },
+    {
+      "brand": "高圖",
+      "entities": [],
+      "products": [],
+      "status": "待核實商店主體"
     }
   ]
 }
