@@ -234,10 +234,15 @@
       "positioning": "Q萌手繪拼貼風無負擔多元策略RO MMORPG",
       "slogan": "把RO裝進口袋！",
       "slogan_source": "https://apps.apple.com/tw/app/id6762712984",
-      "rewards": "完成官網事前預約，可於正式上線時獲得限定稱號、頭飾及冒險資源",
-      "reward_source": "https://www.nova.com.tw/article/mg/content/6aa1229d685d9",
+      "rewards": "官網事前預約限定頭飾「學生帽」、預約里程碑獎勵及王寵「藍瘋兔」；邀請好友可獲冒險資源、寵物扭蛋幣及抽獎機會",
+      "reward_source": "https://news.gamebase.com.tw/news/detail/99441457",
       "launch_date": "2026-10-23",
-      "launch_date_source": "https://news.pchome.com.tw/game/gamer/20260929/index-79067314966796203104.html"
+      "launch_date_source": "https://gnn.gamer.com.tw/detail.php?sn=312509",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ]
     },
     {
       "game": "天上碑 K",
