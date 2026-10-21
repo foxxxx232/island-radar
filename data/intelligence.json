@@ -544,11 +544,13 @@
       "ios_url": "https://apps.apple.com/tw/app/%E7%98%8B%E7%8B%82%E6%B0%B4%E4%B8%96%E7%95%8C/id6780387121?uo=4",
       "gp_url": "https://play.google.com/store/apps/details?id=com.iyagames.flotshelter",
       "positioning": "末日海上拾荒、木筏建造與生存經營",
-      "source": "App Store／Google Play",
-      "url": "https://apps.apple.com/tw/app/id6780387121",
+      "source": "巴哈姆特 GNN／MyCard／Google Play",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=310840",
       "signals": [
         "IYAGAMES",
-        "雙平台供應商核實"
+        "雙平台供應商核實",
+        "2026-09-01 正式上線",
+        "李珠珢代言"
       ],
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/38/19/313819f2-862f-780f-363e-1e0d539647a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "screenshots": [
@@ -558,7 +560,11 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/44/70/344470c3-5a4e-f8e4-6166-88ad55ef9ff4/1242x22688-3.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cb/b8/fe/cbb8fe96-6d82-d0a0-600a-aa9c78ff2ce7/1242x22688-4.jpg/320x480bb.jpg"
       ],
-      "store_visual_source": "Apple iTunes Search, exact-title verified"
+      "store_visual_source": "Apple iTunes Search, exact-title verified",
+      "launch_date": "2026-09-01",
+      "launch_date_source": "https://gnn.gamer.com.tw/detail.php?sn=310840",
+      "fb_url": "https://www.facebook.com/wildwaterworldTW/",
+      "official_url": "https://flotshelter.eworldgame.com/"
     },
     {
       "game": "星空精靈 2",
@@ -2207,10 +2213,19 @@
           "platform": "官方",
           "name": "37GAMES",
           "url": "https://www.37wan.net/brand.html"
+        },
+        {
+          "platform": "Google Play",
+          "name": "三七相關發行帳號（顯示名稱待核實）",
+          "url": "https://play.google.com/store/apps/dev?id=7734083285346131529&hl=zh_TW"
         }
       ],
-      "products": [],
-      "status": "待核實商店主體"
+      "products": [
+        "神木新世界",
+        "時光大爆炸"
+      ],
+      "status": "已新增商店帳號，主體名稱待核實",
+      "notes": "依使用者提供的 GP 開發者帳號追蹤；時光大爆炸為三七官方作品，商店顯示法人仍需逐款核實。『時裝大爆炸』疑為『時光大爆炸』，保留待核對。"
     },
     {
       "brand": "愷英",
@@ -2369,6 +2384,39 @@
       ],
       "status": "已核實部分主體",
       "notes": "星輝官方列 RO 曙光為產品，但商店供應商是 Gravity Game Vision；策定九州星輝參與研發，台港澳發行商店主體是宇峻奧汀 Userjoy。不得將合作研發方誤認商店發行法人"
+    },
+    {
+      "brand": "靈犀",
+      "entities": [
+        {
+          "platform": "Google Play",
+          "name": "靈犀相關帳號（顯示名稱待核實）",
+          "url": "https://play.google.com/store/apps/dev?id=8666392712762951754&hl=zh_TW"
+        },
+        {
+          "platform": "Google Play",
+          "name": "QOOKKA GAMES（三國志・戰棋版）",
+          "url": "https://play.google.com/store/apps/details?id=com.qookkagames.sgzzqb.gp.hk"
+        },
+        {
+          "platform": "Google Play",
+          "name": "QOOKKA GAMES（三國志幻想大陸）",
+          "url": "https://play.google.com/store/apps/details?id=com.qookkagames.starg.gp.hk"
+        },
+        {
+          "platform": "官方",
+          "name": "靈犀互娛",
+          "url": "https://www.lingxigames.com/"
+        }
+      ],
+      "products": [
+        "三國志・戰略版",
+        "三國志・戰棋版",
+        "三國志幻想大陸",
+        "如鳶"
+      ],
+      "status": "跨主體追蹤",
+      "notes": "靈犀官方確認旗下遊戲，台港澳 GP 可核實 QOOKKA GAMES；使用者提供的開發者 ID 待讀取其公開顯示名稱。"
     }
   ]
 }
