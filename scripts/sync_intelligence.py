@@ -122,6 +122,25 @@ for g in data["preorders"][:25]:
     except Exception as e:
         print("Preorder metadata lookup unavailable:",g.get("game"),str(e)[:100])
 
+# Audit known Apple developer IDs on each sync; preserve catalog evidence without
+# mistaking an App Store listing or historical app for an active preorder.
+for watch in data.get("publisher_watch", []):
+    for ent in watch.get("entities", []):
+        match=re.search(r"apps\\.apple\\.com/[^/]+/developer/[^/]+/id(\\d+)",ent.get("url",""))
+        if not match:continue
+        try:
+            api="https://itunes.apple.com/lookup?"+urllib.parse.urlencode({"id":match.group(1),"entity":"software","country":"tw","limit":200})
+            req=urllib.request.Request(api,headers={"User-Agent":"IslandRadar/1.0"})
+            with urllib.request.urlopen(req,timeout=12) as response:
+                result=json.loads(response.read(3000000))
+            apps=[{"title":x.get("trackName"),"app_id":x.get("trackId"),"bundle_id":x.get("bundleId"),"seller":x.get("sellerName"),"url":x.get("trackViewUrl"),"release_date":str(x.get("releaseDate",""))[:10]} for x in result.get("results",[]) if x.get("wrapperType")=="software" and x.get("trackName")]
+            if apps:
+                ent["ios_catalog"]=apps[:120]
+                ent["catalog_checked_at"]=now.date().isoformat()
+                print("Apple publisher catalog",watch.get("brand"),len(apps))
+        except Exception as e:
+            print("Apple publisher catalog unavailable",watch.get("brand"),str(e)[:100])
+
 # News is an evidence feed, not verified ad spend or a reliable forecast of launch dates.
 data["updated_at"]=now.isoformat()
 data["news_count"]=len(data["news"])
