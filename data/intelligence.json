@@ -306,16 +306,16 @@
       "game": "癲狂三國：少年無雙",
       "publisher": "喬葳數位行銷",
       "genre": "三國卡牌 RPG",
-      "status": "事前預約情報",
+      "status": "已正式上線",
       "regions": [
         "tw",
         "hk",
         "mo"
       ],
       "positioning": "三國卡牌手遊，結合《風雲》IP聯動與KOL行銷",
-      "rewards": "截至2026-09-18媒體報導事前預約突破50萬，多項里程碑獎勵解鎖",
-      "source": "巴哈姆特 GNN",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=311985",
+      "rewards": "上線聯動活動：風雲角色步驚雲、聶風、雄霸；限定時裝「無名」與坐騎「火麒麟」",
+      "source": "巴哈姆特 GNN／MyCard",
+      "url": "https://news.pchome.com.tw/game/gamer/20260924/index-79022590649094203104.html",
       "signals": [
         "風雲IP聯動",
         "10位KOL",
@@ -329,8 +329,15 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/38/a6/2638a6da-508e-719f-9ced-51d3a05feca1/2796x1290-3.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/f7/1b/6df71bf8-03d9-ebc3-b579-041cd49db677/2796x1290-4.jpg/320x480bb.jpg"
       ],
-      "ios_url": "https://apps.apple.com/tw/app/%E7%99%B2%E7%8B%82%E4%B8%89%E5%9C%8B-%E5%B0%91%E5%B9%B4%E7%84%A1%E9%9B%99/id6785822422?uo=4",
-      "store_visual_source": "Apple iTunes Search, exact-title verified"
+      "ios_url": "https://apps.apple.com/tw/app/id6785822422",
+      "store_visual_source": "Apple iTunes Search, exact-title verified",
+      "registration_date": "2026-09-04",
+      "launch_date": "2026-09-24",
+      "launch_date_source": "https://news.pchome.com.tw/game/gamer/20260924/index-79022590649094203104.html",
+      "registration_date_source": "https://app.mycard520.com.tw/news-%E5%85%A8%E6%96%B0%E4%B8%89%E5%9C%8B%E5%8D%A1%E7%89%8Cpromax%E3%80%8A%E7%99%B2%E7%8B%82%E4%B8%89%E5%9C%8B%EF%BC%9A%E5%B0%91%E5%B9%B4%E7%84%A1%E9%9B%99%E3%80%8B%E9%A0%90%E7%B4%84%E9%96%8B%E8%B7%91/",
+      "reservation_count": "官方 9 月 24 日新聞：預約突破 100 萬",
+      "reward_source": "https://news.pchome.com.tw/game/gamer/20260924/index-79022590649094203104.html",
+      "slogan": "全新一代三國卡牌 ProMax（官方定位，非 KV 原文）"
     },
     {
       "game": "星空精靈 2",
@@ -391,33 +398,37 @@
       "store_visual_source": "Apple iTunes Search, exact-title verified"
     },
     {
-      "game": "重兵裝型女高中生",
-      "publisher": "待核實",
-      "status": "媒體預約線索（待複核）",
-      "registration_date": null,
+      "game": "JJK：重兵裝型女高中生 Wordless Record",
+      "publisher": "NextNinja",
+      "status": "日本市場事前預約（非台港澳）",
+      "registration_date": "2026-10-14",
       "detected_at": "2026-10-15",
       "expected_date": null,
       "estimate": "上市時間未公布",
       "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
-      "source": "GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RZ2FNZEp5eFRSNzhNenZ0TzZIN2hSX2F2SXlKTW9pQWZETjFZOGktV1ktTXR2WW1McEQxTlV4ejcwanY1bm5JTlRGOWRCS3lUSXVYUWs1Sy0?oc=5",
-      "genre": "待確認",
+      "source": "巴哈姆特 GNN／4Gamers",
+      "url": "https://news.pchome.com.tw/game/gamer/20261015/index-79203648249535203104.html",
+      "genre": "放置 RPG",
       "signals": [
         "媒體預約線索"
-      ]
+      ],
+      "regions": [
+        "jp"
+      ],
+      "official_url": "https://www.juheiso-game.jp"
     },
     {
       "game": "無職轉生 ～到了異世界就拿出真本事～ 迴響編年史",
-      "publisher": "Cayenne Entertainment Technology",
-      "status": "媒體預約線索（待複核）",
-      "registration_date": null,
+      "publisher": "紅心辣椒／Cayenne",
+      "status": "事前預約中",
+      "registration_date": "2026-10-14",
       "detected_at": "2026-10-15",
-      "expected_date": null,
+      "expected_date": "2026-12-08",
       "estimate": "上市時間未公布",
       "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
-      "source": "遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xUGd1QVd6WGtseEYyOXhNVXF0aTFWTTFRcjZ4b0FoQzU5cG40OURsSGdWNlFPYlFwMEF6eFoxbHBRaDBIZ3NzYTZiV01yZ2xmWFE2eWNxQm5fR1dSZEE?oc=5",
-      "genre": "Games",
+      "source": "遊戲基地／App Store",
+      "url": "https://news.gamebase.com.tw/news/detail/99441696",
+      "genre": "3D 戰鬥 RPG",
       "signals": [
         "媒體預約線索"
       ],
@@ -429,8 +440,21 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/c2/ac/30c2ac2c-1d43-39c4-1845-6a23376a37e9/2778x1284_U8c6a_U83ef_U8072_U512a_U9663_U5bb9.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/28/e7/4728e74c-8143-fba4-0c06-491e879324fb/2778x1284_U9b6f_U8fea_U70cf_U65af.jpg/320x480bb.jpg"
       ],
-      "ios_url": "https://apps.apple.com/tw/app/%E7%84%A1%E8%81%B7%E8%BD%89%E7%94%9F-%E5%88%B0%E4%BA%86%E7%95%B0%E4%B8%96%E7%95%8C%E5%B0%B1%E6%8B%BF%E5%87%BA%E7%9C%9F%E6%9C%AC%E4%BA%8B-%E8%BF%B4%E9%9F%BF%E7%B7%A8%E5%B9%B4%E5%8F%B2/id6791902676?uo=4",
-      "store_visual_source": "Apple iTunes Search, exact-title verified"
+      "ios_url": "https://apps.apple.com/hk/app/id6791902676",
+      "store_visual_source": "Apple iTunes Search, exact-title verified",
+      "registration_date_source": "https://news.gamebase.com.tw/news/detail/99441696",
+      "expected_precision": "day",
+      "expected_source": "https://apps.apple.com/hk/app/id6791902676",
+      "expected_note": "App Store 預計推出日期，非正式上線公告",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ],
+      "fb_url": "https://www.facebook.com/MushokuTenseiCOETW",
+      "official_url": "https://mtr.wasabii.com.tw/",
+      "slogan": "在這個世界，再次拿出真本事（App Store 文案）",
+      "slogan_source": "https://apps.apple.com/hk/app/id6791902676"
     }
   ],
   "news": [
