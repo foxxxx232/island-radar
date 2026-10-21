@@ -1,6 +1,6 @@
 {
   "source": "Apple iTunes public RSS",
-  "fetched_at": "2026-10-21T02:47:56.815512+00:00",
+  "fetched_at": "2026-10-21T02:55:37.665886+00:00",
   "data_type": "public_chart_snapshot",
   "countries": {
     "tw": {
@@ -29693,6 +29693,12 @@
   },
   "news": [
     {
+      "title": "《英雄聯盟》虛擬女團 K/DA 回歸推出新 EP〈FIRESTARTER〉 官方手燈、模型等全新周邊亮相",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313752",
+      "published_at": "Wed, 21 Oct 2026 10:51:49 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
       "title": "拉亞漢堡與《真‧三國無雙 2 with 猛將傳 Remastered》展開聯名合作？神祕補給明日揭曉",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=313751",
       "published_at": "Tue, 20 Oct 2026 23:33:57 +0800",
@@ -29864,12 +29870,6 @@
       "title": "「原住民族政治受難者口述歷史影像改編漫畫徵件活動」期日起至 12/15 開放徵件",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=313721",
       "published_at": "Tue, 20 Oct 2026 17:27:46 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "《RO 仙境傳說：世界之旅》「世界之旅盃」冠軍誕生 「公會聚會基金」企劃啟動",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313720",
-      "published_at": "Tue, 20 Oct 2026 17:24:00 +0800",
       "source": "巴哈姆特 GNN"
     }
   ]
