@@ -765,7 +765,7 @@ function bookingCalendar(games){
 }
 function bookingFiltered(){
  return (state.intel?.preorders||[]).filter(g=>{
-  const region=state.bookingRegion==='all'||(g.regions||['tw','hk','mo']).includes(state.bookingRegion);
+  const region=(g.regions||[]).some(r=>['tw','hk','mo'].includes(r))&&(state.bookingRegion==='all'||(g.regions||[]).includes(state.bookingRegion));
   const type=state.bookingType==='all'||(g.genre||'').toLowerCase().includes(state.bookingType.toLowerCase());
   const stage=state.bookingStatus==='all'||bookingStage(g)===state.bookingStatus;
   const term=state.bookingSearch.toLowerCase().trim();
