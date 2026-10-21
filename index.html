@@ -742,6 +742,15 @@ function bookingEvents(g){
  const out=[];
  const reg=String(g.registration_date||'');
  if(/^\d{4}-\d{2}-\d{2}$/.test(reg))out.push({date:reg,type:'preorder',label:'開放預約'});
+ const ios=String(g.ios_preorder_date||'');
+ const gp=String(g.gp_preorder_date||'');
+ if(/^\d{4}-\d{2}-\d{2}$/.test(ios)&&ios===gp)out.push({date:ios,type:'preorder',label:'iOS／GP 商店預約'});
+ else {
+  if(/^\d{4}-\d{2}-\d{2}$/.test(ios))out.push({date:ios,type:'preorder',label:'iOS 商店預訂'});
+  if(/^\d{4}-\d{2}-\d{2}$/.test(gp))out.push({date:gp,type:'preorder',label:'GP 預先註冊'});
+ }
+ const iosExpected=String(g.ios_expected_date||'');
+ if(/^\d{4}-\d{2}-\d{2}$/.test(iosExpected)&&!g.launch_date)out.push({date:iosExpected,type:'expected',label:'iOS 商店預計上架'});
  const launch=String(g.launch_date||'');
  const expected=String(g.expected_date||'');
  if(/^\d{4}-\d{2}-\d{2}$/.test(launch))out.push({date:launch,type:'launch',label:launch>new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Taipei'})?'即將上線':'已上線'});
