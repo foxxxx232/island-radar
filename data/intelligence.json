@@ -484,6 +484,92 @@
         "GP 套件 com.lmyx.gptw",
         "跨主體觀察"
       ]
+    },
+    {
+      "game": "BanG Dream! 交織的樂章",
+      "publisher": "BILIBILI HK LIMITED（iOS）／BILIBILI（GP）",
+      "genre": "音樂節奏 RPG",
+      "status": "已正式上線",
+      "launch_date": "2026-09-24",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ],
+      "ios_url": "https://apps.apple.com/tw/app/id6757695187",
+      "gp_url": "https://play.google.com/store/apps/details?id=com.bilibili.sirius",
+      "official_url": "https://bdon.biligames.com/?lang=zh-tw",
+      "positioning": "BanG Dream! 企劃五樂團全新激奏音遊，收錄 MyGO!!!!!、Ave Mujica",
+      "source": "App Store 台灣／Google Play",
+      "url": "https://apps.apple.com/tw/app/id6757695187",
+      "signals": [
+        "BILIBILI HK LIMITED",
+        "跨平台主體比對"
+      ],
+      "launch_date_source": "https://apps.apple.com/tw/app/id6757695187"
+    },
+    {
+      "game": "三國群英傳：策定九州",
+      "publisher": "宇峻奧汀 Userjoy Technology（星輝參與研發）",
+      "genre": "即時戰略 SLG",
+      "status": "已正式上線",
+      "launch_date": "2026-08-13",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ],
+      "ios_url": "https://apps.apple.com/tw/app/id6742777315",
+      "gp_url": "https://play.google.com/store/apps/details?id=com.userjoy.str",
+      "fb_url": "https://www.facebook.com/uj.str",
+      "rewards": "歷史預約獎勵：趙雲、511 抽及 14800 元寶",
+      "source": "星輝娛樂官方公告／雙平台商店",
+      "url": "https://www.rastar.com/",
+      "signals": [
+        "星輝研發",
+        "宇峻奧汀商店發行"
+      ],
+      "launch_date_source": "https://www.rastar.com/"
+    },
+    {
+      "game": "RO仙境傳說：曙光",
+      "publisher": "Gravity Game Vision Limited（星輝官方產品名錄）",
+      "genre": "MMORPG",
+      "status": "已正式上線",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ],
+      "ios_url": "https://apps.apple.com/tw/app/id6743156171",
+      "gp_url": "https://play.google.com/store/apps/details?id=com.ggv.rogames.gat",
+      "positioning": "RO 英雄變身、放置爆裝 MMORPG",
+      "source": "星輝官網／App Store／Google Play",
+      "url": "https://www.rastar.com/html/gw-pc/business/games/",
+      "signals": [
+        "星輝產品",
+        "Gravity Game Vision 商店主體"
+      ]
+    },
+    {
+      "game": "瘋狂水世界",
+      "publisher": "Hong Kong Just Game Technology Limited（益世界 IYAGAMES 關聯）",
+      "genre": "海上生存模擬",
+      "status": "已正式上線",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ],
+      "ios_url": "https://apps.apple.com/tw/app/id6780387121",
+      "gp_url": "https://play.google.com/store/apps/details?id=com.iyagames.flotshelter",
+      "positioning": "末日海上拾荒、木筏建造與生存經營",
+      "source": "App Store／Google Play",
+      "url": "https://apps.apple.com/tw/app/id6780387121",
+      "signals": [
+        "IYAGAMES",
+        "雙平台供應商核實"
+      ]
     }
   ],
   "news": [
@@ -2035,13 +2121,23 @@
           "platform": "Google Play",
           "name": "ALICE GAME",
           "url": "https://play.google.com/store/apps/dev?id=7315419339265800962"
+        },
+        {
+          "platform": "Google Play",
+          "name": "Joy Nice Games",
+          "url": "https://play.google.com/store/apps/dev?id=6950662405203913165"
         }
       ],
       "products": [
         "一劍傾心",
-        "大俠客"
+        "大俠客",
+        "Legend of Mushroom",
+        "Zombie.io - Shooting RPG",
+        "Whoa Adventure",
+        "Duck Survival"
       ],
-      "status": "待擴充"
+      "status": "雙主體追蹤",
+      "notes": "ALICE GAME 與 Joy Nice Games 分屬不同 Google Play 帳號；品牌歸屬需保留證據鏈"
     },
     {
       "brand": "三七",
@@ -2057,15 +2153,161 @@
     },
     {
       "brand": "愷英",
-      "entities": [],
-      "products": [],
-      "status": "待核實商店主體"
+      "entities": [
+        {
+          "platform": "Google Play",
+          "name": "Kingnet Technology Limited",
+          "url": "https://play.google.com/store/apps/dev?id=8033176034825670500"
+        }
+      ],
+      "products": [
+        "MU Immortal",
+        "블러드 헌터: 도깨비전"
+      ],
+      "status": "已核實部分主體",
+      "notes": "目前核實為 Google Play 帳號；iOS 主體仍待逐款核對"
     },
     {
       "brand": "高圖",
       "entities": [],
       "products": [],
       "status": "待核實商店主體"
+    },
+    {
+      "brand": "益世界",
+      "entities": [
+        {
+          "platform": "Google Play",
+          "name": "IYAGAMES",
+          "url": "https://play.google.com/store/apps/dev?id=8955960418774897395"
+        },
+        {
+          "platform": "Google Play",
+          "name": "Hong Kong Just Game Technology Limited（瘋狂水世界）",
+          "url": "https://play.google.com/store/apps/details?id=com.iyagames.flotshelter"
+        },
+        {
+          "platform": "App Store",
+          "name": "Hong Kong Just Game Technology Limited（瘋狂水世界）",
+          "url": "https://apps.apple.com/tw/app/id6780387121"
+        },
+        {
+          "platform": "App Store（中國區）",
+          "name": "益世界网络科技(上海)有限公司",
+          "url": "https://apps.apple.com/cn/developer/id1679513448"
+        }
+      ],
+      "products": [
+        "瘋狂水世界 / Wild Water World",
+        "這城有良田",
+        "大老闆-人生贏家"
+      ],
+      "status": "已核實部分主體",
+      "notes": "IYAGAMES 為商店展示名；瘋狂水世界雙端供應商 Hong Kong Just Game Technology Limited；台灣另有代理主體，分別記錄"
+    },
+    {
+      "brand": "莉莉絲",
+      "entities": [
+        {
+          "platform": "Google Play",
+          "name": "LilithGames",
+          "url": "https://play.google.com/store/apps/dev?id=6526849192653249949"
+        },
+        {
+          "platform": "Google Play",
+          "name": "Lilith Technology Hong Kong Limited（Palmon: Survival）",
+          "url": "https://play.google.com/store/apps/details?id=com.funfizz.palmon.gp"
+        },
+        {
+          "platform": "Google Play",
+          "name": "FARLIGHT PTE. LTD.（集結啦！帕萌獸）",
+          "url": "https://play.google.com/store/apps/details?id=com.farlight.palmon.gp.tw"
+        },
+        {
+          "platform": "App Store（台灣）",
+          "name": "FARLIGHT PTE. LTD.（集結啦！帕萌獸）",
+          "url": "https://apps.apple.com/tw/app/id6756285876"
+        },
+        {
+          "platform": "App Store（中國區）",
+          "name": "上海莉莉絲計算機",
+          "url": "https://apps.apple.com/cn/developer/id1696267009"
+        },
+        {
+          "platform": "第三方資料",
+          "name": "點點數據 Lilith iOS 開發者",
+          "url": "https://app.diandian.com/developer/01e2dfb3baa5cd99534e5c3976d142bc/ios-app"
+        }
+      ],
+      "products": [
+        "Palmon: Survival",
+        "集結啦！帕萌獸",
+        "AFK Arena",
+        "劍與遠征：啟程",
+        "萬國覺醒"
+      ],
+      "status": "已核實部分主體",
+      "notes": "Palmon 國際版與台灣版商店主體不同；台灣代理商另列，不等同商店供應商"
+    },
+    {
+      "brand": "B站 bilibili game",
+      "entities": [
+        {
+          "platform": "Google Play",
+          "name": "BILIBILI",
+          "url": "https://play.google.com/store/apps/dev?id=8877266805427887698"
+        },
+        {
+          "platform": "App Store",
+          "name": "BILIBILI HK LIMITED（BanG Dream! 交織的樂章）",
+          "url": "https://apps.apple.com/tw/app/id6757695187"
+        }
+      ],
+      "products": [
+        "咒術迴戰 幻影夜行",
+        "BanG Dream! 交織的樂章",
+        "嘟嘟臉惡作劇",
+        "暖雪",
+        "閃耀吧！嚕咪"
+      ],
+      "status": "已核實部分主體",
+      "notes": "同款作品跨平台比對；BanG Dream 台灣已於 2026-09-24 上線，勿採用其他地區的 12/20 預計日期"
+    },
+    {
+      "brand": "星輝",
+      "entities": [
+        {
+          "platform": "官方產品",
+          "name": "星輝遊戲 RO仙境傳說：曙光",
+          "url": "https://www.rastar.com/html/gw-pc/business/games/"
+        },
+        {
+          "platform": "Google Play",
+          "name": "Gravity Game Vision Limited（RO 曙光）",
+          "url": "https://play.google.com/store/apps/details?id=com.ggv.rogames.gat"
+        },
+        {
+          "platform": "App Store",
+          "name": "Gravity Game Vision Limited（RO 曙光）",
+          "url": "https://apps.apple.com/tw/app/id6743156171"
+        },
+        {
+          "platform": "Google Play",
+          "name": "USERJOY TECHNOLOGY CO., LTD.（策定九州）",
+          "url": "https://play.google.com/store/apps/details?id=com.userjoy.str"
+        },
+        {
+          "platform": "App Store",
+          "name": "Userjoy Technology Co., Ltd.（策定九州）",
+          "url": "https://apps.apple.com/tw/app/id6742777315"
+        }
+      ],
+      "products": [
+        "RO仙境傳說：曙光",
+        "三國群英傳：策定九州"
+      ],
+      "status": "已核實部分主體",
+      "notes": "星輝官方列 RO 曙光為產品，但商店供應商是 Gravity Game Vision；策定九州星輝參與研發，台港澳發行商店主體是宇峻奧汀 Userjoy。不得將合作研發方誤認商店發行法人"
     }
   ]
 }
