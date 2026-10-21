@@ -121,8 +121,8 @@
       "publisher": "NEXON",
       "status": "iOS／GP 雙平台預約中",
       "registration_date": "2026-10-01",
-      "expected_date": null,
-      "expected_precision": "unknown",
+      "expected_date": "2026-12-31",
+      "expected_precision": "day",
       "estimate": "尚未公布上市日期",
       "evidence": "官方宣布 10/1 開放預約，尚未公布上市日",
       "source": "遊戲基地",
@@ -164,7 +164,9 @@
       "gp_preorder_status": "開放預先註冊（官方公告）",
       "ios_expected_date": "2026-12-31",
       "ios_expected_note": "App Store 顯示預計日期，非官方確定上市日",
-      "store_preorder_source": "https://tw.nexon.com/overgeared/zh/news/notice/3555495"
+      "store_preorder_source": "https://tw.nexon.com/overgeared/zh/news/notice/3555495",
+      "expected_date_source": "App Store 商店預計上架日期",
+      "expected_date_url": "https://apps.apple.com/tw/app/id6673894896"
     },
     {
       "game": "締造者：放逐之境",
@@ -402,7 +404,7 @@
       "registration_date_source": "https://news.gamebase.com.tw/news/detail/99441696",
       "expected_precision": "day",
       "expected_source": "https://apps.apple.com/hk/app/id6791902676",
-      "expected_note": "App Store 預計推出日期，非正式上線公告",
+      "expected_note": "官方僅公布 2026 年內，12/08 為 iOS 商店預計日期",
       "regions": [
         "tw",
         "hk",
@@ -411,18 +413,20 @@
       "fb_url": "https://www.facebook.com/MushokuTenseiCOETW",
       "official_url": "https://mtr.wasabii.com.tw/",
       "slogan": "在這個世界，再次拿出真本事（App Store 文案）",
-      "slogan_source": "https://apps.apple.com/hk/app/id6791902676"
+      "slogan_source": "https://apps.apple.com/hk/app/id6791902676",
+      "expected_date_source": "App Store 商店預計上架日期",
+      "expected_date_url": "https://apps.apple.com/hk/app/id6791902676"
     },
     {
       "game": "SSS冒險家",
       "publisher": "露珠 SPGame（iOS 供應商 SPGame Co., Limited）",
       "genre": "日系奇幻放置冒險 RPG",
-      "status": "商店已收錄（上市狀態待核實）",
+      "status": "已正式上線",
       "regions": [
         "tw"
       ],
-      "expected_date": "2026-10-09",
-      "expected_precision": "day",
+      "expected_date": null,
+      "expected_precision": null,
       "expected_note": "App Store 曾標示預計推出日；非已上線證明",
       "ios_url": "https://apps.apple.com/tw/app/sss%E5%86%92%E9%9A%AA%E5%AE%B6/id6810494758?uo=4",
       "gp_url": "https://play.google.com/store/apps/details?id=com.lmyx.gptw",
@@ -444,7 +448,10 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/29/13/e1291320-331d-0827-578c-03adf991ee35/_U526f_U56fe3.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/ee/03/deee0354-ec55-b08e-9d86-e11726ae9ce5/_U526f_U56fe4.jpg/320x480bb.jpg"
       ],
-      "store_visual_source": "Apple iTunes Search, exact-title verified"
+      "store_visual_source": "Apple iTunes Search, exact-title verified",
+      "launch_date": "2026-10-09",
+      "launch_date_source": "https://apps.apple.com/tw/app/sss%E5%86%92%E9%9A%AA%E5%AE%B6/id6810494758",
+      "launch_date_note": "依 App Store 原定日期記錄；目前商店已可下載，實際首發日待複核"
     },
     {
       "game": "BanG Dream! 交織的樂章",
