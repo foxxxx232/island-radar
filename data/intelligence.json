@@ -2406,14 +2406,25 @@
           "platform": "Google Play",
           "name": "Kingnet Technology Limited",
           "url": "https://play.google.com/store/apps/dev?id=8033176034825670500"
+        },
+        {
+          "platform": "App Store",
+          "name": "HONGKONG FAME CHAMPION TRADING CO., LIMITED",
+          "url": "https://apps.apple.com/us/developer/hongkong-fame-champion-trading-co-limited/id1521601045"
         }
       ],
       "products": [
         "MU Immortal",
-        "블러드 헌터: 도깨비전"
+        "블러드 헌터: 도깨비전",
+        "열혈강호: 넥스트",
+        "巨獣戦線"
       ],
-      "status": "已核實部分主體",
-      "notes": "目前核實為 Google Play 帳號；iOS 主體仍待逐款核對"
+      "status": "iOS／GP 雙主體已核實",
+      "notes": "App Store 供應商 HONGKONG FAME CHAMPION TRADING CO., LIMITED；Google Play 帳號 Kingnet Technology Limited。恺英網絡年報亦列 HONGKONG FAME CHAMPION TRADING 為相關子公司；跨平台作品 MU Immortal 可交叉核對。新作與台港澳預訂狀態仍須逐款驗證。",
+      "evidence_urls": [
+        "https://apps.apple.com/us/developer/hongkong-fame-champion-trading-co-limited/id1521601045",
+        "https://static.cninfo.com.cn/finalpage/2018-04-25/1204735614.PDF"
+      ]
     },
     {
       "brand": "高圖",
