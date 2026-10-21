@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T02:56:02.861581+00:00",
+  "generated_at": "2026-10-21T03:04:26.556515+00:00",
   "has_baseline": true,
   "watchlist": [
     "露珠",
@@ -34,7 +34,7 @@
       "launch_time_label": "已上架：2026-10-07",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:mo:free:6821576483",
@@ -59,7 +59,7 @@
       "launch_time_label": "已上架：2026-10-15",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:mo:free:6811795826",
@@ -84,7 +84,7 @@
       "launch_time_label": "已上架：2026-10-07",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:hk:free:6821576483",
@@ -109,7 +109,7 @@
       "launch_time_label": "已上架：2026-10-15",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:tw:free:6761524901",
@@ -134,7 +134,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:mo:free:6761524901",
@@ -159,7 +159,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:hk:free:6761524901",
@@ -184,7 +184,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:tw:free:6821576483",
@@ -209,7 +209,7 @@
       "launch_time_label": "已上架：2026-10-15",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:hk:free:6811033778",
@@ -234,7 +234,7 @@
       "launch_time_label": "已上架：2026-10-15",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:mo:free:6760796215",
@@ -259,7 +259,7 @@
       "launch_time_label": "已上架：2026-10-12",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:tw:free:6803396660",
@@ -284,7 +284,7 @@
       "launch_time_label": "已上架：2026-10-19",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:hk:free:6803396660",
@@ -309,7 +309,7 @@
       "launch_time_label": "已上架：2026-10-19",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:tw:grossing:6761524901",
@@ -334,7 +334,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:mo:free:6797752936",
@@ -359,7 +359,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:tw:free:6797752936",
@@ -384,7 +384,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:hk:grossing:6761524901",
@@ -409,7 +409,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:mo:free:6757860952",
@@ -434,7 +434,7 @@
       "launch_time_label": "已上架：2026-10-12",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:tw:free:6757860952",
@@ -459,7 +459,7 @@
       "launch_time_label": "已上架：2026-10-12",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:hk:free:6757860952",
@@ -484,7 +484,7 @@
       "launch_time_label": "已上架：2026-10-12",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:mo:free:6803396660",
@@ -509,7 +509,7 @@
       "launch_time_label": "已上架：2026-10-19",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:hk:free:6797752936",
@@ -534,7 +534,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:hk:free:6760796215",
@@ -559,7 +559,7 @@
       "launch_time_label": "已上架：2026-10-12",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:mo:grossing:6761524901",
@@ -584,7 +584,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:tw:free:6810494758",
@@ -609,7 +609,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:tw:free:6811795826",
@@ -634,7 +634,7 @@
       "launch_time_label": "已上架：2026-10-07",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:tw:grossing:6810494758",
@@ -659,7 +659,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:hk:grossing:6810494758",
@@ -684,7 +684,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     },
     {
       "id": "ios:hk:free:6810494758",
@@ -709,7 +709,7 @@
       "launch_time_label": "已上架：2026-10-08",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-21T02:56:02.861581+00:00"
+      "observed_at": "2026-10-21T03:04:26.556515+00:00"
     }
   ]
 }

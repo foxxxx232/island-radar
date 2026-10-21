@@ -1,6 +1,6 @@
 {
   "source": "Apple iTunes public RSS",
-  "fetched_at": "2026-10-21T02:55:37.665886+00:00",
+  "fetched_at": "2026-10-21T03:03:50.895327+00:00",
   "data_type": "public_chart_snapshot",
   "countries": {
     "tw": {
@@ -8641,7 +8641,7 @@
           "rank": 75,
           "title": "MLB 9局職棒 勁旅對決 26",
           "publisher": "Com2uS Corp.",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/eb/f6/f4ebf60f-0bdb-2127-debb-66e55601a0fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/a3/74/34a374a5-e72a-e63a-d064-870b49cd4a85/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/tw/app/mlb-9%E5%B1%80%E8%81%B7%E6%A3%92-%E5%8B%81%E6%97%85%E5%B0%8D%E6%B1%BA-26/id1580691683?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/5a/df/525adff9-4350-0e83-82d6-66ed05973fd4/1290x2796_zh-hant.png/320x480bb.jpg",
@@ -8684,7 +8684,7 @@
           "positioning_source": "https://apps.apple.com/tw/app/mlb-9%E5%B1%80%E8%81%B7%E6%A3%92-%E5%8B%81%E6%97%85%E5%B0%8D%E6%B1%BA-26/id1580691683?uo=2",
           "slogan_source": "https://apps.apple.com/tw/app/mlb-9%E5%B1%80%E8%81%B7%E6%A3%92-%E5%8B%81%E6%97%85%E5%B0%8D%E6%B1%BA-26/id1580691683?uo=2",
           "release_date": "2023-07-04T07:00:00Z",
-          "version": "4.07.00",
+          "version": "4.06.00",
           "rating": 4.02826,
           "rating_count": 2654
         },
@@ -29693,6 +29693,18 @@
   },
   "news": [
     {
+      "title": "台灣夜市料理遊戲《LuLu&amp;#039;s 夜市小吃攤》於 App Store 推出 布置你的專屬夜市攤位",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313754",
+      "published_at": "Wed, 21 Oct 2026 10:56:57 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
+      "title": "電視動畫《蝙蝠殺手》公開前導視覺圖與宣傳影片 上田瞳等人將參與配音演出",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313753",
+      "published_at": "Wed, 21 Oct 2026 10:56:44 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
       "title": "《英雄聯盟》虛擬女團 K/DA 回歸推出新 EP〈FIRESTARTER〉 官方手燈、模型等全新周邊亮相",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=313752",
       "published_at": "Wed, 21 Oct 2026 10:51:49 +0800",
@@ -29858,18 +29870,6 @@
       "title": "《ONE PIECE~航海王~ 紀念書盒版》砂之國篇 預購將於 10/23 開跑",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=313724",
       "published_at": "Tue, 20 Oct 2026 17:43:22 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "化身取經路上小妖怪！卡牌 RPG《我在西遊當妖怪》新品節 Demo 提供 21 種可選妖怪",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313722",
-      "published_at": "Tue, 20 Oct 2026 17:29:42 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "「原住民族政治受難者口述歷史影像改編漫畫徵件活動」期日起至 12/15 開放徵件",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313721",
-      "published_at": "Tue, 20 Oct 2026 17:27:46 +0800",
       "source": "巴哈姆特 GNN"
     }
   ]
