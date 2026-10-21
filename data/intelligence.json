@@ -119,10 +119,10 @@
     {
       "game": "裝備仔：OVERGEARED",
       "publisher": "NEXON",
-      "status": "事前預約中",
+      "status": "iOS／GP 雙平台預約中",
       "registration_date": "2026-10-01",
       "expected_date": null,
-      "expected_precision": "year",
+      "expected_precision": "unknown",
       "estimate": "尚未公布上市日期",
       "evidence": "官方宣布 10/1 開放預約，尚未公布上市日",
       "source": "遊戲基地",
@@ -131,7 +131,8 @@
       "signals": [
         "競爭型MMO",
         "裝備養成",
-        "影片/PODCAST宣傳"
+        "影片/PODCAST宣傳",
+        "10/6 iOS／GP 商店預約開啟"
       ],
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/f5/00/43f50058-6ab6-b3d6-99ce-cda249b9a48d/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg",
       "screenshots": [
@@ -141,7 +142,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/07/4a/ca074ae8-b89e-e1a2-4340-49a033e8f914/TP__Ub9c8_Ucf13_Uc5b4_Uc14b5_2208x1242_TW.png/406x228bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/54/31/1f543196-0540-9f09-6912-74f9ed0f4418/TP__Ub9c8_Ucf13_Uc5b4_Uc14b6_2208x1242_TW.png/406x228bb.png"
       ],
-      "ios_url": "https://apps.apple.com/tw/app/%E8%A3%9D%E5%82%99%E4%BB%94-overgeared/id6673894896?uo=4",
+      "ios_url": "https://apps.apple.com/tw/app/id6673894896",
       "store_visual_source": "Apple iTunes Search, exact-title verified",
       "rewards": "事前預約：花瓣兔（同行寵物）；「通往未知之路」：神之手裝備；「挑戰！傳說的鐵匠」：稱號",
       "reward_source": "https://news.gamebase.com.tw/news/detail/99441603",
@@ -156,7 +157,14 @@
       "teaser_url": "https://tw.nexon.com/overgeared/zh/teaser",
       "slogan_source": "https://tw.nexon.com/overgeared/zh/pre-register",
       "expected_year": "2026",
-      "expected_note": "官方預告 2026 年內，未公布確切日期"
+      "expected_note": "正式上市日未公布；iOS 商店暫列 2026-12-31",
+      "ios_preorder_date": "2026-10-06",
+      "gp_preorder_date": "2026-10-06",
+      "ios_preorder_status": "開放預訂",
+      "gp_preorder_status": "開放預先註冊（官方公告）",
+      "ios_expected_date": "2026-12-31",
+      "ios_expected_note": "App Store 顯示預計日期，非官方確定上市日",
+      "store_preorder_source": "https://tw.nexon.com/overgeared/zh/news/notice/3555495"
     },
     {
       "game": "締造者：放逐之境",
