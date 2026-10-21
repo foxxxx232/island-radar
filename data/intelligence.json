@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T03:04:17.579462+00:00",
+  "updated_at": "2026-10-21T03:18:47.195316+00:00",
   "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
   "campaigns": [
     {
@@ -666,6 +666,14 @@
       "tags": [
         "上線"
       ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《朧村正怪奇譚》試玩&製作人專訪：不只為高解析版重繪場景 戰鬥與探索體驗也大幅重構 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVHQyOTFDOTBObUFKbzNIYk5hNEV4UGxqUmYxYWZKTGt6WDZNUjVUektaNTVyNnhDaWg2U3hzc1FnMkJTMjd4TFNvS2RsUTExTlY5TDlBTWZSSlJVc2txbEt3YXh2Mzk5RXFlb2hPekthSnhaZXlNTlFaSTNTQXVXaTgxTV9TMWhEMEc4RllpdnlNN2NzdWVmOUw0dUM2WUR2MGJ0RExoaw?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-10-21",
+      "tags": [],
       "source_type": "media_report"
     },
     {
@@ -2023,16 +2031,6 @@
       "title": "第一人稱解謎遊戲《THANKS, LIGHT.》現已上市 - GNN 新聞網",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1dVItUGEzbzN3bUtYcm14cEZSR3JvdEZpSWhiVWItT0Y1dEs3R1JiczJUYXFwQnBrdlg5NXdtbWNfX21MWWhuMXFEdUNreEt3MnFJeEl0aDc?oc=5",
       "source": "GNN 新聞網",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "3D解謎新作《THANKS, LIGHT.》上市！用手電筒照樓梯「立體秒變平面」 - udn科技玩家",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RTnh4dmgtVjVzeU9abkZoc240eE9WRE1qUHRud3NEV2hCMTF1WGlWUnc4Sk01cHhuUDJERHRGcC1wcUp4TXZpNWNBc2s0a1dNRGd0bEFZcGJzZ9IBX0FVX3lxTE4yU0tCb3YwMzU1eERyckRPRjd2azdwam1pWlNDaDFUTU9FeHVVQlNleFIxQzYxRjIxWkFTU05uTEZ6Nm9KX3ZKXzRKc1RnSTF3T0xRdzIzSThDOW9OaWhF?oc=5",
-      "source": "udn科技玩家",
       "published_at": "2026-10-15",
       "tags": [
         "上線"

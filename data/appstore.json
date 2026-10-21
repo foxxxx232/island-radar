@@ -1,6 +1,6 @@
 {
   "source": "Apple iTunes public RSS",
-  "fetched_at": "2026-10-21T03:03:50.895327+00:00",
+  "fetched_at": "2026-10-21T03:18:32.861584+00:00",
   "data_type": "public_chart_snapshot",
   "countries": {
     "tw": {
@@ -8641,7 +8641,7 @@
           "rank": 75,
           "title": "MLB 9局職棒 勁旅對決 26",
           "publisher": "Com2uS Corp.",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/a3/74/34a374a5-e72a-e63a-d064-870b49cd4a85/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/eb/f6/f4ebf60f-0bdb-2127-debb-66e55601a0fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/tw/app/mlb-9%E5%B1%80%E8%81%B7%E6%A3%92-%E5%8B%81%E6%97%85%E5%B0%8D%E6%B1%BA-26/id1580691683?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/5a/df/525adff9-4350-0e83-82d6-66ed05973fd4/1290x2796_zh-hant.png/320x480bb.jpg",
@@ -8684,7 +8684,7 @@
           "positioning_source": "https://apps.apple.com/tw/app/mlb-9%E5%B1%80%E8%81%B7%E6%A3%92-%E5%8B%81%E6%97%85%E5%B0%8D%E6%B1%BA-26/id1580691683?uo=2",
           "slogan_source": "https://apps.apple.com/tw/app/mlb-9%E5%B1%80%E8%81%B7%E6%A3%92-%E5%8B%81%E6%97%85%E5%B0%8D%E6%B1%BA-26/id1580691683?uo=2",
           "release_date": "2023-07-04T07:00:00Z",
-          "version": "4.06.00",
+          "version": "4.07.00",
           "rating": 4.02826,
           "rating_count": 2654
         },
