@@ -728,7 +728,7 @@ const newsRelevant=n=>{
 };
 function bookingCard(g){
  const lead=bookingStage(g)==='lead',title=escapeHtml(g.game),hasIcon=!!g.icon,shots=(g.screenshots||[]).slice(0,5),links=[g.preorder_url&&{name:'前往預約',url:g.preorder_url},g.ios_url&&{name:'App Store',url:g.ios_url},g.gp_url&&{name:'Google Play',url:g.gp_url},g.fb_url&&{name:'官方 FB 社群',url:g.fb_url},g.official_url&&{name:'官方網站',url:g.official_url},g.teaser_url&&{name:'事前預熱頁',url:g.teaser_url},{name:'查看情報來源',url:g.url}].filter(Boolean);
- const expected=g.launch_date?'已於 '+escapeHtml(g.launch_date)+' 上線':g.expected_date?escapeHtml(g.expected_date):g.expected_year?escapeHtml(g.expected_year)+' 年內（日期未定）':'日期未公告';
+ const expected=g.launch_date?'已於 '+escapeHtml(g.launch_date)+' 上線':g.expected_date?escapeHtml(g.expected_date)+(g.expected_date_source?'（'+escapeHtml(g.expected_date_source)+'，非官方確定）':'（預計）'):g.ios_expected_date?escapeHtml(g.ios_expected_date)+'（App Store 預計）':g.gp_expected_date?escapeHtml(g.gp_expected_date)+'（Google Play 預計）':g.expected_year?escapeHtml(g.expected_year)+' 年內（日期未定）':'日期未公告';
  return '<article class="intel-booking '+(lead?'intel-booking-lead':'')+'"><div class="intel-booking-header"><div class="intel-booking-icon">'+(hasIcon?'<img loading="lazy" src="'+url(g.icon)+'" alt="遊戲 Icon">':'<span>GAME</span>')+'</div><div class="intel-booking-name"><div class="intel-eyebrow">'+escapeHtml(g.status||'待查證')+'</div><h3>'+title+'</h3><p>'+escapeHtml(g.publisher||'發行商待確認')+' · '+escapeHtml(g.genre||'類型待確認')+'</p></div></div>'
  +'<div class="intel-booking-body"><div class="intel-booking-info"><div class="intel-field"><span>遊戲定位 / 核心玩法</span><p>'+escapeHtml(g.positioning||g.evidence||'待補充官方產品定位')+'</p></div><div class="intel-field"><span>Slogan / 宣傳語</span><p>'+escapeHtml(g.slogan||'尚未取得官方 Slogan')+'</p></div>'
  +'<div class="intel-date-grid"><div><span>事前預約開啟</span><strong>'+escapeHtml(g.registration_date||'待確認')+'</strong></div><div><span>預計上架日期</span><strong>'+expected+'</strong></div></div>'
@@ -750,11 +750,13 @@ function bookingEvents(g){
   if(/^\d{4}-\d{2}-\d{2}$/.test(gp))out.push({date:gp,type:'preorder',label:'GP 預先註冊'});
  }
  const iosExpected=String(g.ios_expected_date||'');
- if(/^\d{4}-\d{2}-\d{2}$/.test(iosExpected)&&!g.launch_date)out.push({date:iosExpected,type:'expected',label:'iOS 商店預計上架'});
+ const gpExpected=String(g.gp_expected_date||'');
+ if(/^\d{4}-\d{2}-\d{2}$/.test(gpExpected)&&!g.launch_date&&gpExpected!==String(g.expected_date||'')&&gpExpected!==String(g.ios_expected_date||''))out.push({date:gpExpected,type:'expected',label:'GP 商店預計上架'});
+ if(/^\d{4}-\d{2}-\d{2}$/.test(iosExpected)&&!g.launch_date&&iosExpected!==String(g.expected_date||''))out.push({date:iosExpected,type:'expected',label:'iOS 商店預計上架'});
  const launch=String(g.launch_date||'');
  const expected=String(g.expected_date||'');
  if(/^\d{4}-\d{2}-\d{2}$/.test(launch))out.push({date:launch,type:'launch',label:launch>new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Taipei'})?'即將上線':'已上線'});
- else if(g.expected_precision==='day'&&/^\d{4}-\d{2}-\d{2}$/.test(expected))out.push({date:expected,type:'expected',label:'預計上線'});
+ else if(g.expected_precision==='day'&&/^\d{4}-\d{2}-\d{2}$/.test(expected))out.push({date:expected,type:'expected',label:g.expected_date_source?'商店預計上架':'預計上線'});
  return out;
 }
 function bookingCalendar(games){
