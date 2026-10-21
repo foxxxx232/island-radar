@@ -19,6 +19,15 @@ queries=[
 ("巴哈姆特",'site:gnn.gamer.com.tw 手機遊戲 when:14d'),
 ("GameApps 香港",'site:gameapps.hk 手遊 預約 when:30d'),
 ]
+# Publisher-aware discovery: brand names and observed store-account identities.
+# Search results remain unverified leads until a game-specific store or official source confirms status.
+for watch in data.get("publisher_watch", []):
+    brand=watch.get("brand","").split(" ")[0]
+    if not brand:continue
+    queries.append(("發行商追蹤："+brand, '"'+brand+'" ("事前預約" OR "預訂" OR "開放預約" OR "新遊戲" OR "正式上線") when:60d'))
+# Query high-signal publisher aliases separately to catch changes in store account names.
+for alias in ["SPGame", "Sky Entertainment Network", "JOYSTAR GAME", "Joy Nice Games", "Kingnet Technology", "IYAGAMES", "BILIBILI HK", "FARLIGHT"]:
+    queries.append(("商店主體："+alias, '"'+alias+'" ("遊戲" OR "pre-register" OR "預約") when:60d'))
 def relevant(title):
     mobile=re.search(r"手遊|手機遊戲|行動遊戲|移動遊戲|事前預約|事前登錄|預先註冊|預註冊|App Store|Google Play|Android|iOS|MMORPG",title,re.I)
     game=re.search(r"《[^》]+》|遊戲|電玩|RPG|SLG|三國|寶可夢|Pokémon|Garena|NEXON|騰訊|網易|遊戲業",title,re.I)
