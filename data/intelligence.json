@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T07:31:18.843581+00:00",
+  "updated_at": "2026-10-22T07:31:35.138439+00:00",
   "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
   "campaigns": [
     {
@@ -592,12 +592,12 @@
       "publisher": "待核實",
       "status": "媒體預約線索（待複核）",
       "registration_date": null,
-      "detected_at": "2026-10-21",
+      "detected_at": "2026-10-22",
       "expected_date": null,
       "estimate": "上市時間未公布",
       "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
-      "source": "玩具人 TOY PEOPLE",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BQjJsOWxfSk5SQTNIVmJaaVpNNTJuVXpobS1qY2xBamM4NFg0dVRBbkhrdzVhakVhcHhtdGZOVmY1T3p2aHk2cHFCbGU?oc=5",
+      "source": "Facebook",
+      "url": "https://news.google.com/rss/articles/CBMioAZBVV95cUxNNXFhdzZaOUQ0eGxsczE3S0NfUWlZUU1qRDNFT1ZWcXo3TTN6NWV2RU4xVWRnZ3Jqbm82VHl3WVFENDJUdDE5cExKSVpJSDVrS1JnaGgyWDBiOXU2dlppbEJFV1BXVWxiTDZoa2dpNkp1TURMV2E0Z3NTWUZKMzFEQ1A1TlJkdUd0QXFTLWRhdllOcDgzZDg1WnQ1RnE0WDZOemtoZ0ViRDE5YXJtV0RDNExOUUpMeGNsUDZXTkpTVmlFR2NaSHotWktVektsWExxNXFacG9tX05NLUp0LW1vQy1mSmRWVkk1WjhMR19FdllJaWRDVDRab1o1XzdpNTVMYTVpTWJFeXNoN2lSX1k0b1l3VGtjcG5IV3g5MmpNby1jTHJvQ29lc0h0T19fd1p1VEl5MmZ4X08yR3pwd0VZQVdfempDOG1GSERmbXVEakI0cERvNHg5NVRiRzM5YkhGMUpXaTdfZFRkUkFLeDRFZk8wVjhTcVkxTnpGZFB3NkRaemhfUjVrVUgySDlXa3RLRWdBWXBZXzVqY3VTbmUxMXFRV1hOUzYwXzlocHRpRTJwbDltTjc4THhQMlNMaWZVUjFLY1RvakYweGs4RGx2T3FJZTlhb1Z6X1N5Q2Fzbk0tM29vMjdOVFVUbjNmNTVBZkVpV1ZQUVVoQ2xzR2lkcjFoVWdGanlfNEQ5Q2dQZWlVY3hFSHZSTjVKQXRzZWV2UUFMRDVjaTBEZmUzWlpRaFlwcGhta2pyVVhFNEpFbWs5cHhxZ2RyREFQMWFQaWhSbkZGTzhNVGx3NzlnekJ1UzZaUnIxR2FiNHB1VmJteGlSelFSMHRjYmF2dTVKOWQzYVVlMmxabXlDQ21ONzZLdkpLUUE2U2tRZ2c1cHhMVmtyeGdSZXU4ZlN1ajJUSVBRNDZuMEkzbmd5aGVadWIzSTJwb0dYdHZFUDcyanBhZ09ld1RkRWwtX1o3V2tsekpfUnkyTk9rMHRaaWZDOXRrWVp6ZnROX2oyUTR3Y2FwY2lxSGtMUjhWU3pjVWRZcm9xWmdCbnlDc2VTbWs0dkxHaA?oc=5",
       "genre": "待確認",
       "signals": [
         "媒體預約線索"
@@ -676,25 +676,53 @@
       ],
       "ios_url": "https://apps.apple.com/tw/app/%E6%9C%80%E5%BC%B7%E5%8A%8D%E5%B0%8A-%E5%90%83%E6%9C%80%E8%BB%9F%E7%9A%84%E9%A3%AF-%E5%81%9A%E6%9C%80%E7%A1%AC%E7%9A%84%E5%8A%8D/id6812674614?uo=4",
       "store_visual_source": "Apple iTunes Search, exact-title verified"
-    },
-    {
-      "game": "重兵裝型女高中生",
-      "publisher": "待核實",
-      "status": "媒體預約線索（待複核）",
-      "registration_date": null,
-      "detected_at": "2026-10-15",
-      "expected_date": null,
-      "estimate": "上市時間未公布",
-      "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
-      "source": "GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RZ2FNZEp5eFRSNzhNenZ0TzZIN2hSX2F2SXlKTW9pQWZETjFZOGktV1ktTXR2WW1McEQxTlV4ejcwanY1bm5JTlRGOWRCS3lUSXVYUWs1Sy0?oc=5",
-      "genre": "待確認",
-      "signals": [
-        "媒體預約線索"
-      ]
     }
   ],
   "news": [
+    {
+      "title": "《天上碑K》首度改版「幫派戰」烽火引爆 開放「外功筋骨」、「守護靈探險」新系統 - 蕃新聞",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ILWVRaFFnb3BDeS1SOEZLTmZyYkVPUHJGOFFIMjEyczRkQVpfd0NRelFRUngwdktnNWt4bDZvVnI3T0pVM3dsMjlYQkRhdjdfWkE?oc=5",
+      "source": "蕃新聞",
+      "published_at": "2026-10-22",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "排球少年又要多一款手遊啦 ~ 不過是TOHO主導的，感覺還不錯XD。 ▌ 《排球少年!!》全新手遊《排球少年!!ALL Challengers》開放事前預約 系列首款養成模擬遊戲！ 具有極高人氣的《排球少年!!》 於今年三月公開的全新手機養成模擬遊戲《排球少年!!ALL Challengers》， - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMioAZBVV95cUxNNXFhdzZaOUQ0eGxsczE3S0NfUWlZUU1qRDNFT1ZWcXo3TTN6NWV2RU4xVWRnZ3Jqbm82VHl3WVFENDJUdDE5cExKSVpJSDVrS1JnaGgyWDBiOXU2dlppbEJFV1BXVWxiTDZoa2dpNkp1TURMV2E0Z3NTWUZKMzFEQ1A1TlJkdUd0QXFTLWRhdllOcDgzZDg1WnQ1RnE0WDZOemtoZ0ViRDE5YXJtV0RDNExOUUpMeGNsUDZXTkpTVmlFR2NaSHotWktVektsWExxNXFacG9tX05NLUp0LW1vQy1mSmRWVkk1WjhMR19FdllJaWRDVDRab1o1XzdpNTVMYTVpTWJFeXNoN2lSX1k0b1l3VGtjcG5IV3g5MmpNby1jTHJvQ29lc0h0T19fd1p1VEl5MmZ4X08yR3pwd0VZQVdfempDOG1GSERmbXVEakI0cERvNHg5NVRiRzM5YkhGMUpXaTdfZFRkUkFLeDRFZk8wVjhTcVkxTnpGZFB3NkRaemhfUjVrVUgySDlXa3RLRWdBWXBZXzVqY3VTbmUxMXFRV1hOUzYwXzlocHRpRTJwbDltTjc4THhQMlNMaWZVUjFLY1RvakYweGs4RGx2T3FJZTlhb1Z6X1N5Q2Fzbk0tM29vMjdOVFVUbjNmNTVBZkVpV1ZQUVVoQ2xzR2lkcjFoVWdGanlfNEQ5Q2dQZWlVY3hFSHZSTjVKQXRzZWV2UUFMRDVjaTBEZmUzWlpRaFlwcGhta2pyVVhFNEpFbWs5cHhxZ2RyREFQMWFQaWhSbkZGTzhNVGx3NzlnekJ1UzZaUnIxR2FiNHB1VmJteGlSelFSMHRjYmF2dTVKOWQzYVVlMmxabXlDQ21ONzZLdkpLUUE2U2tRZ2c1cHhMVmtyeGdSZXU4ZlN1ajJUSVBRNDZuMEkzbmd5aGVadWIzSTJwb0dYdHZFUDcyanBhZ09ld1RkRWwtX1o3V2tsekpfUnkyTk9rMHRaaWZDOXRrWVp6ZnROX2oyUTR3Y2FwY2lxSGtMUjhWU3pjVWRZcm9xWmdCbnlDc2VTbWs0dkxHaA?oc=5",
+      "source": "Facebook",
+      "published_at": "2026-10-22",
+      "tags": [
+        "事前預約"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《邊緣行者2》確定動畫背景在2078年 引玩家推測《電馭叛客2077》正史結局 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQlBLc2hrZ19CNTJhdG1LeGhlNzJLWl85ZTNYQjJRME56TF8zdng3dE44Y2k1RWNRTUhlYVl0MWZucDUzSGdJeFJOWmdZRTFZdExuejZTV3dBLTlrWWgyU0JySXg5Y3hjdllLcm1Kc2lLWEljX2dLMlBWSkhjdDc2MmFIOERyMG4xb3FUUlBVek11UG5ZaEI5Mk9EREw2aVhzRlFsVVEwVF90OUpYMHVBZTRENENkaXR5S1pvbQ?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-10-22",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《電馭叛客2077》2.5更新家機支援MOD 《邊緣行者2》前傳支線監獄登場 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcXBfemYwU0RqM3pFSXhZRS1XR3djVUY5bjZidGZrSDFibUNVbWRodFpreW83NkxTelMxOWlGQVFoMFJxWG1vY1lNZ3VwRkJkOXdlc1NnTkdBb21WSlJ5Snd2TGw2TUNtelJoRGR6TWFaZVFKQkNHbzdaU2Fxa21zeGFlb0RRT0VZRERqYnNYVXRYNGsyMFNkMjh4aFdBMXF6YmF1clktanp1QzV5M3dwWGcyR0FZdDcxbGc?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-10-22",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "在中世紀當個魔女！模擬新作《模擬魔女》公開首部宣傳影片 預計明年推出 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5XNnhyX3NBWGYxcnd6SVRNc0tNaE85MUc4eEl0dFNqTU9qaHg0MkNYcnpWSW5UeG5nQWV2NmpfaFFBaklFSXFYbVpVYy1LMGRTZ2ZrVWtIQjA?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-22",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
     {
       "title": "社畜系手遊《皺皺梅干：一年365天都想準時下班》！雙平台爆笑上市 - 科技島",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JQ05CeVp3QlBCdmQxdEx3NWVMU2NBNHpoQzhTYkdQMWhsSVg0T2VyZXRwaGwtTDZxQlB4TUljbk83R0piVUFtUmp6cDdzbTZ0WGRWQndDQzhuTkhEMmhSTg?oc=5",
@@ -838,6 +866,234 @@
     {
       "title": "【試片】意外扎實的現實主義千金邊境救國傳《羅梅莉亞戰記》打倒魔王後才是開始《Romelia War Chronicle》 - GNN 新聞網",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMeWZYNUVNVlRoQjdBZ2tQVWxmM3k5SXlqU21kV0RiR0JmTi1qUm9ValJwdl9UQXRQOVdGZWowOXplZ21fNVJkZC1Jdnd1VDcwVXcxYVIzWjk?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "【神出鬼沒】《劍與魔法王國遠古的女神》萬聖節慶典後半戰開打精選三合一機率提升扭蛋火熱上市 - https://www.webook.com.tw/",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0Tkw0UXNvTm84X2VoeTlBV0o3Q3A0b1pVd2xRSmRXYnk4Z3ktdlBianNsU3RYLVhwYUhYQWpSSWxEa3ZwblVQaG9vdmNDLWdGMWlkZElRWlV6c081SDlQNS1FY01nM2Q0QnVTQXF2QkVRanc?oc=5",
+      "source": "https://www.webook.com.tw/",
+      "published_at": "2026-10-21",
+      "tags": [
+        "上線"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《GOD：血冠》蔡妍第二支代言影片曝光！跨界聯動大公開，同步揭曉豪華配音陣容 - 蕃新聞",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5azFXRjdaNTVSMFlQV1NkTUZmZ2NoZEF6Uy05WHhIakNfTHFMSk1YNExxd0tCOENxMTFqQTlGYmhoZHpTek1vcTl6WllqcW56VHc?oc=5",
+      "source": "蕃新聞",
+      "published_at": "2026-10-21",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《GOD：血冠》將與台灣奇幻作家星子作品《惡魔來了》展開跨界 IP 聯動 同步揭曉配音陣容 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1EOEVDQjJaZ3JOTGRxcjZEMWxBaUd4V19SeHhCdThNdDNVNTJxQ0k4NWhDNmptOVJ6UkVqd2FXU1lTUllHQVpTZWtfUGF0SWQybVBhcU4tM0U?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-21",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "MMORPG《裝備仔》今日開放伺服器與角色名稱搶先預約自由造訪不同次元《overgeared》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9PU3d4M01xdDdUUWM0NHZFMklqUXVfT01YcDgzaTEyV3RZc1RxcUJFRGg0R0FoWGVxUVgxWlpwM1k3Y2dnMXBNTnlRZkhqZ05GLTQtMnhyZGQ?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "拉亞漢堡 ×《真‧三國無雙》10/22 上陣！兵器逗貓棒、43 款武將卡全員到齊 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KejVidVVxU1Q5ZnJxTjZBa1lMU1VEel9RN3Zza3ZEY3JqV3JZdUtmUlVMajY0YjlZTjVrcHhPZ3lqTFBqVmFNY1NvVm1xaWhMQjFFVXYzQlA?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《VAMPIR：血之繼承者》開啟全新精銳副本首領區 同步推出多項萬聖節主題活動 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1TGpxX2xvNjVFTFNZWUhHaTBiY3NIb3ZqbkRpQ2VsNDkwLV9SUmJGdkZvQ3JsVExaUkVLMi1FZVlvWHFXVUwzZ2ZzcEh0YUVDNjRNaEFtSkU?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "若有機會重製《真‧三國無雙 3》再談下波合作？製作人分享「拉亞無雙」聯名幕後花絮 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE95alNyTE9HMjUxVXlIT2V6ZnBQbW4zSVdXeTVtbDBfX3BvT0tfck1LZjV1ZjNJU1FOSFh5T0ppNHdHQzJ6S2dsVUprSm02LTFZdEhETHFKa1Y?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-21",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《新楓之谷》年度慶典「星夜馬戲團」今日開跑新1v4 非對稱競技玩法「雪吉拉之夜」登場《MapleStory》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1kRk0zZEFzbGJkTkJpemhkR21WY3dVWWxEbks3Yi1kbGxXWFZFcXVWVzY5c1p4NE14eEdrTUZxbnN6aEVzeUFBX08tT0dreEdMZzg4WDUzT28?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《爐石戰記》新資料片《黑暗帝國霸業》正式上線指揮全盛時期的4 大古神《Hearthstone: the Lost City of Un’Goro》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40aTBVUTdpamFiN2NsMnBQVVRxcFNlNV85V0dtWF8zUHAtWmVzUXl5ekg0QUxJMmFEcGx2MU1IUW9vZkdCdjFIZ3NlSGliVjdMZnJzdzg0QmU?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-21",
+      "tags": [
+        "上線"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《RO 仙境傳說 Online：樂園》改版上線 萬聖節遊戲內容將登場 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBuUGtMSUZ0S3V4OXFZelFQbnp0T0N1aTRRS0swYTNMaHdMM2s0LTFZczZreUphSVp3WjgyQmlsZzNsbWlwR0VIclBUdDZlYjdMUllIYi1zUEQ?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-21",
+      "tags": [
+        "上線"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "騰訊UE5新作《人間異想計畫》22分鐘實機開放預登錄 怪談人類共存的雲端都市 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdC10TEhsM1dwYUEzTjJkUDhGRVBWaDhCT2tjTVN4SkZOd3ItSjVRM2Rtd1dQQ0tQSmwtUmNmbHBhSHRfMmwtUG9VeWdJWE5iSUg0aktjVVJoQlVUUzhBSmdLc3VvV0FyRFJvZFhVQjdxUGctR0tvTkVVZVQ0U2picEdhRG83NFVvQW5SRTdSR1A1c1NCS2JEdXpkR0x3d2xjbzNhRjdCTXhRVXc?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "BL手遊《神明戀愛放送中》正式上線 限時活動《共奏心音》同步開啟 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUXNXZWJ4OUs5eV9SaGNsdHVXNW13ckZKMUVJSVFnZkZ1Ni0yc2g4WmxkMjFvdjNPQzRVZFc5N3p1czZ5N3pDUFhSNzhqWWU4bHZ3dmlqc2pWX3pJUmVFWDRxOVYzNkxqWEx1RF83U2FBd0xoTHBQLUdKN3lkUVFMb29oaw?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-10-21",
+      "tags": [
+        "上線"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "日本獨立遊戲開發者公開AI勒索信 願望清單反獲38400%成長 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNXVpODg4bkJHbmlJTnJwUUVaZ2lBSVpwNThSZUxPVDZXWUt2enlOa2R0RDNySXYwLVExVExBY1lPam1abzhQbHBRTFpGSFIzMElFTndwMFhJUzJKTV9QT0EzSi1OZ0lQcG42YjhOS1FzQUVkWFBOVFNpeC1WOFZORzlNUHZLRExHcjNhWlRpVG44YVZNZzZMcGRUdDV0Uzg4QXBqc2doWUFNaHNIV3dsb3hfaDNrRlVPWjJxUUhaR3lUdw?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《藥師少女的獨語》首款單機遊戲《藥師少女的獨語 ～真假皇弟～》新宣傳片與發售日公開 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR1pQM0NTZkw0dFpxRDJBN25jcjg3UXRyNlh1OU9YeFNiZF9ITG8tR2lVWUgtZTI3bzRQbG51SmgyY0NIMWc0dlVTMV9VMkhFbUdxNzI5X29xZDd0UWtwRURGM0E3V1lnTndOX3N0SFRjLWdnWl9Ba2QtamdaZ2Q4b292TUdlQmQzdUVnNUJrQWFFMzhGSWNHTE84WklHUGZwYlRiSU5pVEZuaUNMYnJKbWJVTFZLUQ?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-10-21",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "開羅遊戲《ONE PIECE 海洋盛宴》心得 草帽全員打工、海軍海賊齊聚一堂 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOEhGaDAwdUd4WmhFTldNeG16VTNMR29lT0pEY3RhcTA1eF8zX0h6SFNwUnNnMUg1WDg2NElkQ0xaZVMyX24tU3Nla1RYY0xDajE3RHZIcy1UakZKSmdsaXE1Zmx0TXg2amdaQXZiZHZyc2xqX2ZRY2xxUTQ4Z1ctRDA1TzJWb2ZNVmtXUw?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《魔御：STAR DIVE》最新更新，強大格鬥家「克洛伊」登場 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SUklwR0l6LUszdGlULVBINFVzNUxKX0ZTd1hTVVBsLVo5YzFoajV0aFA1MlNfT25LY0JtNFZRRVdPWTh6dURabnR5MEc2V3VBX3JhSWpIdDRZR2lzSVE?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《刀劍神域》作者成名作首登台灣大銀幕，《加速世界 劇場版 INFINITE BURST》10/23全台開演！ - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0UlRaUW9xdWtGbVI2ejBxTkF3alFUSllsQ3BGWFlNTlJBbWNnS0lTMkRpZEF2NW1fRHNDdWtVMjI2OG1zdzNzZ2RlQmVFQVdxQURuWHJQRFQxcklvb0E?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "青文代理BL雜誌《from RED》中文版五週年紀念活動即日開跑！買單行本就送紀念小卡組！ - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IREN5TEdvVUlnSkVrc1JoVUZiVmptUmIwUVR5RGV4Y2lGVUJDZHlqSzN1S0xqRFBtUHVpRFZvaW42d0ZyQ3psb3dNdF9QSXl0dnJCQ3RiV1JHSVJDRGc?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "拉亞漢堡ｘ《真・三國無雙2 with 猛將傳Remastered》10/22開戰，43款武將卡全員到齊、台灣限定周邊登場 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xWnpqeWxNMnp1d3NGVEdlOGZUSXN6T1RFb2NQdUd6MzZvSEFVSmU4MXUtei1tbE15NmVqQlRUQ3NVYUVQQlRjemh2VTZIeEtpeTd3UFBxaktoUDFvUlE?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "DEVSISTERS《薑餅人》攜手人氣動畫《神奇數位馬戲團》推出聯名合作 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tNVA1M2JSNmFhN2ZYVGJXcjU5OTJ2OFhyTXNnc2NMQmZHSjVLV2ZvUlVKRWZqbkZHb2wxXzhmTFhoYkdJRU1iSkJ1TXJSNUVNUEphb1FfMkhGREJCdFE?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-21",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "再次啟動阿斯拉！《閃電霹靂車》35週年紀念變色馬克杯、金屬徽章、鐳射藏卡一次看 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sMXBFT2VXc1ViZ2VCcVZIUjBiMm91amlWUl9Mc3VIdkR1ZnR3SlhBWlpGNzdVQWtRX29KSEpiQzNzUXUwM25mVkJyckFuWnJUaXl6TUVrNGZtNEc0eHc?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《異環》全新角色「明音凜」登場，攜手「光泉茉莉茶園」推出跨界合作活動 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAta3ZDUUZiLTljTkFRMzVFZ21DOUpKNHJ2bGNNQ2NlZ2dyaXMyd21zclp5SkxpZlVNaEZEaGVEU1RjckFfeE9CY2JRVXFZdS11NFdqdVdsUmoyZEJXYnc?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-21",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "31 年歷史畫下句點！《闇龍紀元》開發商 BioWare 宣布關閉並取消《質量效應》新作 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nQXdCbkN6TFlfQmxodkJfWjNkOE1PaUJaTDYweVFaZVNieHFHRnF4WEVFNjNpUXNmU3I4eG1Sd1c3YlZDeGN1Smc1N1JwSnI2TDlUTE8tRnc?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "防範 PHP 危險資安漏洞 《賽馬娘》《碧藍幻想》《刀劍亂舞》等多款遊戲宣布實施緊急維修 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwLWRXX0ZndU4wNm1jZzVESW9CS1k3WW40WXJkOWdHcF9hQUg0M29PaDRPMHhMcUsxTVBVLU5xalJHRXVuNVppUjdtblg4dzZiRzIxdGN4MHM?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《加速世界 劇場版 INFINITE BURST》10/23 全台開演 限定特典特別場 10/28 開賣 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1JREh6LUM0UmJfZ2ljWERYVDBIX2FkaWpMYy1Ud01kWklsMnJYd2pzNUNPRW5RMm1TVW81YThVbDBIR1NlQ3NFRVlfZU9NM1pNWEdXcFd1Ql8?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-21",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《英雄聯盟》外傳《聯盟外傳：聚合之力》團隊新作 衝浪砍殺 RPG《破浪而行 Surfpunk》釋出最新試玩版 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5nREozSC1YaU9IR1VOTDRQSzFyX0I3LUk1Y3JKRGJFWVg2aUJzTGFreVZJZmloYkphX1Z1b09ycVgxbEN2Y2FXdkFON0tDWnpqM3BqWnU0VEg?oc=5",
       "source": "GNN 新聞網",
       "published_at": "2026-10-21",
       "tags": [],
@@ -1058,6 +1314,22 @@
       "title": "《ONE PIECE~航海王~ 紀念書盒版》砂之國篇，預購10/23開跑！ - 遊戲基地Gamebase",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNZWtJcnNwNG9pT2l5RzViT0MtRlUzcFp6UmlFN0x5TkI4amZuWUh6OGpEZ2ZkSGpEd0Vzc1ZuSUwxeUE2WjlXcVdSZkdpUVU1c1c5ZC1nVXdkOG00RFE?oc=5",
       "source": "遊戲基地Gamebase",
+      "published_at": "2026-10-20",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "韓國 AGF 2026 公開《FAREIDOLIA》《藍色星原：旅謠》等首波參展陣容《Project RX》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yU0JMVXlQdXBhQy1UUjZNZnZqUk54RkJ2N1QtVUNyTzhOZVVDOUp3T092R3RNQmhlVm5nTGt2eVNRRkRxYTBpdkxGNWJuQjhxWWlSUlFTTGE?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-20",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《沙羅週期：天頂》免費更新現已推出為新手與老玩家帶來更多遊玩方式《Saros》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5lXzk5THM5Q3BCVXRhU2xlV1pzSkxpUEsyaG5iVnQ1anV5Q2luVkhrd3ZzSjJMY1FUWkYwQzdpQWhMcUo5RVo5MUpFZzZZT0RUa3ZZaTYtaFA?oc=5",
+      "source": "GNN 新聞網",
       "published_at": "2026-10-20",
       "tags": [],
       "source_type": "media_report"
@@ -1356,6 +1628,17 @@
       "source": "GNN 新聞網",
       "published_at": "2026-10-19",
       "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《戀與深空》×《銀翼殺手 2049》聯動活動今日上線 聯動特別獎勵還原電影經典畫面 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VaWdRdFUtQ1MtUktWSTZiZXdndlhYRTAtZlpHYzg1ZUExeG5GLVZWWVY0dk82ZzRnbWlDMVYzaE5YMVFISG54Q1dPMnNJQzdzQkQyQ0tlREw?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-19",
+      "tags": [
+        "行銷動態",
+        "上線"
+      ],
       "source_type": "media_report"
     },
     {
@@ -1766,314 +2049,6 @@
       "tags": [
         "行銷動態"
       ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "權力之望 LORDNINE. . 進行事前登錄就送限定版造型和坐騎！ - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVTBhUjY0aU54a3puTUF2eUdjeVNuVzNsbFhTbjRmdEhRLTFabFlVMGZhNmsxTEJiWjdWM1JrNlBDRjVzQnlsMG5mY25GNGhqbHUxUUJWbWtnVVdzd095bHAyaHUtOXJ1ZFM1ZUV5QnZPQmhzOUo1UjN3SDJJb3ppVE1wRXN0eHg0aFJJOHUwc1hMaHlzTEZ6cWN6ejVzMnpLRi1wTHhJcDlnVkFqdjJtSDhhcEQydw?oc=5",
-      "source": "Facebook",
-      "published_at": "2026-10-16",
-      "tags": [
-        "事前預約"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "大王來了！王柏融代言手遊　要球迷成為棒球大王 - 三立新聞",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB6Z3N1N01IMjVLM213R2dHUWFRanRud2xma3lyZkhqS0JnUkFxSXRJTFVXMzRRRUpKUzRoaE5leWtFSFZmQUJR0gFLQVVfeXFMTlJPNGhhSU9PRG1Femw5VXpYNzFJckFIRU1kNHV2ZUlCNkEybHl2dUtLWFdIaFFYVEFoY1pHNFV2cEx5el9LLXhId3hZ?oc=5",
-      "source": "三立新聞",
-      "published_at": "2026-10-16",
-      "tags": [
-        "行銷動態"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "【試片】《至高之力》守護人類與暑假的美少女機甲作品登場《VERTEX FORCE》 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9OS2ROSEk3LVU1QXd2czBjb3RDNGlSWHIwb21sQXFUZkJ6dHI5bkVGenlDSmpHalRaeERMSXB0N1JGNEt2cmExNl9GalVTaFo0enQ5ZHJfMkI?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-10-16",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《餓狼傳說CotW》 「不知火舞」與「特瑞」經典服裝10/22 上線《FATAL FURY: CITY OF THE WOLVES》 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlVHh6aTJuVUhMY3Y0UGtfWnRuN0kwdWNQcU9NRnVweE1EQ2prXzlxLW9vdGVWdF9GUDZuV19lLTBCUVRpZ2d3WHNTTVVIWDBMNy1CVktoMzA?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-10-16",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "3D解謎新作《THANKS, LIGHT.》上市！用手電筒照樓梯「立體秒變平面」 | 遊戲/電競/手遊 - udn科技玩家",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1iM0FLdkRMZVhGQnFwS0hselBKdDNMNFNWYzlRd1FjanQwem43bzQxcEw1LW9mQlpsLUs3OUZVaEd2TURXdzl0WXVXLVdKMnN2QVNQVlBUekotenVSWENFbUtUSE9nb05DR0paczRn?oc=5",
-      "source": "udn科技玩家",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "App Store、Google Play平台專用《鋼彈》系列最新手遊《鋼彈激戰指令》即將上市！同時宣布將舉辦網路測試！ - Paradaily",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XSWlwOU8wTWVRdnZZMXhCeFVNemNfcjNHWEYtV0lfcExuQnlTUjlvaVFUMU1ES1hwVEEtbGNVQ1pON2pYWW1Ea3pYeWNzVkxHSkt6dVhZYzFLd29GMkJmdFo0TnhMRVBpTngzaGVOWjNXd2J0VFE1V0ltMA?oc=5",
-      "source": "Paradaily",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "「無人深空、火影忍者、魔物獵人旅人」等 31 款手遊上市預約資訊一覽 - 蘋果仁",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GVmNWTklrSkhjdzJKa2cyZnhiT2FLdUpIZ2V4MjFHbE92a0otNHZhS1ByeHlKUE5POGh4LWljc3ZzRDlUS1R5ZmNxY2hmbmUyMmfSAVJBVV95cUxNRlZjVk5Ja0pIY3cySmtnMmZ4Yk9hS3VKSGdleDIxR2xPdmtKLTR2YUtQcnh5SlBOTzhoeC1pY3N2c0Q5VEtUeWZjcWNoZm5lMjJn?oc=5",
-      "source": "蘋果仁",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《鋼彈》系列最新作《鋼彈激戰指令》即將上市 同時宣布將舉辦網路測試 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiTURVYWZSeFNDbTl5a3k0cm4tbzB5QTZUbThLMENSSzJ5TkZBdE9IdmVnZ3ZYUjNDNXZqaTFzZ240cy1udkFZbEdReUc1TjIyLXdMQlVYRTY?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "PC玩家免等太久！《GTA 6》電腦版有望2027年登場、Switch 2平台露曙光| 遊戲/電競/手遊 - udn科技玩家",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zUDJBY3diLURiRFBMVFdSdDZ2bnhaMm1fT25WNkZGWkxCRHktRE4wNmNvWGxzS1BCbFU0c2I0NUhNbngzY1N2LXVUdkNNQXZyWU9SQVNyb19CUQ?oc=5",
-      "source": "udn科技玩家",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《鋼彈》放置策略模擬新作《鋼彈激戰指令》公開首支宣傳影片 11月展開網路測試 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd0F4U3kyc1VyenRMeHBWY0Y2YkYyTnJxMGp0VWMybHBKaElfd2FncWtfU3N3Ylp5Y0VsQWpQMjlKYzV1VUxIRjZJSjREX2JWRWg1Y3ZQdkcxWnpubWQxbzJoZVVNUnhwaFhiUktTU0VnRk9KQVRLNlhSSTdFRFk0dVZqUFNEZVVfZTVBVnFjS3hHU2sxc1RxLWJhSWdhN00?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-15",
-      "tags": [
-        "行銷動態"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "免費人生模擬器《80億分之1》追加繁體中文！隨機投胎172國走完不同結局 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUWZIbTB0Z2NYN1lmUDZIS3pXYUtWdWxHV1AxUG1SRHhWY0tzbU5xeXJSNmYwZy1mUlVESkFSQ0RwdzJPaUZCNzJqSTgtMmpBUzFTU01ENV9rdWc1UXFmQjBNcWI1QkRmZU44VHItblNVVXItbGt1VkI3NzF6UjUzMHdDTGtQdTRPdXBvd3VIemNMODd6MXozWXZIYV9TWkZmMHZYb3J2ZWYxUjFYb3c?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《燕雲十六聲》V2.3「青州」10/15帶來全新門派、流派、俠跡、活動，推 8 款 icash 2.0 聯名卡 - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1PQ3FScnVKd3h5bTQwaVprWW01cFhJSHQ3Y3NEZHZTRzJlTHhOZ1VIT29pRFpLWVAzc0xZNFl0NE9MNktKNDlmTXZFTkM5Um5qUnZuZU9RelN1cFN5Q3c?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-15",
-      "tags": [
-        "行銷動態"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "neco 插畫系列《重兵裝型女高中生》宣布推出放置型RPG《Wordless Record》 事前登錄同時開跑 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RZ2FNZEp5eFRSNzhNenZ0TzZIN2hSX2F2SXlKTW9pQWZETjFZOGktV1ktTXR2WW1McEQxTlV4ejcwanY1bm5JTlRGOWRCS3lUSXVYUWs1Sy0?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-10-15",
-      "tags": [
-        "事前預約"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "放置型經營遊戲《網咖養成大亨》於雙平台推出 化身貓老闆接手快倒閉的網咖努力擴大規模 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DTG03YWs5NmRJUW5aR0dIR0ZId1ozdUlyQ2VxMEY2LVFJLU1tYkwxWEJVUGZITkYxbl9uaVFVd3JpSkpDSkJqNndnRUhtRVpkQjRwR3FoQUw?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "3D解謎新作《THANKS, LIGHT.》上市！用手電筒照樓梯「立體秒變平面」 - udn科技玩家",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9zNXlJVW1pX2pTbW5ZSjhjUW9NMl94R0p0SkRBMm5SeXdNNlBiOGZ4MGdpdEJCbEUzc1hCY09CbEVfYmpJTTA4MmVjZjEyYVZCNnRrOGM0YlowREFJZWNwQ1hHTV92RF9uZEk5OGJoemR3RTZxaHdWa0d5SWvSAV9BVV95cUxOMlNLQm92MDM1NXhEcnJET0Y3dms3cGptaVpTQ2gxVE1PRXh1VUJTZXhSMUM2MUYyMVpBU1NObkxGejZvSl92Sl80SnNUZ0kxd09MUXcyM0k4QzlvTmloRQ?oc=5",
-      "source": "udn科技玩家",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "「無人深空、火影忍者、魔物獵人旅人」等 31 款手遊上市預約資訊一覽 - 蘋果仁",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4RmVqZ0k5SkhBdHpGLUxkX0xSTi1RVi1Vb2ZPY2VkX2pMeC1VR0VZS3lHektuSEFmZlZjeTROQ0pEa3pyZzZBVnh4T2bSAVJBVV95cUxNRlZjVk5Ja0pIY3cySmtnMmZ4Yk9hS3VKSGdleDIxR2xPdmtKLTR2YUtQcnh5SlBOTzhoeC1pY3N2c0Q5VEtUeWZjcWNoZm5lMjJn?oc=5",
-      "source": "蘋果仁",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《鋼彈》系列最新手遊《鋼彈激戰指令》即將上市！同時宣布將舉辦網路測試！ - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3X3ZVMDRocFduLTdNOEhpY3pUdWxHcEZJbm1WVHB5WHMzZ2s3TUVlY3BrYVFBdHdhMXR0eUo2N3Fid2hwRXN6b2FYT1hMRFd3YUNJZ2Vab0pxZnRJUGc?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "特企／《鋼彈》系列最新手遊 《鋼彈激戰指令》即將上市！ - NOWnews今日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TYk9iaTZpWU5YVHBOamVNVXRHZ3RUc3RMU05Xa2xfN1VUTU9pSU5ldzhOdGhOM3V5WVN5UjNUU29BaEN6eWl2cTdKbldudTNrUEHSAVJBVV95cUxPU2JPYmk2aVlOWFRwTmplTVV0R2d0VHN0TFNOV2tsXzdVVE1PaUlOZXc4TnRoTjN1eVlTeVIzVFNvQWhDenlpdnE3Sm5XbnUza1BB?oc=5",
-      "source": "NOWnews今日新聞",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《屍控防線》10月9日正式開服！預告四大上市限時狂歡活動，UR英雄登入免費送 - NOVA資訊廣場",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5tRVhaRWJzMXA1UVNCRkROblBZeDZHOGhOMDdJRVVJbGNfOFBYOXNBSGEtVEFGZllQYzcwazZ6TlVmWHMyakJiNWJYZmRValVOVnlreVJ4Q0tJOXY3bF9yZWFNZl9MX0E?oc=5",
-      "source": "NOVA資訊廣場",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "App Store、Google Play平台專用《高達》系列最新手遊《高達激戰指令》即將上市！同時宣布將舉辦網路測試！ - GUNDAM Official",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DYS1LOGlrakVKdTBIT0JYSW9acTduUjQ4WVBWV0xPQ2h4MF85QXN3SUdMMVdad0EwalQ3Rnhhdk5lb0VKVXlqOC1HeXBEZFlqLWVrd1FCNTdNa1o3bWpGVXBGZUNnb2Y0TFhZLQ?oc=5",
-      "source": "GUNDAM Official",
-      "published_at": "2026-10-15",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《貓咪大商店出張所 開運招福！》首次亮相台灣！貓戰玩家必衝 - 三立新聞",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SQndNZ1lyTFJjVE1kR0pDVi1tY3NwN2E1Z2tlbnBxWTVUdEQ3d0Vld0R6UTVCWnZKYkE3bldOeS1FUUlpOHV1VkxIV3fSAV9BVV95cUxNQW80SHJzM3RZdWtIUlJJSkZIUDlZLUh1LWtRN2dXbk1Rb0JoeGJJN3RMM3dCcDdKaUplZlhySU1VNDAwV0cxamhiTzZfNnl4SE9QY0ZSZHppT0ZnaVNLcw?oc=5",
-      "source": "三立新聞",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "正版授權手遊《蠟筆小新：GO！》正式開服 放置盲盒輕鬆玩 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFBkejF2QjJWZ1BBdTVsSDgtYUhmQjVwVEptUEZmcUFnRDFnXzk0WjVFUEk5dEU4cjRUZkxjNFRIM2tjcTA2dDA4ZDBBQVBMRGkydHpvX3BSMnhLMC1tOFpDOWViWFV4bHp5ZER0cXI3ZHp2NWRZVUVYSWczSmhKM2stZms?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "經典成人遊戲《夜勤病棟》推出線上卡牌新作《夜勤病棟Online -New Operation-》 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTXBzb1AtSm93cXRRM1FWbm1LWHJSY3VtV0ZHckZac3R4V3hadW5rd04zWEJjV0phbjdnLW9HMGJlRmFDcHRwVGJ6dEFITmUzaVR0d3pHYUtVWmd6aXRmMnNNWDN5SElkc1M4VkY2VG1JeFk0NHVMV3RXaFVDZEYxM2h5eE1CY1hHMGtHOXNqdmN1UmZKQkZic19FaVZUMFFKdVk3alZB?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "TGA確認同款遊戲可參選不只一次 《Dispatch超英派遣中心》再戰2026年度遊戲大獎 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd2tBTHk2X0ptZk9lcnF5SEQ1MGlwLWNsa3I2ekRqcGZLdEE1Y25YZTB4aHY2VmttWTNfbE83Z2lzVFlCUllGa2l5ZWtMV0RwVlVqQU1pb0JLSTBMelZPc2JjRGgtNzhCZXBTMUdFMm1yR0x0NVdEdmp4cXlhbGIwbGxzTDVMYkxzQXp3?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《燕雲十六聲》2.3「青州」版本帶來全新門派流派與俠跡活動預告支援NVIDIA DLSS 5畫質體驗大革新 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQWF4Q3BwaFhfUG53Z0c5TVU2aGVuREJ2a0lETWtJWVQyOXY4WjhBT2JQdGJ2SzlCUHRsaUsyamlHWlZkM1dPTnc3OU5qVW9iN3E2dlZVRmZmdi1haDhpN0tDbnRlVnJmWW41ZEU1cHBCLUViN3RzaFJvS2JUOG1MdUdZbXU4VWFtWTZYYTFIRUxzX0tfUXEyRHM0aExDb2NfM2JPS2pQSQ?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《百日戰記》劇本、《AI：夢境檔案》系列創作者打越鋼太郎成立全新遊戲工作室 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdWhyQW5RSlFjWjVOdnZ0Wk5YbTB4UXN3cjhvdDVRSUlVQUVNU1RHeHc0VkxRdEFoZ09XSWwzN05EU0lYWnk4VzF5YUx2eXM4TFRRMjltRUdGcTJKOUhtdENmNnRsOUhvNzk1Nk5qWmpOX0MyWHlSY3d5MHVmWU1fM25NajI0bGF1WWF4d3pEOFpJS0pjbmt5Wk1IWQ?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "PlayStation公開 《跑車浪漫旅》限量版DualSense無線控制器 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ211ZzJvUmRZOUN6X3FMVjJiNFBFWF9WZFdQeGdWOEltTDNzTXJOVjYwWjBCUVJITk91U3VfS25UYlM4anBFdGd5ZmVVRnp6X1RRcjRSbkhIcmk4TldJbnExRmw2UzJoMGc4bUR2UnhwNGlfci14c3JlRVcxWFNMM2VweFhwVnlqZTVUb0tocF8tS1NjMmFrbDdoeFhVbHMySkM5dWxaWDBGQVpPd252MjcwSnJXcnBIb0YtMUliX3lHNHg4VXc?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "怎麼遊戲黑人女角都是你？Debra Wilson回應自己受不了撞臉 但她無能為力 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOazBBV2hwbUMtamphTW84cjl6Y21TTk9Zb0V4d001czdQd19JaS1jdU1PU3pRRGMwU1pGT1JQOWdPRHEtb2JablJHMm9hbk5yR0xHNjZmUVZpS1JZNWRjS253NHlSQW1reXFvUlF2WlktNGhFSVpZTjFwZHpGYXVfNlBvaF9Idkw1WVdiSXQ0MjhJQ2xoYkE?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "「Indie Game Award 2027」入圍名單全面公開，53國731組參賽爭桂冠 - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3Y0d0bG5tMzBQWjE2bVJJNUVWLU1RbF9JVG9iSkktYkd2WVkxWldyd2xFQU53OUp2eS02V1pNdDJFT01KMzVsU2dNd2otTW04M0tCU3NvV1ZNUXhEbVE?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《無職轉生 ～到了異世界就拿出真本事～ 迴響編年史》台港澳版事前登錄正式啟動 - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xUGd1QVd6WGtseEYyOXhNVXF0aTFWTTFRcjZ4b0FoQzU5cG40OURsSGdWNlFPYlFwMEF6eFoxbHBRaDBIZ3NzYTZiV01yZ2xmWFE2eWNxQm5fR1dSZEE?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-15",
-      "tags": [
-        "事前預約"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "BL 手遊《神明戀愛放送中》不限額不刪檔封測開啟！體驗中日雙語聲優主線全語音演出 - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RQXNyTlBob0M4dEk4UlVELTh2ZHhUQm9TbEJXV0lZeFdyaVRGeXVKdDE2ZlRUZ2xYSE9yNjZqZHlkWmZMV1BCX2wtRVNjTE1MVnB3VGVyVjAyUnRHSGc?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《關於我轉生變成史萊姆這檔事》期間限定快閃店10/23草咖啡 KUSA CAFE 登場！ - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qSlR1ZWNYQ0lZWHViRS1KMjN6dXMyeDZ0U1R0R0M5YzFNYXR4RmhLZi1BVkI2bUFtUDg1ODFTMFZuQm80ejBNY0xQSEprX3UtaEVzekQ0SVhfazFWQVE?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-15",
-      "tags": [
-        "行銷動態"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "停止內耗！史努比「沒事就是好事」系列超Chill登場，重新定義現代生活哲學！ - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYdklMRDhhQ2tUaXBmWUtzQ2JjbGRmNEVtQUhqYy14b0FIU0lpZ2E1OVoxa21hVnBiNTJ5NlF5aF9pbFNHcDF4cXVjY0NSZlBzTUFnbnZiQUoyY0haOVE?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-15",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《劇場版「BanG Dream! Ave Mujica prima aurora」》10/16台日同步上映，日本同款圖卡首週限量送 - 遊戲基地Gamebase",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83OUdKT0VRMlZJc0pkeWx0VEVXWExFZ2xQNmpFdjhrNzV5ZlJRMGV3VkYzSUVjSDNaRktBTUhnRUdORWNGdC00bldfV3JqRGRoVVJINGt5Zk5vNEVjU1E?oc=5",
-      "source": "遊戲基地Gamebase",
-      "published_at": "2026-10-15",
-      "tags": [],
       "source_type": "media_report"
     }
   ],
