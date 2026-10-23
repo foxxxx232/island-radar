@@ -6,22 +6,22 @@
 <title>島嶼雷達｜台港澳手游市場情報</title>
 <style>
 :root {
-  color-scheme: light dark;
-  --canvas: light-dark(#f5f7fb, #0c111b);
-  --surface: light-dark(#ffffff, #141c29);
-  --surface-2: light-dark(#f8fafd, #1a2433);
-  --text: light-dark(#182230, #edf2fa);
-  --muted: light-dark(#778399, #98a7bd);
-  --border: light-dark(#e5eaf2, #2a3749);
+  color-scheme: light;
+  --canvas: #f5f7fb;
+  --surface: #ffffff;
+  --surface-2: #f8fafd;
+  --text: #182230;
+  --muted: #778399;
+  --border: #e5eaf2;
   --brand: #3976f6;
   --brand-dark: #245ad5;
-  --brand-soft: light-dark(#edf3ff, #1b3156);
+  --brand-soft: #edf3ff;
   --green: #1eaa78;
-  --green-soft: light-dark(#e7f8f0, #163b32);
+  --green-soft: #e7f8f0;
   --orange: #dd8c35;
-  --orange-soft: light-dark(#fff4e6, #47321d);
+  --orange-soft: #fff4e6;
   --red: #d95762;
-  --red-soft: light-dark(#fff0f0, #48242b);
+  --red-soft: #fff0f0;
   --purple: #8a66df;
   --shadow: 0 8px 28px rgba(28, 45, 79, .055);
 }
@@ -32,7 +32,7 @@ button { cursor: pointer; }
 button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid rgba(57,118,246,.25); outline-offset: 1px; }
 a { color: var(--brand); text-decoration: none; }
 .app-root { display: grid; grid-template-columns: 238px minmax(0,1fr); min-height: 100vh; background-color: var(--canvas); border-radius: 0; }
-.sidebar { background: #111927; color: #eaf0fa; padding: 25px 15px 17px; display: flex; flex-direction: column; min-height: 100vh; gap: 25px; }
+.sidebar { background: #ffffff; color: #182230; border-right: 1px solid var(--border); padding: 25px 15px 17px; display: flex; flex-direction: column; min-height: 100vh; gap: 25px; }
 .brand { display: flex; align-items: center; gap: 11px; padding: 0 9px 9px; }
 .brand-mark { width: 36px; height: 36px; border-radius: 12px; display: grid; place-items: center; color: white; font-weight: 850; font-size: 16px; background: linear-gradient(145deg, #64a5ff, #3866ee 68%, #8069f6); box-shadow: 0 7px 18px rgba(57,118,246,.3); }
 .brand-name { font-size: 16px; font-weight: 800; letter-spacing: -.35px; }
@@ -50,6 +50,14 @@ a { color: var(--brand); text-decoration: none; }
 .pulse { width: 7px; height: 7px; border-radius: 50%; background: #eab35f; box-shadow: 0 0 0 4px rgba(234,179,95,.12); }
 .source-card p { color: #8291a8; margin: 9px 0 0; line-height: 1.65; font-size: 10px; }
 .side-footer { padding: 12px 9px 0; font-size: 10px; color: #64728a; }
+.sidebar .brand-sub,.sidebar .nav-label,.sidebar .side-footer{color:#8190a4}
+.sidebar .nav-item{color:#59677d}
+.sidebar .nav-item:hover{color:#245ad5;background:#f0f5ff}
+.sidebar .nav-item.active{color:#245ad5;background:#edf3ff;box-shadow:inset 3px 0 #3976f6}
+.sidebar .nav-count{color:#48618b;background:#edf3ff}
+.sidebar .source-card{border-color:#e5eaf2;background:#f8fafd}
+.sidebar .source-top{color:#24334a}
+.sidebar .source-card p{color:#718096}
 .main-shell { min-width: 0; }
 .topbar { height: 74px; border-bottom: 1px solid var(--border); background: var(--surface); display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 0 30px; position: sticky; top: 0; z-index: 20; }
 .crumb { display: flex; align-items: center; gap: 8px; min-width: 180px; color: var(--muted); font-size: 12px; }
@@ -73,7 +81,7 @@ a { color: var(--brand); text-decoration: none; }
 h1 { font-size: 25px; letter-spacing: -.8px; margin: 0; line-height: 1.25; font-weight: 820; }
 .page-desc { color: var(--muted); font-size: 12px; margin: 8px 0 0; line-height: 1.7; max-width: 690px; }
 .head-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
-.demo-banner { border: 1px solid light-dark(#dce7ff, #2a4063); background: light-dark(#f2f6ff, #15243a); display: flex; align-items: center; gap: 10px; padding: 11px 14px; border-radius: 11px; margin-bottom: 20px; color: var(--muted); font-size: 11px; }
+.demo-banner { border: 1px solid #dce7ff; background: #f2f6ff; display: flex; align-items: center; gap: 10px; padding: 11px 14px; border-radius: 11px; margin-bottom: 20px; color: var(--muted); font-size: 11px; }
 .demo-banner strong { color: var(--text); }
 .banner-dot { background: var(--orange); width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
 .banner-spacer { flex: 1; }
@@ -124,7 +132,7 @@ th { text-align: left; font-size: 10px; color: var(--muted); font-weight: 750; l
 th button { background: none; border: 0; padding: 0; font-size: inherit; font-weight: inherit; color: inherit; }
 td { padding: 12px; border-bottom: 1px solid var(--border); vertical-align: middle; color: var(--text); }
 tbody tr:last-child td { border-bottom: 0; }
-tbody tr:hover td { background: light-dark(#fafcff, #172233); }
+tbody tr:hover td { background: #fafcff; }
 .sticky-col { position: sticky; left: 0; z-index: 2; background: var(--surface); }
 th.sticky-col { z-index: 4; background: var(--surface-2); }
 .game-cell { display: flex; align-items: center; gap: 10px; min-width: 190px; }
@@ -205,7 +213,7 @@ th.sticky-col { z-index: 4; background: var(--surface-2); }
 .side-section-sub { color: var(--muted); font-size: 10px; line-height: 1.6; margin-top: 5px; }
 .category-list { margin-top: 16px; display: grid; gap: 5px; }
 .category-item { display: flex; align-items: center; gap: 9px; padding: 10px 9px; width: 100%; border: 1px solid transparent; border-radius: 8px; background: transparent; color: var(--text); text-align: left; font-size: 11px; }
-.category-item:hover, .category-item.active { background: var(--brand-soft); border-color: light-dark(#dbe6ff,#30476d); color: var(--brand); }
+.category-item:hover, .category-item.active { background: var(--brand-soft); border-color: #dbe6ff; color: var(--brand); }
 .category-emoji { width: 22px; text-align: center; font-size: 14px; }
 .category-count { margin-left: auto; color: var(--muted); font-size: 10px; }
 .trend-tags { margin-top: 22px; border-top: 1px solid var(--border); padding-top: 17px; }
