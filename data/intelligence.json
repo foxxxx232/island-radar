@@ -117,6 +117,29 @@
   ],
   "preorders": [
     {
+      "game": "噠噠戰機",
+      "publisher": "GORILLA ENTERTAINMENT PTE. LTD.",
+      "status": "App Store 預計上架，實際上線待確認",
+      "registration_date": "2026-10-20",
+      "expected_date": "2026-10-23",
+      "expected_precision": "day",
+      "expected_date_source": "App Store 預計日期",
+      "genre": "Roguelike 射擊",
+      "regions": [
+        "tw",
+        "hk",
+        "mo"
+      ],
+      "signals": [
+        "新 iOS 發行主體",
+        "猩球遊戲關聯"
+      ],
+      "source": "App Store",
+      "ios_url": "https://apps.apple.com/tw/app/id6789467258",
+      "url": "https://apps.apple.com/tw/app/id6789467258",
+      "expected_note": "商店預計日期，非官方確定上市日"
+    },
+    {
       "game": "裝備仔：OVERGEARED",
       "publisher": "NEXON",
       "status": "iOS／GP 雙平台預約中",
