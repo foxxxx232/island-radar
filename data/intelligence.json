@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T03:18:52.229699+00:00",
+  "updated_at": "2026-10-23T03:32:04.931658+00:00",
   "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
   "campaigns": [
     {
@@ -746,6 +746,22 @@
       ]
     },
     {
+      "game": "勇者使命",
+      "publisher": "待核實",
+      "status": "媒體預約線索（待複核）",
+      "registration_date": null,
+      "detected_at": "2026-10-23",
+      "expected_date": null,
+      "estimate": "上市時間未公布",
+      "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
+      "source": "蕃新聞",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Xek1qcXE5TG00cVlieVZONHlBS2NWdElUYmxSbHpRT1pYdWItc2hmMHl5VTVfTE5ENkplb19qQWk5SHZuR0VSQXBqMFRkWjdVOXc?oc=5",
+      "genre": "待確認",
+      "signals": [
+        "媒體預約線索"
+      ]
+    },
+    {
       "game": "排球少年!!",
       "publisher": "待核實",
       "status": "媒體預約線索（待複核）",
@@ -1072,6 +1088,16 @@
       "source": "4Gamers",
       "published_at": "2026-10-23",
       "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "末日風SRPG《勇者使命》事前預約火熱招募中 遊戲系統搶先公開！ - 蕃新聞",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Xek1qcXE5TG00cVlieVZONHlBS2NWdElUYmxSbHpRT1pYdWItc2hmMHl5VTVfTE5ENkplb19qQWk5SHZuR0VSQXBqMFRkWjdVOXc?oc=5",
+      "source": "蕃新聞",
+      "published_at": "2026-10-23",
+      "tags": [
+        "事前預約"
+      ],
       "source_type": "media_report"
     },
     {
@@ -1418,6 +1444,14 @@
     {
       "title": "讓人類獲得幸福吧！經營模擬冒險新作《咪卡「藥」幸福》繁體中文版公開 - GNN 新聞網",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qRmNQVDJKMXpCdGQ3MXlVNDczc2oyNzhDYWtlVGRxc0pvdUJVOWI5WC1BZURyVXNEWmVxbUZLd0l3TXNCak04X3hOaEg3b0xUT0lWNHlid1Q?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-22",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《電馭叛客 2077》公開 2.5 版最新免費更新內容 實裝《邊緣行者 2》任務、雙持槍械、跨平台模組等 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LQVJJNHNBS3BBeU5Ea2FlTWZUVGM1dGxPb0k2N0xKZ2huQ1ZCUVItcnNabWotZ0VyR1pNSmh5eWMwNU9aMHRTbHhSZzBoUFlRdGh0blM4Q1Q?oc=5",
       "source": "GNN 新聞網",
       "published_at": "2026-10-22",
       "tags": [],
@@ -2272,22 +2306,6 @@
         "行銷動態"
       ],
       "source_type": "media_report"
-    },
-    {
-      "title": "《Sonic Rumble Party》「萬聖節 2026 活動」開跑 索尼克及同伴們換上萬聖節熱鬧裝扮 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0RDlfT2JGYTJDT3dVaTVYQmJZLXJ1QkpiaVFoME9OcFc5aDhxTzhtbWxZUl93VXQwZ0ZtRDFEQjUxR054bW5MeUhfYXV5VEFhbFhNaHMyVHI?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-10-19",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "【試玩】操控不安分的手對乘客惡作劇！新款惡搞遊戲《我的手臂更長了》試玩版搶先體驗《My Arms Are Longer Now》 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zZ3M4R0FTSFhHWUFSMzdhakVuZ1ZwQnlZQkE1RXYwWkUtNHFJdjVDaTBIbHV6NUtBYTREdlpjTTVid3hTNGpXbjRaMjFXSmNqWUEyWWNGamc?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-10-19",
-      "tags": [],
-      "source_type": "media_report"
     }
   ],
   "news_count": 160,
@@ -2713,6 +2731,17 @@
   ],
   "topical_news": [
     {
+      "title": "《地下城的邂逅》釋出大事件「魔龍討伐召集令」 活動情報 - 蕃新聞",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lTUl1TER6ZS1yZUtjU2t2b0tkZUZfMTJIVVJBVGZlLWhuaWxsazBLbUJtXzlTZXhmSlZhR3dmQ3pFRTF0Q0huWTZZeDE2d0JzMnc?oc=5",
+      "source": "蕃新聞",
+      "published_at": "2026-10-23",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
       "title": "2026金鐘獎直播看這裡！金鐘61完整入圍名單、頒獎典禮主持人、表演亮點、得獎名單整理包 - 今周刊",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUEdrUmV3cEJEVHNOUEZHaU5fSTdLYUtpUzlZQ1VWLWdKeUNDd0VLZTktWkRISGlOY29oRFM5Y2xLc2wyajVLTm0yUm1xbW4yV3dXMF9Bb2ZLdksxMDRibzQ5NnY0eDJqSWVTSm0zdDJyZzR6RXFhVFBBN1FYeUFQNw?oc=5",
       "source": "今周刊",
@@ -2731,8 +2760,10 @@
       "category": "娛樂焦點",
       "importance": "medium",
       "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
+      "coverage_count": 5,
+      "source_count": 5,
+      "heat_label": "媒體高度關注",
+      "heat_basis": "近 7 日同主題 5 個不同媒體來源"
     },
     {
       "title": "代謝酵素也斜槓 臺大許家維老師團隊揭示酵素PGK1非典型功能 解開細胞「收包裹」關鍵機制 - 國立臺灣大學",
@@ -2834,6 +2865,74 @@
       "source_count": 1
     },
     {
+      "title": "花檢偵辦光電弊案訊蕭文龍等 34 人 8人收押、7人交保 - 台灣新聞雲",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5SUnEyX0pfVnc1NUllSEszalRwbVpDY1RTcGkwcWtHc09QQ0NKQWo4eENXME1mejFEMm9qZHFRT0xOVmQ1bXZV?oc=5",
+      "source": "台灣新聞雲",
+      "published_at": "2026-10-22",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "選前跨境鎮壓頻傳！卓榮泰令專案保護候選人 - PChome Online 新聞",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcFAwODZlNkdBcG1Pb2Fxd2FCY1NfakE4cm1GT3VCWjdVRVlTZFZHQnpmWDBzRWYwOHhfVkhUbXZEZmdZYS1LUVFLMVdPTmE0UVBqTXphZ05XZ3N3aF9UeTFwU2FrajJRS0NvcUtSNUdtRW43bmFKc1dnOWZnLURWRnUzYlVBMXJSa0RhbA?oc=5",
+      "source": "PChome Online 新聞",
+      "published_at": "2026-10-22",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 2,
+      "source_count": 2
+    },
+    {
+      "title": "選舉倒數屢傳跨境鎮壓案 卓榮泰指示專案保護候選人 - 自由時報",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ma1dNNjZDSWZFU3piQzQ3ZVVlRVoyZVBQR3gxTWl0TmxmTndONWJzcFd6TDdsLUFlSlg5Yi1DZlVNVEs2VHNiNWh4ZFdONmV2SkZCOEgwMWJndDQxcTlVdVljRlpEOWljanlpV0p5a9IBb0FVX3lxTE5Ma1dNNjZDSWZFU3piQzQ3ZVVlRVoyZVBQR3gxTWl0TmxmTndONWJzcFd6TDdsLUFlSlg5Yi1DZlVNVEs2VHNiNWh4ZFdONmV2SkZCOEgwMWJndDQxcTlVdVljRlpEOWljanlpV0p5aw?oc=5",
+      "source": "自由時報",
+      "published_at": "2026-10-22",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "九合一大選倒數卓揆：請檢警調專案保護各候選人及相關人士| 政治 - Newtalk新聞",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PdWxsUnZ5Snp2VGY0dlF5TnFkSTBxQXFfREtBMFZ0bWloM0NaUng4QWFmc2F3WGRGV0VrMEt3MEdHS2ZzZWRrV3daNE50Y3Y3SXAtZGxnX1hfdFk?oc=5",
+      "source": "Newtalk新聞",
+      "published_at": "2026-10-22",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "全球最新詐騙趨勢：台灣的觀察與訊號 - blog.google",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qekEyZWtGdjNVQUNNSW9wV1g2Z2Z5WTd0aDYxTW56eFRSQWw2Z1A2QVFZMG02eEMyOEM3SXNNZVd5NkM1U0N4U0tFTTMxbXRudVpjTkhRWk4yLXJlYmVFeDVvUTcyZEppaTVGY1ZwUk5Qb0s5dlhPdExiSWlScTA?oc=5",
+      "source": "blog.google",
+      "published_at": "2026-10-22",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "薔琵颱風逼近 金鐘獎公布應變規劃 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQMTFVbUVHcnpiOWpFaFR2SlR6NGs0QVdSWVA5OVk1dzBtZFJZSnkwNnljbC10WVRvWkV6RDAzaEJLYVJZWlZ6TEQ3WER2cmtSUHowSGplVTVZRjRVdW5LY2Q1R000TUxVU1JxLThDVldCMFJiQV9BX2FfV1BMRUZUSW1UWV9Lc19VdU9XT2s1WDRITzFRM0VDakRuUk1aYWUzS3lOODJuOHVNaUFzTmN3TzNPQVc0ZFRZSWFRc3FyNEJNU1hMR3RheU5RQTlfUXRnNm96OTBLNGpZdEozN2dOTUdtQlhJQVhONDZjY2o5R1RpZkpjZ2lRX0NPaTF6U2pVV0JSeHlJeUY?oc=5",
+      "source": "Yahoo新聞",
+      "published_at": "2026-10-21",
+      "category": "娛樂焦點",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 8,
+      "source_count": 8,
+      "heat_label": "媒體高度關注",
+      "heat_basis": "近 7 日同主題 8 個不同媒體來源"
+    },
+    {
       "title": "周杰倫轉發「中國歌手」介紹…身分引爭議 中國國台辦回應：真摯情感流露 - 鏡報",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzSm1mVElITXRLY19JblM1cG8xc296b1dzdmRSQlVQZ1FZaEJUdmZoVkZVY2MzNG5naXEwRXctRHRBVVdXSEVoVFdtLVZOeG1aYmc?oc=5",
       "source": "鏡報",
@@ -2845,24 +2944,22 @@
       "source_count": 2
     },
     {
-      "title": "薔琵颱風逼近 金鐘獎公布應變規劃 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQMTFVbUVHcnpiOWpFaFR2SlR6NGs0QVdSWVA5OVk1dzBtZFJZSnkwNnljbC10WVRvWkV6RDAzaEJLYVJZWlZ6TEQ3WER2cmtSUHowSGplVTVZRjRVdW5LY2Q1R000TUxVU1JxLThDVldCMFJiQV9BX2FfV1BMRUZUSW1UWV9Lc19VdU9XT2s1WDRITzFRM0VDakRuUk1aYWUzS3lOODJuOHVNaUFzTmN3TzNPQVc0ZFRZSWFRc3FyNEJNU1hMR3RheU5RQTlfUXRnNm96OTBLNGpZdEozN2dOTUdtQlhJQVhONDZjY2o5R1RpZkpjZ2lRX0NPaTF6U2pVV0JSeHlJeUY?oc=5",
-      "source": "Yahoo新聞",
-      "published_at": "2026-10-21",
-      "category": "娛樂焦點",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 5,
-      "source_count": 5,
-      "heat_label": "媒體高度關注",
-      "heat_basis": "同主題由 5 家不同媒體報導"
-    },
-    {
       "title": "薛瑞福：美方彈藥面臨嚴峻挑戰- 台灣時報焦點- 新聞 - 華人今日網",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9wcHF4WE4zc054aHZHNHR4QUs5b25HTmQ2cFVCSDNMQWdVMnZKOUJodE5BdlpNSVVscFl2cTVlcTNrOVh1TGF2RnlnWlJHM19xYUJJbGxMSUNhRkFVbkdwZVIxRUlaZw?oc=5",
       "source": "華人今日網",
       "published_at": "2026-10-21",
       "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "客家影視音金鐘入圍37項 客委會辦理交流會致敬創作者 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxQRU9UR2dDOExRa19oM3dfTVc3d2FLdmpKVk1YZEczSS1FUmJ3YnNwemsybm10SHNSSUVnVy0yUlZjWmpKUzFOdUlFWnJnSVdtUUViZ2JwZ0R3QXJUVGJBbkVoWFVqMHBmVEhFR2p3bl9fNVJJaUg3NXdSUklteDFYVElrbUJWUnE2NWVQeUpsM3ctVmhETEdLOXZCUXFZNXE5SWJISEdueDRHZjV1cTZwUHdpYmMzTFZIbWZBY3QxNzltdXhiRk5aZEVmWUN6TldXV0dVY0h4Ymo2TzluTzZ4WmhxTnlhUWNhU29NU2Z5cjFhZXN0NmlKMVNFaE1BeUJ2MXljeThvVWZoQ2ozV2lEZXlFS0l0VktCU0h0Qk9JMFMyVFVDR3MtVjhLRnlDTTZ3UndGLXFKMXhCOC1ib3BaYm5hYVVpWDBpUWd6VUt2eFBkYWxJLVNGc0ZscHFUdHRTVDFXQlA2U1A0alU?oc=5",
+      "source": "Yahoo新聞",
+      "published_at": "2026-10-20",
+      "category": "娛樂焦點",
       "importance": "medium",
       "source_type": "media_report",
       "coverage_count": 1,
@@ -2883,6 +2980,17 @@
       "title": "老人健保免費！釋昭慧轟「我拒絕這項可恥優惠」 警告「掏空國庫」：台灣下一代，將比法國更慘！ - 台灣好新聞",
       "url": "https://news.google.com/rss/articles/CBMi4gRBVV95cUxPblNWSWg3Q0dRWk9xbzRKMGR0ZU1GUTExLVJqejZOU2ZFNGdTcno1dmtlTGI4SlI3ZjNJRGYyRkpLQTJJR0hmQ2RmMFBKSF85eldvVUZENnlfNm93bWxyTk1ieTdpWjVNcFZaZ3pkcFVMa0ZOUXh1YVhqUjZKOWdULTE3aWVqdmlWOVN0SmVtVnJQUnMzUWFtZ1J1WTI4Vi1qMFB5QmpBN0VNOTNGbGRTOENnU1RINGRmS05RMDlHRzA5YzMySGM3dWJxTGVvMU9sQjhMTEs4ZEV2cmVHa2l2VlI4Tk9vODVhNkp2R1M5aU5IUDRDRW5sajNOQi1KclJXUVBEaU1KTnJDVVhmd2NYcVRRZlNHdUdWLXpnVUlMUWR0djQ4S3B0WWpHX1hXYUZFbThnZUdSWjFoTDljaXV6eDNoQk9qdVZLVE9JWHJTd1JkZlJwVDkxdUZrdmxhUktDc1lWczc2N3JrZ2c3bms4UDZDRlp3VEVGQi1JNnlRb0hxRGFFNjVJQkh5MTZCRUlQZWhJNEpWNm9hQ3RYdVFuT1ZSTTVwWWxOYW9ncV9fdjFxLXZZTFF0LThVX1VBVHNqRERwTEV3M2NBbVFnRzJUbndRdlRaTUZVaHdvZEFvakN5S0JJbl9Tb2tpVjlJejYxYjFFLTFkdEZ2czNXZDZfNUF6Skw3TnpOaHh0dTJLc3EtV0JBNjlONC11dG5IX0hHMEZyRWxyN2VrM3BEczdDb09YRTBHZVB2eUZ6NjdmZ1FVTWlQR3RtdGlEMGFNeF9vX0NQOGtZekctYUlqWTNuUXJ3?oc=5",
       "source": "台灣好新聞",
+      "published_at": "2026-10-20",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "秀林鄉主席駱燕玲退民進黨入國民黨陳景豐主委表尊重 - 台灣新聞雲",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE00WmZPQjJFTlFfckVUWi1tUnNNUkNZNlNYdTNkR1NPTTVaSmt2QnN4MEptVTdGdzVSS3UzaVdwMDA4V2RyQVQ0?oc=5",
+      "source": "台灣新聞雲",
       "published_at": "2026-10-20",
       "category": "社會熱議",
       "importance": "medium",
@@ -2982,6 +3090,28 @@
       "title": "台赴美打造AI園區強築供應鏈- 台灣時報焦點- 新聞 - 華人今日網",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Gb1BOU3NDUVU0OXRQc0t4eWl3SjlUQ3BEcy11VENxbjZzODRfaDNnLU5OSXI4WnlhT0Z3UzRrcVY0Z2Y4M1FGek93V2FsNHdxbmdPY1hBbW5fa2NrYUtoWmVxMDVJZw?oc=5",
       "source": "華人今日網",
+      "published_at": "2026-10-16",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "台大陸生拍「捏賴清德照」遭驅逐出境！ 移民署：5年內不可申請來台 - PChome Online 新聞",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdFgyM24tR09kQW55RldmVzVvRzBoV2JETDRKUWNMT05rWXU5Ql9Ta0ZEWHhBaTllSmJJZjRGbE9Ib3FGQXlNSEJLRGR1eVdaQVBYeXVYYU1iZlZlN0RDUVZGNXU0d3VtX0VPT3Z5SDZ5YW45YTdWSWJTUHhYLWI2SW5lTE82ek0zVHc?oc=5",
+      "source": "PChome Online 新聞",
+      "published_at": "2026-10-16",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "田中分局嚴打毒品犯罪搗毀製毒工廠 瓦解販毒供應鏈 - 新華報導",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CRmRIX3dQNkZtV2N6WFdZUWloZGh1eVJYLUZTa3NyUTFITkNZa3JWT2hEUEpaSkw4RUM5MEV4X0xfaDN6NTY5Ry1BM1hpR1NTdkx5cHlEeGdGTFBjdllHX3hrRHJmZw?oc=5",
+      "source": "新華報導",
       "published_at": "2026-10-16",
       "category": "社會熱議",
       "importance": "medium",
