@@ -2437,6 +2437,26 @@
       "notes": "靈犀官方確認旗下遊戲，台港澳 GP 可核實 QOOKKA GAMES；使用者提供的開發者 ID 待讀取其公開顯示名稱。；新增《救世者之樹》為品牌產品追蹤線索，台港澳 iOS/GP 商店法人及發行狀態待核實。"
     },
     {
+      "brand": "Gorilla Games／猩球",
+      "entities": [
+        {
+          "platform": "App Store",
+          "name": "GORILLA ENTERTAINMENT PTE. LTD.",
+          "url": "https://apps.apple.com/tw/app/id6789467258"
+        },
+        {
+          "platform": "官方網站",
+          "name": "Gorilla Studio",
+          "url": "https://www.gorillajoy.com/"
+        }
+      ],
+      "products": [
+        "噠噠戰機"
+      ],
+      "status": "iOS 供應商已核實，GP 待確認",
+      "notes": "Gorilla Studio 與 Crazy Maple Studio 發行體系有公開關聯；品牌關係不等於法律主體相同。"
+    },
+    {
       "brand": "愷英",
       "entities": [
         {
