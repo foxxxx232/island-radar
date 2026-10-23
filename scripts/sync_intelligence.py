@@ -73,29 +73,68 @@ topic_queries=[
  ("娛樂焦點",'(金馬獎 OR 金曲獎 OR 金鐘獎 OR 演唱會 OR 影視) (得獎 OR 入圍 OR 焦點 OR 公布) when:7d'),
  ("社會熱議",'台灣 (重大事件 OR 社會熱議 OR 熱門時事 OR 焦點新聞) when:7d')
 ]
-topic_items={}
+# Celebrity whitelist: major Taiwan/HK entertainers and identifiable prior game endorsers.
+major_stars=["周杰倫","蔡依林","林志玲","劉德華","郭富城","張學友","黎明","周星馳","成龍","王力宏","蕭敬騰","林俊傑","五月天","阿信","舒淇","賈靜雯","林心如","楊冪","迪麗熱巴","趙露思","肖戰","王一博","李多慧","大S","小S","徐熙媛","徐熙娣","張惠妹","田馥甄","吳宗憲","羅志祥","柯震東","彭于晏","安心亞","曾莞婷","郭書瑤"]
+# Add previously tracked game endorsers when the person is named explicitly.
+for c in data.get("campaigns",[]):
+    if "代言" not in str(c.get("type","")):continue
+    detail=str(c.get("detail",""))
+    for name in re.findall(r"([\u4e00-\u9fff]{2,4})(?:擔任|出任|正式|受邀|為.{0,8})?代言",detail):
+        if name not in ("遊戲","品牌","正式","邀請","合作"):major_stars.append(name)
+major_stars=list(dict.fromkeys(major_stars))
+def event_key(title,category):
+    t=re.sub(r"\s*[-–｜|]\s*[^-–｜|]{2,24}$","",title)
+    # One main story per award ceremony / announcement stage, not dozens of listicles.
+    if category=="娛樂焦點":
+        for award in ("金馬獎","金鐘獎","金曲獎"):
+            if award in t:
+                stage="得獎" if re.search(r"得獎|獲獎|奪獎|封后|封王|得主|揭曉",t) else "入圍" if "入圍" in t else "典禮"
+                return award+stage
+    t=re.sub(r"【[^】]*】|《[^》]*》|[0-9０-９]+|[^\u4e00-\u9fffA-Za-z]","",t)
+    return t[:22]
+topic_items=[]
 for topic,query in topic_queries:
     feed="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":query,"hl":"zh-TW","gl":"TW","ceid":"TW:zh-Hant"})
     try:
         req=urllib.request.Request(feed,headers={"User-Agent":"Mozilla/5.0 IslandRadar/1.0"})
-        with urllib.request.urlopen(req,timeout=15) as response:
-            root=ET.fromstring(response.read(1200000))
-        for node in root.findall(".//item")[:20]:
+        with urllib.request.urlopen(req,timeout=15) as response:root=ET.fromstring(response.read(1200000))
+        for node in root.findall(".//item")[:30]:
             title=(node.findtext("title") or "").strip()
             link=(node.findtext("link") or "").strip()
             pub=node.findtext("pubDate") or ""
-            src=node.find("source")
-            source=(src.text or "媒體") if src is not None else "媒體"
+            src=node.find("source");source=(src.text or "媒體") if src is not None else "媒體"
             if not title or not link.startswith("https://"):continue
-            if re.search(r"懶人包|命理|星座|運勢|算命|購物|折扣|促銷|網友爆料|未經證實",title):continue
+            if re.search(r"懶人包|命理|星座|運勢|算命|購物|折扣|促銷|網友爆料|未經證實|預測|獲獎率|評分TOP|直播哪裡看|出席一覽|完整名單|轉播平台",title,re.I):continue
+            if topic=="明星話題" and not any(name in title for name in major_stars):continue
+            if topic=="娛樂焦點" and not re.search(r"金馬獎|金鐘獎|金曲獎|奪獎|獲獎|得獎|入圍|頒獎|破紀錄|重大票房",title):continue
             try:
                 dt=email.utils.parsedate_to_datetime(pub).astimezone(datetime.timezone.utc)
                 if (now-dt).days>8:continue
                 date=dt.date().isoformat()
             except Exception:continue
-            topic_items.setdefault(link,{"title":title,"url":link,"source":source,"published_at":date,"category":topic,"importance":"medium","source_type":"media_report"})
+            topic_items.append({"title":title,"url":link,"source":source,"published_at":date,"category":topic,"importance":"medium","source_type":"media_report"})
     except Exception as e:print("Topical news feed unavailable",topic,str(e)[:120])
-data["topical_news"]=sorted(topic_items.values(),key=lambda n:n["published_at"],reverse=True)[:75]
+# Cluster repeated coverage. Heat means independent media coverage count, not social engagement.
+clusters=[]
+for n in sorted(topic_items,key=lambda x:x["published_at"],reverse=True):
+    k=event_key(n["title"],n["category"]);match=None
+    for group in clusters:
+        if group["category"]!=n["category"]:continue
+        if group["key"]==k or (k and difflib.SequenceMatcher(None,k,group["key"]).ratio()>=0.77):
+            match=group;break
+    if match is None:
+        match={"key":k,"category":n["category"],"items":[]};clusters.append(match)
+    match["items"].append(n)
+result=[]
+for group in clusters:
+    items=group["items"];sources=len(set(x["source"] for x in items))
+    best=next((x for x in items if re.search(r"得獎|獲獎|奪獎|公布|揭曉|證實|宣布",x["title"])),items[0]).copy()
+    best["coverage_count"]=len(items);best["source_count"]=sources
+    if sources>=3:
+        best["heat_label"]="媒體高度關注"
+        best["heat_basis"]="近 7 日同主題 "+str(sources)+" 個不同媒體來源"
+    result.append(best)
+data["topical_news"]=sorted(result,key=lambda n:n["published_at"],reverse=True)[:55]
 # Candidate preregistrations from media headlines, distinctly separated from confirmed official dates.
 existing={re.sub(r"\s+","",g.get("game","")) for g in data.get("preorders",[]) if g.get("status")!="媒體預約線索（待複核）"}
 candidates=[]
