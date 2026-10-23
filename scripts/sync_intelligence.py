@@ -66,6 +66,36 @@ for label,query in queries:
         print("News feed unavailable",label,str(e)[:140])
 def key(x):return str(x.get("published_at",""))[:10]
 data["news"]=sorted(articles.values(),key=key,reverse=True)[:160]
+# Weekly Taiwan entertainment and public-interest trends from published news.
+# These are headlines from media sources, not unverified forum allegations.
+topic_queries=[
+ ("明星話題",'(藝人 OR 明星 OR 演員 OR 歌手) (離婚 OR 婚變 OR 爭議 OR 事件 OR 政治) when:7d'),
+ ("娛樂焦點",'(金馬獎 OR 金曲獎 OR 金鐘獎 OR 演唱會 OR 影視) (得獎 OR 入圍 OR 焦點 OR 公布) when:7d'),
+ ("社會熱議",'台灣 (重大事件 OR 社會熱議 OR 熱門時事 OR 焦點新聞) when:7d')
+]
+topic_items={}
+for topic,query in topic_queries:
+    feed="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":query,"hl":"zh-TW","gl":"TW","ceid":"TW:zh-Hant"})
+    try:
+        req=urllib.request.Request(feed,headers={"User-Agent":"Mozilla/5.0 IslandRadar/1.0"})
+        with urllib.request.urlopen(req,timeout=15) as response:
+            root=ET.fromstring(response.read(1200000))
+        for node in root.findall(".//item")[:20]:
+            title=(node.findtext("title") or "").strip()
+            link=(node.findtext("link") or "").strip()
+            pub=node.findtext("pubDate") or ""
+            src=node.find("source")
+            source=(src.text or "媒體") if src is not None else "媒體"
+            if not title or not link.startswith("https://"):continue
+            if re.search(r"懶人包|命理|星座|運勢|算命|購物|折扣|促銷|網友爆料|未經證實",title):continue
+            try:
+                dt=email.utils.parsedate_to_datetime(pub).astimezone(datetime.timezone.utc)
+                if (now-dt).days>8:continue
+                date=dt.date().isoformat()
+            except Exception:continue
+            topic_items.setdefault(link,{"title":title,"url":link,"source":source,"published_at":date,"category":topic,"importance":"medium","source_type":"media_report"})
+    except Exception as e:print("Topical news feed unavailable",topic,str(e)[:120])
+data["topical_news"]=sorted(topic_items.values(),key=lambda n:n["published_at"],reverse=True)[:75]
 # Candidate preregistrations from media headlines, distinctly separated from confirmed official dates.
 existing={re.sub(r"\s+","",g.get("game","")) for g in data.get("preorders",[]) if g.get("status")!="媒體預約線索（待複核）"}
 candidates=[]
