@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T02:13:55.874511+00:00",
+  "updated_at": "2026-10-26T02:35:16.187667+00:00",
   "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
   "campaigns": [
     {
@@ -2734,9 +2734,19 @@
         "上線"
       ],
       "source_type": "media_report"
+    },
+    {
+      "title": "《Disney Sparklink Stars》決定 11/4 在日本上線 宣布參展 AGF2026 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9NWGxFRnppVmF2TXhlY0J4ODBZVS15VVltX2tHVjBfZFA4VHlwUm5XaHBsU1dJbjZlaFFPck5WUGUxbzN2dENSelhDQncxcEZ3eUtFRV9PLXo?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-10-22",
+      "tags": [
+        "上線"
+      ],
+      "source_type": "media_report"
     }
   ],
-  "news_count": 159,
+  "news_count": 160,
   "editorial_news": [
     {
       "title": "《怪物彈珠》×《Re:從零開始的異世界生活》第2彈合作",
@@ -3166,10 +3176,10 @@
       "category": "娛樂焦點",
       "importance": "medium",
       "source_type": "media_report",
-      "coverage_count": 19,
-      "source_count": 15,
+      "coverage_count": 18,
+      "source_count": 14,
       "heat_label": "媒體高度關注",
-      "heat_basis": "近 7 日同主題 15 個不同媒體來源"
+      "heat_basis": "近 7 日同主題 14 個不同媒體來源"
     },
     {
       "title": "金鐘61節目類完整得獎名單 《飢餓遊戲》十年敲鐘、沈玉琳跟老天續約奪綜藝主持人 - 客新聞",
@@ -3326,17 +3336,6 @@
       "source_count": 1
     },
     {
-      "title": "花檢偵辦光電弊案訊蕭文龍等 34 人 8人收押、7人交保 - 台灣新聞雲",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5SUnEyX0pfVnc1NUllSEszalRwbVpDY1RTcGkwcWtHc09QQ0NKQWo4eENXME1mejFEMm9qZHFRT0xOVmQ1bXZV?oc=5",
-      "source": "台灣新聞雲",
-      "published_at": "2026-10-22",
-      "category": "社會熱議",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
-    },
-    {
       "title": "代謝酵素也斜槓 臺大許家維老師團隊揭示酵素PGK1非典型功能 解開細胞「收包裹」關鍵機制 - 國立臺灣大學",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSbGxRYmtWUlh3VW92UW9XSWRsRlA1S3g5OWxFOFBfRkRJWlhkYk1Pb1RCa1JqQk9kNkxEaHpUU3lfMGg1dXZ2NDVnMXBDUFJpbmZ1c2IwdXlLQVNTYWd5MlRXdjFscUE?oc=5",
       "source": "國立臺灣大學",
@@ -3373,6 +3372,17 @@
       "title": "粉絲失望逐玉張凌赫不能來台- 焦點新聞1 - 新聞 - 華人今日網",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MVExFVUZPUDFvc3lVSVhMYkF2NDd1TWVCSGg4UDRIdnhwenl3SnNCRDhsMlJNby10Y0dNYUdiMENUc3ZZcWhPTWxzWG5VTnFFUXZON1JKNUk5X1g2UmphejQ2LXozdw?oc=5",
       "source": "華人今日網",
+      "published_at": "2026-10-22",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "花檢偵辦光電弊案訊蕭文龍等 34 人 8人收押、7人交保 - 台灣新聞雲",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5SUnEyX0pfVnc1NUllSEszalRwbVpDY1RTcGkwcWtHc09QQ0NKQWo4eENXME1mejFEMm9qZHFRT0xOVmQ1bXZV?oc=5",
+      "source": "台灣新聞雲",
       "published_at": "2026-10-22",
       "category": "社會熱議",
       "importance": "medium",
@@ -3425,9 +3435,9 @@
       "source_count": 1
     },
     {
-      "title": "英國伯明翰市政廳疏忽 賣棟房子白送小學 - 大紀元",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxMDYzbzFwSVVINUJtUUoySTB0QWpKUWpzOVVtOWhZUjYwXzJ5WXNybEpRQ1dnWS16QmxXZ3lnaHJnQjQya3R4WWdfeDg5QTdMbFU2bjR5RUpTS0lTaGxJazR30gFnQVVfeXFMTVpBajBUWS1YdVdGckdrcWRjOUpQX2pWdjN0cWp1aE5BbUVpaGVVNXB3RU5nQ0V5SkxOb1JQNHl2QTJtUklub3BnZ1pOcGFqUUJpck9SdUpmYV9FT3dtbnpGRE9DVmZqNA?oc=5",
-      "source": "大紀元",
+      "title": "佳穎精密 (3310) 深度解析：精密沖壓與營建開發雙軌並進，車用半導體驅動新局 - 913 理財估測站",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE94TDROSDMwY0psY1N1NXBSY0dYRjc1QlpycDdOekthTU12WFJKUjZSdnZ4b1AxSjI4OXphZ0JsX08tdlk?oc=5",
+      "source": "913 理財估測站",
       "published_at": "2026-10-22",
       "category": "社會熱議",
       "importance": "medium",
@@ -3443,10 +3453,10 @@
       "category": "娛樂焦點",
       "importance": "medium",
       "source_type": "media_report",
-      "coverage_count": 3,
-      "source_count": 3,
+      "coverage_count": 4,
+      "source_count": 4,
       "heat_label": "媒體高度關注",
-      "heat_basis": "近 7 日同主題 3 個不同媒體來源"
+      "heat_basis": "近 7 日同主題 4 個不同媒體來源"
     },
     {
       "title": "周杰倫轉發「中國歌手」介紹…身分引爭議　中國國台辦回應：真摯情感流露 - 鏡週刊Mirror Media",
@@ -3471,9 +3481,20 @@
       "source_count": 1
     },
     {
-      "title": "老人健保免費！釋昭慧轟「我拒絕這項可恥優惠」 警告「掏空國庫」：台灣下一代，將比法國更慘！ - 台灣好新聞",
-      "url": "https://news.google.com/rss/articles/CBMi4gRBVV95cUxPblNWSWg3Q0dRWk9xbzRKMGR0ZU1GUTExLVJqejZOU2ZFNGdTcno1dmtlTGI4SlI3ZjNJRGYyRkpLQTJJR0hmQ2RmMFBKSF85eldvVUZENnlfNm93bWxyTk1ieTdpWjVNcFZaZ3pkcFVMa0ZOUXh1YVhqUjZKOWdULTE3aWVqdmlWOVN0SmVtVnJQUnMzUWFtZ1J1WTI4Vi1qMFB5QmpBN0VNOTNGbGRTOENnU1RINGRmS05RMDlHRzA5YzMySGM3dWJxTGVvMU9sQjhMTEs4ZEV2cmVHa2l2VlI4Tk9vODVhNkp2R1M5aU5IUDRDRW5sajNOQi1KclJXUVBEaU1KTnJDVVhmd2NYcVRRZlNHdUdWLXpnVUlMUWR0djQ4S3B0WWpHX1hXYUZFbThnZUdSWjFoTDljaXV6eDNoQk9qdVZLVE9JWHJTd1JkZlJwVDkxdUZrdmxhUktDc1lWczc2N3JrZ2c3bms4UDZDRlp3VEVGQi1JNnlRb0hxRGFFNjVJQkh5MTZCRUlQZWhJNEpWNm9hQ3RYdVFuT1ZSTTVwWWxOYW9ncV9fdjFxLXZZTFF0LThVX1VBVHNqRERwTEV3M2NBbVFnRzJUbndRdlRaTUZVaHdvZEFvakN5S0JJbl9Tb2tpVjlJejYxYjFFLTFkdEZ2czNXZDZfNUF6Skw3TnpOaHh0dTJLc3EtV0JBNjlONC11dG5IX0hHMEZyRWxyN2VrM3BEczdDb09YRTBHZVB2eUZ6NjdmZ1FVTWlQR3RtdGlEMGFNeF9vX0NQOGtZekctYUlqWTNuUXJ3?oc=5",
-      "source": "台灣好新聞",
+      "title": "盧秀燕拜會沖繩縣府 盼深化觀光、教育交流，共促區域繁榮 - 新華報導",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JeXl5MDc2SF94STlHT3pUaWh0VDFHLXQ2dW12WDhFZl92V0c5VnNUXzI5ZW44YzBhcjg4b0VjZzY1M3NOQ3FaekxkOGo1Z3QydWxKZ1dDT2dvSktUQmlocjM2VFRPOTA?oc=5",
+      "source": "新華報導",
+      "published_at": "2026-10-21",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "鄉長任期畢業前夕游淑貞做施政報告展現 8 年深耕地方 - 台灣新聞雲",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA4cjkxS2ZVaUQwTWpVSVpTV2lEbVJ2UncxSDdrT1VzWEFlYlRVNEV0azJ5U00zeGFfbTJkRXpEc1RuOTRDUGhJ?oc=5",
+      "source": "台灣新聞雲",
       "published_at": "2026-10-20",
       "category": "社會熱議",
       "importance": "medium",
@@ -3485,6 +3506,17 @@
       "title": "中東點火油價大噴發雙原油飆新高- 台灣時報焦點- 新聞 - 華人今日網",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NSDNoTFphM18zZTNVM2ZLNzBMeDk3WWlmYWRFZTJOanZaRldwamlMZmFsdnc5S3R0U0w2VUtZSGs1NUNQQVNIcENSQVAtRXVqNG5pSmNYeFNpbVlvajJRVHlZVjJ3UQ?oc=5",
       "source": "華人今日網",
+      "published_at": "2026-10-20",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "老人健保免費！釋昭慧轟「我拒絕這項可恥優惠」 警告「掏空國庫」：台灣下一代，將比法國更慘！ - 台灣好新聞",
+      "url": "https://news.google.com/rss/articles/CBMi4gRBVV95cUxPblNWSWg3Q0dRWk9xbzRKMGR0ZU1GUTExLVJqejZOU2ZFNGdTcno1dmtlTGI4SlI3ZjNJRGYyRkpLQTJJR0hmQ2RmMFBKSF85eldvVUZENnlfNm93bWxyTk1ieTdpWjVNcFZaZ3pkcFVMa0ZOUXh1YVhqUjZKOWdULTE3aWVqdmlWOVN0SmVtVnJQUnMzUWFtZ1J1WTI4Vi1qMFB5QmpBN0VNOTNGbGRTOENnU1RINGRmS05RMDlHRzA5YzMySGM3dWJxTGVvMU9sQjhMTEs4ZEV2cmVHa2l2VlI4Tk9vODVhNkp2R1M5aU5IUDRDRW5sajNOQi1KclJXUVBEaU1KTnJDVVhmd2NYcVRRZlNHdUdWLXpnVUlMUWR0djQ4S3B0WWpHX1hXYUZFbThnZUdSWjFoTDljaXV6eDNoQk9qdVZLVE9JWHJTd1JkZlJwVDkxdUZrdmxhUktDc1lWczc2N3JrZ2c3bms4UDZDRlp3VEVGQi1JNnlRb0hxRGFFNjVJQkh5MTZCRUlQZWhJNEpWNm9hQ3RYdVFuT1ZSTTVwWWxOYW9ncV9fdjFxLXZZTFF0LThVX1VBVHNqRERwTEV3M2NBbVFnRzJUbndRdlRaTUZVaHdvZEFvakN5S0JJbl9Tb2tpVjlJejYxYjFFLTFkdEZ2czNXZDZfNUF6Skw3TnpOaHh0dTJLc3EtV0JBNjlONC11dG5IX0hHMEZyRWxyN2VrM3BEczdDb09YRTBHZVB2eUZ6NjdmZ1FVTWlQR3RtdGlEMGFNeF9vX0NQOGtZekctYUlqWTNuUXJ3?oc=5",
+      "source": "台灣好新聞",
       "published_at": "2026-10-20",
       "category": "社會熱議",
       "importance": "medium",
@@ -3507,17 +3539,6 @@
       "title": "秀林鄉主席駱燕玲退民進黨入國民黨陳景豐主委表尊重 - 台灣新聞雲",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE00WmZPQjJFTlFfckVUWi1tUnNNUkNZNlNYdTNkR1NPTTVaSmt2QnN4MEptVTdGdzVSS3UzaVdwMDA4V2RyQVQ0?oc=5",
       "source": "台灣新聞雲",
-      "published_at": "2026-10-20",
-      "category": "社會熱議",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
-    },
-    {
-      "title": "2026臺灣科普環島列車駛進台中 33校約1,600名學童參與 - 新華報導",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mNV9WVC1mQk9WdmVFVmxScjNwTU0yd3AyRWhFNEFNdXZDdzB2ZDVPaWN6NVdyc3VLZDVlaG1TdGk2TFl0c01LNEo5R25YYkdpdkt4X3paNE5yVHNBbHRxVzc3Wjg?oc=5",
-      "source": "新華報導",
       "published_at": "2026-10-20",
       "category": "社會熱議",
       "importance": "medium",
@@ -3562,17 +3583,6 @@
       "title": "物價飛漲痛擊川普亞裔選民大倒戈- 台灣時報焦點- 新聞 - 華人今日網",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KbmZXOU1WcUNoa1RwRHlITTRXTXhYWXp0eGNoNDRLUEZPT1I3NmxTOEJ3OURZZmVHc2VjVmxhdkdQNEotVlJaQ2xHbENtZFJXMmZNYnNYaTRkbjZ1MEhBVXMzQ1AtZw?oc=5",
       "source": "華人今日網",
-      "published_at": "2026-10-19",
-      "category": "社會熱議",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
-    },
-    {
-      "title": "台中全民運龍舟奪隊史首金！亞運國手領軍摘金 累計40金122面獎牌 - 新華報導",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lRHI2QjRIVG51eXl3dzhTczVaeWFtM2dOQUI4VENZenJsak9IV2ltUE9nSU5DNzBsU3p2d3VUQ2hmY0NNdEdhVDhkRHZZWlpEcU8tbHJ3UzhGY0kz?oc=5",
-      "source": "新華報導",
       "published_at": "2026-10-19",
       "category": "社會熱議",
       "importance": "medium",

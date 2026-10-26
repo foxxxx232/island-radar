@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T02:14:11.732638+00:00",
+  "generated_at": "2026-10-26T02:35:29.539503+00:00",
   "has_baseline": true,
   "watchlist": [
     "露珠",
@@ -34,7 +34,7 @@
       "launch_time_label": "已上架：2026-10-23",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:mo:grossing:6789467258",
@@ -59,7 +59,7 @@
       "launch_time_label": "已上架：2026-10-23",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:free:6789467258",
@@ -84,7 +84,7 @@
       "launch_time_label": "已上架：2026-10-23",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:mo:free:6789467258",
@@ -109,7 +109,7 @@
       "launch_time_label": "已上架：2026-10-23",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:mo:free:6762712984",
@@ -134,7 +134,7 @@
       "launch_time_label": "已上架：2026-10-22",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:free:6762712984",
@@ -159,7 +159,7 @@
       "launch_time_label": "已上架：2026-10-22",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:tw:free:6812663231",
@@ -184,7 +184,7 @@
       "launch_time_label": "已上架：2026-10-19",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:free:6812663231",
@@ -209,7 +209,7 @@
       "launch_time_label": "已上架：2026-10-19",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:tw:free:6762712984",
@@ -234,7 +234,7 @@
       "launch_time_label": "已上架：2026-10-22",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:mo:free:6803396660",
@@ -259,7 +259,7 @@
       "launch_time_label": "已上架：2026-10-19",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:tw:free:6761524901",
@@ -284,7 +284,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:mo:free:6761524901",
@@ -309,7 +309,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:mo:free:6821576483",
@@ -334,32 +334,7 @@
       "launch_time_label": "已上架：2026-10-15",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:tw:free:6813990095",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "free",
-      "title": "再一下：鹽酥雞",
-      "publisher": "Hsiangyu Hu",
-      "rank": 22,
-      "game_id": "6813990095",
-      "url": "https://apps.apple.com/tw/app/%E5%86%8D%E4%B8%80%E4%B8%8B-%E9%B9%BD%E9%85%A5%E9%9B%9E/id6813990095?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-10-07",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-10-07",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:tw:grossing:6789467258",
@@ -384,7 +359,7 @@
       "launch_time_label": "已上架：2026-10-23",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:tw:grossing:6762712984",
@@ -409,7 +384,7 @@
       "launch_time_label": "已上架：2026-10-22",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:free:6803396660",
@@ -434,32 +409,7 @@
       "launch_time_label": "已上架：2026-10-19",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:1606356401",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "絕區零",
-      "publisher": "COGNOSPHERE PTE. LTD.",
-      "rank": 29,
-      "game_id": "1606356401",
-      "url": "https://apps.apple.com/mo/app/%E7%B5%95%E5%8D%80%E9%9B%B6/id1606356401?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2024-07-02",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2024-07-02",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:grossing:6789467258",
@@ -484,7 +434,7 @@
       "launch_time_label": "已上架：2026-10-23",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:tw:free:6803396660",
@@ -509,32 +459,7 @@
       "launch_time_label": "已上架：2026-10-19",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:1091301948",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "88 Fortunes™ Casino Slot Games",
-      "publisher": "Phantom EFX, Inc.",
-      "rank": 35,
-      "game_id": "1091301948",
-      "url": "https://apps.apple.com/mo/app/88-fortunes-casino-slot-games/id1091301948?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2017-01-24",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2017-01-24",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:grossing:6762712984",
@@ -559,32 +484,7 @@
       "launch_time_label": "已上架：2026-10-22",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6502820653",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "弓箭傳說2",
-      "publisher": "HABBY",
-      "rank": 38,
-      "game_id": "6502820653",
-      "url": "https://apps.apple.com/mo/app/%E5%BC%93%E7%AE%AD%E5%82%B3%E8%AA%AA2/id6502820653?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2024-11-19",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2024-11-19",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:free:6761524901",
@@ -609,7 +509,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:free:6821576483",
@@ -634,57 +534,7 @@
       "launch_time_label": "已上架：2026-10-15",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6759030432",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "瑪奇 Mobile",
-      "publisher": "NEXON Company",
-      "rank": 41,
-      "game_id": "6759030432",
-      "url": "https://apps.apple.com/mo/app/%E7%91%AA%E5%A5%87-mobile/id6759030432?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-07-20",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-07-20",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6443755785",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "漫遊小鎮®：合併&故事",
-      "publisher": "Microfun Limited",
-      "rank": 43,
-      "game_id": "6443755785",
-      "url": "https://apps.apple.com/mo/app/%E6%BC%AB%E9%81%8A%E5%B0%8F%E9%8E%AE-%E5%90%88%E4%BD%B5-%E6%95%85%E4%BA%8B/id6443755785?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2022-10-19",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2022-10-19",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:tw:grossing:6761524901",
@@ -709,7 +559,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:mo:free:6800268867",
@@ -734,7 +584,7 @@
       "launch_time_label": "已上架：2026-10-21",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:grossing:6771652722",
@@ -759,7 +609,7 @@
       "launch_time_label": "已上架：2026-10-22",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:mo:grossing:6762712984",
@@ -784,32 +634,7 @@
       "launch_time_label": "已上架：2026-10-22",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:6482849843",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "物品分類：連連看3消除遊戲",
-      "publisher": "FALCON GAMES",
-      "rank": 49,
-      "game_id": "6482849843",
-      "url": "https://apps.apple.com/mo/app/%E7%89%A9%E5%93%81%E5%88%86%E9%A1%9E-%E9%80%A3%E9%80%A3%E7%9C%8B3%E6%B6%88%E9%99%A4%E9%81%8A%E6%88%B2/id6482849843?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2024-04-11",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2024-04-11",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:mo:grossing:6771652722",
@@ -824,8 +649,7 @@
       "brand": null,
       "matched_publisher": null,
       "keywords": [
-        "近期上架（商店日期）",
-        "新進榜（不等於新上線）"
+        "近期上架（商店日期）"
       ],
       "level": "watch",
       "release_date": "2026-10-22",
@@ -835,157 +659,7 @@
       "launch_time_label": "已上架：2026-10-22",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:951627425",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "DRAGON BALL Z -七龍珠爆裂激戰-",
-      "publisher": "Bandai Namco Entertainment Inc.",
-      "rank": 53,
-      "game_id": "951627425",
-      "url": "https://apps.apple.com/mo/app/dragon-ball-z-%E4%B8%83%E9%BE%8D%E7%8F%A0%E7%88%86%E8%A3%82%E6%BF%80%E6%88%B0/id951627425?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2016-02-01",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2016-02-01",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:6771681142",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "天天拼詞王",
-      "publisher": "SUNNY HK",
-      "rank": 54,
-      "game_id": "6771681142",
-      "url": "https://apps.apple.com/mo/app/%E5%A4%A9%E5%A4%A9%E6%8B%BC%E8%A9%9E%E7%8E%8B/id6771681142?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-06-29",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-06-29",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6482291732",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "運氣拚輸贏",
-      "publisher": "111%",
-      "rank": 54,
-      "game_id": "6482291732",
-      "url": "https://apps.apple.com/mo/app/%E9%81%8B%E6%B0%A3%E6%8B%9A%E8%BC%B8%E8%B4%8F/id6482291732?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2024-05-26",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2024-05-26",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:1501316113",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "Magic War Legends",
-      "publisher": "TINYSOFT",
-      "rank": 56,
-      "game_id": "1501316113",
-      "url": "https://apps.apple.com/mo/app/magic-war-legends/id1501316113?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2020-04-30",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2020-04-30",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:free:6759962259",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "free",
-      "title": "DAVE THE DIVER",
-      "publisher": "Mintrocket",
-      "rank": 57,
-      "game_id": "6759962259",
-      "url": "https://apps.apple.com/hk/app/dave-the-diver/id6759962259?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-09-16",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-09-16",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:1480616990",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "英雄聯盟：激鬥峽谷",
-      "publisher": "Riot Games",
-      "rank": 61,
-      "game_id": "1480616990",
-      "url": "https://apps.apple.com/mo/app/%E8%8B%B1%E9%9B%84%E8%81%AF%E7%9B%9F-%E6%BF%80%E9%AC%A5%E5%B3%BD%E8%B0%B7/id1480616990?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2021-03-28",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2021-03-28",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:free:6811033778",
@@ -1010,107 +684,7 @@
       "launch_time_label": "已上架：2026-10-15",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:6790707229",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "Jewel Loop - Coloring Sort",
-      "publisher": "Ta Ta Game Technology Limited",
-      "rank": 62,
-      "game_id": "6790707229",
-      "url": "https://apps.apple.com/mo/app/jewel-loop-coloring-sort/id6790707229?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-07-29",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-07-29",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:459688716",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "開心水族箱",
-      "publisher": "Eureka Creation Limited",
-      "rank": 63,
-      "game_id": "459688716",
-      "url": "https://apps.apple.com/mo/app/%E9%96%8B%E5%BF%83%E6%B0%B4%E6%97%8F%E7%AE%B1/id459688716?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2011-10-25",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2011-10-25",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:1492980232",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "Jackpot Wins - Casino Slots",
-      "publisher": "SpinX Games Limited",
-      "rank": 64,
-      "game_id": "1492980232",
-      "url": "https://apps.apple.com/mo/app/jackpot-wins-casino-slots/id1492980232?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2020-10-21",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2020-10-21",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:grossing:1442061397",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "grossing",
-      "title": "Pokémon Masters EX",
-      "publisher": "DeNA Co., Ltd.",
-      "rank": 65,
-      "game_id": "1442061397",
-      "url": "https://apps.apple.com/hk/app/pok%C3%A9mon-masters-ex/id1442061397?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2019-08-28",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2019-08-28",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:free:6811081870",
@@ -1135,82 +709,7 @@
       "launch_time_label": "已上架：2026-10-17",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:6761757565",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "Colorever",
-      "publisher": "Oakever Games",
-      "rank": 68,
-      "game_id": "6761757565",
-      "url": "https://apps.apple.com/mo/app/colorever/id6761757565?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-04-20",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-04-20",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6475925341",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "咒術迴戰 幻影夜行",
-      "publisher": "BILIBILI HK LIMITED",
-      "rank": 68,
-      "game_id": "6475925341",
-      "url": "https://apps.apple.com/mo/app/%E5%92%92%E8%A1%93%E8%BF%B4%E6%88%B0-%E5%B9%BB%E5%BD%B1%E5%A4%9C%E8%A1%8C/id6475925341?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2024-11-05",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2024-11-05",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:1229016807",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "《荒野亂鬥》",
-      "publisher": "Supercell",
-      "rank": 69,
-      "game_id": "1229016807",
-      "url": "https://apps.apple.com/mo/app/%E8%8D%92%E9%87%8E%E4%BA%82%E9%AC%A5/id1229016807?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2018-07-01",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2018-07-01",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:free:6800268867",
@@ -1235,807 +734,7 @@
       "launch_time_label": "已上架：2026-10-21",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:6468921495",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "Vita 麻將",
-      "publisher": "Vita Studio",
-      "rank": 70,
-      "game_id": "6468921495",
-      "url": "https://apps.apple.com/mo/app/vita-%E9%BA%BB%E5%B0%87/id6468921495?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2023-12-01",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2023-12-01",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:tw:grossing:6698862298",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "grossing",
-      "title": "締造者：放逐之境",
-      "publisher": "DRIMAGE Co., Ltd",
-      "rank": 71,
-      "game_id": "6698862298",
-      "url": "https://apps.apple.com/tw/app/%E7%B7%A0%E9%80%A0%E8%80%85-%E6%94%BE%E9%80%90%E4%B9%8B%E5%A2%83/id6698862298?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-09-13",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-09-13",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6740043080",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "Screwdom",
-      "publisher": "Zego Global Pte Ltd",
-      "rank": 71,
-      "game_id": "6740043080",
-      "url": "https://apps.apple.com/mo/app/screwdom/id6740043080?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2025-01-02",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2025-01-02",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:grossing:6469999573",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "grossing",
-      "title": "全明星街球派對",
-      "publisher": "I CAN ENTERTAINMENT H.K. CO. LTD",
-      "rank": 72,
-      "game_id": "6469999573",
-      "url": "https://apps.apple.com/hk/app/%E5%85%A8%E6%98%8E%E6%98%9F%E8%A1%97%E7%90%83%E6%B4%BE%E5%B0%8D/id6469999573?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2024-04-09",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2024-04-09",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:6759788962",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "Lordrush",
-      "publisher": "Century Games Innovation Pte. Ltd.",
-      "rank": 73,
-      "game_id": "6759788962",
-      "url": "https://apps.apple.com/mo/app/lordrush/id6759788962?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-07-19",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-07-19",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6738897614",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "時光大爆炸",
-      "publisher": "U-LIKE ENTERTAINMENT LIMITED",
-      "rank": 74,
-      "game_id": "6738897614",
-      "url": "https://apps.apple.com/mo/app/%E6%99%82%E5%85%89%E5%A4%A7%E7%88%86%E7%82%B8/id6738897614?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2025-03-26",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2025-03-26",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6446716937",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "九萬畝",
-      "publisher": "伟 王",
-      "rank": 76,
-      "game_id": "6446716937",
-      "url": "https://apps.apple.com/mo/app/%E4%B9%9D%E8%90%AC%E7%95%9D/id6446716937?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2023-04-28",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2023-04-28",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:1600234315",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "花亦山心之月",
-      "publisher": "Nuverse",
-      "rank": 77,
-      "game_id": "1600234315",
-      "url": "https://apps.apple.com/mo/app/%E8%8A%B1%E4%BA%A6%E5%B1%B1%E5%BF%83%E4%B9%8B%E6%9C%88/id1600234315?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2022-05-26",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2022-05-26",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6503603603",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "迷霧小鎮: 合成遊戲 (Mystery Town)",
-      "publisher": "Cedar Games Studio",
-      "rank": 78,
-      "game_id": "6503603603",
-      "url": "https://apps.apple.com/mo/app/%E8%BF%B7%E9%9C%A7%E5%B0%8F%E9%8E%AE-%E5%90%88%E6%88%90%E9%81%8A%E6%88%B2-mystery-town/id6503603603?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2025-07-27",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2025-07-27",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:tw:grossing:6790720778",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "grossing",
-      "title": "解憂夢幻島",
-      "publisher": "Aidian Network",
-      "rank": 80,
-      "game_id": "6790720778",
-      "url": "https://apps.apple.com/tw/app/%E8%A7%A3%E6%86%82%E5%A4%A2%E5%B9%BB%E5%B3%B6/id6790720778?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-08-21",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-08-21",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:grossing:1551574670",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "grossing",
-      "title": "末日喧囂",
-      "publisher": "BlancoZone",
-      "rank": 82,
-      "game_id": "1551574670",
-      "url": "https://apps.apple.com/hk/app/%E6%9C%AB%E6%97%A5%E5%96%A7%E5%9B%82/id1551574670?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2021-04-27",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2021-04-27",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:grossing:6790720778",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "grossing",
-      "title": "解憂夢幻島",
-      "publisher": "Aidian Network",
-      "rank": 83,
-      "game_id": "6790720778",
-      "url": "https://apps.apple.com/hk/app/%E8%A7%A3%E6%86%82%E5%A4%A2%E5%B9%BB%E5%B3%B6/id6790720778?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-08-21",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-08-21",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:370339723",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "德州撲克 - Pokerist",
-      "publisher": "WISE WAVE CORPORATION LIMITED",
-      "rank": 83,
-      "game_id": "370339723",
-      "url": "https://apps.apple.com/mo/app/%E5%BE%B7%E5%B7%9E%E6%92%B2%E5%85%8B-pokerist/id370339723?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2010-05-29",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2010-05-29",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6654896977",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "Traffic Buster: Parking Escape",
-      "publisher": "Happy Fox",
-      "rank": 83,
-      "game_id": "6654896977",
-      "url": "https://apps.apple.com/mo/app/traffic-buster-parking-escape/id6654896977?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2024-08-22",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2024-08-22",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:tw:grossing:6503113088",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "grossing",
-      "title": "新武俠大明星-《牧神記》聯動",
-      "publisher": "CloudOcean Star",
-      "rank": 84,
-      "game_id": "6503113088",
-      "url": "https://apps.apple.com/tw/app/%E6%96%B0%E6%AD%A6%E4%BF%A0%E5%A4%A7%E6%98%8E%E6%98%9F-%E7%89%A7%E7%A5%9E%E8%A8%98-%E8%81%AF%E5%8B%95/id6503113088?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2024-06-17",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2024-06-17",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:1484303602",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "哈利波特：魔法覺醒",
-      "publisher": "Envoy Interactive Entertainment Co.Ltd.",
-      "rank": 84,
-      "game_id": "1484303602",
-      "url": "https://apps.apple.com/mo/app/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9-%E9%AD%94%E6%B3%95%E8%A6%BA%E9%86%92/id1484303602?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2021-09-08",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2021-09-08",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:grossing:1630883882",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "grossing",
-      "title": "勝利女神：妮姬",
-      "publisher": "MAINSTREAM UNIVERSAL CO. LTD.",
-      "rank": 85,
-      "game_id": "1630883882",
-      "url": "https://apps.apple.com/hk/app/%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E-%E5%A6%AE%E5%A7%AC/id1630883882?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2022-11-02",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2022-11-02",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:1223965045",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "塔防三國志 - 經典塔防RPG",
-      "publisher": "Morefun Technology Limited",
-      "rank": 85,
-      "game_id": "1223965045",
-      "url": "https://apps.apple.com/mo/app/%E5%A1%94%E9%98%B2%E4%B8%89%E5%9C%8B%E5%BF%97-%E7%B6%93%E5%85%B8%E5%A1%94%E9%98%B2rpg/id1223965045?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2017-05-04",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2017-05-04",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:free:6767091927",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "free",
-      "title": "拼圖疊疊樂",
-      "publisher": "Runyou Game",
-      "rank": 86,
-      "game_id": "6767091927",
-      "url": "https://apps.apple.com/hk/app/%E6%8B%BC%E5%9C%96%E7%96%8A%E7%96%8A%E6%A8%82/id6767091927?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-05-11",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-05-11",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6446141770",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "肥鵝健身房",
-      "publisher": "THE HORTOR TECHNOLOGY PTE.LTD.",
-      "rank": 86,
-      "game_id": "6446141770",
-      "url": "https://apps.apple.com/mo/app/%E8%82%A5%E9%B5%9D%E5%81%A5%E8%BA%AB%E6%88%BF/id6446141770?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2023-06-01",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2023-06-01",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:529479190",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "部落衝突 (Clash of Clans)",
-      "publisher": "Supercell",
-      "rank": 87,
-      "game_id": "529479190",
-      "url": "https://apps.apple.com/mo/app/%E9%83%A8%E8%90%BD%E8%A1%9D%E7%AA%81-clash-of-clans/id529479190?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2012-08-02",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2012-08-02",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:1389111413",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "Hole.io - Original Hole Game",
-      "publisher": "Voodoo",
-      "rank": 88,
-      "game_id": "1389111413",
-      "url": "https://apps.apple.com/mo/app/hole-io-original-hole-game/id1389111413?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2018-06-24",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2018-06-24",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:625257520",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "《爐石戰記》",
-      "publisher": "Blizzard Entertainment, Inc.",
-      "rank": 88,
-      "game_id": "625257520",
-      "url": "https://apps.apple.com/mo/app/%E7%88%90%E7%9F%B3%E6%88%B0%E8%A8%98/id625257520?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2014-04-16",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2014-04-16",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:free:6760406772",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "free",
-      "title": "Last Shelter: War Z",
-      "publisher": "LAST ORIGIN STUDIO LIMITED",
-      "rank": 89,
-      "game_id": "6760406772",
-      "url": "https://apps.apple.com/hk/app/last-shelter-war-z/id6760406772?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-08-19",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-08-19",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:grossing:6752886832",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "grossing",
-      "title": "飯店奇旅",
-      "publisher": "Century Games Innovation Pte. Ltd.",
-      "rank": 89,
-      "game_id": "6752886832",
-      "url": "https://apps.apple.com/hk/app/%E9%A3%AF%E5%BA%97%E5%A5%87%E6%97%85/id6752886832?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-01-15",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-01-15",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6740966864",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "點點英雄：骰子傳說",
-      "publisher": "HABBY",
-      "rank": 89,
-      "game_id": "6740966864",
-      "url": "https://apps.apple.com/mo/app/%E9%BB%9E%E9%BB%9E%E8%8B%B1%E9%9B%84-%E9%AA%B0%E5%AD%90%E5%82%B3%E8%AA%AA/id6740966864?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-04-21",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-04-21",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:tw:free:6503603603",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "free",
-      "title": "迷霧小鎮: 合成遊戲 (Mystery Town)",
-      "publisher": "Cedar Games Studio",
-      "rank": 91,
-      "game_id": "6503603603",
-      "url": "https://apps.apple.com/tw/app/%E8%BF%B7%E9%9C%A7%E5%B0%8F%E9%8E%AE-%E5%90%88%E6%88%90%E9%81%8A%E6%88%B2-mystery-town/id6503603603?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2025-07-27",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2025-07-27",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:grossing:1290086677",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "grossing",
-      "title": "楓之谷M - 奇幻冒險MMORPG",
-      "publisher": "NEXON Company",
-      "rank": 91,
-      "game_id": "1290086677",
-      "url": "https://apps.apple.com/hk/app/%E6%A5%93%E4%B9%8B%E8%B0%B7m-%E5%A5%87%E5%B9%BB%E5%86%92%E9%9A%AAmmorpg/id1290086677?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2018-08-01",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2018-08-01",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:1359706682",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "Standoff 2",
-      "publisher": "AXLEBOLT LTD",
-      "rank": 91,
-      "game_id": "1359706682",
-      "url": "https://apps.apple.com/mo/app/standoff-2/id1359706682?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2018-03-28",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2018-03-28",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:tw:grossing:6450161259",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "grossing",
-      "title": "獸族之怒",
-      "publisher": "sp_games",
-      "rank": 92,
-      "game_id": "6450161259",
-      "url": "https://apps.apple.com/tw/app/%E7%8D%B8%E6%97%8F%E4%B9%8B%E6%80%92/id6450161259?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2024-03-12",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2024-03-12",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:6738109752",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "點點大作戰",
-      "publisher": "FunPlus International AG",
-      "rank": 92,
-      "game_id": "6738109752",
-      "url": "https://apps.apple.com/mo/app/%E9%BB%9E%E9%BB%9E%E5%A4%A7%E4%BD%9C%E6%88%B0/id6738109752?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2025-08-15",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2025-08-15",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:1587828931",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "少女迴戰",
-      "publisher": "ONEMT",
-      "rank": 92,
-      "game_id": "1587828931",
-      "url": "https://apps.apple.com/mo/app/%E5%B0%91%E5%A5%B3%E8%BF%B4%E6%88%B0/id1587828931?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2022-04-19",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2022-04-19",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:hk:grossing:6761524901",
@@ -2060,7 +759,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     },
     {
       "id": "ios:mo:grossing:6761524901",
@@ -2085,507 +784,7 @@
       "launch_time_label": "已上架：2026-10-13",
       "evidence": "商店上架日期",
       "is_confirmed_launch": true,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:grossing:852912420",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "grossing",
-      "title": "魔靈召喚: 天空之役",
-      "publisher": "Com2uS Corp.",
-      "rank": 94,
-      "game_id": "852912420",
-      "url": "https://apps.apple.com/hk/app/%E9%AD%94%E9%9D%88%E5%8F%AC%E5%96%9A-%E5%A4%A9%E7%A9%BA%E4%B9%8B%E5%BD%B9/id852912420?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2014-06-12",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2014-06-12",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:1517783697",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "原神-六週年",
-      "publisher": "COGNOSPHERE PTE. LTD.",
-      "rank": 94,
-      "game_id": "1517783697",
-      "url": "https://apps.apple.com/mo/app/%E5%8E%9F%E7%A5%9E-%E5%85%AD%E9%80%B1%E5%B9%B4/id1517783697?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2020-09-26",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2020-09-26",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:tw:free:6747028173",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "free",
-      "title": "Hole Stars: 謎題挑戰",
-      "publisher": "Moon Active",
-      "rank": 95,
-      "game_id": "6747028173",
-      "url": "https://apps.apple.com/tw/app/hole-stars-%E8%AC%8E%E9%A1%8C%E6%8C%91%E6%88%B0/id6747028173?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2025-09-14",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2025-09-14",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:tw:grossing:6503603603",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "grossing",
-      "title": "迷霧小鎮: 合成遊戲 (Mystery Town)",
-      "publisher": "Cedar Games Studio",
-      "rank": 95,
-      "game_id": "6503603603",
-      "url": "https://apps.apple.com/tw/app/%E8%BF%B7%E9%9C%A7%E5%B0%8F%E9%8E%AE-%E5%90%88%E6%88%90%E9%81%8A%E6%88%B2-mystery-town/id6503603603?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2025-07-27",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2025-07-27",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:free:1117270703",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "free",
-      "title": "eFootball™",
-      "publisher": "KONAMI",
-      "rank": 95,
-      "game_id": "1117270703",
-      "url": "https://apps.apple.com/hk/app/efootball/id1117270703?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2017-05-24",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2017-05-24",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:6776522053",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "GOGO! Blast",
-      "publisher": "Nebula Studio",
-      "rank": 95,
-      "game_id": "6776522053",
-      "url": "https://apps.apple.com/mo/app/gogo-blast/id6776522053?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-07-02",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-07-02",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:963067330",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "跑跑薑餅人：烤箱大逃亡",
-      "publisher": "Devsisters",
-      "rank": 95,
-      "game_id": "963067330",
-      "url": "https://apps.apple.com/mo/app/%E8%B7%91%E8%B7%91%E8%96%91%E9%A4%85%E4%BA%BA-%E7%83%A4%E7%AE%B1%E5%A4%A7%E9%80%83%E4%BA%A1/id963067330?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2016-10-26",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2016-10-26",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:tw:grossing:583798880",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "grossing",
-      "title": "神魔之塔",
-      "publisher": "Mad Head Limited",
-      "rank": 96,
-      "game_id": "583798880",
-      "url": "https://apps.apple.com/tw/app/%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94/id583798880?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2013-01-14",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2013-01-14",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:free:6502326151",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "free",
-      "title": "卡厄思夢境",
-      "publisher": "Smilegate, Inc.",
-      "rank": 96,
-      "game_id": "6502326151",
-      "url": "https://apps.apple.com/hk/app/%E5%8D%A1%E5%8E%84%E6%80%9D%E5%A4%A2%E5%A2%83/id6502326151?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2025-10-21",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2025-10-21",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:572395608",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "Temple Run 2",
-      "publisher": "Imangi Studios, LLC",
-      "rank": 96,
-      "game_id": "572395608",
-      "url": "https://apps.apple.com/mo/app/temple-run-2/id572395608?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2013-01-17",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2013-01-17",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:tw:free:6790707229",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "free",
-      "title": "Jewel Loop - Coloring Sort",
-      "publisher": "Ta Ta Game Technology Limited",
-      "rank": 97,
-      "game_id": "6790707229",
-      "url": "https://apps.apple.com/tw/app/jewel-loop-coloring-sort/id6790707229?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-07-29",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-07-29",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:grossing:6475925341",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "grossing",
-      "title": "咒術迴戰 幻影夜行",
-      "publisher": "BILIBILI HK LIMITED",
-      "rank": 97,
-      "game_id": "6475925341",
-      "url": "https://apps.apple.com/hk/app/%E5%92%92%E8%A1%93%E8%BF%B4%E6%88%B0-%E5%B9%BB%E5%BD%B1%E5%A4%9C%E8%A1%8C/id6475925341?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2024-11-05",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2024-11-05",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:459035295",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "Top Eleven 2027：成為全球最佳足球領隊",
-      "publisher": "Nordeus",
-      "rank": 97,
-      "game_id": "459035295",
-      "url": "https://apps.apple.com/mo/app/top-eleven-2027-%E6%88%90%E7%82%BA%E5%85%A8%E7%90%83%E6%9C%80%E4%BD%B3%E8%B6%B3%E7%90%83%E9%A0%98%E9%9A%8A/id459035295?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2011-11-20",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2011-11-20",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:hk:free:1638139403",
-      "platform": "ios",
-      "region": "hk",
-      "kind": "free",
-      "title": "Block Crush!",
-      "publisher": "Wonderful Studio",
-      "rank": 98,
-      "game_id": "1638139403",
-      "url": "https://apps.apple.com/hk/app/block-crush/id1638139403?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2022-10-15",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2022-10-15",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6758003347",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "Castle Rivals",
-      "publisher": "Voodoo",
-      "rank": 98,
-      "game_id": "6758003347",
-      "url": "https://apps.apple.com/mo/app/castle-rivals/id6758003347?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2026-04-02",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2026-04-02",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:tw:grossing:1466736988",
-      "platform": "ios",
-      "region": "tw",
-      "kind": "grossing",
-      "title": "跑跑卡丁車 Rush+",
-      "publisher": "NEXON Company",
-      "rank": 99,
-      "game_id": "1466736988",
-      "url": "https://apps.apple.com/tw/app/%E8%B7%91%E8%B7%91%E5%8D%A1%E4%B8%81%E8%BB%8A-rush/id1466736988?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2020-05-11",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2020-05-11",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:329218549",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "国际象棋-玩与学在线的",
-      "publisher": "Chess.com",
-      "rank": 99,
-      "game_id": "329218549",
-      "url": "https://apps.apple.com/mo/app/%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B-%E7%8E%A9%E4%B8%8E%E5%AD%A6%E5%9C%A8%E7%BA%BF%E7%9A%84/id329218549?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2009-10-29",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2009-10-29",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:6443581187",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "Jackpotland: Casino Slots 老虎機",
-      "publisher": "REIN TECHNOLOGY LIMITED",
-      "rank": 99,
-      "game_id": "6443581187",
-      "url": "https://apps.apple.com/mo/app/jackpotland-casino-slots-%E8%80%81%E8%99%8E%E6%A9%9F/id6443581187?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2022-10-25",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2022-10-25",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:free:1426272485",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "free",
-      "title": "夢幻鋼琴",
-      "publisher": "Eyugame Network Technology Co., Ltd",
-      "rank": 100,
-      "game_id": "1426272485",
-      "url": "https://apps.apple.com/mo/app/%E5%A4%A2%E5%B9%BB%E9%8B%BC%E7%90%B4/id1426272485?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2018-08-25",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2018-08-25",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
-    },
-    {
-      "id": "ios:mo:grossing:1628978628",
-      "platform": "ios",
-      "region": "mo",
-      "kind": "grossing",
-      "title": "我本千金",
-      "publisher": "Luminora Interactive Group Limited",
-      "rank": 100,
-      "game_id": "1628978628",
-      "url": "https://apps.apple.com/mo/app/%E6%88%91%E6%9C%AC%E5%8D%83%E9%87%91/id1628978628?uo=4",
-      "brand": null,
-      "matched_publisher": null,
-      "keywords": [
-        "新進榜（不等於新上線）"
-      ],
-      "level": "watch",
-      "release_date": "2022-12-06",
-      "expected_release_date": null,
-      "expected_date_precision": null,
-      "expected_release_source": null,
-      "launch_time_label": "商店上架日期：2022-12-06",
-      "evidence": "本期新進榜",
-      "is_confirmed_launch": false,
-      "observed_at": "2026-10-26T02:14:11.732638+00:00"
+      "observed_at": "2026-10-26T02:35:29.539503+00:00"
     }
   ]
 }
