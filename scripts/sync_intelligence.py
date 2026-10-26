@@ -264,7 +264,7 @@ for watch in data.get("publisher_watch", []):
 
 # Marketing tracking is a rolling 3-month window. Preserve only verified, dated cases.
 marketing_cutoff=(now.date()-datetime.timedelta(days=92)).isoformat()
-data["campaigns"]=[c for c in data.get("campaigns",[]) if re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}",str(c.get("published_at",""))) and c["published_at"]>=marketing_cutoff and not blocked_source(c)]
+data["campaigns"]=[c for c in data.get("campaigns",[]) if re.fullmatch(r"\d{4}-\d{2}-\d{2}",str(c.get("published_at",""))) and c["published_at"]>=marketing_cutoff and not blocked_source(c)]
 for c in data["campaigns"]:
     if "marketing_cost_estimate" not in c:
         t=str(c.get("type",""))+" "+str(c.get("detail",""))
