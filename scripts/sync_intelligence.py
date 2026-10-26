@@ -33,13 +33,30 @@ def relevant(title):
     game=re.search(r"《[^》]+》|遊戲|電玩|RPG|SLG|三國|寶可夢|Pokémon|Garena|NEXON|騰訊|網易|遊戲業",title,re.I)
     noise=re.search(r"滑鼠|鍵盤|顯示卡|筆電|主機維修|Steam原版|車色|汽車售價|房地產|桌機|機殼|處理器|顯示器",title,re.I)
     return bool((mobile or game) and not noise and (mobile or not re.search(r"Steam|PS5|Switch|PC版|主機",title,re.I)))
+# Exclude Yam News (蕃新聞) and its syndicated links from all news sources.
+def blocked_source(item):
+    source=str(item.get("source",""))
+    title=str(item.get("title",""))
+    url=str(item.get("url",""))
+    return bool(re.search(r"蕃新聞|番新聞|yam news",source+" "+title,re.I) or re.search(r"n\\.yam\\.com",url,re.I))
+
+# Existing game coverage is only relevant for genuinely major new developments.
+major_existing_update=re.compile(r"IP.{0,12}聯動|聯動|聯名|大型改版|重大更新|新資料片|全新賽季|重大改版|大型資料片|全新版本|重大合作|正式宣布代言",re.I)
+# Confirmed old launches; extend this registry only after verifying launch dates.
+released_games={"英雄刷刷刷":"2025-05-22"}
+def outdated_game_story(title,published):
+    if not any(game in title and str(published or "")[:10]>launch for game,launch in released_games.items()):return False
+    return not bool(major_existing_update.search(title))
+# Do not recycle old news into a current weekly digest, even when the source republishes it.
+def stale_article(published,days=30):
+    try:return (now.date()-datetime.date.fromisoformat(str(published)[:10])).days>days
+    except Exception:return True
 # Known released products must not be recycled as new preregistration headlines.
 # Dates require official or contemporaneous launch evidence.
-released_games={"英雄刷刷刷":"2025-05-22"}
 def obsolete_prereg(title,published):
     if not re.search(r"預約|預訂|事前登錄|事前預約|預先註冊|預註冊",title):return False
     return any(game in title and str(published or "")[:10]>launch for game,launch in released_games.items())
-articles={x["url"]:x for x in data.get("news",[]) if x.get("url") and relevant(x.get("title","")) and not obsolete_prereg(x.get("title",""),x.get("published_at",""))}
+articles={x["url"]:x for x in data.get("news",[]) if x.get("url") and relevant(x.get("title","")) and not obsolete_prereg(x.get("title",""),x.get("published_at","")) and not outdated_game_story(x.get("title",""),x.get("published_at","")) and not blocked_source(x) and not stale_article(x.get("published_at",""))}
 marketing_terms=re.compile(r"代言|KOL|網紅|實況|聯名|聯動|合作|主題曲|演唱會|戶外|快閃|地鐵|捷運|廣告|宣傳",re.I)
 pre_terms=re.compile(r"事前預約|事前登錄|預先註冊|預註冊|開放預約|預約開啟|預約開跑|商店預訂|預訂開啟|雙平台預約")
 for label,query in queries:
@@ -65,7 +82,7 @@ for label,query in queries:
             if marketing_terms.search(title):tags.append("行銷動態")
             if pre_terms.search(title):tags.append("事前預約")
             if re.search(r"上市|公測|上線",title):tags.append("上線")
-            if obsolete_prereg(title,pub):continue
+            if blocked_source({"source":source,"title":title,"url":link}) or obsolete_prereg(title,pub) or outdated_game_story(title,pub):continue
             articles.setdefault(link,{"title":title,"url":link,"source":source,"published_at":pub,"tags":tags,"source_type":"media_report"})
             count+=1
         print("News",label,count)
@@ -111,6 +128,7 @@ for topic,query in topic_queries:
             pub=node.findtext("pubDate") or ""
             src=node.find("source");source=(src.text or "媒體") if src is not None else "媒體"
             if not title or not link.startswith("https://"):continue
+            if blocked_source({"source":source,"title":title,"url":link}):continue
             if re.search(r"懶人包|命理|星座|運勢|算命|購物|折扣|促銷|網友爆料|未經證實|預測|獲獎率|評分TOP|直播哪裡看|出席一覽|完整名單|轉播平台",title,re.I):continue
             if topic=="明星話題" and not any(name in title for name in major_stars):continue
             if topic=="娛樂焦點" and not re.search(r"金馬獎|金鐘獎|金曲獎|奪獎|獲獎|得獎|入圍|頒獎|破紀錄|重大票房",title):continue
@@ -245,6 +263,8 @@ for watch in data.get("publisher_watch", []):
             print("Apple publisher catalog unavailable",watch.get("brand"),str(e)[:100])
 
 # News is an evidence feed, not verified ad spend or a reliable forecast of launch dates.
+for section in ("preorders","news","editorial_news","topical_news","meme_trends","meme_candidates"):
+    data[section]=[x for x in data.get(section,[]) if not blocked_source(x)]
 data["updated_at"]=now.isoformat()
 data["news_count"]=len(data["news"])
 PATH.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
