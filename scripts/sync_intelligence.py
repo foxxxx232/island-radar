@@ -262,6 +262,17 @@ for watch in data.get("publisher_watch", []):
         except Exception as e:
             print("Apple publisher catalog unavailable",watch.get("brand"),str(e)[:100])
 
+# Marketing tracking is a rolling 3-month window. Preserve only verified, dated cases.
+marketing_cutoff=(now.date()-datetime.timedelta(days=92)).isoformat()
+data["campaigns"]=[c for c in data.get("campaigns",[]) if re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}",str(c.get("published_at",""))) and c["published_at"]>=marketing_cutoff and not blocked_source(c)]
+for c in data["campaigns"]:
+    if "marketing_cost_estimate" not in c:
+        t=str(c.get("type",""))+" "+str(c.get("detail",""))
+        level="高" if re.search(r"大巨蛋|101光雕|大型線下|演唱會|10位KOL|十大美女",t) else "中高" if re.search(r"代言|IP聯動|正版IP|聯動|KOL|線下|主題曲",t) else "中"
+        c["marketing_cost_estimate"]={"level":level,"basis":"活動規模定性估計，非實際花費或報價","amount":None,"currency":"TWD","confidence":"低"}
+    c.setdefault("media",{"image_url":None,"youtube_url":None,"facebook_url":None})
+# Candidate headlines are not promoted to verified cases without source review.
+data["marketing_news_candidates"]=[n for n in data.get("news",[]) if n.get("published_at","")>=marketing_cutoff and re.search(r"代言|品牌大使|聯動|聯名|IP合作|KOL|實況主|快閃|線下活動|演唱會|主題曲|廣告投放|大型改版",n.get("title","")) and not blocked_source(n)][:40]
 # News is an evidence feed, not verified ad spend or a reliable forecast of launch dates.
 for section in ("preorders","news","editorial_news","topical_news","meme_trends","meme_candidates"):
     data[section]=[x for x in data.get(section,[]) if not blocked_source(x)]
