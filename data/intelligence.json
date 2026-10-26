@@ -1481,16 +1481,6 @@
       "source_type": "media_report"
     },
     {
-      "title": "收視王沈玉琳×蝦系女神沐雨柔 聯手代言！ 《英雄刷刷刷》雙平臺預約火爆開啟 - 蕃新聞",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yaV9vMUhwLWxJOURXQkMtUWlkNDlSekhZdVhBeXo5VGVPd0s0ektoX0pPWHdnUFVpenBLeGxCd1dWYzZHQzRGNE4wUTdvZmFodVE?oc=5",
-      "source": "蕃新聞",
-      "published_at": "2026-10-24",
-      "tags": [
-        "行銷動態"
-      ],
-      "source_type": "media_report"
-    },
-    {
       "title": "颱風生存遊戲《台灣氣象戰》 躲避台灣衝撞努力成為最頑強颱風 - 4Gamers",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSaWRjM3FkTTdOVm5wLUJvTzNsZmZIT05wajRqRU5ramxKQnF0X2tHT3NQdU51ZVFhQU1WSFllY2loNGJKSGRhMHdxY3dKSzFRbjhxd2lJTVBzQzBBc2lDUGtJR0tSbzBmSHc?oc=5",
       "source": "4Gamers",
@@ -2746,7 +2736,7 @@
       "source_type": "media_report"
     }
   ],
-  "news_count": 160,
+  "news_count": 159,
   "editorial_news": [
     {
       "title": "《怪物彈珠》×《Re:從零開始的異世界生活》第2彈合作",
@@ -3593,14 +3583,14 @@
   ],
   "meme_trends": [
     {
-      "title": "INMU KING：AI 迷因音樂與二創擴散",
+      "title": "INMU KING：千萬觀看迷因神曲，AI 舞蹈二創席捲亞洲",
       "meme": "INMU KING",
-      "url": "https://game.udn.com/game/story/122089/9831389",
-      "source": "udn 遊戲角落",
-      "published_at": "2026-10-22",
+      "url": "https://www.4gamers.com.tw/news/detail/82742/inmu-king-bump-youtube-ad-copyright-controversy",
+      "source": "4Gamers",
+      "published_at": "2026-10-20",
       "category": "爆紅迷因",
       "heat_label": "千萬級播放",
-      "heat_basis": "媒體報導截至 10/20 約 2700 萬次播放；非即時",
+      "heat_basis": "4Gamers 報導 2026/10/20 YouTube MV 超過 2,700 萬觀看；原片其後下架，非即時播放數",
       "risk": "高",
       "risk_note": "素材來源與授權限制較多，不建議直接用於廣告",
       "format": "AI 音樂／二創"
