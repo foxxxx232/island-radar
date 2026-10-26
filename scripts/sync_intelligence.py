@@ -135,6 +135,33 @@ for group in clusters:
         best["heat_basis"]="近 7 日同主題 "+str(sources)+" 個不同媒體來源"
     result.append(best)
 data["topical_news"]=sorted(result,key=lambda n:n["published_at"],reverse=True)[:55]
+# Meme watch: discover candidate trends from editorial sources without auto-publishing
+# unverified view counts. Preserve curated entries across scheduled syncs.
+meme_queries=[
+ ("迷因趨勢",'台灣 (爆紅迷因 OR 洗腦神曲 OR 網路梗 OR 翻跳挑戰) when:14d'),
+ ("迷因影音",'site:4gamers.com.tw (迷因 OR 爆紅神曲) when:14d'),
+ ("社群話題",'site:dailyview.tw (迷因 OR 爆紅) when:21d')
+]
+meme_candidates={}
+for label,query in meme_queries:
+    feed="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":query,"hl":"zh-TW","gl":"TW","ceid":"TW:zh-Hant"})
+    try:
+        req=urllib.request.Request(feed,headers={"User-Agent":"Mozilla/5.0 IslandRadar/1.0"})
+        with urllib.request.urlopen(req,timeout=12) as response:root=ET.fromstring(response.read(1000000))
+        for node in root.findall(".//item")[:20]:
+            title=(node.findtext("title") or "").strip()
+            link=(node.findtext("link") or "").strip()
+            if not title or not link.startswith("https://"):continue
+            if not re.search(r"迷因|爆紅|神曲|網路梗|翻跳|百萬觀看|千萬觀看",title):continue
+            if re.search(r"舊梗|回顧|懶人包|年度整理|2025年|2024年",title):continue
+            try:
+                date=email.utils.parsedate_to_datetime(node.findtext("pubDate") or "").date().isoformat()
+            except Exception:continue
+            source_node=node.find("source")
+            source=(source_node.text or label) if source_node is not None else label
+            meme_candidates.setdefault(link,{"title":title,"url":link,"source":source,"published_at":date,"review_status":"待人工確認熱度與原始影音"})
+    except Exception as e:print("Meme discovery unavailable",label,str(e)[:120])
+data["meme_candidates"]=sorted(meme_candidates.values(),key=lambda x:x["published_at"],reverse=True)[:40]
 # Candidate preregistrations from media headlines, distinctly separated from confirmed official dates.
 existing={re.sub(r"\s+","",g.get("game","")) for g in data.get("preorders",[]) if g.get("status")!="媒體預約線索（待複核）"}
 candidates=[]
