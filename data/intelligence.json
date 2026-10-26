@@ -1,7 +1,139 @@
 {
   "updated_at": "2026-10-26T02:58:16.276334+00:00",
   "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
-  "campaigns": [],
+  "campaigns": [
+    {
+      "game": "鬥破蒼穹M：少年崛起",
+      "publisher": "喬薇數位",
+      "type": "代言人 / IP聯動",
+      "detail": "曾莞婷代言並扮演美杜莎女王；正版《鬥破蒼穹》動畫 IP 授權",
+      "source": "遊戲基地",
+      "url": "https://news.gamebase.com.tw/news/detail/99441033",
+      "published_at": "2026-08-28",
+      "signals": [
+        "藝人代言",
+        "正版動畫IP",
+        "事前預約"
+      ],
+      "marketing_cost_estimate": {
+        "level": "中高",
+        "basis": "依公開活動形式及資源規模的定性估計，非實際支出或報價",
+        "amount": null,
+        "currency": "TWD",
+        "confidence": "低"
+      },
+      "media": {
+        "image_url": null,
+        "youtube_url": null,
+        "facebook_url": null
+      }
+    },
+    {
+      "game": "癲狂三國：少年無雙",
+      "publisher": "喬葳數位行銷",
+      "type": "台港雙代言人 / IP 聯動 / KOL",
+      "detail": "台灣邰智源、香港林雪擔任雙代言人；邰智源演繹說書人與諸葛亮，林雪演繹董卓；另有《風雲》IP聯動與KOL宣傳",
+      "source": "巴哈姆特 GNN／PChome 轉載",
+      "url": "https://news.m.pchome.com.tw/game/gamer/20260904/index-78850629455032203104.html",
+      "published_at": "2026-09-04",
+      "signals": [
+        "邰智源代言",
+        "林雪代言",
+        "風雲 IP 聯動",
+        "KOL 矩陣"
+      ],
+      "marketing_cost_estimate": {
+        "level": "高",
+        "basis": "依公開活動形式及資源規模的定性估計，非實際支出或報價",
+        "amount": null,
+        "currency": "TWD",
+        "confidence": "低"
+      },
+      "media": {
+        "image_url": null,
+        "youtube_url": null,
+        "facebook_url": null
+      }
+    },
+    {
+      "game": "締造者：放逐之境",
+      "publisher": "DRIMAGE",
+      "type": "KOL / 實況主",
+      "detail": "丁特、小許、丁丁、米餅、棺月、若帆、大力三、危機、NYE、霖霖參與亞洲伺服器宣傳",
+      "source": "4Gamers",
+      "url": "https://www.4gamers.com.tw/news/detail/81476/architect-land-of-exiles-global--reserve",
+      "published_at": "2026-09-19",
+      "signals": [
+        "10位KOL",
+        "港台預約",
+        "區域限定獎勵"
+      ],
+      "marketing_cost_estimate": {
+        "level": "中高",
+        "basis": "依公開活動形式及資源規模的定性估計，非實際支出或報價",
+        "amount": null,
+        "currency": "TWD",
+        "confidence": "低"
+      },
+      "media": {
+        "image_url": null,
+        "youtube_url": null,
+        "facebook_url": null
+      }
+    },
+    {
+      "game": "閃耀吧！嚕咪",
+      "publisher": "荷馬娛樂",
+      "type": "代言人",
+      "detail": "YELLOW 黃宣擔任品牌代言人及「首席嚕咪訓練家」，拍攝代言廣告、訪談與幕後花絮，配合 9/17 正式上市宣傳",
+      "source": "巴哈姆特 GNN",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=310546",
+      "published_at": "2026-08-27",
+      "signals": [
+        "黃宣代言",
+        "廣告影片",
+        "專訪／幕後花絮",
+        "上市宣傳"
+      ],
+      "marketing_cost_estimate": {
+        "level": "中高",
+        "basis": "依公開活動形式及資源規模的定性估計，非實際支出或報價",
+        "amount": null,
+        "currency": "TWD",
+        "confidence": "低"
+      },
+      "media": {
+        "image_url": null,
+        "youtube_url": null,
+        "facebook_url": null
+      }
+    },
+    {
+      "game": "鳴潮",
+      "publisher": "KURO GAMES",
+      "type": "異業合作",
+      "detail": "與海底撈台灣推出限定聯名套餐",
+      "source": "遊戲基地",
+      "url": "https://news.gamebase.com.tw/news/newslist?page=1&type=mobile",
+      "published_at": "2026-10-05",
+      "signals": [
+        "餐飲跨界",
+        "線下聯名"
+      ],
+      "marketing_cost_estimate": {
+        "level": "中",
+        "basis": "依公開活動形式及資源規模的定性估計，非實際支出或報價",
+        "amount": null,
+        "currency": "TWD",
+        "confidence": "低"
+      },
+      "media": {
+        "image_url": null,
+        "youtube_url": null,
+        "facebook_url": null
+      }
+    }
+  ],
   "preorders": [
     {
       "game": "噠噠戰機",
