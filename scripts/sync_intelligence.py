@@ -33,7 +33,13 @@ def relevant(title):
     game=re.search(r"《[^》]+》|遊戲|電玩|RPG|SLG|三國|寶可夢|Pokémon|Garena|NEXON|騰訊|網易|遊戲業",title,re.I)
     noise=re.search(r"滑鼠|鍵盤|顯示卡|筆電|主機維修|Steam原版|車色|汽車售價|房地產|桌機|機殼|處理器|顯示器",title,re.I)
     return bool((mobile or game) and not noise and (mobile or not re.search(r"Steam|PS5|Switch|PC版|主機",title,re.I)))
-articles={x["url"]:x for x in data.get("news",[]) if x.get("url") and relevant(x.get("title",""))}
+# Known released products must not be recycled as new preregistration headlines.
+# Dates require official or contemporaneous launch evidence.
+released_games={"英雄刷刷刷":"2025-05-22"}
+def obsolete_prereg(title,published):
+    if not re.search(r"預約|預訂|事前登錄|事前預約|預先註冊|預註冊",title):return False
+    return any(game in title and str(published or "")[:10]>launch for game,launch in released_games.items())
+articles={x["url"]:x for x in data.get("news",[]) if x.get("url") and relevant(x.get("title","")) and not obsolete_prereg(x.get("title",""),x.get("published_at",""))}
 marketing_terms=re.compile(r"代言|KOL|網紅|實況|聯名|聯動|合作|主題曲|演唱會|戶外|快閃|地鐵|捷運|廣告|宣傳",re.I)
 pre_terms=re.compile(r"事前預約|事前登錄|預先註冊|預註冊|開放預約|預約開啟|預約開跑|商店預訂|預訂開啟|雙平台預約")
 for label,query in queries:
@@ -59,6 +65,7 @@ for label,query in queries:
             if marketing_terms.search(title):tags.append("行銷動態")
             if pre_terms.search(title):tags.append("事前預約")
             if re.search(r"上市|公測|上線",title):tags.append("上線")
+            if obsolete_prereg(title,pub):continue
             articles.setdefault(link,{"title":title,"url":link,"source":source,"published_at":pub,"tags":tags,"source_type":"media_report"})
             count+=1
         print("News",label,count)
