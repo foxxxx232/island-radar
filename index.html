@@ -32,7 +32,7 @@ button { cursor: pointer; }
 button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid rgba(57,118,246,.25); outline-offset: 1px; }
 a { color: var(--brand); text-decoration: none; }
 .app-root { display: grid; grid-template-columns: 238px minmax(0,1fr); min-height: 100vh; background-color: var(--canvas); border-radius: 0; }
-.sidebar { background: #ffffff; color: #182230; border-right: 1px solid var(--border); padding: 25px 15px 17px; display: flex; flex-direction: column; min-height: 100vh; gap: 25px; }
+.sidebar { background: var(--surface); color: var(--text); border-right: 1px solid var(--border); padding: 25px 15px 17px; display: flex; flex-direction: column; height: 100vh; min-height: 0; position: sticky; top: 0; overflow-y: auto; overscroll-behavior: contain; gap: 25px; }
 .brand { display: flex; align-items: center; gap: 11px; padding: 0 9px 9px; }
 .brand-mark { width: 36px; height: 36px; border-radius: 12px; display: grid; place-items: center; color: white; font-weight: 850; font-size: 16px; background: linear-gradient(145deg, #64a5ff, #3866ee 68%, #8069f6); box-shadow: 0 7px 18px rgba(57,118,246,.3); }
 .brand-name { font-size: 16px; font-weight: 800; letter-spacing: -.35px; }
@@ -51,13 +51,13 @@ a { color: var(--brand); text-decoration: none; }
 .source-card p { color: #8291a8; margin: 9px 0 0; line-height: 1.65; font-size: 10px; }
 .side-footer { padding: 12px 9px 0; font-size: 10px; color: #64728a; }
 .sidebar .brand-sub,.sidebar .nav-label,.sidebar .side-footer{color:#8190a4}
-.sidebar .nav-item{color:#59677d}
-.sidebar .nav-item:hover{color:#245ad5;background:#f0f5ff}
-.sidebar .nav-item.active{color:#245ad5;background:#edf3ff;box-shadow:inset 3px 0 #3976f6}
-.sidebar .nav-count{color:#48618b;background:#edf3ff}
-.sidebar .source-card{border-color:#e5eaf2;background:#f8fafd}
-.sidebar .source-top{color:#24334a}
-.sidebar .source-card p{color:#718096}
+.sidebar .nav-item{color:var(--muted)}
+.sidebar .nav-item:hover{color:var(--brand);background:var(--brand-soft)}
+.sidebar .nav-item.active{color:var(--brand);background:var(--brand-soft);box-shadow:inset 3px 0 var(--brand)}
+.sidebar .nav-count{color:var(--brand);background:var(--brand-soft)}
+.sidebar .source-card{border-color:var(--border);background:var(--surface-2)}
+.sidebar .source-top{color:var(--text)}
+.sidebar .source-card p{color:var(--muted)}
 .main-shell { min-width: 0; }
 .topbar { height: 74px; border-bottom: 1px solid var(--border); background: var(--surface); display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 0 30px; position: sticky; top: 0; z-index: 20; }
 .crumb { display: flex; align-items: center; gap: 8px; min-width: 180px; color: var(--muted); font-size: 12px; }
@@ -319,6 +319,19 @@ th.sticky-col { z-index: 4; background: var(--surface-2); }
   .modal-body, .modal-head { padding-left: 16px; padding-right: 16px; }
   .table-foot { align-items: flex-start; flex-direction: column; }
 }
+
+/* Explicit light/dark toggle; sidebar stays pinned on desktop. */
+html[data-theme="dark"]{color-scheme:dark;--canvas:#0c111b;--surface:#141c29;--surface-2:#1a2433;--text:#edf2fa;--muted:#a5b2c6;--border:#2a3749;--brand:#83adff;--brand-dark:#5d90ef;--brand-soft:#1b3156;--green-soft:#163b32;--orange-soft:#47321d;--red-soft:#48242b;--shadow:0 8px 28px rgba(0,0,0,.2)}
+html[data-theme="dark"] .sidebar .brand-sub,html[data-theme="dark"] .sidebar .nav-label,html[data-theme="dark"] .sidebar .side-footer{color:#94a5be}
+html[data-theme="dark"] .demo-banner{background:#15243a;border-color:#2a4063}
+html[data-theme="dark"] tbody tr:hover td{background:#1a2a40}
+html[data-theme="dark"] .category-item.active{border-color:#30476d}
+html[data-theme="dark"] .intel-news-flag.celebrity{background:#55283f;color:#ffb6d4}
+html[data-theme="dark"] .intel-news-flag.entertainment{background:#55431e;color:#ffe3a3}
+html[data-theme="dark"] .intel-news-flag.trending{background:#5a302a;color:#ffc0b6}
+html[data-theme="dark"] .intel-news-flag.meme{background:#163e36;color:#a6e8d5}
+html[data-theme="dark"] .intel-news-risk{background:#4d3820;color:#ffcf86}
+html[data-theme="dark"] .intel-news-heat{background:#4e2e26;color:#ffb8a4}
 </style>
 </head>
 <body>
@@ -354,6 +367,7 @@ th.sticky-col { z-index: 4; background: var(--surface-2); }
       <div class="top-actions">
         <div class="global-search"><span class="search-icon">⌕</span><input id="globalSearch" placeholder="搜尋遊戲、行銷案例、新聞…" aria-label="全站搜尋"></div>
         <select id="globalRegion" class="top-select" aria-label="市場區域"><option value="all">全部市場</option><option value="台灣">台灣</option><option value="香港">香港</option><option value="澳門">澳門</option></select>
+        <button class="icon-btn" id="themeToggle" type="button" title="切換深色模式" aria-label="切換深色模式" aria-pressed="false">☾</button>
         <button class="icon-btn" id="topBackup" title="匯出資料備份" aria-label="匯出資料備份">⇩</button>
       </div>
     </header>
@@ -364,6 +378,12 @@ th.sticky-col { z-index: 4; background: var(--surface-2); }
 <script>
 (() => {
   const STORAGE_KEY = 'islandRadarTW_v1';
+  const THEME_KEY = 'islandRadarTheme';
+  const themeButton = document.getElementById('themeToggle');
+  const applyTheme = mode => { const dark = mode === 'dark'; document.documentElement.dataset.theme = dark ? 'dark' : 'light'; if(themeButton){themeButton.textContent = dark ? '☀' : '☾';themeButton.title = dark ? '切換白色模式' : '切換黑色模式';themeButton.setAttribute('aria-label',themeButton.title);themeButton.setAttribute('aria-pressed',String(dark));} };
+  let savedTheme = 'light';try{savedTheme=localStorage.getItem(THEME_KEY)||'light'}catch(e){}
+  applyTheme(savedTheme);
+  if(themeButton)themeButton.addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';applyTheme(next);try{localStorage.setItem(THEME_KEY,next)}catch(e){}});
   const now = new Date();
   const isoNow = () => new Date().toISOString().slice(0,10);
   const fmtDate = d => d ? String(d).replaceAll('-', '/') : '未設定';
