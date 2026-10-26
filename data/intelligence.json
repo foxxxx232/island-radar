@@ -3547,5 +3547,46 @@
       "coverage_count": 1,
       "source_count": 1
     }
+  ],
+  "meme_trends": [
+    {
+      "title": "INMU KING：AI 迷因音樂與二創擴散",
+      "meme": "INMU KING",
+      "url": "https://game.udn.com/game/story/122089/9831389",
+      "source": "udn 遊戲角落",
+      "published_at": "2026-10-22",
+      "category": "爆紅迷因",
+      "heat_label": "千萬級播放",
+      "heat_basis": "媒體報導截至 10/20 約 2700 萬次播放；非即時",
+      "risk": "高",
+      "risk_note": "素材來源與授權限制較多，不建議直接用於廣告",
+      "format": "AI 音樂／二創"
+    },
+    {
+      "title": "閃身步／狗熊哆嗦毛：舞蹈挑戰擴散",
+      "meme": "閃身步",
+      "url": "https://dailyview.tw/popular/detail/33790",
+      "source": "網路溫度計",
+      "published_at": "2026-10-01",
+      "category": "爆紅迷因",
+      "heat_label": "高討論度",
+      "heat_basis": "報導近十日約 17793 筆網路聲量",
+      "risk": "中",
+      "risk_note": "注意音樂授權及舞蹈動作安全",
+      "format": "舞蹈挑戰"
+    },
+    {
+      "title": "她很壞嘟嘟嘟：翻跳與改詞熱潮",
+      "meme": "她很壞嘟嘟嘟",
+      "url": "https://dailyview.tw/popular/detail/33768",
+      "source": "網路溫度計",
+      "published_at": "2026-09-23",
+      "category": "爆紅迷因",
+      "heat_label": "高討論度",
+      "heat_basis": "報導近月約 6635 筆網路聲量",
+      "risk": "中",
+      "risk_note": "使用音樂前確認授權",
+      "format": "改詞／翻跳"
+    }
   ]
 }
