@@ -1,6 +1,6 @@
 {
   "source": "Apple iTunes public RSS",
-  "fetched_at": "2026-10-26T02:34:49.658856+00:00",
+  "fetched_at": "2026-10-26T02:58:04.796178+00:00",
   "data_type": "public_chart_snapshot",
   "countries": {
     "tw": {
@@ -23510,7 +23510,7 @@
           "rank": 76,
           "title": "Mahjong Blast",
           "publisher": "Nebula Studio",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/18/5a/60185a28-4f06-b44a-62b1-0ebbb97edab7/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/73/ed/2873ed38-705e-ea4e-16b5-02e62894966f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
           "url": "https://apps.apple.com/mo/app/mahjong-blast/id6747492600?uo=4",
           "screenshots": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/8b/a4/218ba46e-df8c-8d4b-e66f-d05d2517dfa8/1.png/320x480bb.jpg",
@@ -23551,7 +23551,7 @@
           "positioning_source": "https://apps.apple.com/mo/app/mahjong-blast/id6747492600?uo=2",
           "slogan_source": "https://apps.apple.com/mo/app/mahjong-blast/id6747492600?uo=2",
           "release_date": "2025-06-24T07:00:00Z",
-          "version": "2.1.6",
+          "version": "2.1.5",
           "rating": 4.73826,
           "rating_count": 447
         },
