@@ -24,8 +24,12 @@
       },
       "media": {
         "image_url": null,
-        "youtube_url": null,
-        "facebook_url": null
+        "youtube_url": "https://youtu.be/hGvlLV1KGrQ",
+        "facebook_url": "https://www.facebook.com/btthtw",
+        "image_label": "曾莞婷代言定裝照",
+        "image_source_url": "https://gnn.gamer.com.tw/detail.php?sn=308999",
+        "youtube_label": "曾莞婷趣味宣傳影片",
+        "facebook_label": "官方 FB 粉絲團"
       }
     },
     {
@@ -50,9 +54,12 @@
         "confidence": "低"
       },
       "media": {
-        "image_url": null,
+        "image_url": "https://files.ldrescdn.com/rms/ldplayer/process/img/01d4cc5fc7ae42e2ae4fa586b5bff3531788493745.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fformat%2Cwebp",
         "youtube_url": null,
-        "facebook_url": null
+        "facebook_url": "https://tinyurl.com/yzpfvpwp",
+        "image_label": "林雪代言宣傳海報",
+        "image_source_url": "https://news.omg.com.tw/News/NewsContent?NewsID=13658",
+        "facebook_label": "官方 FB 粉絲團"
       }
     },
     {
@@ -77,8 +84,12 @@
       },
       "media": {
         "image_url": null,
-        "youtube_url": null,
-        "facebook_url": null
+        "youtube_url": "https://www.youtube.com/@ARCHITECT_TW",
+        "facebook_url": "https://www.facebook.com/ARCHITECT.TAIWAN/",
+        "image_label": "KOL 宣傳素材",
+        "image_source_url": "https://www.4gamers.com.tw/news/detail/81476/architect-land-of-exiles-global--reserve",
+        "youtube_label": "官方 YouTube 頻道",
+        "facebook_label": "官方 FB 粉絲團"
       }
     },
     {
@@ -103,9 +114,13 @@
         "confidence": "低"
       },
       "media": {
-        "image_url": null,
-        "youtube_url": null,
-        "facebook_url": null
+        "image_url": "https://www.playmusic.tw/UploadFile/member/29/images/2026-01/img1789892550.jpg",
+        "youtube_url": "https://www.youtube.com/@lumimasterHMT",
+        "facebook_url": "https://www.facebook.com/lumimasterhmt",
+        "image_label": "黃宣代言宣傳主視覺",
+        "image_source_url": "https://www.playmusic.tw/column_info.php?id=28540&type=mf_marketing",
+        "youtube_label": "官方 YouTube 頻道（含代言素材）",
+        "facebook_label": "官方 FB 粉絲團"
       }
     },
     {
@@ -128,9 +143,12 @@
         "confidence": "低"
       },
       "media": {
-        "image_url": null,
+        "image_url": "https://img.4gamers.com.tw/puku-clone-version/8b85a2d65535513c747172eccb2d943ebe08856a.jpg",
         "youtube_url": null,
-        "facebook_url": null
+        "facebook_url": "https://www.facebook.com/share/p/1DFSaGXHhm/",
+        "image_label": "鳴潮 × 海底撈聯動主視覺",
+        "image_source_url": "https://www.4gamers.com.tw/news/detail/82182/wuthering-waves-haidilao-cooperation-in-taiwan",
+        "facebook_label": "聯動官方 FB 貼文"
       }
     }
   ],
