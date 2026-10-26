@@ -734,7 +734,7 @@ function overview(){
 function marketing(){
  const cutoff=new Date();cutoff.setMonth(cutoff.getMonth()-3);
  const cutoffISO=cutoff.toISOString().slice(0,10);
- const validDate=x=>/^\\d{4}-\\d{2}-\\d{2}$/.test(String(x||''))&&x>=cutoffISO;
+ const validDate=x=>/^\d{4}-\d{2}-\d{2}$/.test(String(x||''))&&x>=cutoffISO;
  const cases=(state.intel?.campaigns||[]).filter(c=>validDate(c.published_at)&&!(/蕃新聞|番新聞/i.test(c.source||''))).slice().sort((a,b)=>String(b.published_at).localeCompare(String(a.published_at)));
  const newsCases=(state.intel?.news||[]).filter(n=>validDate(n.published_at)&&!(/蕃新聞|番新聞/i.test(n.source||''))&&/代言|品牌大使|聯動|聯名|IP合作|KOL|實況主|快閃|線下活動|演唱會|主題曲|廣告投放|大型改版/.test(n.title||'')&&!/代理結束|硬體|鍵盤|顯示卡|PC單機|PS5|Steam/.test(n.title||'')).slice(0,30);
  const catalog=[state.data,state.gpData].filter(Boolean).flatMap(ds=>Object.values(ds.countries||{}).flatMap(r=>[...(r.free||[]),...(r.grossing||[])]));
