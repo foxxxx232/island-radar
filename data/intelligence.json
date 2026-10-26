@@ -3,20 +3,6 @@
   "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
   "campaigns": [
     {
-      "game": "青丘世界：緣起",
-      "publisher": "喬葳數位行銷",
-      "type": "代言人",
-      "detail": "安心亞擔任代言人，扮演青丘女帝",
-      "source": "遊戲基地",
-      "url": "https://news.gamebase.com.tw/news/detail/99440257",
-      "published_at": "2026-05-05",
-      "signals": [
-        "藝人代言",
-        "仙俠MMO",
-        "角色扮裝"
-      ]
-    },
-    {
       "game": "鬥破蒼穹M：少年崛起",
       "publisher": "喬薇數位",
       "type": "代言人 / IP聯動",
@@ -28,7 +14,19 @@
         "藝人代言",
         "正版動畫IP",
         "事前預約"
-      ]
+      ],
+      "marketing_cost_estimate": {
+        "level": "中高",
+        "basis": "依公開活動形式及資源規模的定性估計，非實際支出或報價",
+        "amount": null,
+        "currency": "TWD",
+        "confidence": "低"
+      },
+      "media": {
+        "image_url": null,
+        "youtube_url": null,
+        "facebook_url": null
+      }
     },
     {
       "game": "癲狂三國：少年無雙",
@@ -42,7 +40,19 @@
         "正版IP",
         "KOL矩陣",
         "預約50萬（官方宣稱）"
-      ]
+      ],
+      "marketing_cost_estimate": {
+        "level": "高",
+        "basis": "依公開活動形式及資源規模的定性估計，非實際支出或報價",
+        "amount": null,
+        "currency": "TWD",
+        "confidence": "低"
+      },
+      "media": {
+        "image_url": null,
+        "youtube_url": null,
+        "facebook_url": null
+      }
     },
     {
       "game": "締造者：放逐之境",
@@ -56,7 +66,19 @@
         "10位KOL",
         "港台預約",
         "區域限定獎勵"
-      ]
+      ],
+      "marketing_cost_estimate": {
+        "level": "中高",
+        "basis": "依公開活動形式及資源規模的定性估計，非實際支出或報價",
+        "amount": null,
+        "currency": "TWD",
+        "confidence": "低"
+      },
+      "media": {
+        "image_url": null,
+        "youtube_url": null,
+        "facebook_url": null
+      }
     },
     {
       "game": "閃耀吧！嚕咪",
@@ -70,22 +92,19 @@
         "藝人代言",
         "抓寵RPG",
         "預約300萬（官方宣稱）"
-      ]
-    },
-    {
-      "game": "Garena 傳說對決",
-      "publisher": "Garena",
-      "type": "線下活動 / 音樂合作",
-      "detail": "10/31 臺北大巨蛋演唱會及 GCS 總決賽；玖壹壹主題曲《逆風》；臺北捷運快閃及 101 光雕",
-      "source": "4Gamers",
-      "url": "https://www.4gamers.com.tw/news/detail/81832/garena-aov-10th-anniversary-concert-announcement",
-      "published_at": "2026-09（日期待核實）",
-      "signals": [
-        "大型線下",
-        "音樂合作",
-        "戶外曝光",
-        "品牌活動"
-      ]
+      ],
+      "marketing_cost_estimate": {
+        "level": "中高",
+        "basis": "依公開活動形式及資源規模的定性估計，非實際支出或報價",
+        "amount": null,
+        "currency": "TWD",
+        "confidence": "低"
+      },
+      "media": {
+        "image_url": null,
+        "youtube_url": null,
+        "facebook_url": null
+      }
     },
     {
       "game": "鳴潮",
@@ -98,21 +117,19 @@
       "signals": [
         "餐飲跨界",
         "線下聯名"
-      ]
-    },
-    {
-      "game": "瑪奇 Mobile",
-      "publisher": "NEXON",
-      "type": "線上活動 / 社群",
-      "detail": "預約送劍士學校制服及喝珍奶動作；官方 YouTube、Discord 與心理測驗活動",
-      "source": "4Gamers",
-      "url": "https://www.4gamers.com.tw/news/detail/80232/mabinogi-mobile-taiwan-release-date-pre-registration-rewards",
-      "published_at": "2026-06-24",
-      "signals": [
-        "在地化",
-        "社群互動",
-        "預約"
-      ]
+      ],
+      "marketing_cost_estimate": {
+        "level": "中",
+        "basis": "依公開活動形式及資源規模的定性估計，非實際支出或報價",
+        "amount": null,
+        "currency": "TWD",
+        "confidence": "低"
+      },
+      "media": {
+        "image_url": null,
+        "youtube_url": null,
+        "facebook_url": null
+      }
     }
   ],
   "preorders": [
