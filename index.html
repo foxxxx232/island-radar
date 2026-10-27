@@ -857,7 +857,7 @@ function news(){
  const oldCatalog=[state.data,state.gpData].filter(Boolean).flatMap(ds=>Object.values(ds.countries||{}).flatMap(region=>[...(region.free||[]),...(region.grossing||[])]));
  const oldGameNames=[...new Map(oldCatalog.filter(g=>g.title&&g.release_date&&((Date.now()-new Date(String(g.release_date).slice(0,10)).getTime())/86400000)>180).map(g=>[String(g.title).trim(),g])).values()].map(g=>String(g.title).trim()).filter(n=>n.length>=3);
  const majorGameNews=/聯動|聯名|IP合作|大型改版|重大更新|新資料片|全新賽季|大型資料片|重大改版|全新版本|重大合作|正式宣布代言/;
- const blockedPublisher=n=>/蕃新聞|番新聞|yam news/i.test(String(n.source||'')+' '+String(n.title||''))||/n\\.yam\\.com/i.test(String(n.url||''));
+ const blockedPublisher=n=>/蕃新聞|番新聞|yam news|PChome(?: Online)?(?: 新聞)?/i.test(String(n.source||'')+' '+String(n.title||''))||/(?:n\\.yam\\.com|pchome\\.com\\.tw)/i.test(String(n.url||''));
  const eligible=n=>{
   const t=String(n.title||''),tags=(n.tags||[]).join(' ');
   if(blockedPublisher(n))return false;
