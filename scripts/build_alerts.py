@@ -14,8 +14,11 @@ WATCH={
  "靈犀":["靈犀","灵犀","lingxi","ling xi","lingxi games"],
  "四三":["四三","4399","fourthree"],
  "三七":["三七","37games","37 games","37 interactive","37games global","37 entertainment"],
+ "海彼":["HABBY PTE. LTD.","HABBY","GORILLA ENTERTAINMENT PTE. LTD."],
+ "雷霆":["LTGAMES GLOBAL","LTGAMES"],
+ "字節":["Nuverse Games","Nuverse"],
 }
-# Matching is based on exact registered/visible names or explicit aliases, not speculation.
+# Matching uses store-visible publisher/developer/seller names; grouping multiple accounts under a watch label is a monitoring rule, not proof of common legal ownership.
 def norm(s):
  return re.sub(r"[^a-z0-9\u3400-\u9fff]","",str(s or "").casefold())
 def watch_match(row):
