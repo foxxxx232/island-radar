@@ -26,7 +26,7 @@ for watch in data.get("publisher_watch", []):
     if not brand:continue
     queries.append(("發行商追蹤："+brand, '"'+brand+'" ("事前預約" OR "預訂" OR "開放預約" OR "新遊戲" OR "正式上線") when:60d'))
 # Query high-signal publisher aliases separately to catch changes in store account names.
-for alias in ["SPGame", "Sky Entertainment Network", "JOYSTAR GAME", "Joy Nice Games", "Kingnet Technology", "IYAGAMES", "BILIBILI HK", "FARLIGHT"]:
+for alias in ["SPGame", "Sky Entertainment Network", "JOYSTAR GAME", "Joy Nice Games", "Kingnet Technology", "IYAGAMES", "BILIBILI HK", "FARLIGHT", "GORILLA ENTERTAINMENT", "HABBY PTE. LTD.", "LTGAMES GLOBAL", "Nuverse Games"]:
     queries.append(("商店主體："+alias, '"'+alias+'" ("遊戲" OR "pre-register" OR "預約") when:60d'))
 def relevant(title):
     mobile=re.search(r"手遊|手機遊戲|行動遊戲|移動遊戲|事前預約|事前登錄|預先註冊|預註冊|App Store|Google Play|Android|iOS|MMORPG",title,re.I)
@@ -271,6 +271,7 @@ for c in data["campaigns"]:
         level="高" if re.search(r"大巨蛋|101光雕|大型線下|演唱會|10位KOL|十大美女",t) else "中高" if re.search(r"代言|IP聯動|正版IP|聯動|KOL|線下|主題曲",t) else "中"
         c["marketing_cost_estimate"]={"level":level,"basis":"活動規模定性估計，非實際花費或報價","amount":None,"currency":"TWD","confidence":"低"}
     c.setdefault("media",{"image_url":None,"youtube_url":None,"facebook_url":None})
+# Retain manually verified campaign records and only add new cases after source validation; publisher aliases are search leads, not proof of corporate ownership.
 # Candidate headlines are not promoted to verified cases without source review.
 data["marketing_news_candidates"]=[n for n in data.get("news",[]) if n.get("published_at","")>=marketing_cutoff and re.search(r"代言|品牌大使|聯動|聯名|IP合作|KOL|實況主|快閃|線下活動|演唱會|主題曲|廣告投放|大型改版",n.get("title","")) and not blocked_source(n)][:40]
 # News is an evidence feed, not verified ad spend or a reliable forecast of launch dates.
