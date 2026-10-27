@@ -3,6 +3,36 @@
   "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
   "campaigns": [
     {
+      "game": "Garena 傳說對決",
+      "publisher": "Garena",
+      "type": "大型線下／演唱會／城市戶外／電競",
+      "detail": "2026/10 十週年「流光穿梭 十年傳說」：臺北捷運市政府站限定戰場、松菸特展、台北101光雕，10/31 臺北大巨蛋演唱會與 GCS 總決賽；演唱嘉賓包括 MINNIE、陳華、派偉俊與婁峻碩。",
+      "source": "Garena 傳說對決官方公告",
+      "url": "https://moba.garena.tw/news/show/5704",
+      "published_at": "2026-10-13",
+      "signals": [
+        "大巨蛋",
+        "101光雕",
+        "捷運快閃",
+        "演唱會",
+        "GCS賽事"
+      ],
+      "marketing_cost_estimate": {
+        "level": "高",
+        "basis": "多場大型實體活動的規模定性估計，非實際花費或報價",
+        "amount": null,
+        "currency": "TWD",
+        "confidence": "低"
+      },
+      "media": {
+        "image_url": null,
+        "image_label": "十週年慶典活動主視覺",
+        "image_source_url": "https://moba.garena.tw/news/show/5704",
+        "youtube_url": null,
+        "facebook_url": null
+      }
+    },
+    {
       "game": "鬥破蒼穹M：少年崛起",
       "publisher": "喬薇數位",
       "type": "代言人 / IP聯動",
@@ -2662,7 +2692,7 @@
         "噠噠戰機"
       ],
       "status": "iOS 供應商已核實，GP 待確認",
-      "notes": "Gorilla Studio 與 Crazy Maple Studio 發行體系有公開關聯；品牌關係不等於法律主體相同。"
+      "notes": "Gorilla Studio 與 Crazy Maple Studio 發行體系有公開關聯；品牌關係不等於法律主體相同。；海彼觀察清單另追蹤 GORILLA ENTERTAINMENT，但不代表已證實其屬於 HABBY。"
     },
     {
       "brand": "愷英",
@@ -2702,6 +2732,68 @@
       ],
       "products": [],
       "status": "已新增 GP 主體連結，顯示名稱待核實"
+    },
+    {
+      "brand": "海彼 HABBY",
+      "entities": [
+        {
+          "platform": "App Store（供應商名稱待逐款核實）",
+          "name": "GORILLA ENTERTAINMENT PTE. LTD.",
+          "url": "https://apps.apple.com/tw/app/id6789467258"
+        },
+        {
+          "platform": "官方網站",
+          "name": "HABBY PTE. LTD.",
+          "url": "https://www.habby.com/"
+        }
+      ],
+      "products": [
+        "噠噠戰機",
+        "Survivor.io",
+        "弓箭傳說"
+      ],
+      "status": "跨主體觀察，關聯待核實",
+      "notes": "依指定主體一併追蹤，但 GORILLA ENTERTAINMENT 與 HABBY 的法人／品牌關係尚未獨立確認；勿視為同一發行商。"
+    },
+    {
+      "brand": "雷霆遊戲",
+      "entities": [
+        {
+          "platform": "App Store",
+          "name": "LTGAMES GLOBAL",
+          "url": "https://apps.apple.com/sg/developer/ltgames-global/id1512565013"
+        },
+        {
+          "platform": "第三方資料",
+          "name": "LTGAMES GLOBAL（點點數據）",
+          "url": "https://app.diandian.com/developer/cb986d3709715e4df4f061956714308e/ios-app"
+        },
+        {
+          "platform": "官方網站",
+          "name": "LTGAMES GLOBAL",
+          "url": "https://www.ltgamesglobal.com/"
+        }
+      ],
+      "products": [
+        "杖劍傳說：坎斯汀之約",
+        "問劍長生",
+        "一念逍遙"
+      ],
+      "status": "官方主體已核實",
+      "notes": "雷霆遊戲與 LTGAMES GLOBAL 品牌可由官方站點交叉核實；具體台港澳商店發行商仍以逐款頁面為準。"
+    },
+    {
+      "brand": "字節 Nuverse",
+      "entities": [
+        {
+          "platform": "發行品牌",
+          "name": "Nuverse Games",
+          "url": "https://www.nuversemobile.com/"
+        }
+      ],
+      "products": [],
+      "status": "指定品牌追蹤，商店主體待核實",
+      "notes": "Nuverse Games 為指定監測名稱；台港澳各產品 App Store／GP 的供應商名稱與近期發行狀態須逐款核對。"
     }
   ],
   "topical_news": [
