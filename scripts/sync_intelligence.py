@@ -38,7 +38,7 @@ def blocked_source(item):
     source=str(item.get("source",""))
     title=str(item.get("title",""))
     url=str(item.get("url",""))
-    return bool(re.search(r"蕃新聞|番新聞|yam news",source+" "+title,re.I) or re.search(r"n\\.yam\\.com",url,re.I))
+    return bool(re.search(r"蕃新聞|番新聞|yam news|PChome(?: Online)?(?: 新聞)?",source+" "+title,re.I) or re.search(r"(?:n\\.yam\\.com|(?:^|\\.)pchome\\.com\\.tw)",url,re.I))
 
 # Existing game coverage is only relevant for genuinely major new developments.
 major_existing_update=re.compile(r"IP.{0,12}聯動|聯動|聯名|大型改版|重大更新|新資料片|全新賽季|重大改版|大型資料片|全新版本|重大合作|正式宣布代言",re.I)
