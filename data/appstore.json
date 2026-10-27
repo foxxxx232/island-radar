@@ -1,6 +1,6 @@
 {
   "source": "Apple iTunes public RSS",
-  "fetched_at": "2026-10-27T03:11:46.904199+00:00",
+  "fetched_at": "2026-10-27T03:25:00.742280+00:00",
   "data_type": "public_chart_snapshot",
   "countries": {
     "tw": {
@@ -29724,6 +29724,12 @@
   },
   "news": [
     {
+      "title": "Apple 發表全新 iPad mini 配備 A20 Pro 增進效能、售價 NT$22,900 起",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=313942",
+      "published_at": "Tue, 27 Oct 2026 11:24:12 +0800",
+      "source": "巴哈姆特 GNN"
+    },
+    {
       "title": "在人群中偷偷做出怪異行為！新款躲貓貓遊戲《難掩異狀 OUTLIER》公開預告影片",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=313941",
       "published_at": "Tue, 27 Oct 2026 10:52:09 +0800",
@@ -29895,12 +29901,6 @@
       "title": "【電玩瘋】828 集 2026-2027 年 JRPG 期待名單特輯",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=313911",
       "published_at": "Fri, 23 Oct 2026 21:00:01 +0800",
-      "source": "巴哈姆特 GNN"
-    },
-    {
-      "title": "因應颱風薔琵來襲 巴哈姆特 30 週年站聚配合政府公告取消週六活動",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=313910",
-      "published_at": "Fri, 23 Oct 2026 20:13:42 +0800",
       "source": "巴哈姆特 GNN"
     }
   ]
