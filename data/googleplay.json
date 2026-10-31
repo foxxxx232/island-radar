@@ -1412,9 +1412,9 @@
       "grossing_status": "unavailable"
     }
   },
-  "last_attempt_at": "2026-10-30T08:35:08.871388+00:00",
+  "last_attempt_at": "2026-10-31T08:23:47.852460+00:00",
   "refresh_status": "failed",
   "refresh_source": "https://gamerscroll.com/zh-tw/rankings/free/tw/",
   "refresh_error": "No verifiable public Google Play ranking source returned 10+ records",
-  "metadata_refreshed_at": "2026-10-30T08:35:08.871388+00:00"
+  "metadata_refreshed_at": "2026-10-31T08:23:47.852460+00:00"
 }
