@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T10:49:56.236948+00:00",
+  "updated_at": "2026-11-27T10:48:56.755698+00:00",
   "source_policy": "All curated records cite public articles. Campaign activity does not prove ad spend. Future dates are only estimates when explicitly labelled.",
   "campaigns": [
     {
@@ -657,6 +657,32 @@
       "official_url": "https://flotshelter.eworldgame.com/"
     },
     {
+      "game": "末日喧囂",
+      "publisher": "BlancoZone",
+      "status": "媒體預約線索（待複核）",
+      "registration_date": null,
+      "detected_at": "2026-11-27",
+      "expected_date": null,
+      "estimate": "上市時間未公布",
+      "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
+      "source": "LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1VOENDMXpGSGFhQV9haldVcmJLOUlMd3pqOEp0cEh5XzR1RUR6SDZ3NFEtV05ESmN5MTY4RW9OWlpwSzJxeDRiY3J5enVQQW9QcWJnb1JINXM5a3JnZWJpZndzakJkWHJwSHVQbDF4SjVBZnBlR01N?oc=5",
+      "genre": "Games",
+      "signals": [
+        "媒體預約線索"
+      ],
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/b9/b1/9db9b129-d26c-3ea9-600b-3ce0278647d8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/af/98/77af9832-dbcf-712a-7d5c-a871862d0354/2796-1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/fe/d2/bcfed26c-9456-9d16-c394-8a2e78b89f63/2796-2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/30/44/7a3044bc-eee1-f588-5e61-6f16748c971d/2796-3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/93/3b/8d933b77-118c-8464-ac33-27c1093c21bd/2796-4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/b4/ee/65b4eec8-8718-8cc9-ca33-a809947ed4c2/2796-5.jpg/320x480bb.jpg"
+      ],
+      "ios_url": "https://apps.apple.com/tw/app/%E6%9C%AB%E6%97%A5%E5%96%A7%E5%9B%82/id1551574670?uo=4",
+      "store_visual_source": "Apple iTunes Search, exact-title verified"
+    },
+    {
       "game": "FreeStyle 2 Classic",
       "publisher": "待核實",
       "status": "媒體預約線索（待複核）",
@@ -705,6 +731,38 @@
       ]
     },
     {
+      "game": "召喚×戰姬",
+      "publisher": "待核實",
+      "status": "媒體預約線索（待複核）",
+      "registration_date": null,
+      "detected_at": "2026-11-25",
+      "expected_date": null,
+      "estimate": "上市時間未公布",
+      "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
+      "source": "LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmV1ZhVUo3Ym5BRlk2Z1lkMUgtRVoxbkhITlhPYU5meGdNSGU1emVtX2YycjVFSUw1c1dNQ2E3aFVfSElUX1F0Q0pET3h5QldMQ0RoRlF2NUw4dkxDZ041dDROMjNocmo1R2QteWU4MTFnNDZ3cjFN?oc=5",
+      "genre": "待確認",
+      "signals": [
+        "媒體預約線索"
+      ]
+    },
+    {
+      "game": "萌幻飛球",
+      "publisher": "待核實",
+      "status": "媒體預約線索（待複核）",
+      "registration_date": null,
+      "detected_at": "2026-11-25",
+      "expected_date": null,
+      "estimate": "上市時間未公布",
+      "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
+      "source": "LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9zLTFhTlVsTUFRSnZTRmRFVDNTWGNxakt5Um1wYV93dldCWFh0dzNiMnl2ZWpPd3ZjaHJGQ0VlN0NCaGhESmFFQmE4V2lUN0JCSVVqYmY1SUJBRVBGeHZ2bUd1bUFwb0F3eGEwZk9EMHFwRGdaSGZB?oc=5",
+      "genre": "待確認",
+      "signals": [
+        "媒體預約線索"
+      ]
+    },
+    {
       "game": "奧丁：神叛",
       "publisher": "Kakao Games Corp.",
       "status": "媒體預約線索（待複核）",
@@ -729,35 +787,155 @@
       ],
       "ios_url": "https://apps.apple.com/tw/app/%E5%A5%A7%E4%B8%81-%E7%A5%9E%E5%8F%9B/id1582983486?uo=4",
       "store_visual_source": "Apple iTunes Search, exact-title verified"
-    },
-    {
-      "game": "天堂2M",
-      "publisher": "NC Corp.",
-      "status": "媒體預約線索（待複核）",
-      "registration_date": null,
-      "detected_at": "2026-11-21",
-      "expected_date": null,
-      "estimate": "上市時間未公布",
-      "evidence": "新聞標題提及預約，未確認官方預約頁或上市日期",
-      "source": "Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi9gZBVV95cUxNb1hDYjhPdmU5UXhKaHpSM0ZuQmhuUzFOZXExV1FWclBRZlVmRi1lcGdlVld3ekZtSEdGNnNmeE1kUnhIaFhRdi10WldfR1h5Wl9rSFJaamFYS2lMZkQ5TDNjMUpraFF5aDA1UnhyblJtWWp6TzhDMVF4SHh0R3llMGpTaDZ4VkF3ZXJzOXJpTXJDMk1uTXNSVlpybjI5bW56X3piZFlaMWJhNTY4NEtqOHFucENuRmRsNWZ6c1RGTC04aFBnSTVvM3oyUkMwTVVJcmhDeThLVi03M3lMeElWT2c1UUJCZUUzTmJDelBHTC1PN25rVDREU2x0SHMxWU5FMzZVMVJ6a2lNeG90Q2thMjVxejI2Y0g2NHZwVE9xazVCNE16THlxdVpxVk01Y0cteHZWWHdSWUpiczlNaURfT0tra0xoYnJGTFJSNWtSM1k5V2Q5LWVWNmhQYUNQd1Y3R21sT0tFOGtkWlZnYm5pVkN0N1lkOWFmQ0VwTGhwblpUM1phUnZ3QzlwcFRLZTVyX2JKQ0V5cklyc21hNHRhR0l1Z0VUVnRyOUdPeTRzakthX1o1MW9Qd19YZng3Tkota0pFR3l2dHZkV2VlaTlMR2IwS1E4aGNwTkRqZGFMdlhTS2xfUmpublNoRldET0M5dFFvZkFQYlZGUEtBS3JPMnpaa3lrMndFbmpaMVdPcGk5c21yeXdnYUVCQUwtdG41WVVEeVpuMXVfWGNUWDdIb2duSmk5cEdWSU4xYWM3VjhCQ2lYZnA2SndFZlQwbDRmcUl5T29aSHhmQzI5MVRiVzBDNzdPaUxmb25RcG5RWUFTeEpSdHI4d01fQndNN3JuUzVyRGFRTTNGU294YV8wbndSNFJqNDVjUDdYdEhQc1FMX0tYQ083dUt4SmxOcG5QR3hrRzJ3dDF2dkdaRHQzLUx4WXRQY2tuN3B6UklzS3JrQU9mMFFmNlR2blk4OUdheHN5czRta3AyQ3VQd1dJVEZ4SDhYNTE0b2RZOFI3NGFTcVhsdnVfbk5kUGVzR3c0T1ExZHhxYU96WXhlQ0dld1Fpd0NuZHRtelFBWHRzcDg4OHdpTHd1V3lmVjVXaFh0RjRuNVR0VkRBZ3gwUUdKcE1Ick9fdllvc0xLVmhTUy1lYU1oMktaUlkxY2hDZlJmaGk2TzhR?oc=5",
-      "genre": "Games",
-      "signals": [
-        "媒體預約線索"
-      ],
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/78/72/68787231-2b33-6378-a46e-c51a8ad51dc6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "screenshots": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/db/75/02db75b6-d12a-ea54-8121-2a2b14b08187/iOS_2208x1242.jpg/406x228bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/67/a9/f967a9ef-63f2-83a5-2eb3-5b97561e1b9d/b9e2a763-8e87-4bac-be95-b84c28a4486c_IMG_9888.png/406x228bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/00/bd/3a00bdef-2955-0993-e450-07a32fc5358b/0040aac0-7d32-4d4b-9303-ef19216836e2_IMG_9898.png/406x228bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/24/73/d52473c9-45a8-0a7d-1b50-aa54df177767/9d05f9e3-88cd-47f6-bbd1-080f1e959166_IMG_9852.png/406x228bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/b1/7a/c7b17a07-ac75-b6e1-a460-1bbf243f635f/c5398b04-e955-4931-9398-7a2248f85e12_IMG_9922.PNG/406x228bb.png"
-      ],
-      "ios_url": "https://apps.apple.com/tw/app/%E5%A4%A9%E5%A0%822m/id1529208517?uo=4",
-      "store_visual_source": "Apple iTunes Search, exact-title verified"
     }
   ],
   "news": [
+    {
+      "title": "討論牆 | 《末日喧囂》用特別的方式消滅屍潮！三消SLG手遊事前預約送末世專屬豪華建築 - LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1VOENDMXpGSGFhQV9haldVcmJLOUlMd3pqOEp0cEh5XzR1RUR6SDZ3NFEtV05ESmN5MTY4RW9OWlpwSzJxeDRiY3J5enVQQW9QcWJnb1JINXM5a3JnZWJpZndzakJkWHJwSHVQbDF4SjVBZnBlR01N?oc=5",
+      "source": "LINE TODAY",
+      "published_at": "2026-11-27",
+      "tags": [
+        "事前預約"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "像素風放置 RPG《青蛙勇者：像素冒險隊》App Store 開放預訂 iOS 版 12 月 5 日推出 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbXF5ZDVZaW5oRXQxVlRoa3QzN1ZVX1E4MzFvTkRIbU5HeHk4UWJaQ2pVbHF1UjRVcnN0QTVLSl9TbEVDeXVMRHA5c3ZNVVpieFRMUVdJLWNxT3BjczhPMGduY1k0SnYxU2VKUHRXSXU1ZUlxOGxLTkh1YzE5M2poQkJ3?oc=5",
+      "source": "Ludens Media",
+      "published_at": "2026-11-27",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《VAMPIR：血之繼承者》首個鑽石狂潮伺服器「ONE」開放事前預約 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1jbkVjTXhTZnp2LURSOF9aV0Rlb2V1NkU3OE81MXpDWE42ckxGLXFuM1hsZHZ0N3V1TzZKM3UxRGZaazg0ZmFGVmxQQTFRc0FQZUYwTjI3N0c?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-11-27",
+      "tags": [
+        "事前預約"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "#古樂風華錄雙平台預約破300萬 心意相聚，華彩將啟。 情起於五音， 緣生於萬象， 山海有期，佳音將至。 #古樂風華錄 11月29日起，湖南衛視 騰訊視頻 芒果TV 全網首播，敬請期待！ 領銜主演： #李一桐 #陳鑫海 - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGakdzc21QTzV4dzRYRzAyZDczME5yRUZTTmtFQm1XbmFCTnlMVXNkTGJyd0ROY1dGRDFEMy1vR3dWaktrdURaYmpsdl9Pa0pjbGJmZ3E1QkpRdWIzSU1GTHlUcVBGU1BZa0JNdjhXby1pQl9hUWJMQ2JDcw?oc=5",
+      "source": "Facebook",
+      "published_at": "2026-11-27",
+      "tags": [
+        "事前預約"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《逆水寒》二週年版本上線 周興哲化身NPC現身汴京虹橋 人人領三千天賞石週年大放送 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQX2gyZkFPYzhXQURldVFXTUN2ZGJjUV85WWtENElXOV83VmNONlFTMjA3NXF1cW0wdDFKUmJGbDJweDlQTEVScllGQmJ6UThfYVNTQWRMd1BuY0ZfZE9GMG9STm9YTGNzWmllcmUyazRtbFNNblBqbUZiWmlpdmtGTENoaFdGNm1CaEpaSlpBd0xyclZ0ZktIUzVR?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-11-27",
+      "tags": [
+        "上線"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《逆水寒》二週年海嘯級更新全新流派「滄瀾」雙形態登場航海玩法、周興哲聯動與超豐富福利一次看 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUmVhanNFR0JPQzQ3Y1pIckdudkVJdE1TdE94YWpDVFQybVlzY3ZzQlp4dENKWi1fVE11WHpSQm83ajZwUkp4RU1xb1owbk5XWXZOd2VhMkhOTm5nUlNDSml2QzJodHVnX0dxb1d0QnJzY2d2NU9pSlhycUl0LVpyN043QUtKbDc4LUI3ck5iRjNDajFsU00tODdYUkZoWnRRNGVxTURKWkdzb0h1OFpVeEpZZFo2bkU4c0E?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-11-27",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《鐵拳8》103歲老奶奶參戰！高齡電競賽事人均九旬挑戰世界紀錄 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYTZSYmRQNkM5TzNsbzhCemc5Rkw3RmM1cVVOZHJWeUxJUnhSQVV1TXhNeFM4TnlsSFpaTVQwbnVFV3c4VTZyaDlvUTdjWUFKdm1PSFNvM1IyUkRQWDFDeG1IMUxpOGFyYXcwLUQ0b0RySWZKOWIzY0JzeU9QLXdHZ2NhLTR2Y0djS0JFY3I4bEhMT2ZmaUhQYi1fYlZ0RkRWbDZPeGV3?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-11-27",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《楓之谷：放置冒險記》新增全新傳說遺物 1週年活動展開 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdVVIZmR6X2ctX3ROVHg0MWJhVlM4NjJ1VEVLZlFnN29LT2dySVZTX1RBTERsVGxKRGJLVWZTSF94bnl2TVZlZVhwZzBGNGoyYjFOZVJrd0VhNTRPX19GTjVBemE0Q2Z0WExTMEh4TnNJbE9lYnQwU1RKdDVPZ3FlTzZQaWs2UnN4WHJzSmdpNVdHMTFOTlMxTWpJcFlBUF9MeThqT3VsYzR5S2I5NXBz?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-11-27",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《寶可夢 風與波》御三家首款周邊將登寶可夢中心 台北店公開聖誕限定活動 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMTRCejJUY2lzbmIwbHczeGMyaWw0T0Z6ZVRBMGNZNFVIcWlVa2F6NC1fNUNfN3NCU3h2dmVOTXh1WkZrSkEybzdtQmo0U0JVOTBmNFh4UlJkcUJCNzFQOGlTdzRWbUd1N3pzRi1wVEt3MFZyXzlVSzV5aGdsbWFDZHNxRGlMTGtoXy1UWmgyaVRxR0w0eURVRFZBWUhhUHhWWmNBb0tvZDZMSzg?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-11-27",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "MSI MPG 322UR QD-OLED X24爽玩《俠盜獵車手VI》，4K QD-OLED把雷歐奈達州的每個細節都看光！ - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORzhPaTJoNjlIcU1VT3Y3cWtZSGFQclZvcGM4M1JLeURVeXBIemN4clVuOGQxQldKZFl3ZFJVZ01pVG0wZWZ3Z2NpR2dldU1KUkVzYXBub09reXpWYWxRajRtWjd2R2tTTEdfdFNHV2lUZ3ZmbEdwUjRaRjh2MDV3aXVIUXhaNktHS1FPUEpqTS02NUVsdHhDd2U4NA?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-11-27",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "長時間打Game變遊戲頸？德國研究每週遊玩時數與脖子痛沒明顯關聯 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNFVidUs4bllxWEQ4R05BNzhUeGt5Q09HcDN1amVzMzV6WHBXbVFQdDlQX3JSTmEya3dVSE9FSDFqZndWc3hpQUx2SDVMcTFNTWoxZUc5M1NkbVdqNVZTbXVJU2tOak5YUl9QSmhBN3dXc3BBby0xTHRZVUJNMVpXYXRVbUpqWTFLTEh3ZUxYNkhyNkNnX01Z?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-11-27",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《藍色星原：旅謠》開服攻略：角色怎麼抽？奇波生態、家園自動化與印記戰鬥一次看懂 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLWltdVEzV0szNk9VeHNsYkctRl9HdVItRUlmUVRYWFBlS0pGdkEtbFZFalQzTnJQVk03YW1ocXZzZ2lhMXdwN2ZrNnlyYW9MVEs5N2xOYjhpNUFZa2RvSW5oamlUM0duVE80VUlMdXFnSk9menVxV3lDLVBDU3I2bg?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-11-27",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《GTA6》動漫痛車、二次元刺青別錯過 讓你的雷歐奈達之旅宅氣四溢 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeXB6WUJLdGdrYklLb1lzMXNZT2JPS0ZROUJ5WlNaaTBOT21fYWxmdUpaOHZvWjRmck90aUxFaDFtZVlwbWxPc1VRRUZfZkpJS2c5bXJ0c0NMMUJVRFVoRmdqQUpNOGxPUXZ0eHh3RWNRS25EamxNQ0V0LUIyS29ET2gxVEtzWGlVREtfdTg0aWpNWHB4YmNZeDRsOUFjaFdpNm9HTV9nLVdldm0t?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-11-27",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《無限暖暖》二週年全新版本「昨日之城，明日之聲」開學啦！星冕套裝「於此重見繁星」華麗登場 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mUHpnOXlQdVViMWFRX3Fqb21xdHVxNXh0X09QbnlqVUlRUlFobkxKNHdTSUN1RExucV80c2Q4WG9TRjVDZ2NJOVl6bUhuNnRreXdTZWl5VVczTWRoZ0E?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-11-27",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "日本 BL 劇《換座位後，坐在我後面的男生好像喜歡我》粉絲見面會確定全球直播！ - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kcFpSVEcyaVFJZm91SlF0LXlaTFZDR1J1SW8yLXpWb0s1Vm8wTVMzNExPWmdndGd5ZTdWMlluNVNqWlB5cXhSOHA0Rm5ma05KblBvM29JNFhOeEx0MWc?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-11-27",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "「亞洲動漫創作展PF45ｘ開拓模型祭RF14」各領域專業與特色活動盛況！ - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE03M0xoTDhDZkpxMDNrN1lWZko0LVBiYk92VGhPeENkd0hMTEpzNTY2NFlpc2dfaG9iOEQ0NTFEcHAwaG9faXBMSDlheDExTGtRVjJTamFyT2JiQ3ZicHc?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-11-27",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "叫你阿嬤出來打！103 歲日本長者勤練《鐵拳8》準備登上電競擂台 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8tdi1MNXlQWTFENTQ1Sl93TUN6UjF5ZTdyZm5vTVNMemlYQ01NTkh1QTRfU0hzcnMxbDcxaFBFYW1ORnlPMWFrbWUyR3VDTXRGVUVIQXJEcHVSa0djeHc?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-11-27",
+      "tags": [],
+      "source_type": "media_report"
+    },
     {
       "title": "《數碼寶貝卡牌遊戲》手機版《Digimon Alysion》於全球上線排位賽與限時對戰活動開跑《デジモンアリシオン》 - GNN 新聞網",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE16N2ZjQVRWSEROcDdNRFNBQWw2TWdOTTREcFRSanVQMDdNNVp5bTFySERtMUFYUHFLQ3VZNUFMTFpjZWo2TGNkbUdmdHZEaVpKMEx2UWg5VzA?oc=5",
@@ -1020,6 +1198,92 @@
       "title": "《信喵之野望 天下布喵》首度公開實機影片 12月封測招募正式啟動 - GameApps.hk",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBCb3QySFBPT2R1YVVmeWkybVVkSENBMWExLXdCVmdQRnJXT0NRUHJZYU9fVU40UnhIQS0tdFNYZ3VRdWFvYTN2OHBGY3JVWl9EWGVUTFR5VmNSbWUyb2dVd2JUMk1QMHliWGRrOEFkTFhpQmVwRjZPWg?oc=5",
       "source": "GameApps.hk",
+      "published_at": "2026-11-26",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "經典街籃遊戲《FreeStyle2 Classic: Street Basketball》事前預約啟動！ - Paradaily",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPXzRlLThlZVpKdzl4cXR4ZHlCOHQyN0tNS2lReFFWeExZNnc4eDhqVXg2NVNWWmRnT19jRGpHUW80MmdFVG1FSlh0aTZ3cWg0b0FmcU51WWZWTTNJOWVmMm81VmJpRzh1a0xSSXJGX1dPUl9XQ0RPT1RpRXN5X0hETWFjYTh4VXcyM0lGVWU2VHVDZw?oc=5",
+      "source": "Paradaily",
+      "published_at": "2026-11-26",
+      "tags": [
+        "事前預約"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《奧丁：神叛》海姆達爾伺服器據點佔領戰開放黑色星期五慶典與黑鐵鍛造活動登場《Odin：Valhalla Rising》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTQ3p6RjBGa1pIMGxpbUJmVkIzZUV4cnU3SU1OWk5VVm1iNlRkLVdIOWR5ZW9rZmVMd2tkbUI2eFJnNnpHT3cwWHFQLUppdk80SnhGQWVtUEI?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-11-26",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《七騎士 Re:BIRTH》1.5 周年慶典持續進行中 「狂歡盛宴」與全新英雄「芭艾兒」登場 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fc0pHeEZJNmtkcGF4Z0JPWDVQNzdXVzVkV25Wams3aEJQQ29hNGIxejgtMFJjcFBHS1BZMGtObDlOZWdzNjRpUTNkWkdCeXljMDViWXpwejQ?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-11-26",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《決勝時刻：現代戰爭4》加入黑色星期五優惠限時開放85 折入手寶庫版《Call of Duty: Modern Warfare 4》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE83c1otdDZCMVRVTE1OaVRQM0RDcWJuWW1BWktSY3VMVjhPemcyR0pmNmd5Qnk3UkhpMHI0Y1JvUExKVlBlMHpidFJrNTF1WW9mN1VCV1NlM3Q?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-11-26",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "EGS每周限免11/27~12/4：雙人友盡爬山《Bread & Fred》限時免費 企鵝兄弟綁一起受苦 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTGp4cE9Fb3kxUmstUjZDVEtlbFF0ZU1FS1E2T0lIbV9kVzNvR3BrenJpczNSN1VhOWgyUTdadnB4RXpHNEhJVTA2d2NZM3ZxNVloeENEaW84YnpLTjNmTUY5ZjFMQ3h5T0Zuc1dJREgwRnAzNWxqVGJmM3VyOWV1c1ppZENaZHkyZ2k2cU9leFFickJGcHNDbkFvYXdtemR2NU51N2ZFZ1M?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-11-26",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "「《學園偶像大師》快閃店2026～Gearbeat Concerto～」蒸汽龐克系列周邊商品開放預購 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wUDNvbUxDVkUtU0VBZ3p5NjEzM3MxUzNQaTJZbDdSOHY2ai1vdEd4WDFXN2hSdUpUQ0thOE1sakZXMDhaU3duSG1fMWlsRHZJa1cyT3VpUWxlYlN5ekE?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-11-26",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "以《魅影再臨》世界觀為基礎打造的桌面RPG《AEX: AFK 魅影再臨》公開《ㄒ》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xUmtEaXZtR3JFOGpNTFlFRE5CVTNUalZaeXdnbXdsc3VYbEFvVHRTQ1dQS3E4dmFUZTFlejQ1T25ocEppbnBVRVQxSmZockdmNmZhSUZiaDU?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-11-26",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《卡厄思夢境》公開「達莉亞」宣傳影片 隱藏過去的帝國千金傑拉帝國貴族家族的養女 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12UV96VU1pVjVLNGFwMnhrVjlPU3JMTlozNHdjd0FLcm1Jek5ZbVloUEtjTXJDLXhSWk45dUpuZzJMSzhKdHZranVZeHBHRXl0TlJqQ0V0bUc?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-11-26",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《水上摩托車 藍色風暴》加入 Nintendo GameCube – Nintendo Classics 陣容 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81ZWJRUDlwa3R6SF9BQ21VRjlrRF9CelVHZWlsZjdlOHZZbnNqVU4xUDlSaS1SQ1dMYjdjUXdnQTRTaXI2N3BUenlOd1FNeFZnTHJHZXM4TlI?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-11-26",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
+      "title": "《復活邪神3 錯綜宿命》介紹夥伴角色以及進化後的「貿易」和「茨威格淘汰賽」《Romancing SaGa 3 Destinies United》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBUTDZOLVprMk9FQVg3U2VXV1FxX2huQVN3eXd3LW84ODFGd2hWVFZOQWFXOU1POExRZW8tUkNtYV95Tm5LMFpGMUhDRW1vdkRpX2h0am9iX2Q?oc=5",
+      "source": "GNN 新聞網",
       "published_at": "2026-11-26",
       "tags": [],
       "source_type": "media_report"
@@ -1427,6 +1691,26 @@
       "source_type": "media_report"
     },
     {
+      "title": "討論牆 | 《召喚×戰姬》超輕度美少女冒險手遊事前預約正式開啟，同步釋出遊戲特色介紹 - LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmV1ZhVUo3Ym5BRlk2Z1lkMUgtRVoxbkhITlhPYU5meGdNSGU1emVtX2YycjVFSUw1c1dNQ2E3aFVfSElUX1F0Q0pET3h5QldMQ0RoRlF2NUw4dkxDZ041dDROMjNocmo1R2QteWU4MTFnNDZ3cjFN?oc=5",
+      "source": "LINE TODAY",
+      "published_at": "2026-11-25",
+      "tags": [
+        "事前預約"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "討論牆 | 果嶺上的魔法對決！可愛風奇幻手遊《萌幻飛球》事前預約全球開打 - LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9zLTFhTlVsTUFRSnZTRmRFVDNTWGNxakt5Um1wYV93dldCWFh0dzNiMnl2ZWpPd3ZjaHJGQ0VlN0NCaGhESmFFQmE4V2lUN0JCSVVqYmY1SUJBRVBGeHZ2bUd1bUFwb0F3eGEwZk9EMHFwRGdaSGZB?oc=5",
+      "source": "LINE TODAY",
+      "published_at": "2026-11-25",
+      "tags": [
+        "事前預約"
+      ],
+      "source_type": "media_report"
+    },
+    {
       "title": "初代《潛龍諜影》被發現能用 2P 手把操控 M1 戰車 上市 28 年後才曝光 - Ludens Media",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43V3pDUXVzd3ZWdGdxOEdzaEhUVlc3NEZQWXAwTUFnVkgta0t0WWxCQklUMmpVV0ZlOFZ2ZEQ2azlmbXdjTXI3bmlka3BZZGVFUlRTcUFXT1BBVFk2Q3RjZnhMejgydEo4NWV4czVBMWNKOElEakhnVEJ6STZ6UQ?oc=5",
       "source": "Ludens Media",
@@ -1714,6 +1998,14 @@
       "source_type": "media_report"
     },
     {
+      "title": "《生死格鬥 6 Last Round》公開系列 30 週年紀念影片與免費更新內容 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91SzJVTkg4ZUpkc0p4YkpVQkl1eTJXdWV2UHpUZ2pmMFpLWml5RjdFLXhCSUhHODJEU3RNVm8wMlhXM09INjBsTjdNNVQyZ1BiOEowX1dpWi0?oc=5",
+      "source": "GNN 新聞網",
+      "published_at": "2026-11-24",
+      "tags": [],
+      "source_type": "media_report"
+    },
+    {
       "title": "育碧手遊大作上市遙遙無期 重心轉向PC與家機 - 商傳媒",
       "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOYlpuWXVrSDBVdjJFRVpiYVp0bUQ5R0NsZDBpd2x6eXQ0WTh1V1p0NEt0TmhVZGN5YlF6Sjc5bVBRWWRTcTZYLXk4SnNtbS0tR0FNUjJqcFNsOGZLR2tvTWViamFfYTVQbmh6UHJ0LVZMWUlQQmlid3I1enEzSURhemNEM0pRaEdiNXFCY2RNSGxMNUwwQW5xLWYzaWN4cmpQalFGRVVEakw1NVE3SzU3Z2VYVTN5dElDTXFEXzdSOVY2NjlxbVpRVFJrenNvNUdQbXVLZk8xNVJMZC1oblZBbnM2WlY0U0lNTDh2ZUxhSmxfU0dUdTRNLUZkUzVHaEtKcjR0MUNxblI2cGpKcnpnemYtRXJwWGtNR2R4d0dOVVhvN0w2X2c3aGEwWV9HSHl2VlFMYmdLeWlTaHh5eE9KdVRhWEE3dkdxYVFSeG5n?oc=5",
       "source": "商傳媒",
@@ -1911,265 +2203,6 @@
       "source": "GNN 新聞網",
       "published_at": "2026-11-23",
       "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "工作助理冒險遊戲《Muv-Luv 少女庭園 Mellow Days》上市 與桃園梅露共度時光 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nSUE3d3pIaUlhWDVhOHRud0MtQWdfZi1UdzdCdU5SV2dyRGp5NDVLcnRWOU9RSDRNbTNXZmpkWVpMMlNmNUwxQzdVbFBPOFUzdjhUSEw3R0k?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-11-23",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "#黑色沙漠MOBILE 遊戲維護時間 2026/11/24(二) 14:30 ~ 18:30 論壇維護時間 2026/11/24(二) 14:30 ~ 18:30 ・冬季更新事前登錄開始 ・ 職業平衡改善 ・ 內容改善事項 ・ 錯誤修正 ・ 全新活動開始 #黑色沙漠MOBILE - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMiuwRBVV95cUxOZEdkZ0ZDSGs0LXZOemdpbC1BNUhpekVFdGowSWVJQWt6RXZkMXppMU5oRjNqSEY3SmNFUjVwTFA2c1JDNDIzNU1YeU1PTW5HbFZQS2R6V0cyVUJ4aUpiTERybW9UM3BkSWNGUTl3R0hqeDNqUFhweDA0WHg3WDM5eXJHTGFOMzZEUzZ4X2w0V1pVMGRfNkVFRXVBT195SWEwQTV1dVZ2VWhmaHRoOWx0WU9WQWRLblFwaTBVS0JGcDVCZmpVVHJ5RnNxWVhXUjIybkM5VHlBbUlTaWhHaWl4S1NjWUVBalZlQU1FcUFqejJhYXJCS3lzTG1LSnJFdDhUNG9YYnVlVDNXWVdCcDFpR3dQLUdja2ticHo1RzRGQzJRWEVpNU85Y09UWFhHRmN6dmhxN3NTT3QyZFFwVzE5RGgxV1FxQ2h2QzRtZXBYY0ZUN3h3TWw1M2dyMG9uRjdHN3pHbkdxZzJHYnk4Rm9ZSUotY3d2TEJaZ1FWX05yeTdlMTdWSVBkTjNzMVNWTENSS2FDU3FyVmg3UXFrMXprTnNubGdMWVVfZ3REeDRSOTBndWoyUzBwczJpVWNqOTZqSWh2QmtyU3NLNW14b0M0UzBpRmVENHpuckZ4RnN5U2t3Q1p0R09rWE05ZHdwYXVvR1ozbnNhUmJkSjdocGNDNzBjQWE5SnFLZExwanV5LWdsYV81eUloZ1drejhzU01laEVOVUk3NXZrTjV4a2lNcUZaUUpQWWx2eXdN?oc=5",
-      "source": "Facebook",
-      "published_at": "2026-11-23",
-      "tags": [
-        "事前預約"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "23 reactions | #TaperInfo 《SoulWorker：Zero》TapTap獨家預先註冊獎勵活動 \"SoulWorker:Zero\" launches exclusive TapTap event for overseas, and New PV! 詳細內容： | TapTap: Discover Superb Games - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNMlNLb1FGMUgyUHhqVVZrMk1POXd5TmZJNVpObFVRR2REUG9SaE1xUlB2RVd4bU82ZTJMbnFBV3AyNGVRMGZ5RVd5ZDFUS1VCbURveWY4N0tZUGJpRl8tUUJnTU1HblZQVW1YYmphaVRJdEpMZ2dwS0xuLUZJWDBHTl9XZVIwelpRN0hQaEpkZmhWQUItMXhrSVRaRmpEQ0x1cXByMjJ4bExDb3NsdFJXTDdESUJVTXl3QVY4Q1A5elB3NGlFVHdrYmpETUpZU0I5UmRxUVVEdVdTY2FaN0lXcHI3azE2TGRET292endjR3VhWnhwN1dQdGFvS2hVbWpNV2MxUUpob1lJcXRUZTRfWGRtdk5BNllzb3RPLUQtWFRGYmt2S01CUzlKMHVnX0VtRElJYnFIei04THJia1QyRE9B?oc=5",
-      "source": "Facebook",
-      "published_at": "2026-11-23",
-      "tags": [
-        "事前預約"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "前Rockstar高層同意《GTA6》最開始被詬病為「男友模擬器」不無道理 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0E3NDRud1VDTFJ6WjZtWi11VmhNQkxCblIyZXNqOFl3WnVwZ0JTeEJZcFJTa3dORUt0amZsUXB5aXB1dXZZMTl4SWRoM0M4RlVMQkoxWXo4UDlVdjlFWVhfbHZZemZFVWZ1b29qQlhJbzR6MW9CVGpuLTFfdU1wamRNaDdSWVdUbW9rWFVIaWEwYkN0M3Z5WmhQM2F4VUI5?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "我失戀了但也變強了《那個人。後來…》動畫化確定 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5GZEc4UWFEbGRSU0U2QXlWY0w4cE1ITEtqdUVORnk5cnl4UUIxZ1pRQVZvSTlNUUNPdFhWQWZlSFVzMjlfUXhzTVhrcWIxQ01RY2RzQU4zSW5xbTgzLURiSk5RVlFVdG54MGhYSUZSYjJCU2tGNWhNSWdYMA?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《新楓之谷》x《新楓之谷：經典版》楓潮派對活動紀錄 邊荷律化身「蕾媞」驚喜現身 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTGVWQ3VxeE95N1VsOUUxbENKUzV5UmdrM3RDcVdrRkJCYTJqcnUzLXpZdmtqaWs1cDhMd2Q2OXpuVnZPX25Lc2ZpUFZ6SzJIeTVMc3E4WFhsSF9uLUZrMjNEUDJvQlpaeVhqMmQwZWRUaVFMSWFoc3hMMkxvUmJzY2tuY21CZw?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《GTA6》想偷特斯拉？自動駕駛邊嘲諷你邊把你送到警局 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQV1JTeTY5dDhHdXlfZmVramtiM2JIZldxamRMRzVJYUw2dnZMelZ5WGdfd3dsVmJEWjJrVXBhNzZSbUpabHl4M2lGdUt1ZFFXS2FSSEJpZHhRbXQwNjdqUDBJaUgxX2Z5M3I4eWctbk41cVpRUmN6S2psT2FDcEZEdjhTZDZCNUZyaWZJZUcwU3Y2VWpadGl6YUpsRXYzLXZkTWRtMlFJekM0RThJRVF6Zkp5VUQxY0t5VFgyMUxOT19NcGRyMGFNR2xEQQ?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "獨家直擊《Pikmin Bloom》開發團隊 感謝台灣玩家支持並希望以行動維繫信任 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4tWXFqcndDMlUxWVpBc3JsSXRucnBJZHlOMm10VmpKSDBKTnJiSFllYWVvd3ZhODhwQ2ZNdzg2TXRBVWpqeGVIR1ZTMnM2OWdTVHU3czlqOGY?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "在變異都市回收遺物限時撤離！ARPG《虛空潛者：逃出深淵》宣布明年 1 月 20 日上市 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBkb2U0Vm9YY2t0dndHRVBFVlFaNTdJZGpucjl1ZlJHbEVqaFlsdld2NHBIR3FNbm5wakRrNzRxeVVpckZGRXJGYXBQMXFpRFYxckpGa1pHcFA?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-11-23",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "講話太大聲就會被老奶奶痛毆！鴨子外星人潛入豪宅偷零件《噤下來 QUIET》試玩報導 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5hUTFVMnJsY25mdnl6TE56VEEwTVRmTHUxXzNzZVhpM0VqU215SHl4YUNKaXFGYWl6NHdmcDBUVXJNY3p6QnRYcXl4WVZPcGVnM3NfS3loa3E?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《不起眼女主角培育法》加藤惠聲優安野希世乃 公開結婚喜訊 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wYk5sYUFvY1M0RkhjdnRKbXBaWVFTSERYT0g2NXEzMFRWSkVfdWZXeTNiUmZ0WHhpNHZwaHc4QjdKVzFNdjdJZkpZNTZ0RHJGOWJ4Mzl4a0k?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《洛克人：雙重超載》公開第六位頭目「快艇人」 因遭同伴嘲笑而失控的漁業機器人《ROCKMAN: Dual Override》 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tX2QweGZoT1lJdjFwU2VWZmJXQ2paTTVfUzlKc2dFNS1TWHp2dll3VURIUUFKX2hYUmVuNjBuX1lNUkJmNHhMdXR3c2tXMmRUQ0dwcW1mOUI?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《復仇者聯盟：末日崛起》公開終極預告影片 多元宇宙英雄集結對抗致命威脅 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80WHp3aGk4OHlXTmpFNXhoYVRzRm5MWGdDWVE0VktxOG5yUlpheTYwNnNoMVY3eGVENWFGZXg1VnN2V2lFU3BFV0ViaF9iLVhNNHlvYUZvdVI?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "節奏冒險新作《唱片先生》現場試玩報導支援自訂曲目打造專屬關卡《MR. RECORDS》 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE02N3Y4N2plaXVZaHJOaUJLZXJuSGQ5QmRWSFJTNVFCZm9TN3oySUdla1g1ZEhPdV9pUmlmT0UxVDJpRFRWaE5RUE92MFRKVWUwcDg4QnNfZks?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《閃亂神樂》系列新作《忍者連結 -閃亂神樂-》預定 11/29 在日本正式上線 公開遊戲玩法及泳裝卡池 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5KaHA1NmpVNGNyMHJGSlJRLXBhSHQzOVk1cU1VNVdRWXZhbllSNS1uZGxjUHp5TVJxcWFWdG5Rb2c5YXBFT3ItXzM2amZjTHV2YmZlenZ4Qjc?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-11-23",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "#一個官人一個妻 #福利活動 🥳新的一周，又來和花花玩遊戲啦~ 以下哪個選項是戰馬【魔法情人】呢？ —✨活動參與方式✨— 👍按讚並分享本貼文 （建議官人分享在自己的個人主頁上） 📝參與格式：遊戲ID+答案（記得點上你的小心心哦） 👉🏻花花會從猜對的官人中隨機抽 - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMiighBVV95cUxQRzA5NF9obUxiOEZrZHc5VHptdlcwS2h3eEpUYzJ6MzVOYkZHSnJveDV3aHkyN0ZSLVFlUFhqdGRhc2tyOVNHTVlTSm1WcXRTaDVTdTZRQWlqVlZhcmFGYnpSZXIzVFJsclVBVF9NTy1fQ2FvRGtMUDdnWW84MG9tWnIxd3R3aVc4UThRSnNld1J6dHMxZHlSRW82ZDJjUF9waTBNTTI3cHRzRUZqaVdrdU9nNmdzZW1iSUdLU3BqNWdpUUhEbE5BaTFGYlJNVFNPWFB5U1BkWE1FSTRZSWZyanRxSG1lU1N5aktnTlUxM1ZRck9tb0JVUUxkLW9hWFd2SklWbFhLMk04cHBidzVTZVpJTDltNXdKb2ZxSWxLVzl3ekhweEt3Zm9zSzBrSGIzWXVFWGlXd2xWWjBNMi03aEFrNXVpeGN2RXF3ZXJsVzFfTkpEUzM3amRRWndFT25mMlZuM0txMEZVYk9rQkxQOHZRR2hEVldvNFlTWFMxVWFMX1ZXUFotMjhQY3lGYnhON0Jjc2ZnWExiSEVjWEVJUzE5ZHdFcUQzRk1JTUwtS0M1eHFqcWJtYzRDamt3MS1FZ2ZjSWdEbTU2QmFQdlJrMWxyNnk4ZHhkMDhxUjd3a0Fac2xxZmpTOXVKajZmUTEzTTlCcjdnWkc4SDNHS19wTFpKTnhob1VfRHZQZXBwLWlvZGNndnYtN010amlyTXJmQzZmZ3gyY1lSbTIwejh5Y0RuWlA1Y3ltaHB3dTFNT3Y0WFFaeXlyZllmUENWc01ISl9ZSWhSM05yVXZ2blh3WGhKZ21aTW1ETnk2WV8yRGRkQ2JYaUd5Skx2M0RwYTBkM3ljWm1yelI4bkJmcDRzYVdfQkU4bHpNcW9LU1dOM2h0RGU1cXJWU0duT2dvWW9ydUFHdDhkeUl4QzhWTWhnX3hqem5XV0lLbVRYaHJWRmFjcnQtUGF2Q0xoaVUyMGNxZzNsQ0cwQzFHbTZDVks3QTFiQk42bXlYQW56QnZvUHI4WkVXOXFVMEJodWF2VnJBR2pIM0NZZU8yOWZRalY1Rkp4MEdyOWpYVjB0N2N4RFgwSXpoSjljejQ3OFZFelRZTXhIb2kzQW5QZzRVb0tFdDY1LTl6SmJaNG9IWi1JbFEzX3dGYkYtclp2cGY1Z3BxU1BWSzAwSF92bV96Rk9PTDNWci1JNFBUU3c5TGxLdGRpelJ5bGZrcjZkcmdIQ2w5TEh6M3FuN0RWdHR1WG9iak03RzlLSGFNbFhvQ0ZEVXpNSTFQQk1mal9Gb1JfczVoNHpVYm9qV1h4YW1xVWNaODZrTTM0bGtoZzI4Vm5JeW9DMlhXNk5vNHNSdGlmbDBRcVQxc19QUk40Zw?oc=5",
-      "source": "Facebook",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "【圍方 · Hot Toys | Marvel Studios《復仇者聯盟5：末日降臨》主題展及期間限定店】 11 月 30 日 - 12 月 1 日 會員優先登記購買/預訂 - 網上登記連結正式開放！ 📌立即登記： https://www.ehottoys.com/DOOMSDAY2026-REG-ZH ⏰登記時間: 2026 年 11 月 23 日 5:30 PM - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi9gRBVV95cUxPV3FvQzNlQi15QWdtM3JMVTNlOE93dGRZNFlxOTh2WjY0R1dzV2QzR0tyREVMdXZseEFVNmxVVXpZMHMtM3pZQzdsSlVSdWNTNGd6ZkU5XzRHdmhSZlU1U2puUGs5ZVZPSk44YURoS3lCdlJUdFhxVFdKUzRjYUNVR1BDSDdpWjAtek9NWThIT09sYnVyNzY1RzBsZ3Q3eG11UjEzRVlmX0x4S0lERlZHN2g1a0xfQkFwYVlPVDRaQ2xVMHNqNTJrMEtLR3NZLVZQeVZueTMwRWxqelZnd3p3QjRhNUg0Ml9IRjhxTzRCY1lXUE5CUUVMSGQ0RUQ2R3VKTDZLOGwwT2g3b1dwUFIwUl95MUdPZ2pCY0F3Y0JqQXo2UkRHUGVodzBiWGJadWtRZHRDS1ZmQmdRN2paYUJlT1g1c0tUSkMwVDVCSE1LMWVtUHNjb2t5VlgwOEhNZV96a0ZMZS1OSk9xY3BxRF9PZDRzc01YeTZKbWFhbm0yZzN1SlpvRVR0cXJ6SHhQUGdXaWtUX2VqSThqZkxWSmJiOHd1eHFQMjZSUTFXZldSNWNzTGUxbzYtTmxCZFhQWWxUVlB4WGstdEdrRGNVcGVheldWMGVWS2IwbXktYjM4RFhzcXV6Y3p2NS1DNXgzSG0wNklLaGljZXNfcm42Wm5OWTZQbDAxNEJaUmRqdWlQaWkzZXpfNG05dUtzSnRHZlZHNWNCcGZHbFY1N2FfQS1zZTNVZTgwemFKNFdTazIwRzd5TlhlMXdfM25ZT1pkckpGQ1hZWjZPdnJDd2E0d3h0NE5PeXFCSTdxYnRwbTFOaFRwNTBlcmc?oc=5",
-      "source": "Facebook",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "北瀨佳範分享《Final Fantasy VII》重製版如何面向新時代重新構築 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1BWXdNOUY2QWZ2R3dhaXdqblM4WHlhQTducXpOWUlTOWdUa1MtZG8xNVJhajRvOXhkZmlOVHZURVVZVjJyQWFoTW1GM0VHNF8weWYxYlE1bGs?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "百老匯音樂劇《MJ 麥可・傑克森》臺北站再加開 9 場 11 月 27 日中午正式開賣 - 商傳媒",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV0hhSmlKOGJ3N2F0TldYLTFrbjB3dWI1NmlWTlhrOWlZOFFRcFEwV01uU1Uxc09LVDZFeTZ5WHhUMWYyMnR5VG5BWEMtM2I4RmRDOEdOVGxWd3lYVjgta0I3Sk9ONDhzSF9RRnM0Q0JmNHNRZ0MtVXdldmNfdkJuTG45VDhaekFZRUxUSG1ENlJwQWlaWHJPbXZwcw?oc=5",
-      "source": "商傳媒",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "機車 × 美少女 RPG《追逐卡蕾多》心跳測試將於 12/17 全球登場 開放手機雙平台及 PC 限時體驗 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5LaUJYR0gxN0xwaFJ2WUJ5TncwRUt5dndHTkp5NF94SlhCSnI4eUpGMnhPb0NNc19CWFBsRTllQURmZ3pOMlB4a1ZOZWNYY0g0dEtfdWkzX20?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《GTA6》開發者因《罪惡城市》成入行契機 在遊戲中為母親設置紀念碑致意 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVkJjTkxiSzhpc25Fc1Fidy1rN243MzNBODN2SW5MMEx4M21pMjM5N084N2tFUGxkTURZVWl3cmRZYWFLUHBXeGMweUh3ZmljVTVxQi1tOTZtMm9JSVIyeW9yLTBvNEFPdURFazlGVkFsNG5qSEVoeFVlYXlQLU93VnExbGlfMERQUDlR?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《俠盜獵車手6》預購銷量達3250 萬套首日零售額創娛樂產業銷售新紀錄《Grand Theft Auto VI》 - GNN 新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4wNl9nMHQxdVdRYWxxT2k2M2JwMXhjRl9pTG03QUhQWFh5YnRKTXpLNDVsSl9QakJkaGdLQUc4QTdmTFJHdGdKTmJkOUxVZGFNaElNSl9tSXI?oc=5",
-      "source": "GNN 新聞網",
-      "published_at": "2026-11-23",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "台灣 App Store 暢銷榜週報（11/15～11/21）《星城Online》連五天第1 名 《王國W：血盟之誓》上市後最高第4 名 - Ludens Media",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQbGt5b19MSTZnaDJEQmhkRFZLcl9wNzgzTTFjLVRmRmhrTkI1MExNSzhiLVBBQUtmd3RVS2c4OUc4S1RHMEtKUUhKLUM0dU9RT1Q2RTZudmhnZnVwQ3pvSU50Q3I0NGpYV0FFa0wzQ0p4Nnl0UkJyWk5R?oc=5",
-      "source": "Ludens Media",
-      "published_at": "2026-11-22",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "Twitch 日文實況週報（11/9～11/15）《ROB RUN》上市第二週衝上第4 名 SHAKA 卡丁車活動最高4.4 萬人同時觀看 - Ludens Media",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GODF2WmF3cUg3TG4zMUw3LWVPZHp3eENJV3ZCNzJ3Zmhfek9VcWdxZ21EaGJwVkRHZmtBN2tVLThxYmVzdF9mUGZ6dWNtY3F3akRwTHE1bG5RUFlHSFpiUzdTTTM?oc=5",
-      "source": "Ludens Media",
-      "published_at": "2026-11-22",
-      "tags": [
-        "行銷動態",
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "距離《加速世界》更近一步！Neuralink實現腦內晶片玩《GTA 6》 開車、射擊全都辦得到 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9peXlvcWZpeG5STkRJQzhpQWlMVGs1QnFGV3NMd2N0UDhVUzBkSUNIbnNNQ0RlLTF3QjlseFJiWjNaWExDTkxUbUhkTmNQWUlfSGJUZmV0MC1HSXBWandKRVhsVGZSd3E1YmJvS1k4UjQzN1R5Ym84?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-11-22",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "神魔之塔 Tower of Saviors 派獎活動來了！ 各位召喚師只要在此貼文留下你的「UID」 參加活動可獲「獨角仙君 5 隻 + 布蘭克之匙 2 把」 活動期間 : 11 月 21 日 (六) 至 11 月 22 日 (日) 23:59 活動獎賞會於 11 月 25 日 (三) 或之前發送到召喚師所填寫的《神魔之塔》UID 帳 - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMixwVBVV95cUxOWTRyVHFCM3hCSWNLcEd6cjMyaUlETllxSXFCVnRGNm1DUURMVXMtTVhUNWdPRkE5ajYxWFE5WDNrQTZ2a0hwYzJ5d3pLdzVacks3Q2FMZ2hKRmE4REduT0I1dlRLM2I2cDFXbUIwSzJrVmpNSlU2VzEyby1KOERNMF9sY2NyTldIZmwtMUlsMEZTSkFxMGtkTHlGSFNPSTRPOXk4dHhKempMM3ZuVDk1VlpVQldUQWozaXNvZFY0WmtzUmlGbXk3UjA4SDQ3bjgwSkQzaE5fQlBhOGdadWpKSkQ2X19NczJKOGlKZ3A4QUNKVzJEc0ZrM084U244N0liRU56dm1PUlg3V3B6SXh0TUppZmhKSms3THlDaTNMZ3V5YkJ4Y2tyblhSR1Y5c0RTV3dqRl9hZFQ0dVF5MHkyMUsxMXI0Q3JtNk44MTctS1JFYVZwNFAxNDhMSkNUY1V2RGZkbzVsWXNGX1VaalFjM3FQdGF3Y2ZrZEtmNDAyWG40NlZrczhTVHdnRGJNb3E5YUxXbC1LUG5KaWlBYlduYWdabXR6RWxDaHlfcG1DdklEVUIwaEdiN3U3Xy1ZYTR6cG1yWnJhekZNbkhVeUlmMlJydS1Oak5ZRU01TUc2RjAxOUg2ckIzaXUwSU03eUwtUUd5WkNRQ1VCMXJydzc0N0pOMjdZMVlLQ05QQkJoREk0My1Ib3B0Mk80dWFhbHIzeEJDRHczMGRoODdWTlVBd1VLMWJOTDBMdU5mNlE3TXgyTGkxZGlSNFRoRGIxODBSeXEzSUdZN2xXTXBteG5McGlZbW8xbFkwQzVYbUw4M2pUVEZ1NmEwSFVLSG1uQ2J4ZE1MVkNJaUxnZTFnbEhxRTJ4bTVMSC1LTjBuaEs4dTRJUHJNanVldFdpWU01OVgyT2UydUxrTHBUWllQNi00RjdfeDY3RDg?oc=5",
-      "source": "Facebook",
-      "published_at": "2026-11-21",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《GTA6》首日銷量成績出爐！狂賣3,250萬套創下所有娛樂產品新記錄 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQkR4U0FiOS1YaGhHc2dVRkk1NEp6dVRLZEo3X3dpMHlrV004RXY0amhuQXQ1YVBaOHByb3F3SFlESGtnR1ZvVU1uZVRsVV9FYnZrRnFKR19aQUk4UzFwUWhsSXphTEdvaXBOU3RHeTVmMHNyRjFSQkZCaWk5WVl3V2UxaE1TazBkUy1DNnp2aGlGeGZFc0RjLQ?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-11-21",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "《Pikmin Bloom》發表台灣玩家專屬公告 強調資料僅儲存於美國伺服器 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSC1uY0dGd0pzOVBZYUY3Q1U2OWg2cnZLRmRSanhBdTNMOXJaTXZsVDhBamhaeko2VHVYcWdrOW9uRXdLSlo4T21rTnBqdnMxdTgwZklxMjI3N1lGY2NRSmxiRllmeURrSmkxZ0lDYzBZRTFoeU9JS0NZWkRpazdpR0ZObjBnQjJBY1pCVmlDMHVOTVk?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-11-21",
-      "tags": [],
-      "source_type": "media_report"
-    },
-    {
-      "title": "跑跑卡丁車手遊版於中國正式上線　是否會有台版未可知 - 三立新聞",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MV19Gb18yMjFoTFhyZ0wwOW94QTI3Wm5VRXhscGlRSTNDVlBoU1RDclV0Qkkydi0zOEVLMHF5ZlRuZTZTX1VF0gFLQVVfeXFMTTloZ0RtVTRKeTZjOEo1UmxOZzVkQ3NCT2U4b3Yya3lCVkZPaThHMDJVNnNIdk9JT25ja1I4eE9iNFhYaUlYZ292MHp3?oc=5",
-      "source": "三立新聞",
-      "published_at": "2026-11-21",
-      "tags": [
-        "上線"
-      ],
-      "source_type": "media_report"
-    },
-    {
-      "title": "🔥《天堂2M》事前登錄集結！傳奇即將再起！⚔️ 冒險者們，準備好重返戰場了嗎？🔥 《天堂2M》事前登錄火熱開跑！ MyCard 限定好禮同步登場 🎁 ✨ 立即參加，就有機會抽中： 🎫《天堂2M》限定專屬卡 💰 MyCard 1000 點 傳奇戰場即將開啟，豐厚獎勵等你帶走！ ⚔️ 立即 - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi9gZBVV95cUxNb1hDYjhPdmU5UXhKaHpSM0ZuQmhuUzFOZXExV1FWclBRZlVmRi1lcGdlVld3ekZtSEdGNnNmeE1kUnhIaFhRdi10WldfR1h5Wl9rSFJaamFYS2lMZkQ5TDNjMUpraFF5aDA1UnhyblJtWWp6TzhDMVF4SHh0R3llMGpTaDZ4VkF3ZXJzOXJpTXJDMk1uTXNSVlpybjI5bW56X3piZFlaMWJhNTY4NEtqOHFucENuRmRsNWZ6c1RGTC04aFBnSTVvM3oyUkMwTVVJcmhDeThLVi03M3lMeElWT2c1UUJCZUUzTmJDelBHTC1PN25rVDREU2x0SHMxWU5FMzZVMVJ6a2lNeG90Q2thMjVxejI2Y0g2NHZwVE9xazVCNE16THlxdVpxVk01Y0cteHZWWHdSWUpiczlNaURfT0tra0xoYnJGTFJSNWtSM1k5V2Q5LWVWNmhQYUNQd1Y3R21sT0tFOGtkWlZnYm5pVkN0N1lkOWFmQ0VwTGhwblpUM1phUnZ3QzlwcFRLZTVyX2JKQ0V5cklyc21hNHRhR0l1Z0VUVnRyOUdPeTRzakthX1o1MW9Qd19YZng3Tkota0pFR3l2dHZkV2VlaTlMR2IwS1E4aGNwTkRqZGFMdlhTS2xfUmpublNoRldET0M5dFFvZkFQYlZGUEtBS3JPMnpaa3lrMndFbmpaMVdPcGk5c21yeXdnYUVCQUwtdG41WVVEeVpuMXVfWGNUWDdIb2duSmk5cEdWSU4xYWM3VjhCQ2lYZnA2SndFZlQwbDRmcUl5T29aSHhmQzI5MVRiVzBDNzdPaUxmb25RcG5RWUFTeEpSdHI4d01fQndNN3JuUzVyRGFRTTNGU294YV8wbndSNFJqNDVjUDdYdEhQc1FMX0tYQ083dUt4SmxOcG5QR3hrRzJ3dDF2dkdaRHQzLUx4WXRQY2tuN3B6UklzS3JrQU9mMFFmNlR2blk4OUdheHN5czRta3AyQ3VQd1dJVEZ4SDhYNTE0b2RZOFI3NGFTcVhsdnVfbk5kUGVzR3c0T1ExZHhxYU96WXhlQ0dld1Fpd0NuZHRtelFBWHRzcDg4OHdpTHd1V3lmVjVXaFh0RjRuNVR0VkRBZ3gwUUdKcE1Ick9fdllvc0xLVmhTUy1lYU1oMktaUlkxY2hDZlJmaGk2TzhR?oc=5",
-      "source": "Facebook",
-      "published_at": "2026-11-21",
-      "tags": [
-        "事前預約"
-      ],
       "source_type": "media_report"
     }
   ],
@@ -2658,6 +2691,96 @@
   ],
   "topical_news": [
     {
+      "title": "「港片爆發、台片變弱了？」完食近 5 屆金馬獎入圍片，帶你看懂華語影壇的板塊重組 - 換日線 Crossing",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpdUxDdnFIRFF5b3JqQnJvd0lEVFdNeEUza0dsRkxYM1dhaHJaQjUwVGZMSzQxbTk3YTRuTDhQc1pDbjJEMXN3LUM2TnI1SURUdHc?oc=5",
+      "source": "換日線 Crossing",
+      "published_at": "2026-11-27",
+      "category": "娛樂焦點",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 3,
+      "source_count": 3,
+      "heat_label": "媒體高度關注",
+      "heat_basis": "近 7 日同主題 3 個不同媒體來源"
+    },
+    {
+      "title": "全球經濟指標| 鉅亨網 - 鉅亨網",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5MWDczb0VIbE5YVlR6aDRlcDBqNlhFWUNZVndjczlpX2xNUmt3WTVsQXhEbmFEUGVGVUR4YjNLUTdlUUl4a3ZmTnNRWk1hSjFf?oc=5",
+      "source": "鉅亨網",
+      "published_at": "2026-11-27",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "明日投票藍綠決戰雙北- 台灣時報焦點- 新聞 - 華人今日網",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tcGZxZU4xYVFtZzNqZmpYcXl0MEVJZUFSUEhpX1hOaGhrdXJxaEE5blAzRjJCQk1reTlZbnlvc2VkZWtMVlZVTjlwUU5SN2RuUnhiSWVSbFRkT1dOS0hHdXlzX0JvQQ?oc=5",
+      "source": "華人今日網",
+      "published_at": "2026-11-27",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "今晚有大事？蔣萬安「反奧步小組」徹夜留守 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPekxZLWcyRWdqYUpJc2g1MnE5ZEd4cnE4Sjc1VU5nUGhEbzAyRGs5akpNaFlBMEZ4LWZXUTFqUnhINXVFZXVCRW9LYnRmSGlVUlNlT3B5ZV82dlBlN3lOeFNwaXZNR1F1M2twOFFwa0hpdTF2ei1RY1NfY25zLV8xNXVPVGJENWthLUNNdlVncXA1WENjVkotQ3Q2aFVfTFJKZU1iSnFqQzYwSm01UzMxeVpBYkw0ay1SMEY0V1Q1Vm9hRS16QWlNYVJMZUF2WjJseGhSdnp2SlRkM043WmE2WlI2MXR2VXd2NnU0ZVhHTjJ6TnlnbVZNNWphVnBxbFpXWTBkek9wbnpqZVl6ZGhwMkk2X21iXzYxTWdzaWJUWHlOZVE?oc=5",
+      "source": "Yahoo新聞",
+      "published_at": "2026-11-27",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "川普感恩節賀詞變調猛批移民- 台灣時報焦點- 新聞 - 華人今日網",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE85dmJoSGhuR2Jlamk4RUpoVmR5TUQtNURkRzhCV0k3WlZPV3JTelVhSm9UNUVnR0FKc3dyd0RIMERMVzUxVGlrRXNGOW1Hc0VHalBON2U1U2daZFhEY0RZaEtSRXdHdw?oc=5",
+      "source": "華人今日網",
+      "published_at": "2026-11-27",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "風評：川普新關稅台灣增加50%，值得高興嗎？ - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMlN3Z1pQVWdMVTgxb3BIUE9UUkpoYXhpSU9HUGtaVC1sLU1pLTRyQ082ZWpzVEFBMDVFelFWc3k0WWZLZlJMYThVeU9EQ01MM1lLa1dyVHlWUkszbkdKSll6aW45SnRqMFl4V2VDbTFsMlVOWUtGV1ZEQ3pDdDdoS09raU9QQl8yZjI2M0VaOFY5cnZicVNKcmhGc2prTlphRXVVQ3lJTnpGQ1FFRjFqSEFqUTdHbWZ6Z2FydjNyTVl0a3VVbElCaW9lblZ5T1Y5cU9QTkVJaFN6LXNEUkg5ZEZpbEVBWVBMNHhDanl6ejlRbWR6cm5JMU1jN25HY0xZVERKYWxwZTZwZl9qcVlzVjBFZ2lhUU5T?oc=5",
+      "source": "Yahoo新聞",
+      "published_at": "2026-11-27",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "蘇起：台灣民意在國際政治毫不重要 不必當成美中談判因素 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxNOENmWmlTcVd6VmJfOENNQWVhWmVGRk5SQmNwQUNKeC16UUpBbXFwLW5mU3IwNzhPZXFodWtlZld0a1ZwYU54bXczN1FlaVctcEdXTW9hMXVlRkFCbWRhQ05TWGZyd1FGTFZ5T0lRNzhnekhXSUtlcm5tdkQwRU1XNkNPLW1LUVd4SGoxX3BiNnJkdDI0WXVKNzFmQWJlcDd4RGlORlYxT3FyZWpFSUhqMW0zUjViclp0aUpUb3BjYW1CS1ZSOXFvRXB5NzZmUUpibDRmT3RXOEV2aGR6anQwWkluOWhkQUJOdDF2d0NUeTl2dlBaazhZU0JtTWNMTEtDSUNtX0FEbHdHT0pNS3ROQ2RnR3FxMlhKVFAtM2dibFNHNm94VEFsOV9rcEY5ODdBSUJYcEFpMWpEUFZoZERqOG5scVY1dzBmNGp2MTQ3aEY3ZWZrN0haejU1QWRUV01MR05jMVYyZlJwLW11NFU2WThVazdKbmFNZWQxbld2NXhHUQ?oc=5",
+      "source": "Yahoo新聞",
+      "published_at": "2026-11-27",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "立陶宛總統嫌台灣投資太少！再施壓代表處更名 揚言不排除單方面行動 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxNSU4xT254cmVoODF5UVFSQ1FKUHBENnQ3NVBSSTNYbXFNR200U2xIVlFBQW1rTXo1OGJ3WWRaUFNZMkItSVliUHhFcFF4MEVSaXlKUk5jMXQ4LWtFdkN3Wm1KMXUweE8zVXI3Y1RJN0VyMXlLR1U4WEFLX01nMjNTR3RuRjJESFQzVi1yaWl5SmtWRlFFV0JoNXdMWGpxVEJvTEtzUjFlVlY3eG9BVURXQS1HRllRbnhNTVVhRHR3VnlLTExmWThzZ01Dd2JSdWR2WkNESU8yUzhYdUVBcTAwUUQ4ay1zZWpKQ2xTQU5EaUYzN281U1NVd0h4WFhubFlNbkhSZ3BXeEtzbmFLbkZsX0UxUExLWGdSWXF6dDhlYk1nTGxZd1UyWWZwN3pYV1Q3a0hGeG1qdHpZWFh5R0ZhZF8teGQwcVNxN0luejdQRkpUZGlMNHd5T1ozTFVLcTdzb2VKQ3M0eEJkYWtVVHdGQzRfU0J3MHV3Z0V1TWNQamdxT25TVW9RbVVKNXlOTEdNczdRaHNzN2hzWkxWSjhRTTlMWXEzRUNHSnBOeU9DM0lRRU1keko5WTlENzk5dw?oc=5",
+      "source": "Yahoo新聞",
+      "published_at": "2026-11-27",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
       "title": "《今日焦點新聞》美301調查台灣建議稅率15% 鄭麗君8:30說明 - 富聯網",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa1NsQXJfNHBVNlJfenpFV1FIQ1dvTHl2a2wyamh0ZUlJbTA3aGh2UGdIT0pXRzBKOFNtR2FBRW1UY0E5QVFjVUVWMjJKdVV3WkFxV1dvVXB4QWJzdlJjbWNaOGhjSGFuUm5waHlhSTk2UG9ZRWgzMkpnRUhQWmVoaV9iZHpHcHFQ?oc=5",
       "source": "富聯網",
@@ -2669,8 +2792,19 @@
       "source_count": 1
     },
     {
-      "title": "從國際議題走進科技現場看見台灣 「2026印太未來領袖營」開放高中職學生報名 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMizwNBVV95cUxNZjdpRmpZd09DMXpwaFBSdGVUZ1NSQnJNS2EtaFFrd2NvNDhTQWozWXBidUg2NzA1bDVsR09ySUlVenR0NGhDYlZKMHJPS3Z0UE5DTTVZZUxwVjdCVHZQUkFCTkpIVUtZUWN5OWphcC1OOXB0c3I1M0ZLc196TVBJamNKaEU0SHNrOV9pU0dTeGZZZ2lCUGdydF85a0xsVk9QN05kTFNTYkYydjdELXFXOVduSFRoaVFmay1sNldHX0VEXzVWOU03SVE4VllYSFBsVEdUcEM0anFhUi1RaFJ3dWY2NEZLaDlJRVU4SWlWZ3dxVnB4R1ZvUkwtc1dvSm9IaVhPTUFYVjlZZ2JpdDNNcVA1T2VlYlpOZVFfNHM5dTZpMldWRERXZ200dlRMM2t1Z2VDMGw5SjVSbVRLWHpwTWJXVFZHa0NTZzR2TklhUWVWMTU5cW9tUWNiQVFleGJSVElIeHpybEF3eFcyYlZNRkctTS1LQ2JGb0UtTGZXOHNreldVdVdUSlhHYzNuT3g0U3hhQ2R0TDB0ZGxyS1V0anJmTnV5RVhzNC01aEJ5MUVPTE13MWh2aW5ybkg5R2JDVEUyVUNHTTl6UDVTQmVv?oc=5",
+      "title": "喪父三天重返選戰 魏嘉賢忍痛展車掃 劉一峰神父親致哀 - 台灣新聞雲",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE50VzFPMHF3bDhackh1TkxKU0JfRXVSblk1T0VmLUdGUmNaZVgxZWNCcFhYazJYV190d05CMjhWZlV3NzRpZWU0?oc=5",
+      "source": "台灣新聞雲",
+      "published_at": "2026-11-26",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "台灣代表處拒絕更名 立陶宛總理警告：政府有權單方面撤銷其法律地位 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxNSV9GT3RrSjJRTW9yNXJiSHE1THhUbFptWlFPUHpJdEEyMjRxNUdFcEF3eXc1cnh2Y204RlRTWTBDWk9hRkJEMGZiQTJqUVdNakRoYTh3c0dWVUZrTXVoMlpXU2ZqU19xZEZJRjloWVVWdmd1dk42eVlkdGphcG1tYTRHOFNuZjB1OWRLcmUtQnp5dVlCRmF2X0dWVHJrREVtaTJab2dSSkpXdzVPUVRXZlhTcnV4akw5ampnTzJmM285QmZIZGg2RndyTzlCMEZnX0RHN2pqa09INm9hTzlXWmUwblNSWGFRYkUzajBfc3dKWTZrMHRURnNFcm9tZE5oV0RmZEJCSmRLTVBZRFptRnZ2SU1ZMXFqOGx0X3ZuajgxeENxX3d1a21BVUtwcVNtbkJqbTU3WlZqNUE4TnF3X0t2RkEtX3dPS1JsZHcyeWs3TXdfSkFiS0c4WnF6dXc1UHZYOXplVV92dG1iSDNRRlE2aFl4NXRJdkFJV0hYNjQtLWlRaXFRRXZUUDBlcEFtbGpqenhjUXY1VmRVRkpZeHR2WjRSeHdjZEZTdTdxMGVoQ05vY0poeHhjQnRhdw?oc=5",
       "source": "Yahoo新聞",
       "published_at": "2026-11-26",
       "category": "社會熱議",
@@ -2680,15 +2814,17 @@
       "source_count": 1
     },
     {
-      "title": "美301調查指台灣產業政策不合理 龔明鑫：將依台美協議推動產業赴美布局 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxNVEN5dTdxQzItVzRYYUd4bFVHUk9fRGV5UVhKQWFraDFqNzVfSkQtU2RwdlZCVGRUajM5Q001Y0EyN0FucTQ2OEExcldKbWZkckkwZWVhaXZhcWN0bzRBWnFLdU4yMlc3R3dPMVpJYzhnUjNveDVPY095emRpblg4akdBbnRyLVZ3Q3JxejMxUzhEUzRQWXRNQXJEcVVHQ3VTcDVZMWpkZ3paUlhLOTduZ1FWYmlrNWNZLU5PM3pFbVN0Z2R3TXY4cG1wXy00dHpteVRad3Y0X1FTbTJRMTY5clA5bFN1dlFRdE43QUtMTS16cVhpRjByMzVuRFZmbmZOWHB1X2R0cWt5anJVZGpuY1k2VmRGZzlMMTcyQVBGOUJDZDNLbmpqcFNjY2dOcU5LY2lQVkhHN3d2RnBKc0NzV3RkTUw2RzVULTNUaUJUSmQ1UmlnRGllcmdSWFJhYzJCZ0dkN2hxQUdXWU9hMEJlbFNqcEpHLWpoTnpheVBzR1lYYmhUTS1vbmluUkJ3a01qZTd6b18wQ0IwVXRKYWphVzZDazd0TkFYMnZ1SmMtUlBIVjJTNzk3TWRLVEpkMWZ3d2c?oc=5",
-      "source": "Yahoo新聞",
-      "published_at": "2026-11-26",
-      "category": "社會熱議",
+      "title": "袁澧林Angela Yuen榮升金馬影后！ 由《第四幕》到金馬獎得獎感言 - ELLE HK",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeFJsa1JZb2c5U3l0Q0gzNS00dE9EVjcyS3dLLVJlNUxleHh3N2xGcGVIOUcxZHBKaVdNUUNaNHNGaHhaOUtQbTVWY1NrQW1oREx2ZjNieEhpcHEzTmFHRWY0ZlBMRXBRenpfejVBd3RNSzZ5R1dYVjVBYnQwa1dKTGRB?oc=5",
+      "source": "ELLE HK",
+      "published_at": "2026-11-25",
+      "category": "娛樂焦點",
       "importance": "medium",
       "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
+      "coverage_count": 21,
+      "source_count": 17,
+      "heat_label": "媒體高度關注",
+      "heat_basis": "近 7 日同主題 17 個不同媒體來源"
     },
     {
       "title": "115學年度「Garmin講座暨Garmin學者」頒獎典禮 - 國立臺灣大學",
@@ -2702,20 +2838,9 @@
       "source_count": 1
     },
     {
-      "title": "新國會台灣連線議員大減75人 - 焦點新聞1 - 新聞 - 華人今日網",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vWUtnV0FtdUozNG11eXlSQjlUaldLd2Q0ekZubVJibkdqREdWUWIzUllHdlk5YXQzZGpjSTg4VnZKUkZKckNsOFhPSTBDUTY2WW00MXFDam44T3pnd3NKcmNUMWJKZw?oc=5",
-      "source": "華人今日網",
-      "published_at": "2026-11-25",
-      "category": "社會熱議",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
-    },
-    {
-      "title": "美301調查擬對14經濟體加關稅最高20% 彭博：台灣協議稅率至少15% - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxOaXV1QnJyb2czOU9jcjIzTW9xbkREOWZVYzRVYlh0WWhNOXo3SG9menBHV20tcko5M2pJRk5aNEQ2RUh6Zk1mVG9QOWM1RkJ4VHlzUGZPZllUOGlQNnh5STVJSklvcXF2azlRR3BaUXFKb0JsT0pUNmpjQm5yOGYzZkVrdHdZSm1uODJGdXBSOWVpQnRIakgxcTJxNzhzc0h6eUxwR1UtTVBJaTl6NUx2blZDVEZhMVVhM0tmeHlUUld0dGNqX2FINUFqZGhwM1BOeVpVMlZYaDNYRHoyWGFYVFh3V0lGOVRweUkyT1V0aUNOUDFTMk1zXzREd0g4Q0J0V1h0SGZzaXd2U2NaYzVjc0hGU0MyMUFhMUVRQkdFazJuQ1U2UnBocWU3Vk9fMkgtelFjUlJKVEpTLTRlRHNpVVkxVURQbkMwTzJwUW5oVkM2MG5FbXJUQnRKZHF3dGhlaHVjb2F4VTFNbXRTWE1QMTBxbGdsRW41QjBVcDdwak4?oc=5",
-      "source": "Yahoo新聞",
+      "title": "焦點新聞【影音】鴻海科技揭示三款全新電動車 電動車再添生力軍佈局搶商機 - 壹傳媒",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBERXdWdTlYTWFONVpvVkFNcmVibkRVN0xud01xTGlmR3ZWU05nS0x1dXA3d0NiQjhCNVg4c2ZTYjVwN3RfUldwMGlSSFdTZFQ5NGNqMXJmZDJiWDQ?oc=5",
+      "source": "壹傳媒",
       "published_at": "2026-11-25",
       "category": "社會熱議",
       "importance": "medium",
@@ -2735,31 +2860,9 @@
       "source_count": 1
     },
     {
-      "title": "恐怖畫面曝！油罐車遭大火吞噬 吃瓜民眾忙圍觀「下秒砰一聲出大事」 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxOWmpQVmVMSXJjLXI2RlpxX3RUMEpQb0ZuWldQcGJoZU1MYk5kcEpUZ01FTkZrdnhWMDIwdWxIZHNFb3BwN2s4eWdWdVd1dUZVMjRqd0lfNjBJbmphbGZRSmwzbklra2xVZUJJOWNUM2VscFpoeWhTMC1ZRHdLa3E1UDVOZHI1WGtEdnhUUHI0V1lpZGNFNVk4MllsTzZsWUtDXy1TOXZmYUhzcF9SbFUwa1RjNm9OZUU1QzRNbjVwc3drYnVITk8wMllVLURUMDV5bmlTQ2dJWlFzekZPRlRiWm9jT3pDUUN3ZlZzb0pQRVdCanpicERKd21wTmxldVJwZjFxUnQ1Z0NvRWwta2txSFVLanFfaThOYnFrMkw2blpaNUJtOHJzYm5QZ200VkZaTlR6Qk9TZUVBUm5XWUNVYWV2S2NRSG1jbVBnSzZVMGRFUXgyMk8yRG5MUDlTV2JvbHdiYnVQMnpLSnJKY2MzeXVzZnJBX3ZQNVZyZm5uaVVWTEtNSV8yTXAwWDBSQ0RUWTFhaGdndWFUcTJG?oc=5",
-      "source": "Yahoo新聞",
-      "published_at": "2026-11-25",
-      "category": "社會熱議",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
-    },
-    {
-      "title": "川普新關稅 台灣課15％ - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDFTOXFMN0VKTzFNaEpVOW5wUDdPVm01aGozYVdSZU5lcHVmNENsM2FzaGdZUTNiam0yUXlGLVBMYl9MZ09NUFNpQmZKc21OVFZLYXhnUjFsM1YwbUVfbzU2QktJTVVOYWl4aWpzZ25yS3RJbnhXblNjSWV6SnJNU2NKTXgtQ1N1dnJuNzQ0aWlkWUVQN2VlMkptaEJpMTd5WUdmNGcyaTFzSndyMDNLcWViQUZYUDQ?oc=5",
-      "source": "Yahoo新聞",
-      "published_at": "2026-11-25",
-      "category": "社會熱議",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
-    },
-    {
-      "title": "全球經濟指標| 鉅亨網 - 鉅亨網",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5MWDczb0VIbE5YVlR6aDRlcDBqNlhFWUNZVndjczlpX2xNUmt3WTVsQXhEbmFEUGVGVUR4YjNLUTdlUUl4a3ZmTnNRWk1hSjFf?oc=5",
-      "source": "鉅亨網",
+      "title": "黃仁勳重返輝達承諾做更好- 台灣時報焦點- 新聞 - 華人今日網",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5TTzdQNFQ2SzAxN1FwZUp3YzRwLW5mZm9EcE5HZFVLaTdqVWRqeXVpSmRMOXZMNzVWZXlQS3dmdTFobXQzUGJPRjRRaTRGbXFZbDdjeWJzVk5YaFNvRDFTeUpocTVEZw?oc=5",
+      "source": "華人今日網",
       "published_at": "2026-11-24",
       "category": "社會熱議",
       "importance": "medium",
@@ -2790,55 +2893,9 @@
       "source_count": 1
     },
     {
-      "title": "沈伯洋「不評論黃仁勳」 謝寒冰揭算計：沒去想台灣利益 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNZml6cFd1aGFsb1UtR3BiMjJDeWktdnVIYTh3V1VwTmRRSklmSkhvUzhCT2pOV25aYjFMUVZCVEc3Q3B1WEYzcXFKSHlnT1JCb2p0SS1uQzJIMFczcEZTMXowQkZhb2JwWFNSSmo2STFwX2UtSnFpckZNd1d5azVfMk9vS0dQNUhVZkxCS054LXI3TWMxUkFoTktmM2pCX1hzNjluQ3R1QzZ3SjQ3UC1ubjRtUWFIX2FMR2VuM1ZLb0MxX1JkdXBkbTlCOEdKYzJZU0F5SVlpckRFU1hJLVdEMkRwdF93SVRmVVdkUHpld21vOTJlb2U1MWJXQ25BaTMyclNUWllNYmFjT3hqM1JtcFRoaVZWU1hYM1dpV05xSHo3UHFHalBlTy1ST0t3ZXhtS01vUXZETk9mb1Ewc2dlOEE4MUljYnRyYlFSTTN5a2NlMnBMcDh6VHN1XzUtMlU?oc=5",
-      "source": "Yahoo新聞",
-      "published_at": "2026-11-24",
-      "category": "社會熱議",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
-    },
-    {
-      "title": "第63屆金馬獎完整得獎名單！劉冠廷、袁澧林封帝后 張震攜手《沙丘3》雙星驚喜頒獎 - BeautiMode 創意生活風格網",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50MFd3Sk5wbXA2S3JpelRQSk5aVTNqSzVPR0I0cERsLTkyMjRtV3RodHdyRU4zZmY2VzVRZ045YjJES0Z5WHdLR1EwaTFRNGpVZ2ZDWTFVZmhwc2tGYlE?oc=5",
-      "source": "BeautiMode 創意生活風格網",
-      "published_at": "2026-11-23",
-      "category": "娛樂焦點",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 12,
-      "source_count": 10,
-      "heat_label": "媒體高度關注",
-      "heat_basis": "近 7 日同主題 10 個不同媒體來源"
-    },
-    {
       "title": "討論牆 | 【台灣大事件】劉邦友血案 真相未明 真凶未緝｜華視新聞雜誌 - LINE TODAY",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmSFZzOURxR3NRLWVIaXFZYnI4REFrZDVaeS1rU201ZFU0eEtoS25UVTA1RGRxZ0xPTURBMDE5YjZad0UxdGN1UWVqLXZrTmhKZThGTjZPQ0x0ZzA1eUJobnZDa2U?oc=5",
       "source": "LINE TODAY",
-      "published_at": "2026-11-23",
-      "category": "社會熱議",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 2,
-      "source_count": 1
-    },
-    {
-      "title": "台股強彈2.16%能追嗎？ 公股投顧揭落底訊號、輝達3大事件牽動後市 - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxObVFiT2JVQXJtaTh1T3hnVWt0b2JFdDRkem8yZ2k0NWl4WVNkT1dDNkR6Y1R4RWNSbmhNSFpYUUJMUlhrVHJPUTd4dFhoSGducTJzaGVQam5IbTd3SkpnanFvNUg4Vk1fak4yUEl1cGprRnlPNVZ4b2RYSkpYTFMwTnNVN19UeUp4ZjdzbllyRzYtOThPOVI0bjY0NjVWZkNlZ29pUjJ6X3MtQjdNNW51eUpuY0lveUtJY01DdzNjZVJyTVRIcms0S1BzUG4xS0xqa1NmRTUzS2dON2lSLU1EVk85by1vVGhkSjdlbUhfRkVCUjR1azlNR1Zmd1RZSGRudDZNaHJCRUp0R1dRbmRiYUFGdVJsa3ZHOWhKbVlZSlc3b015aEs4VkkxTkNBaUNlcDdrbjhzTnNRRDlsSjc3TnZDdnk3SkZzSmJOZzNiRkZHRWFaS0lZUFhpZVR3aDE2dXU5TFAwNE5PcGlQeHNkaFRCbWk5a0xiM0FPUHVnTVRmREtTQkh4aXFn?oc=5",
-      "source": "Yahoo新聞",
-      "published_at": "2026-11-23",
-      "category": "社會熱議",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
-    },
-    {
-      "title": "黃仁勳回歸？財長改口：已是外部人- 台灣時報焦點- 新聞 - 華人今日網",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3Mlp4bVJOVU9wMTIweW9SOHl3ck52U3ZHQ1BqMVhMdm9CODlkeGVkeWVvYXFFNFNDTU5BOXg2cXRNcXp3YUE0ZGc1QmRvaGFNb1IxRjRkYUtvS3d1RzBTTGtxTlRXQQ?oc=5",
-      "source": "華人今日網",
       "published_at": "2026-11-23",
       "category": "社會熱議",
       "importance": "medium",
@@ -2858,80 +2915,10 @@
       "source_count": 2
     },
     {
-      "title": "黃仁勳重返輝達執行長- 台灣時報焦點- 新聞 - 華人今日網",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kSFZOaDdFdUxraFVpclhzVF9wcnpfYklfZ1ZseHAxLVFqdXJMNUg1ZnIxa0EtMkd6amRRVTZsTkVuWEVZb1VXQTBhNXlkb2tVS2xsQ2xhRXIzT1ZZZVZNcDhVVWZUUQ?oc=5",
-      "source": "華人今日網",
-      "published_at": "2026-11-23",
-      "category": "社會熱議",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
-    },
-    {
-      "title": "第63屆金馬獎｜終身成就獎 虞戡平 - 金馬影展",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlUEVEWTNYSzVYelNmOFlwMlhaN2tzLUVYQU01VDJEUkdnekk4bGZ3TnE2OXZaSE11Qk93M04xUEd5QmY0dzQ0Ylp5YlFJM2ZGY2NUOUZscmgtejlzNjRtR0I0R3Q?oc=5",
-      "source": "金馬影展",
-      "published_at": "2026-11-22",
-      "category": "娛樂焦點",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 6,
-      "source_count": 4,
-      "heat_label": "媒體高度關注",
-      "heat_basis": "近 7 日同主題 4 個不同媒體來源"
-    },
-    {
-      "title": "第63屆金馬獎｜入圍的有 - 金馬影展",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LcDVqWjFLNGIwZm41YzNYWnBZLWJiTXdfRmlBSVoxdENlYkpTaGozdkpjcU1yOXhzTUpTbjZtVVpndDFfNEQwUTJadFhseXFIMG1semVjVUFKQUlEUElz?oc=5",
-      "source": "金馬影展",
-      "published_at": "2026-11-22",
-      "category": "娛樂焦點",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 3,
-      "source_count": 3,
-      "heat_label": "媒體高度關注",
-      "heat_basis": "近 7 日同主題 3 個不同媒體來源"
-    },
-    {
-      "title": "劉嘉玲睽違8年再登金馬舒淇入圍多獎輕鬆看待| 娛樂 - 中央社 CNA",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TTmQwSVBqb0hybk1ScDUyaW9yTkhtZFg1NlBIZU9vQTUzY2RzcUNUUDViN2NGX1RGSG1xVDR1SThmZTJYWGZnTTVVN1J1b25yVjBYYW9JSURLRnBMMFc4?oc=5",
-      "source": "中央社 CNA",
-      "published_at": "2026-11-22",
-      "category": "娛樂焦點",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
-    },
-    {
-      "title": "江𤒹生是誰？金馬63最佳男配角AK的6件事：男團MIRROR副隊長，首度入圍金馬就奪獎 - ELLE",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOEJoWXVKMGQzNFlWMUpuMi1kWF8wckZleVJnVjcydHBNUUdySlBTdnY3S0oyTXZZcnAtUmZCX1g1cjlPREU5Ry1mS2lhbWQ2aC1LUmhFa3VkYzhfRGtUYzM4WFEzbUIzOGtYNzRHMGl6dW1iMmlKQm0ySUxiM0hBa1FtUHdXZ0Q4?oc=5",
-      "source": "ELLE",
-      "published_at": "2026-11-22",
-      "category": "娛樂焦點",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
-    },
-    {
-      "title": "金馬63得獎名單出爐！你心中的最大遺珠是誰？ - LINE TODAY",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9CWTVDZk1IWEtaOHJSNDJodHJXYmtqNlFnRUpqWlpVTTJTd3A4X0M4R1RHUzBGU19oUk5Yd2xaY3EzSkhJaVFsRTBlM0U1dw?oc=5",
-      "source": "LINE TODAY",
-      "published_at": "2026-11-22",
-      "category": "娛樂焦點",
-      "importance": "medium",
-      "source_type": "media_report",
-      "coverage_count": 1,
-      "source_count": 1
-    },
-    {
-      "title": "牆外文摘：「不支持台灣獨立」？川普到底說了啥？ - Yahoo新聞",
-      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOU0lvczVhLVI3YVFYOFczMXc1N1NOdGlQREc2WFVWdTdfd1FDM3NIa01vRFZfUkd2aUxCaGdaUjNPY01LNEJsNVpCeVQwX1FMU0RMenlwQWN0My1QOV9fMHpxbnEzejdsdHRoVjlRTnNsLUYzZ2VxR3RlNnJEb1NlMWhCLVc3dzhhcTI4YlBJUng2S0hHOW1rbElqeEJDbk5mUEdnRW8ycnRjR2QwSEozQWEzTk9oS2dQMnl4Z3VwZ01SZGtKOUZDbGRhRUlhVmRlMDRFWFRQZFR3UHk4XzAzVjB5VV9pNmtpVXMtU2xYT3pjRGJmZDUzSUowZkVLRDEzRzNMTVJSLWNlSXFJcld6UHFNdU5BbE83Zmg2UlpTNEpIX1F2aDctV2VYemRSZw?oc=5",
+      "title": "台股強彈2.16%能追嗎？ 公股投顧揭落底訊號、輝達3大事件牽動後市 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxObVFiT2JVQXJtaTh1T3hnVWt0b2JFdDRkem8yZ2k0NWl4WVNkT1dDNkR6Y1R4RWNSbmhNSFpYUUJMUlhrVHJPUTd4dFhoSGducTJzaGVQam5IbTd3SkpnanFvNUg4Vk1fak4yUEl1cGprRnlPNVZ4b2RYSkpYTFMwTnNVN19UeUp4ZjdzbllyRzYtOThPOVI0bjY0NjVWZkNlZ29pUjJ6X3MtQjdNNW51eUpuY0lveUtJY01DdzNjZVJyTVRIcms0S1BzUG4xS0xqa1NmRTUzS2dON2lSLU1EVk85by1vVGhkSjdlbUhfRkVCUjR1azlNR1Zmd1RZSGRudDZNaHJCRUp0R1dRbmRiYUFGdVJsa3ZHOWhKbVlZSlc3b015aEs4VkkxTkNBaUNlcDdrbjhzTnNRRDlsSjc3TnZDdnk3SkZzSmJOZzNiRkZHRWFaS0lZUFhpZVR3aDE2dXU5TFAwNE5PcGlQeHNkaFRCbWk5a0xiM0FPUHVnTVRmREtTQkh4aXFn?oc=5",
       "source": "Yahoo新聞",
-      "published_at": "2026-11-22",
+      "published_at": "2026-11-23",
       "category": "社會熱議",
       "importance": "medium",
       "source_type": "media_report",
@@ -2950,6 +2937,50 @@
       "source_count": 1
     },
     {
+      "title": "牆外文摘：「不支持台灣獨立」？川普到底說了啥？ - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOU0lvczVhLVI3YVFYOFczMXc1N1NOdGlQREc2WFVWdTdfd1FDM3NIa01vRFZfUkd2aUxCaGdaUjNPY01LNEJsNVpCeVQwX1FMU0RMenlwQWN0My1QOV9fMHpxbnEzejdsdHRoVjlRTnNsLUYzZ2VxR3RlNnJEb1NlMWhCLVc3dzhhcTI4YlBJUng2S0hHOW1rbElqeEJDbk5mUEdnRW8ycnRjR2QwSEozQWEzTk9oS2dQMnl4Z3VwZ01SZGtKOUZDbGRhRUlhVmRlMDRFWFRQZFR3UHk4XzAzVjB5VV9pNmtpVXMtU2xYT3pjRGJmZDUzSUowZkVLRDEzRzNMTVJSLWNlSXFJcld6UHFNdU5BbE83Zmg2UlpTNEpIX1F2aDctV2VYemRSZw?oc=5",
+      "source": "Yahoo新聞",
+      "published_at": "2026-11-22",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "搭機別只顧著睡！神秘燈號暗藏玄機 「亮這色」代表大事不妙 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPNktXR01aTFh2em1JWnlzTmxfMzRkcVMzam9ZZ204RE5QaE95WXFxaHRzQllxa09WSzRMZ0FkaXRFVkN4cE5fcHpCYnhGZXRqMXBUR0hsY3NHbXVkMDA1dDFseFhTem5HMXM0QVp2a1R2MS1SMEp2a0N1MVdiZnNaWEgwQ0NDa1FEMDJDN2pYeFRHcEVvRXpuYmdnUHBwdUgzbGF6a1FQVnhIamVFVWxwZWhkekdjdUxEd0pTd0N2NE9hSGQzUTF6WDU5R2ROaG54Z2lxRDc1cDBDbHNZYkNXWjZscVRNRE1iaXJ4czgwODV2ZTlvTFZsYXRSS2MtNW44V1RjSWhka2pud3RhVlNhZFRocjlXeEExbnFJckVPTXhxQjVjVEYzUUMzS3ctLVJ6MnBsOU4yVHJNTmxRa3RKTy1KQThUaDB4WGFQVVVaZC1NdEo3UVZUTm4zZkltNEotc0hkVnBiV2xERVVSQS13RmcyajR5dVE?oc=5",
+      "source": "Yahoo新聞",
+      "published_at": "2026-11-22",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "《《雙囍》榮獲第63屆金馬獎觀眾票選最佳影片獎 《女孩》勇奪2026國際影評人費比西獎》 - 金馬影展",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kZWNGR0xkcGc4d00waGI3Z1pQaGtFR0R2Z1U0WmEyaHB4YmtXQjBocUNNSm1zbFo5WEstNnJvdWYxWi1UNkNzSXVZampIaTVJRWlMMWpzb3lSbk9FMm16WUZR?oc=5",
+      "source": "金馬影展",
+      "published_at": "2026-11-21",
+      "category": "娛樂焦點",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "金馬入圍者齊聚田啟文自嘲年長、王宣靜憶剪髮大哭| 娛樂 - 中央社 CNA",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ROHVuYTlUMGpaVDBzb3NFQ1p6M0Y2NXpmR0FMRU9DYUstYThsNWNWUUpDYTVkcFBMUTF4aFE3T2VJU2ZxU1VoSTktZW5JdHlqeWVwWTA4cWV3WGk4WU1F?oc=5",
+      "source": "中央社 CNA",
+      "published_at": "2026-11-21",
+      "category": "娛樂焦點",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
       "title": "輝達晶片流入解放軍攻台實驗室- 台灣時報焦點- 新聞 - 華人今日網",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1TZldZRXhhRi02a1MzT0Z0dmpIOHh2VXowYVVZTmVRNmVEcktmTjh5OTR1NUEwa3hjMVk2WWhwZ1NfVXN1d3pXdFROZ0UzZmFVdDBQS21lVWFlaHcxTWlER3RxU3Q1QQ?oc=5",
       "source": "華人今日網",
@@ -2961,9 +2992,20 @@
       "source_count": 1
     },
     {
-      "title": "北市政見會》沈伯洋闡述「HEART」5大願景 批蔣市府重大事件慢半拍 | 徐莉雯 | 新聞 - 風傳媒",
+      "title": "眾議員貝拉：美對台政策未改變- 焦點新聞1 - 新聞 - 華人今日網",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkWXdnVmhqZVBKMHNvZ01LaWFIMG1SWlRoMDZwTGxfZXRrako5ZXlSM2Q2SWdQQWZFc3hzVkVLRFVLTURMby1zMW80UkdfUEpXN0xnT0xHY0llaGQxanNJdXhGZU5JQQ?oc=5",
+      "source": "華人今日網",
+      "published_at": "2026-11-21",
+      "category": "社會熱議",
+      "importance": "medium",
+      "source_type": "media_report",
+      "coverage_count": 1,
+      "source_count": 1
+    },
+    {
+      "title": "北市政見會》沈伯洋闡述「HEART」5大願景 批蔣市府重大事件慢半拍 | 徐莉雯 | 新聞 - Storm.mg",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xTGYtd0JxQXFpRkRLZ0hsa0MtOUNoMXA2bFVOc05TVDVmMnlHUEhZQTMyNDlxWW9lLWwtU243RldtamtGN1hlZGR5Z3Brdw?oc=5",
-      "source": "風傳媒",
+      "source": "Storm.mg",
       "published_at": "2026-11-21",
       "category": "社會熱議",
       "importance": "medium",
@@ -3048,15 +3090,22 @@
   ],
   "meme_candidates": [
     {
-      "title": "不尋常迷因合輯 V383 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Kd1gtcE5FbzZMTVBaekpsVGViVG9xSmhfZ2dFRTBSMzlnLW00RFpSaHNyRHZDQUhCeWZVMHNpLXZodTY1NWFPVmozU0thTTFMcHBNY0xCWDBYN2F2Vi1mT0RKTEo?oc=5",
-      "source": "4Gamers",
-      "published_at": "2026-11-25",
+      "title": "台式飯糰、老樣子豆花攤洗版！Threads網頁小遊戲再爆紅 2大遊戲網站介紹｜熱門話題 - 網路溫度計 DailyView",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zVWxaTHhTbUtNS0V3dlllUWdtWWdzS0t4d1JmNDFxUzQ3c19wSFc1QjFfcjJINTdHcnJtWWNpWGNwWVA4UjBLbWNOeWdRS01BWVhN?oc=5",
+      "source": "網路溫度計 DailyView",
+      "published_at": "2026-11-27",
+      "review_status": "待人工確認熱度與原始影音"
+    },
+    {
+      "title": "揭密超紅網路梗「曹家軍報到！」曹操為何被說愛搶人妻　背後竟為1原因 - 三立新聞",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5jcmJ5WW9SVGozWThJdUxsSjQ5amZjSnc0WWxOLUVpZ3RCNEpaNm11LXBndWprSm56UTNOVW9pS2duaXo1MmVsMtIBTEFVX3lxTE56RkI3dnZoUHR6WkJGYktvWEdDN3FCRGVPMHp4UGx1SXNid002UzJRbl8yYWlUTV90eldXSEQzeE9WaVJqTDlaT0p0cW4?oc=5",
+      "source": "三立新聞",
+      "published_at": "2026-11-26",
       "review_status": "待人工確認熱度與原始影音"
     },
     {
       "title": "不尋常迷因合輯 V385 - 4Gamers",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QSjBoLXpOYl9MUHE5eEVkRFB5aDF1Njlfb1luRVVWSnJaekJrLXFxSERwN0diU3cwWUY5NFk4anNzdnpEa20xSGl2VHkzM2N0ZDM3YkZEOHU2NkpQaFA4ZUxkOE9qdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3OHE5OWd2MDNzRjlZZWxBT053Z3JnUjlTWWF2NFg3MUxoa21Pb3VNSHlKcjljSmFwZzN3aXdPaWZ2bDJPZEQzZllua2NQeE14TG15WXBrYmZmMURhOW1EdlhIQkhBQQ?oc=5",
       "source": "4Gamers",
       "published_at": "2026-11-25",
       "review_status": "待人工確認熱度與原始影音"
@@ -3066,13 +3115,6 @@
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mMTFQOXNzSHVSUUNwQTZTbXc3aXROemhwNU1MZVhVOGlmQXpmaVJ2NUNkZjhWMGhwNElRUGlEeFdZTnJrN20zRjNKcFFxeFZlWV93?oc=5",
       "source": "網路溫度計 DailyView",
       "published_at": "2026-11-25",
-      "review_status": "待人工確認熱度與原始影音"
-    },
-    {
-      "title": "揭密超紅網路梗「曹家軍報到！」曹操為何被說愛搶人妻　背後竟為1原因 - 三立新聞",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5jcmJ5WW9SVGozWThJdUxsSjQ5amZjSnc0WWxOLUVpZ3RCNEpaNm11LXBndWprSm56UTNOVW9pS2duaXo1MmVsMtIBTEFVX3lxTE56RkI3dnZoUHR6WkJGYktvWEdDN3FCRGVPMHp4UGx1SXNid002UzJRbl8yYWlUTV90eldXSEQzeE9WaVJqTDlaT0p0cW4?oc=5",
-      "source": "三立新聞",
-      "published_at": "2026-11-24",
       "review_status": "待人工確認熱度與原始影音"
     },
     {
@@ -3111,13 +3153,6 @@
       "review_status": "待人工確認熱度與原始影音"
     },
     {
-      "title": "MMA典禮／ 「她很壞嘟嘟嘟」本尊來了！ATEEZ連唱3神曲　全場暴動嗨翻 - 三立娛樂星聞",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5Gb1c5bzBGZlhESXVCZWFZWkowS2NOdVQtYTFnVEFIaGQtZHV0UG1uaW9XSjZNTnZGS2dfLUJycC1FZWpTcDBqNmNn0gFfQVVfeXFMT09yUFduVU12U1UxRHFndU1yNTlXWEJycFJFNGx2Rl9LeXllVHU1TzEwbzh3eW5hQldmajU0M25YVUdPdDM4Zjg4Z1Zjc1V0U3VtU1M2T2g3SlBTT3lpZWc?oc=5",
-      "source": "三立娛樂星聞",
-      "published_at": "2026-11-14",
-      "review_status": "待人工確認熱度與原始影音"
-    },
-    {
       "title": "MMA典禮／ 「她很壞嘟嘟嘟」本尊來了！ATEEZ連唱3神曲全場暴動嗨翻- 尋夢新聞 - 尋夢園聊天室",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMZDA3RVFHLXR4UEctN0dIUF82UHhGaDVfWG5hWXdtNzAyWFVXUVJvM3JkYWpqOVBBZ0psOG00MXkyb0dWMGNxUGE3dHpMWVRoeXduYV9ObURMZw?oc=5",
       "source": "尋夢園聊天室",
@@ -3125,14 +3160,31 @@
       "review_status": "待人工確認熱度與原始影音"
     },
     {
-      "title": "誰把狗放出來了？四分衛開球口號干擾出奇招！唱起洗腦神曲 - Yahoo運動",
-      "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxQbGVqRGVjZjE4VkVoX1luQkpPR2JXRVMzLTdoQ1pPSXV3a3FVR051eWlpRENIb1VNa1F5OVl5ZE9vekpMd2w1TTlmNExfVk5RSEFWSFFQOUsxSG9CM3lZc256YlBWVXA2UWtlNHNjT3hpSmNJTVp0R3JWZndvaXJLLW9lNlRNN2VVMXg4aWExNVh6clpCb0JfakprOTFiVXB4MV8wQ01uQmt4TFdDMDRvcUtObmZoVVhLQnFqQ3F6a3BTbmNlMGk4X2cyTjZvOXpmZUxZdnZfbE9wRWhxWUZwck9qTjRhRy1nVW54eTJEcEF5VV9iWFBQMkZFSmVBMVVWUDZuM2l0WmRubDdyWTNFd1cyYUI3VGx1UjdmbEJraTJrVTJKdkRHVUxLQTU4OXlscDJCUTR1Q1ZLUEFOSUxrX0dTM09xNE1EQ3MtQzVkUUxtWU91NXB1RjJwTjhjUWw5S0NzOTI2Uk1ZUzN2LVR0YWZkUEhqWlJtMUszMjdzOXJDdWp3b1lkeUluOA?oc=5",
-      "source": "Yahoo運動",
-      "published_at": "2026-11-13",
+      "title": "MMA典禮／ 「她很壞嘟嘟嘟」本尊來了！ATEEZ連唱3神曲　全場暴動嗨翻 - 娛樂星聞",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5Gb1c5bzBGZlhESXVCZWFZWkowS2NOdVQtYTFnVEFIaGQtZHV0UG1uaW9XSjZNTnZGS2dfLUJycC1FZWpTcDBqNmNn0gFfQVVfeXFMT09yUFduVU12U1UxRHFndU1yNTlXWEJycFJFNGx2Rl9LeXllVHU1TzEwbzh3eW5hQldmajU0M25YVUdPdDM4Zjg4Z1Zjc1V0U3VtU1M2T2g3SlBTT3lpZWc?oc=5",
+      "source": "娛樂星聞",
+      "published_at": "2026-11-14",
+      "review_status": "待人工確認熱度與原始影音"
+    },
+    {
+      "title": "超商手搖隱藏喝法爆紅！7-11抹茶拿鐵加濃縮、50嵐阿華田加波霸掀熱潮 - 房產溫度計",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nMGt6WHNpLWRRbW9FSGpQR1Y1WnVMbU41X2JsNUZTOFgtd25rQjlGOGhkTkFJaXhNdFJ5bVczbmhWdnFjN0ppNS1qUWNXS0taN3c?oc=5",
+      "source": "房產溫度計",
+      "published_at": "2026-11-08",
       "review_status": "待人工確認熱度與原始影音"
     }
   ],
   "marketing_news_candidates": [
+    {
+      "title": "《逆水寒》二週年海嘯級更新全新流派「滄瀾」雙形態登場航海玩法、周興哲聯動與超豐富福利一次看 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUmVhanNFR0JPQzQ3Y1pIckdudkVJdE1TdE94YWpDVFQybVlzY3ZzQlp4dENKWi1fVE11WHpSQm83ajZwUkp4RU1xb1owbk5XWXZOd2VhMkhOTm5nUlNDSml2QzJodHVnX0dxb1d0QnJzY2d2NU9pSlhycUl0LVpyN043QUtKbDc4LUI3ck5iRjNDajFsU00tODdYUkZoWnRRNGVxTURKWkdzb0h1OFpVeEpZZFo2bkU4c0E?oc=5",
+      "source": "4Gamers",
+      "published_at": "2026-11-27",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
     {
       "title": "《碧藍航線》蠻啾網路最新作《藍色星原：旅謠》今日正式上線公布一系列遊戲內與線下活動《Azur Promilia》 - GNN 新聞網",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xZllmQ2ZXR2RfZnFhMnlyX21xM0lzaXY4MktoSEVsV0xPdVg2T0xTREYwdEttWVBoSVZQRzZDeWNZX0lhWVNMdEFwbzVMYjVDTnE4OGZKYUU?oc=5",
@@ -3208,6 +3260,16 @@
     {
       "title": "《黑色五葉草》主題曲獻唱者！實力派創作歌手迷悠奈Miyuna 明年1月登台開唱 - 遊戲基地Gamebase",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81SW11NVg1YTBILS1FVUgwekZpR0oxZUFXd1RweTBIWTdNUV84cDBVMVhfZGIxM1c3TUF1djNrYTA4cVVjcE40WllrWkZEWkhqYW42R1dlRldYQ2ZjMlE?oc=5",
+      "source": "遊戲基地Gamebase",
+      "published_at": "2026-11-26",
+      "tags": [
+        "行銷動態"
+      ],
+      "source_type": "media_report"
+    },
+    {
+      "title": "「《學園偶像大師》快閃店2026～Gearbeat Concerto～」蒸汽龐克系列周邊商品開放預購 - 遊戲基地Gamebase",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wUDNvbUxDVkUtU0VBZ3p5NjEzM3MxUzNQaTJZbDdSOHY2ai1vdEd4WDFXN2hSdUpUQ0thOE1sakZXMDhaU3duSG1fMWlsRHZJa1cyT3VpUWxlYlN5ekE?oc=5",
       "source": "遊戲基地Gamebase",
       "published_at": "2026-11-26",
       "tags": [
